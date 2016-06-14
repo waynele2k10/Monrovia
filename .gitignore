@@ -48,8 +48,8 @@ wp-content/themes/twentyfourteen/
 wp-content/themes/twentysixteen/
 wp-content/themes/twentythirteen/
 wp-content/themes/twentytwelve/
-downloads/pdf/
-inc/crons/logs/
+downloads/pdf/*
+inc/crons/logs/*
 plantsavvy-archive/*.*
 wp-content/designers/profiles/*
 /license.txt
