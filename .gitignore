@@ -48,6 +48,10 @@ wp-content/themes/twentyfourteen/
 wp-content/themes/twentysixteen/
 wp-content/themes/twentythirteen/
 wp-content/themes/twentytwelve/
+downloads/pdf/
+inc/crons/logs/
+plantsavvy-archive/*.*
+wp-content/designers/profiles/*
 /license.txt
 /readme.html
 /sitemap.xml
@@ -55,6 +59,10 @@ wp-content/themes/twentytwelve/
 /sitemap*
 /test*
 *.sql
+*.xls
+*.csv
+*.pdf
+sess_*
 
 # WordPress debugging files
 log.txt
