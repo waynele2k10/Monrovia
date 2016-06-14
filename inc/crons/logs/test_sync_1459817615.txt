@@ -1,0 +1,148 @@
+DATE/TIME: 2016-04-05 00:53:35
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-04-05 00:53:40
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 8656
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;31187&lt;/ItemSizeID&gt;
+		&lt;Item&gt;31187&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;LOWES&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Dahlia pinnata Dahlietta Series Patented&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Dahlia pinnata Dahlietta Series Patented&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Dahlietta Bedding Dahlia&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Compact and colorful&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;8-10&quot; H x 12-14&quot; W.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Easily grown in enriched, well drained soil. Keep soil semi-moist, but not soggy. Clip faded flowers to promote continued bloom. Feed twice monthly during growing season. Tender tuberous perennial in mild climates; best treated as an annual.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;The unique colors and varied flower forms of the Dahlietta series will add a bright burst of color to containers and sunny flower beds. Neat, compact plants resist grazing by deer. Attractive to both butterflies and hummingbirds, the blooms appear continuously through summer.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Requires regular watering- weekly or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;10&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;31185&lt;/ItemSizeID&gt;
+		&lt;Item&gt;31185&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;LOWES&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Coleus x &apos;UF06419&apos; P.P.#21,602&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Coleus x &apos;UF06419&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Trusty Rusty Coleus&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic foliage color&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;18-24&quot; H x 16-24&quot; W.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Easily grown in average to rich, evenly moist, well drained soil. Protect from harsh afternoon sun. Stems may be pinched back lightly mid-season to encourage dense new growth. Feed monthly. Hardy to 32&amp;#176;F.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Prized for foliage. Occasionally blooms in late summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Large, highly textural copper leaves are outlined in golden yellow. Vigorous and sturdy, adding bright warm season color to landscape borders or mixed containers. A tender perennial in frost-free climates; treat as an annual elsewhere.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to partial sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Requires regular watering- weekly or more often in extreme heat. Keep soil surface moist but not soggy.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;10&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;31184&lt;/ItemSizeID&gt;
+		&lt;Item&gt;31184&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;LOWES&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Coleus x &apos;Balcenna&apos; P.P.#19,149&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Coleus x &apos;Balcenna&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Henna Coleus&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Exotic, colorful foliage&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;20-28&quot; H x 14-16&quot; W.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Easily grown in average to rich, evenly moist, well drained soil. Protect from harsh afternoon sun. Stems may be pinched back lightly mid-season to encourage dense new growth. Feed monthly. Hardy to 32&amp;#176;F.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Prized for foliage. Insignificant blooms may appear in late summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Lush exotic foliage in unique chartreuse to copper hues complemented by dark burgundy undersides. A colorful choice for dappled sun borders or mixed patio containers and baskets. Tender perennial in frost-free climates; treat as an annual elsewhere.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to partial sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Requires regular watering- weekly or more often in extreme heat. Keep soil surface moist but not soggy.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;10&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;31183&lt;/ItemSizeID&gt;
+		&lt;Item&gt;31183&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;LOWES&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Coleus x &apos;UF0646&apos; P.P.#21,585&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Coleus x &apos;UF0646&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Redhead Coleus&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Colorful foliage for shade&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;18-24&quot; H x 16-28&quot; W&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Easily grown in average to rich, evenly moist, well drained soil. Protect from harsh afternoon sun. Stems may be pinched back lightly mid-season to encourage dense new growth. Feed monthly. Hardy to 32&amp;#176;F.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A &apos;must-have&apos; for any collection. Bright, true-red foliage adds dramatic flair to the shade garden. A great choice for easy-care long lasting color in landscape borders or mixed patio containers and baskets. Tender perennial in frost-free climates; treat as an annual elsewhere.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to partial sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Requires regular watering- weekly or more often in extreme heat. Keep soil surface moist but not soggy.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;10&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Shade Loving,Easy Care,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Tue, 05 Apr 2016 00:53:35 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

@@ -1,0 +1,348 @@
+DATE/TIME: 2016-04-01 22:52:41
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-04-01 22:52:57
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 24946
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;063581&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06358&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Aeonium &apos;Kiwi&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Aeonium &apos;Kiwi&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Kiwi Aeonium&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Waterwise&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 3 ft. tall, 2 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Drought tolerant once established.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949314883&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Yellow blooms late spring to summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A kaleidoscope of colors sets this drought tolerant Succulent apart from others. Forms handsome rosettes of fleshy leaves edged in fiery red. Bright yellow blossoms appear in summer. Forms offsets freely. Adds dazzling color to rock gardens or dry borders. Well-suited to containers.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Firescaping/Fire Wise,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;06358UT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06358&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;UT&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Aeonium &apos;Kiwi&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Aeonium &apos;Kiwi&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Kiwi Aeonium&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Waterwise&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Slow grower to 2 to 3 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Requires excellent drainage. Best in filtered sun in hot summer climates. Follow a regular watering schedule during the first growing season to establish a deep root system. Water sparingly during the winter months. Drought tolerant once established. Feed with a balanced controlled release fertilizer in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;QT&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 qt. (946 mL)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949328828&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Yellow blooms late spring to summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A kaleidoscope of colors sets this drought tolerant Succulent apart from others. Forms handsome rosettes of fleshy leaves edged in fiery red. Bright yellow blossoms appear in summer. Forms offsets freely. Adds dazzling color to rock gardens or dry borders. Well-suited to containers.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Firescaping/Fire Wise,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;035271&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03527&lt;/Item&gt;
+		&lt;SpecialIcon&gt;Exclusive&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Berberis thunbergii &apos;Grhozam&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Berberis thunbergii &apos;Grhozam&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Green Hornet&amp;#8482; Barberry&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dwarf Habit&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Low growing, 1 1/2 ft. tall and 3 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949206133&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicuous&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A very compact, low-growing Barberry sporting emerald green foliage with teal blue undersides. Its striking orange-gold fall color works well when defining a walkway or as a mass planting in a larger area of the garden.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care,Dwarf Plant,Dramatic Foliage Color,Dense Habit,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Hedge,Firescaping/Fire Wise,Barrier&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;035272&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03527&lt;/Item&gt;
+		&lt;SpecialIcon&gt;Exclusive&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Berberis thunbergii &apos;Grhozam&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Berberis thunbergii &apos;Grhozam&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Green Hornet&amp;#8482; Barberry&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dwarf Habit&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;18 in. tall and 36 in. wide&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. As a ground cover, space plants 2 ft. to 3 ft. apart, (closer for faster coverage). Control weeds with mulch until the plants cover the area.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949240441&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicuous&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A very compact, low-growing Barberry sporting emerald green foliage with teal blue undersides. Its striking orange-gold fall color works well when defining a walkway or as a mass planting in a larger area of the garden.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care,Dwarf Plant,Dramatic Foliage Color,Dense Habit,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Hedge,Firescaping/Fire Wise,Barrier&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;035275&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03527&lt;/Item&gt;
+		&lt;SpecialIcon&gt;Exclusive&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Berberis thunbergii &apos;Grhozam&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Berberis thunbergii &apos;Grhozam&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Green Hornet&amp;#8482; Barberry&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dwarf Habit&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Low growing, 1 1/2 ft. tall and 3 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949270981&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicuous&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A very compact, low-growing Barberry sporting emerald green foliage with teal blue undersides. Its striking orange-gold fall color works well when defining a walkway or as a mass planting in a larger area of the garden.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care,Dwarf Plant,Dramatic Foliage Color,Dense Habit,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Hedge,Firescaping/Fire Wise,Barrier&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;071111&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07111&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Rudbeckia fulgida &apos;Early Bird Gold&apos; P.P. #20,286&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Rudbeckia fulgida &apos;Early Bird Gold&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Early Bird Gold Gloriosa Daisy&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Long Bloom Season&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Coneflower (Echinacea); Avens (Geum); Switch Grass (Panicum); Russian Sage (Perovskia); Sedum (Sedum)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 18 to 24 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. For a neat appearance, remove spent flower stems. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949312537&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Continuously from early summer through mid-fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This showy perennial, with bright golden yellow petals and brown centers, offers an exceptionally long flowering season. Sturdy, upright habit makes it a wonderful bedding plant for mixed borders and wildflower gardens. Very drought tolerant.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Tolerates Road Salt,North American Native Selection,Easy Care,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Cutting Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;071112&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07111&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Rudbeckia fulgida &apos;Early Bird Gold&apos; P.P. #20,286&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Rudbeckia fulgida &apos;Early Bird Gold&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Early Bird Gold Gloriosa Daisy&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Long Bloom Season&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Coneflower (Echinacea); Avens (Geum); Switch Grass (Panicum); Russian Sage (Perovskia); Sedum (Sedum)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 18 to 24 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. For a neat appearance, remove spent flower stems. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949408834&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Continuously from early summer through mid-fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This showy perennial, with bright golden yellow petals and brown centers, offers an exceptionally long flowering season. Sturdy, upright habit makes it a wonderful bedding plant for mixed borders and wildflower gardens. Very drought tolerant.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Tolerates Road Salt,North American Native Selection,Easy Care,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Cutting Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;050332&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05033&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Chamaecyparis lawsoniana &apos;Snow White&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Chamaecyparis lawsoniana &apos;Snow White&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Snow White Port Orford Cedar - The Guardian&amp;#174; Series&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Improved Disease Resistance&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Slow growing to 5 to 6 ft. tall, 18 in. wide in 10 years.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949278697&lt;/UPC&gt;
+		&lt;FlowerTime&gt;No noticeable flowers.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A unique landscape or container specimen with a natural formal teardrop shape. Soft, needle-like evergreen foliage emerges creamy white in spring, maturing to blue-green. This selection is grafted onto a root stock that is resistant to Phytophthora lateralis - a disease that has caused the demise of many lawsonianas over the last two decades. Developed by Oregon State University and marketed as The Guardian&amp;#174; Series, this rootstock is being used on several varieties: &apos;Blue Surprise&apos;, &apos;Golden King&apos;, &apos;Silberstar&apos;, &apos;Silver Queen&apos;, &apos;Snow White&apos;, and &apos;Yvonne&apos;.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;6&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;050335&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05033&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Chamaecyparis lawsoniana &apos;Snow White&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Chamaecyparis lawsoniana &apos;Snow White&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Snow White Port Orford Cedar - The Guardian&amp;#174; Series&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Improved Disease Resistance&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Slow growing to 6 ft. tall, 18 in. wide in 10 years.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment.  Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949269534&lt;/UPC&gt;
+		&lt;FlowerTime&gt;No noticeable flowers.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A unique landscape or container specimen with a natural formal teardrop shape. Soft, needle-like evergreen foliage emerges creamy white in spring, maturing to blue-green. This selection is grafted onto a root stock that is resistant to Phytophthora lateralis - a disease that has caused the demise of many lawsonianas over the last two decades. Developed by Oregon State University and marketed as The Guardian&amp;#174; Series, this rootstock is being used on several varieties: &apos;Blue Surprise&apos;, &apos;Golden King&apos;, &apos;Silberstar&apos;, &apos;Silver Queen&apos;, &apos;Snow White&apos;, and &apos;Yvonne&apos;.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;6&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;094291&lt;/ItemSizeID&gt;
+		&lt;Item&gt;09429&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Salvia (microphylla x greggii) &apos;EGGBEN002&apos; P.P.#24,153&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Salvia (microphylla x greggii) &apos;EGGBEN002&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Heatwave&amp;#8482; Blast Sage&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Long Bloom Season&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Coneflower (Echinacea); Maiden Grass (Miscanthus); Switch Grass (Panicum); Russian Sage (Perovskia); Sedum (Sedum)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast growing to 30 in. tall and 36 in wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide well drained soil. Prune to shape in late winter. Feed in spring with a general purpose fertilizer. After a main flowering flush, trim the plant by half to encourage continued flowering and a more dense habit.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949288757&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring until frost; nearly year round in mild climates.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Perfect for water-wise gardens! This carefree, shrubby perennial blooms all summer, attracting hummingbirds and butterflies with vibrant color and aromatic foliage. Produces a massed display of salmon pink large flowers shown off against green foliage. Simply thrives in heat and drought when established. A fantastic selection for borders, mass plantings or large patio tubs.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Occasional water; more frequent deep watering during extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;6&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,North American Native Selection,Improved Pest and Disease Resistance,Fast Growing&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Mass Planting,Green Roof,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;094292&lt;/ItemSizeID&gt;
+		&lt;Item&gt;09429&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Salvia (microphylla x greggii) &apos;EGGBEN002&apos; P.P.#24,153&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Salvia (microphylla x greggii) &apos;EGGBEN002&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Heatwave&amp;#8482; Blast Sage&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Long Bloom Season&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Coneflower (Echinacea); Maiden Grass (Miscanthus); Switch Grass (Panicum); Russian Sage (Perovskia); Sedum (Sedum)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast growing to 30 in. tall and 36 in wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide well drained soil. Prune to shape in late winter. Feed in spring with a general purpose fertilizer. After a main flowering flush, trim the plant by half to encourage continued flowering and a more dense habit.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949359396&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring until frost; nearly year round in mild climates.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Perfect for water-wise gardens! This carefree, shrubby perennial blooms all summer, attracting hummingbirds and butterflies with vibrant color and aromatic foliage. Produces a massed display of salmon pink large flowers shown off against green foliage. Simply thrives in heat and drought when established. A fantastic selection for borders, mass plantings or large patio tubs.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Occasional water; more frequent deep watering during extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;6&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,North American Native Selection,Improved Pest and Disease Resistance,Fast Growing&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Mass Planting,Green Roof,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Fri, 01 Apr 2016 22:52:55 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

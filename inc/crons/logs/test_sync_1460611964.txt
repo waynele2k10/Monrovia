@@ -1,0 +1,210 @@
+DATE/TIME: 2016-04-14 05:32:44
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-04-14 05:32:49
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 14513
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;018092&lt;/ItemSizeID&gt;
+		&lt;Item&gt;01809&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Alstroemeria x &apos;Staprivane&apos; P.P.# 14,131&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Alstroemeria x &apos;Staprivane&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Colorita&amp;#174; Ivana&amp;#174; Peruvian Lily&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Gaura (Gaura); Montbretia (Crocosmia); Society Garlic (Tulbaghia); Aster (Aster); Canna (Canna)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Dense, mounding habit, 12 to 15 inches tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Blooms best when old stems are plucked. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949006467&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Continuously, from spring to fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Bright pink, azalea-like, 2-inch flowers with vivid yellow throat get attention. Blooms repeatedly if old stems are plucked. Dense mounding form is great massed and in front of borders. Outstanding container plant or long lived cut flower. Herbaceous perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, when top 3 in. of soil is dry.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Fast Growing,Easy Care,Clump Forming,Attracts Birds,Gift Plant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Cutting Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;018082&lt;/ItemSizeID&gt;
+		&lt;Item&gt;01808&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Alstroemeria x &apos;Staprioxa&apos; P.P.# 14075&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Alstroemeria x &apos;Staprioxa&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Colorita&amp;#174; Oxana&amp;#174; Peruvian Lily&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Gaura (Gaura); Montbretia (Crocosmia); Society Garlic (Tulbaghia); Aster (Aster); Canna (Canna)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Dense mounding habit, 10 to 14 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Blooms best when old stems are plucked. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949006450&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Continuously, from spring to fall&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Hot raspberry-pink, 2-inch blossoms with striking golden throat are warm climate stand outs. Versatile dwarf mounding form is ideal for massed effects. Equally useful as container plant. Elegant long lasting cut flower. Herbaceous perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, when top 3 in. of soil is dry.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Gift Plant,Fast Growing,Easy Care,Clump Forming,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Cutting Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;018072&lt;/ItemSizeID&gt;
+		&lt;Item&gt;01807&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Alstroemeria x &apos;Stapripal&apos; P.P.# 11,145&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Alstroemeria x &apos;Stapripal&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Colorita&amp;#174; Paola&amp;#174; Peruvian Lily&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Gaura (Gaura); Montbretia (Crocosmia); Society Garlic (Tulbaghia); Aster (Aster); Canna (Canna)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Dense mounding habit, 12 to 15 inches tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Blooms best when old stems are plucked. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949006443&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Continuously, from spring to fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Bright white and pink striped, 2-inch flowers bear a distinctive yellow throat. Blooms appear continuously if stems are plucked promptly or used as cut flowers. Mounding habit is ideal for massing, at the front of a mixed border and in containers. Herbaceous perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, when top 3 in. of soil is dry.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Gift Plant,Fast Growing,Easy Care,Clump Forming,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Cutting Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;096502&lt;/ItemSizeID&gt;
+		&lt;Item&gt;09650&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Alstroemeria x &apos;Tesmach&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Alstroemeria x &apos;Tesmach&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Inticancha&amp;#174; Machu Peruvian Lily&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Gaura (Gaura); Montbretia (Crocosmia); Canna (Canna); Society Garlic (Tulbaghia); Aster (Aster)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Dense mounding habit, 12 in. tall, 12 to 18 in. wide&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Blooms best when old stems are plucked. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949380161&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring to early fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Large, stunning blooms for garden or patio from a great new series bred for compact, tidy growth with long and profuse flowering. Sturdy stems support clusters of large pink flowers that have an exceptional vase life. Idea in cutting gardens, borders or containers. Herbaceous perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, when top 3 in. of soil is dry.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Gift Plant,Fast Growing,Easy Care,Clump Forming,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Cutting Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;021981S&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02198&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1S&lt;/Size&gt;
+		&lt;SizeDescription&gt;SuperOne&amp;#8482;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Alstroemeria x &apos;Zapribel&apos; P.P.# 14,670&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Alstroemeria x &apos;Zapribel&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Colorita&amp;#174; Isabella&amp;#174; Peruvian Lily&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Gaura (Gaura); Montbretia (Crocosmia); Society Garlic (Tulbaghia); Aster (Aster); Canna (Canna)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Dense mounding habit, 12 to 15 inches tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Blooms best when old stems are plucked. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 gal. (3.79 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949267721&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Continuously, from spring to fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Orange azalea-like 2-inch flowers with yellow throats and red markings are sure to garner attention. Blooms repeatedly if old stems are plucked. Dense mounding form is great massed &amp;amp; front of borders. Outstanding container plant or long lived cut flower. Herbaceous perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, when top 3 in. of soil is dry.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Fast Growing,Easy Care,Clump Forming,Attracts Birds,Gift Plant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Cutting Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;021982&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02198&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Alstroemeria x &apos;Zapribel&apos; P.P.# 14,670&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Alstroemeria x &apos;Zapribel&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Colorita&amp;#174; Isabella&amp;#174; Peruvian Lily&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Gaura (Gaura); Montbretia (Crocosmia); Society Garlic (Tulbaghia); Aster (Aster); Canna (Canna)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Dense mounding habit, 12 to 15 inches tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Blooms best when old stems are plucked. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949042731&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Continuously, from spring to fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Orange azalea-like 2-inch flowers with yellow throats and red markings are sure to garner attention. Blooms repeatedly if old stems are plucked. Dense mounding form is great massed &amp;amp; front of borders. Outstanding container plant or long lived cut flower. Herbaceous perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, when top 3 in. of soil is dry.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Fast Growing,Easy Care,Clump Forming,Attracts Birds,Gift Plant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Cutting Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 14 Apr 2016 05:32:48 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

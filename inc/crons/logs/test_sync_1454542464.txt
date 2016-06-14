@@ -1,0 +1,326 @@
+DATE/TIME: 2016-02-03 23:34:24
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-02-03 23:34:36
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 24537
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;012671&lt;/ItemSizeID&gt;
+		&lt;Item&gt;01267&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Bougainvillea &apos;Torch Glow&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Bougainvillea &apos;Torch Glow&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Torch Glow Bougainvillea&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Waterwise&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rock Garden,Privacy Screen,Firescaping/Fire Wise,Erosion Control,Container,Coastal Exposure,Barrier,Passion Flower (Passiflora); Desert Spoon (Dasylirion); Prickly Pear (Opuntia); Date Palm (Phoenix); Bird-of-Paradise (Strelitzia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 6 to 8 ft. tall, 3 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Requires well drained soil. USE CAUTION NOT TO DAMAGE ROOTS WHEN PLANTING. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Once established, water deeply and less frequently. Apply a slow-release fertilizer in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949126714&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Unusual, showy, shrubby grower boasts beautiful reddish-pink blooms atop upright branches. Wonderful accent shrub or screen when massed, needs no support. Use as a summer annual in patio containers. Evergreen in frost-free areas.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;10&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Tolerates Urban Pollution,Tolerates Poor Soils,Fast Growing,Easy Care,Dense Habit,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Privacy Screen,Firescaping/Fire Wise,Erosion Control,Container,Coastal Exposure,Barrier&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;012671BH&lt;/ItemSizeID&gt;
+		&lt;Item&gt;01267&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1BH&lt;/Size&gt;
+		&lt;SizeDescription&gt;Bush&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Bougainvillea &apos;Torch Glow&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Bougainvillea &apos;Torch Glow&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Torch Glow Bougainvillea&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Waterwise&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rock Garden,Privacy Screen,Firescaping/Fire Wise,Erosion Control,Container,Coastal Exposure,Barrier,Passion Flower (Passiflora); Desert Spoon (Dasylirion); Prickly Pear (Opuntia); Date Palm (Phoenix); Bird-of-Paradise (Strelitzia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 6 to 8 ft. tall, 3 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Requires well drained soil. USE CAUTION NOT TO DAMAGE ROOTS WHEN PLANTING. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Once established, water deeply and less frequently. Apply a slow-release fertilizer in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949345283&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Unusual, showy, shrubby grower boasts beautiful reddish-pink blooms atop upright branches. Wonderful accent shrub or screen when massed, needs no support. Use as a summer annual in patio containers. Evergreen in frost-free areas.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;10&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Tolerates Urban Pollution,Tolerates Poor Soils,Fast Growing,Easy Care,Dense Habit,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Privacy Screen,Firescaping/Fire Wise,Erosion Control,Container,Coastal Exposure,Barrier&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;0126724BX&lt;/ItemSizeID&gt;
+		&lt;Item&gt;01267&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;24BX&lt;/Size&gt;
+		&lt;SizeDescription&gt;Box&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Bougainvillea &apos;Torch Glow&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Bougainvillea &apos;Torch Glow&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Torch Glow Bougainvillea&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Waterwise&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rock Garden,Privacy Screen,Firescaping/Fire Wise,Erosion Control,Container,Coastal Exposure,Barrier,Passion Flower (Passiflora); Desert Spoon (Dasylirion); Prickly Pear (Opuntia); Date Palm (Phoenix); Bird-of-Paradise (Strelitzia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 6 to 8 ft. tall, 3 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Requires well drained soil. USE CAUTION NOT TO DAMAGE ROOTS WHEN PLANTING. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Once established, water deeply and less frequently. Apply a slow-release fertilizer in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;24&amp;quot;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;24.47 gal. (121.02 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949343951&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Unusual, showy, shrubby grower boasts beautiful reddish-pink blooms atop upright branches. Wonderful accent shrub or screen when massed, needs no support. Use as a summer annual in patio containers. Evergreen in frost-free areas.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;10&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Tolerates Urban Pollution,Tolerates Poor Soils,Fast Growing,Easy Care,Dense Habit,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Privacy Screen,Firescaping/Fire Wise,Erosion Control,Container,Coastal Exposure,Barrier&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;012675&lt;/ItemSizeID&gt;
+		&lt;Item&gt;01267&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Bougainvillea &apos;Torch Glow&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Bougainvillea &apos;Torch Glow&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Torch Glow Bougainvillea&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Waterwise&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rock Garden,Privacy Screen,Firescaping/Fire Wise,Erosion Control,Container,Coastal Exposure,Barrier,Passion Flower (Passiflora); Desert Spoon (Dasylirion); Prickly Pear (Opuntia); Date Palm (Phoenix); Bird-of-Paradise (Strelitzia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 6 to 8 ft. tall, 3 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer. USE CAUTION IN REMOVING PLANT FROM CONTAINER.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949126752&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Unusual, showy, shrubby grower boasts beautiful reddish-pink blooms atop upright branches. Wonderful accent shrub or screen when massed, needs no support. Use as a summer annual in patio containers. Evergreen in frost-free areas.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;10&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Tolerates Urban Pollution,Tolerates Poor Soils,Fast Growing,Easy Care,Dense Habit,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Privacy Screen,Firescaping/Fire Wise,Erosion Control,Container,Coastal Exposure,Barrier&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;012675BH&lt;/ItemSizeID&gt;
+		&lt;Item&gt;01267&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5BH&lt;/Size&gt;
+		&lt;SizeDescription&gt;Bush&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Bougainvillea &apos;Torch Glow&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Bougainvillea &apos;Torch Glow&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Torch Glow Bougainvillea&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Waterwise&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rock Garden,Privacy Screen,Firescaping/Fire Wise,Erosion Control,Container,Coastal Exposure,Barrier,Passion Flower (Passiflora); Desert Spoon (Dasylirion); Prickly Pear (Opuntia); Date Palm (Phoenix); Bird-of-Paradise (Strelitzia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 6 to 8 ft. tall, 3 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Requires well drained soil. USE CAUTION NOT TO DAMAGE ROOTS WHEN PLANTING. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Once established, water deeply and less frequently. Apply a slow-release fertilizer in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949345290&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Unusual, showy, shrubby grower boasts beautiful reddish-pink blooms atop upright branches. Wonderful accent shrub or screen when massed, needs no support. Use as a summer annual in patio containers. Evergreen in frost-free areas.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;10&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Tolerates Urban Pollution,Tolerates Poor Soils,Fast Growing,Easy Care,Dense Habit,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Privacy Screen,Firescaping/Fire Wise,Erosion Control,Container,Coastal Exposure,Barrier&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;012675PT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;01267&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5PT&lt;/Size&gt;
+		&lt;SizeDescription&gt;Patio Tree&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Bougainvillea &apos;Torch Glow&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Bougainvillea &apos;Torch Glow&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Torch Glow Bougainvillea&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Waterwise&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rock Garden,Privacy Screen,Firescaping/Fire Wise,Erosion Control,Container,Coastal Exposure,Barrier,Passion Flower (Passiflora); Desert Spoon (Dasylirion); Prickly Pear (Opuntia); Date Palm (Phoenix); Bird-of-Paradise (Strelitzia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Maintain present size and topiary form with occasional pruning.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. Prune semi-annually to maintain topiary form.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949126851&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Unusual, showy, shrubby grower boasts beautiful reddish-pink blooms atop upright branches. Wonderful accent shrub or screen when massed, needs no support. Use as a summer annual in patio containers. Evergreen in frost-free areas.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;10&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Tolerates Urban Pollution,Tolerates Poor Soils,Fast Growing,Easy Care,Dense Habit,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Privacy Screen,Firescaping/Fire Wise,Erosion Control,Container,Coastal Exposure,Barrier&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;012679&lt;/ItemSizeID&gt;
+		&lt;Item&gt;01267&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;9&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Bougainvillea &apos;Torch Glow&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Bougainvillea &apos;Torch Glow&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Torch Glow Bougainvillea&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Waterwise&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rock Garden,Privacy Screen,Firescaping/Fire Wise,Erosion Control,Container,Coastal Exposure,Barrier,Passion Flower (Passiflora); Desert Spoon (Dasylirion); Prickly Pear (Opuntia); Date Palm (Phoenix); Bird-of-Paradise (Strelitzia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 6 to 8 ft. tall, 3 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Requires well drained soil. USE CAUTION NOT TO DAMAGE ROOTS WHEN PLANTING. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Once established, water deeply and less frequently. Apply a slow-release fertilizer in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;15&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;12.07 gal. (45.69 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949263297&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Unusual, showy, shrubby grower boasts beautiful reddish-pink blooms atop upright branches. Wonderful accent shrub or screen when massed, needs no support. Use as a summer annual in patio containers. Evergreen in frost-free areas.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;10&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Tolerates Urban Pollution,Tolerates Poor Soils,Fast Growing,Easy Care,Dense Habit,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Privacy Screen,Firescaping/Fire Wise,Erosion Control,Container,Coastal Exposure,Barrier&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;057491&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05749&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Leptospermum scoparium &apos;Nanum Ruru&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Leptospermum scoparium &apos;Nanum Ruru&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Dwarf New Zealand Tea Tree&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dwarf Habit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rock Garden,Container,Coastal Exposure,Border,Sedum (Sedum); Echeveria (Echeveria); Ice Plant (Delosperma); Aster (Aster); Blue Fescue (Festuca)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Grows to 2 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide average, well-drained, neutral to slightly acidic soil. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949574911&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A dwarf, tightly-branched evergreen shrub that is covered with extremely tiny, dark green foliage. Showy, deep-pink flowers begin at early age. A good choice for accents, rock gardens or front of borders.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care,Tolerates Acidic Soil,Tolerates Poor Soils,Year-round Interest,Waterwise,Dwarf Plant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Deer Resistant&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Container,Coastal Exposure,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;057492&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05749&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Leptospermum scoparium &apos;Nanum Ruru&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Leptospermum scoparium &apos;Nanum Ruru&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Dwarf New Zealand Tea Tree&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dwarf Habit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rock Garden,Container,Coastal Exposure,Border,Sedum (Sedum); Echeveria (Echeveria); Ice Plant (Delosperma); Aster (Aster); Blue Fescue (Festuca)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Medium-growing to 2 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949574928&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A dwarf, tightly-branched evergreen shrub that is covered with extremely tiny, dark green foliage. Showy, deep-pink flowers begin at early age. A good choice for accents, rock gardens or front of borders.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care,Tolerates Acidic Soil,Tolerates Poor Soils,Year-round Interest,Waterwise,Dwarf Plant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Deer Resistant&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Container,Coastal Exposure,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;057495&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05749&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Leptospermum scoparium &apos;Nanum Ruru&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Leptospermum scoparium &apos;Nanum Ruru&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Dwarf New Zealand Tea Tree&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dwarf Habit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rock Garden,Container,Coastal Exposure,Border,Sedum (Sedum); Echeveria (Echeveria); Ice Plant (Delosperma); Aster (Aster); Blue Fescue (Festuca)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Grows to 2 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide average, well-drained, neutral to slightly acidic soil. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949574959&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A dwarf, tightly-branched evergreen shrub that is covered with extremely tiny, dark green foliage. Showy, deep-pink flowers begin at early age. A good choice for accents, rock gardens or front of borders.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care,Tolerates Acidic Soil,Tolerates Poor Soils,Year-round Interest,Waterwise,Dwarf Plant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Deer Resistant&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Container,Coastal Exposure,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 03 Feb 2016 23:34:35 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

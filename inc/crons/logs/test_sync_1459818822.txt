@@ -1,0 +1,176 @@
+DATE/TIME: 2016-04-05 01:13:42
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-04-05 01:13:47
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 10554
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;31182&lt;/ItemSizeID&gt;
+		&lt;Item&gt;31182&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;LOWES&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Coleus scutellariodes &apos;UF10-45-12&apos; P.P.A.F.&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Coleus scutellariodes &apos;UF10-45-12&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Coleosaurus Coleus&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Bold, exotic foliage&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;24-36&quot; H x 24-36&quot; W.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Easily grown in average to rich, evenly moist, well drained soil. Protect from harsh afternoon sun in extremely hot climates. Stems may be pinched back lightly mid-season to encourage dense new growth. Feed monthly. Hardy to 32&amp;#176;F.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;New texture in a sturdy landscape Coleus. Lush exotic variegated foliage adds great interest to borders or mixed containers. Tender perennial in frost-free climates; treat as an annual elsewhere. Takes full sun!&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Requires regular watering- weekly or more often in extreme heat. Keep soil surface moist but not soggy.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;10&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;31180&lt;/ItemSizeID&gt;
+		&lt;Item&gt;31180&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;LOWES&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Angelonia angustifolia AngelMist&amp;#8482; Series Patented&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Angelonia angustifolia AngelMist&amp;#8482; Series Patented&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;AngelMist&amp;#8482; Spreading Summer Snapdragon&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Summer Flowers&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;4-10&quot; H x 12-20&quot; W.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Easily grown in fertile, well drained soil. Space plants 9-12&quot; apart. Water regularly to develop a deep, extensive root system. Once established in the garden, plants are moderately drought tolerant. Container-grown plants often require more frequent watering. Feed monthly. Hardy to 32&amp;#176;F.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring through summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Beautiful long clusters of orchid-like flowers on lush green foliage. Thrives in extreme heat, humidity and wet or dry soils, even tolerating drought when established. This low growing variety is perfect for filling a border and makes a big impact in baskets. Easy-care, requires no pruning or deadheading and hardy until frost.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering- weekly or more often in extreme heat. Moderately drought tolerant when established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;10&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;31181&lt;/ItemSizeID&gt;
+		&lt;Item&gt;31181&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;LOWES&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Bidens ferulifolia &apos;Balbidsuki&apos; P.P.#19,159&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Bidens ferulifolia &apos;Balbidsuki&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Sun Kiss Bidens&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Attracts Butterflies&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;6-8&quot; H x 6-12&quot; W.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Easily grown in fertile, evenly moist, well drained soil. Space plants 6-8&quot; apart. Water regularly to develop a deep, extensive root system. Feed monthly. Self-cleaning, no deadheading is necessary. Hardy to 32&amp;#176;F.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring to summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Compact, carefree and colorful! A profusion of bright yellow flowers dance above feathery, dark green leaves. Neat mounded form and fine texture makes this a perfect filler for small mixed containers, baskets or garden borders. Blooms early for a summer-long display.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly- weekly or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;10&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;31160&lt;/ItemSizeID&gt;
+		&lt;Item&gt;31160&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;LOWES&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Lantana camara Little Lucky Series Patented&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Lantana camara Little Lucky Series Patented&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Little Lucky Lantana&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Compact Habit&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;10-12&quot; H x 10-12&quot; W.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Easily grown in average, well drained soil. Space plants 10&quot; apart. Feed monthly during growing season. Trim lightly after flowering to promote continued bloom. Perennial to 32&amp;#176;F; treat as an annual elsewhere.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring, Summer, Fall&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Colorful and compact Little Lucky is tough enough to breeze right through summer heat and humidity. This dwarf form is a winner for containers and baskets and ideal for massin or along a pathway or border. Remains neat and tidy all season with little care.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;10&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care,Dwarf Plant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Deer Resistant&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;31150&lt;/ItemSizeID&gt;
+		&lt;Item&gt;31150&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;LOWES&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Petunia x hybrida Suncatcher Series Patented&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Petunia x hybrida Suncatcher Series Patented&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Suncatcher Trailing Petunia&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Vibrant colorful bloooms&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;8-12&quot; H x 20-24&quot; W.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Easily grown as a warm-season annual in evenly moist, well drained soil. May be lightly trimmed mid-season to rejuvenate. Feed monthly.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring, Summer, Fall&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Eye-catching, trumpet shaped flowers cover mounding, trailing plants with excellent mildew tolerance. Select from an array of bright colors for baskets, containers or seasonal borders from late spring until frost. Hummingbird and butterfly friendly.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Requires regular watering- keep soil semi-moist but not soggy.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;10&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Tue, 05 Apr 2016 01:13:43 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

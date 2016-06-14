@@ -1,0 +1,297 @@
+DATE/TIME: 2016-03-26 00:33:28
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-03-26 00:33:39
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 21629
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;402677&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40267&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;7&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Malus domestica (&apos;Spartan&apos;, &apos;Gala&apos;, &apos;Criterion&apos;, &apos;Fuji&apos; and &apos;Braeburn&apos;, grafted)&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Malus domestica (&apos;Spartan&apos;, &apos;Gala&apos;, &apos;Criterion&apos;, &apos;Fuji&apos; and &apos;Braeburn&apos;, grafted)&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Five-in-One Combo Apple&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Edible Fruit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Lavender (Lavandula); Wallflower (Erysimum); Sedge Grass (Carex); Wormwood (Artemesia); Fleabane (Erigeron); Rosemary (Rosmarinus)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 15 to 25 ft. tall, 10 to 15 ft. wide; smaller with annual pruning.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide enriched, well-drained soil. Follow a regular watering schedule to develop a deep extensive root system. Feed before new growth begins in spring with an all purpose fertilizer. Prune as needed to remove dead wood and to maintain desired size.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;7&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;6.20 gal. (23.47 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949394694&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Perfect for smaller gardens! Five popular apple varieties carefully selected to grow well together and ripen over an extended season, all grafted onto one tree. This selection includes Spartan, Gala, Criterion, Fuji and Braeburn. Self-pollinating.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering. Once established, water deeply at regular intervals during the growing season.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Sustainable,Fall Color,Edible&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen,Privacy Screen,Mass Planting,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;402677ES&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40267&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;7ES&lt;/Size&gt;
+		&lt;SizeDescription&gt;Espalier&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Malus domestica (&apos;Spartan&apos;, &apos;Gala&apos;, &apos;Criterion&apos;, &apos;Fuji&apos; and &apos;Braeburn&apos;, grafted)&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Malus domestica (&apos;Spartan&apos;, &apos;Gala&apos;, &apos;Criterion&apos;, &apos;Fuji&apos; and &apos;Braeburn&apos;, grafted)&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Five-in-One Combo Apple&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Edible Fruit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Lavender (Lavandula); Wallflower (Erysimum); Sedge Grass (Carex); Wormwood (Artemesia); Fleabane (Erigeron); Rosemary (Rosmarinus)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 15 to 25 ft. tall, 10 to 15 ft. wide; smaller with annual pruning.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide enriched, well-drained soil. Follow a regular watering schedule to develop a deep extensive root system. Feed before new growth begins in spring with an all purpose fertilizer. Prune as needed to remove dead wood and to maintain desired size.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;7&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;6.20 gal. (23.47 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949394700&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Perfect for smaller gardens! Five popular apple varieties carefully selected to grow well together and ripen over an extended season, all grafted onto one tree. This selection includes Spartan, Gala, Criterion, Fuji and Braeburn. Self-pollinating.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering. Once established, water deeply at regular intervals during the growing season.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Sustainable,Fall Color,Edible&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen,Privacy Screen,Mass Planting,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;072031&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07203&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Vigna caracalla&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Vigna caracalla&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Snail Vine&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Tropical Hibiscus (Hibiscus rosa-sinensis); Princess Flower (Tibouchina); Foxtail Fern (Asparagus densiflorus); Dracaena Palm (Cordyline); Lantana (Lantana hybrids); Salvia (Salvia hybrids); Shasta Daisy (Leucanthemum hybrids)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Twining stems 15 to 20 ft. long.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide well-drained soil. Thrives in warm, humid conditions. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949329917&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Midsummer to early fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Intriguing snail shell-shaped blooms start out white and unfurl to purple-pink. Perennial vine provides attractive cover for fences and walls. Plant where its faint hyacinth-like fragrance can be enjoyed, climbing up an arbor or trellis, or spilling over a patio tub or rock wall.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Fast Growing,Easy Care,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Green Wall,Espalier,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;072032&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07203&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Vigna caracalla&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Vigna caracalla&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Snail Vine&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Tropical Hibiscus (Hibiscus rosa-sinensis); Princess Flower (Tibouchina); Foxtail Fern (Asparagus densiflorus); Dracaena Palm (Cordyline); Lantana (Lantana hybrids); Salvia (Salvia hybrids); Shasta Daisy (Leucanthemum hybrids)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Twining stems 15 to 20 ft. long.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide well-drained soil. Thrives in warm, humid conditions. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949426067&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Midsummer to early fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Intriguing snail shell-shaped blooms start out white and unfurl to purple-pink. Perennial vine provides attractive cover for fences and walls. Plant where its faint hyacinth-like fragrance can be enjoyed, climbing up an arbor or trellis, or spilling over a patio tub or rock wall.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Fast Growing,Easy Care,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Green Wall,Espalier,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;072035&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07203&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Vigna caracalla&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Vigna caracalla&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Snail Vine&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Tropical Hibiscus (Hibiscus rosa-sinensis); Princess Flower (Tibouchina); Foxtail Fern (Asparagus densiflorus); Dracaena Palm (Cordyline); Lantana (Lantana hybrids); Salvia (Salvia hybrids); Shasta Daisy (Leucanthemum hybrids)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Twining stems 15 to 20 ft. long.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide well-drained soil. Thrives in warm, humid conditions. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949329924&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Midsummer to early fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Intriguing snail shell-shaped blooms start out white and unfurl to purple-pink. Perennial vine provides attractive cover for fences and walls. Plant where its faint hyacinth-like fragrance can be enjoyed, climbing up an arbor or trellis, or spilling over a patio tub or rock wall.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Fast Growing,Easy Care,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Green Wall,Espalier,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;415751&lt;/ItemSizeID&gt;
+		&lt;Item&gt;41575&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Echinacea x purpurea &apos;Balsomblanc&apos; PPAF&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Echinacea x purpurea &apos;Balsomblanc&apos; PPAF&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Sombrero&amp;#174; Blanco Coneflower&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Long Bloom Season&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Tickseed (Coreopsis); Salvia (Salvia); Switch Grass (Panicum); Shasta Daisy (Chrysanthemum); Speedwell (Veronica)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Quickly reaches 18 to 20 in. tall, 22 to 24 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide well-drained, fertile soil. Follow a regular watering schedule during the first growing season. Drought resistant when established. Apply slow-release fertilizer in spring. Clip spent blooms to prolong flowering season.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949434109&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring through Summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Bright white blooms make a cheerful addition to an easy, colorful summer border. A must-have for the butterfly or cutting garden, this drought tolerant perennial was bred for cold hardiness and compact form with prolific flowering over an exceptionally long season.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly- weekly or more often in extreme heat; less often, once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Cutting Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;415741&lt;/ItemSizeID&gt;
+		&lt;Item&gt;41574&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Echinacea x purpurea &apos;Balsombabur&apos; PPAF&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Echinacea x purpurea &apos;Balsombabur&apos; PPAF&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Sombrero&amp;#174; Baja Burgundy Coneflower&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Bird Friendly&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Catmint (Nepeta); Shasta Daisy (Chrysanthemum); Russian Sage (Perovskia); Sedum (Sedum); Salvia (Salvia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Quickly reaches 18 to 20 in. tall, 22 to 24 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide well-drained, fertile soil. Follow a regular watering schedule during the first growing season. Drought resistant when established. Apply slow-release fertilizer in spring. Clip spent blooms to prolong flowering season.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949434116&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring through summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Big, rich burgundy blooms add drama to an easy, colorful summer border. A must-have for the butterfly or cutting garden, this drought tolerant perennial was bred for cold hardiness and compact form with prolific flowering over an exceptionally long season.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly- weekly or more often in extreme heat; less often, once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Cutting Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;415742&lt;/ItemSizeID&gt;
+		&lt;Item&gt;41574&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Echinacea x purpurea &apos;Balsombabur&apos; PPAF&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Echinacea x purpurea &apos;Balsombabur&apos; PPAF&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Sombrero&amp;#174; Baja Burgundy Coneflower&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Bird Friendly&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Catmint (Nepeta); Shasta Daisy (Chrysanthemum); Russian Sage (Perovskia); Sedum (Sedum); Salvia (Salvia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Quickly reaches 18 to 20 in. tall, 22 to 24 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide well-drained, fertile soil. Follow a regular watering schedule during the first growing season. Drought resistant when established. Apply slow-release fertilizer in spring. Clip spent blooms to prolong flowering season.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949434116&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring through summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Big, rich burgundy blooms add drama to an easy, colorful summer border. A must-have for the butterfly or cutting garden, this drought tolerant perennial was bred for cold hardiness and compact form with prolific flowering over an exceptionally long season.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly- weekly or more often in extreme heat; less often, once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Cutting Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;400491&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40049&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Achillea millefolium &apos;Sunny Seduction&apos; P.P. #20,808&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Achillea millefolium &apos;Sunny Seduction&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Sunny Seduction Yarrow&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Coneflower (Echinacea); Shasta Daisy (Chrysanthemum); Speedwell (Veronica); Blue Fescue (Festuca); Gayfeather (Liatris)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Clumping growth 24 to 30 in. tall, 28 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide well-drained soil. Water regularly during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Clip spent flower stems to encourage re-bloom. Clumps may be divided every 2 to 3 years in early spring.Pruning time: late winter or early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949388273&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Easy-to-grow perennial boasts showy, soft yellow flowers that offer a cool look to the summer garden. Fast-growing clumps of ferny, gray-green leaves form a compact, spreading mound, perfect for massed plantings. Flowers may be cut and dried for bouquets.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs only occasional watering, once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Extreme Cold Hardiness,Easy Care,Clump Forming&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Deer Resistant&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Cutting Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Sat, 26 Mar 2016 00:33:37 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

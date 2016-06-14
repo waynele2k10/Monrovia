@@ -1,0 +1,239 @@
+DATE/TIME: 2016-02-01 18:53:25
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-02-01 18:53:34
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 17241
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;066291&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06629&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Santolina virens &apos;Lemon Fizz&apos; P.P.A.F.&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Santolina virens &apos;Lemon Fizz&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Lemon Fizz Lavender Cotton&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Drought Tolerant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rock Garden,Green Roof,Container,Border,Thrift (Armeria); Pinks (Dianthus); Carpet Bugle (Ajuga); Creeping Phlox (Phlox); Sedum (Sedum)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 12 to 18 in. tall, 12 to 24 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Thrives in well-drained soil. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Reduce watering once established. Apply a general purpose fertilizer in spring. For a neat appearance, shear annually after flowering.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949317280&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Yellow flowers in summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Chartreuse mounds of fragrant foliage provide sizzling color year-round, topped with bright yellow flowers in summer. Compact, rounded habit is perfect for edging pathways, borders and herb gardens. Plant in mass for a colorful, drought tolerant ground cover. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Easy Care,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Green Roof,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;082571&lt;/ItemSizeID&gt;
+		&lt;Item&gt;08257&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Gazania krebsiana&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Gazania krebsiana&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Tanager&amp;#174; Terracotta Gazania&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Groundcover&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Wildlife Garden,Mass Planting,Ground Cover,Container,Border,Blanket Flower (Gaillardia); Carpet Bugle (Ajuga); Tickseed (Coreopsis); Sedum (Sedum); Salvia (Salvia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Low spreading growth to 4 in. high and 10 in.wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Performs well in loam, sandy or clay soils, with moderate to dry conditions. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. As a ground cover, space plants 6 to 10 inches apart. Control weeds until the plants have filled in. Feed with a general purpose fertilizer when new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949368046&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Blooms spring through fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This tough and hardy selection features brilliant florescent-orange daisy-like blooms from earliest spring to late autumn. Glossy, dark green leaves develop a deep purple tinge in the winter months. Forms a low, spreading mat.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;6&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Tolerates Poor Soils,Fast Growing,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Mass Planting,Ground Cover,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;038351&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03835&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Ginkgo biloba &apos;Autumn Gold&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Ginkgo biloba &apos;Autumn Gold&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Autumn Gold Maidenhair Tree&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Fall Color&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Urban Garden,Specimen,Privacy Screen,Firescaping/Fire Wise,Coastal Exposure,Beech (Fagus); Lilac (Syringa); Weigela (Weigela); Davidia (Dove Tree); Daylily (Hemerocallis)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Slow growing to 35 to 50 ft. high, equal width.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949383513&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicuous pollen-cones in mid-spring.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This superb selection is a fruitless male strain. Unique fan-shaped green foliage turns brilliant golden yellow in fall. Symmetrical branching creates an exceptional upright landscape accent, eventually becoming a handsome shade tree with age. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly in extreme heat for best performance.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Tolerates Road Salt,Fall Color,Extreme Cold Hardiness,Easy Care,Dramatic Foliage Color,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Urban Garden,Specimen,Privacy Screen,Firescaping/Fire Wise,Coastal Exposure&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;038355&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03835&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Ginkgo biloba &apos;Autumn Gold&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Ginkgo biloba &apos;Autumn Gold&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Autumn Gold Maidenhair Tree&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Fall Color&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Urban Garden,Specimen,Privacy Screen,Firescaping/Fire Wise,Coastal Exposure,Beech (Fagus); Lilac (Syringa); Weigela (Weigela); Davidia (Dove Tree); Daylily (Hemerocallis)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Slow-growing to 35 to 50 ft. high, equal width.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949383551&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicuous pollen-cones in mid-spring.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This superb selection is a fruitless male strain. Unique fan-shaped green foliage turns brilliant golden yellow in fall. Symmetrical branching creates an exceptional upright landscape accent, eventually becoming a handsome shade tree with age. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly in extreme heat for best performance.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Tolerates Road Salt,Fall Color,Extreme Cold Hardiness,Easy Care,Dramatic Foliage Color,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Urban Garden,Specimen,Privacy Screen,Firescaping/Fire Wise,Coastal Exposure&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;038357&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03835&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;7&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Ginkgo biloba &apos;Autumn Gold&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Ginkgo biloba &apos;Autumn Gold&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Autumn Gold Maidenhair Tree&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Fall Color&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Urban Garden,Specimen,Privacy Screen,Firescaping/Fire Wise,Coastal Exposure,Beech (Fagus); Lilac (Syringa); Weigela (Weigela); Davidia (Dove Tree); Daylily (Hemerocallis)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Slow-growing to 35 to 50 ft. high, equal width.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;7&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;6.20 gal. (23.47 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949383575&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicuous pollen-cones in mid-spring.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This superb selection is a fruitless male strain. Unique fan-shaped green foliage turns brilliant golden yellow in fall. Symmetrical branching creates an exceptional upright landscape accent, eventually becoming a handsome shade tree with age. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly in extreme heat for best performance.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Tolerates Road Salt,Fall Color,Extreme Cold Hardiness,Easy Care,Dramatic Foliage Color,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Urban Garden,Specimen,Privacy Screen,Firescaping/Fire Wise,Coastal Exposure&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;03835TL2&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03835&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;TL2&lt;/Size&gt;
+		&lt;SizeDescription&gt;1.25&amp;quot;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Ginkgo biloba &apos;Autumn Gold&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Ginkgo biloba &apos;Autumn Gold&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Autumn Gold Maidenhair Tree&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Fall Color&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Urban Garden,Specimen,Privacy Screen,Firescaping/Fire Wise,Coastal Exposure,Beech (Fagus); Lilac (Syringa); Weigela (Weigela); Davidia (Dove Tree); Daylily (Hemerocallis)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Slow growing to 35 to 50 ft. high, equal width.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;TR&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949212387&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicuous pollen-cones in mid-spring.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This superb selection is a fruitless male strain. Unique fan-shaped green foliage turns brilliant golden yellow in fall. Symmetrical branching creates an exceptional upright landscape accent, eventually becoming a handsome shade tree with age. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly in extreme heat for best performance.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Tolerates Road Salt,Fall Color,Extreme Cold Hardiness,Easy Care,Dramatic Foliage Color,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Urban Garden,Specimen,Privacy Screen,Firescaping/Fire Wise,Coastal Exposure&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;03835TL4&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03835&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;TL4&lt;/Size&gt;
+		&lt;SizeDescription&gt;1.75&amp;quot;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Ginkgo biloba &apos;Autumn Gold&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Ginkgo biloba &apos;Autumn Gold&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Autumn Gold Maidenhair Tree&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Fall Color&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Urban Garden,Specimen,Privacy Screen,Firescaping/Fire Wise,Coastal Exposure,Beech (Fagus); Lilac (Syringa); Weigela (Weigela); Davidia (Dove Tree); Daylily (Hemerocallis)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Slow-growing to 35 to 50 ft. high, equal width.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;TR&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949056608&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicuous pollen-cones in mid-spring.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This superb selection is a fruitless male strain. Unique fan-shaped green foliage turns brilliant golden yellow in fall. Symmetrical branching creates an exceptional upright landscape accent, eventually becoming a handsome shade tree with age. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly in extreme heat for best performance.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Tolerates Road Salt,Fall Color,Extreme Cold Hardiness,Easy Care,Dramatic Foliage Color,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Urban Garden,Specimen,Privacy Screen,Firescaping/Fire Wise,Coastal Exposure&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Mon, 01 Feb 2016 18:53:33 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

@@ -1,0 +1,293 @@
+DATE/TIME: 2016-04-04 21:32:57
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-04-04 21:33:12
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 20361
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;073531&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07353&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Helichrysum amorginum &apos;Blorub&apos; P.P.A.F.&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Helichrysum amorginum &apos;Blorub&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Ruby Cluster Strawflower&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Easy Care Plant&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Compact, shrubby mound to 8 to 10 in. high and 8 to 16 in. or more wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949333303&lt;/UPC&gt;
+		&lt;FlowerTime&gt;White flowers in summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Woolly leaves add an unusual texture to the garden. In summer, showy clusters of ball-shaped, deep pink buds are cradled in soft, silvery foliage. They open to starry white flowers with prominent yellow centers. Excellent when contrasted with other flowering perennials.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;075413&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07541&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;3&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Rosa &apos;WEKprimsoul&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Rosa &apos;WEKprimsoul&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Sky&apos;s The Limit&amp;#8482; Climbing Rose&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Clematis (Clematis); Boxwood (Buxus); Eastern Snowball (Viburnum); Peony (Paeonia); Salvia (Salvia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Climber up to 8 ft. tall&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring. Pruning time: late winter or early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;3&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.54 gal. (9.61 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949347256&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring and summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Exceptionally disease resistant yellow climbing rose from hybridizer Tom Carruth. Very free flowering, it displays heavy clusters of ruffled butter-yellow blooms with a pleasant fruity fragrance. Perfect on a trellis, fence or wall.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen,Barrier&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;075415ST&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07541&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5ST&lt;/Size&gt;
+		&lt;SizeDescription&gt;Staked&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Rosa &apos;WEKprimsoul&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Rosa &apos;WEKprimsoul&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Sky&apos;s The Limit&amp;#8482; Climbing Rose&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Clematis (Clematis); Boxwood (Buxus); Eastern Snowball (Viburnum); Peony (Paeonia); Salvia (Salvia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Climber up to 8 ft. tall&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring. Pruning time: late winter or early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949361627&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring and summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Exceptionally disease resistant yellow climbing rose from hybridizer Tom Carruth. Very free flowering, it displays heavy clusters of ruffled butter-yellow blooms with a pleasant fruity fragrance. Perfect on a trellis, fence or wall.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen,Barrier&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;066791&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06679&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Penstemon x &apos;Dorothy Wilson&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Penstemon x &apos;Dorothy Wilson&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Dorothy Wilson Beardtongue&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Long Bloom Season&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Grows to 30 in. tall and 18 - 24 in. wide&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Drought tolerant once established. Shear mid- to late summer to allow a new flush of flowers into fall. Treat as a tender perennial in colder zones; protect with a layer of mulch in winter.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949337868&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer and fall&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Showy spikes of pinkish-lavender tubular flowers with contrasting white throats provide a terrific display over a long season. Attractive to both butterflies and hummingbirds. The bushy, upright habit and long lasting color make this a great plant for perennial borders, rock gardens and cut flower displays. Excellent in pots and tubs.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly in extreme heat for best performance. Requires less water once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Mass Planting,Firescaping/Fire Wise,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;048692&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04869&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Pinus mugo &apos;Carsten&apos;s Wintergold&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Pinus mugo &apos;Carsten&apos;s Wintergold&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Carsten&apos;s Wintergold Mugo Pine&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage Color&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Japanese Maple (Acer); Winterberry (Ilex); Switch Grass (Panicum); Dogwood (Cornus); Barberry (Berberis)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Slow growing, 12 to 24 in. tall and slightly wider in ten years.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Prefers well-drained soil. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. May be watered deeply, less frequently, once established. Prune only new growth of the current season as needed.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949271193&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Conifer; prized for foliage.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;One of the finest of the gold-hued pines, on a dwarf form! Short, densely arranged needles are an attractive green in spring and summer, turning to a rich gold tone as cold weather arrives. Color is most intense in colder climates. Outstanding specimen in smaller gardens, or plant in groupings to make a bold statement in larger landscapes.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional deep watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;7&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;2&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care,Dramatic Foliage Color,Deer Resistant,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Specimen,Rock Garden,Mass Planting,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;048695&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04869&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Pinus mugo &apos;Carsten&apos;s Wintergold&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Pinus mugo &apos;Carsten&apos;s Wintergold&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Carsten&apos;s Wintergold Mugo Pine&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage Color&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Japanese Maple (Acer); Winterberry (Ilex); Switch Grass (Panicum); Dogwood (Cornus); Barberry (Berberis)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Slow growing, 12 to 24 in. tall and slightly wider in ten years.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Prefers well-drained soil. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. May be watered deeply, less frequently, once established. Prune only new growth of the current season as needed.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949342732&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Conifer; prized for foliage.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;One of the finest of the gold-hued pines, on a dwarf form! Short, densely arranged needles are an attractive green in spring and summer, turning to a rich gold tone as cold weather arrives. Color is most intense in colder climates. Outstanding specimen in smaller gardens, or plant in groupings to make a bold statement in larger landscapes.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional deep watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;7&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;2&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care,Dramatic Foliage Color,Deer Resistant,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Specimen,Rock Garden,Mass Planting,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;048695PT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04869&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5PT&lt;/Size&gt;
+		&lt;SizeDescription&gt;Patio Tree&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Pinus mugo &apos;Carsten&apos;s Wintergold&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Pinus mugo &apos;Carsten&apos;s Wintergold&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Carsten&apos;s Wintergold Mugo Pine&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage Color&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Japanese Maple (Acer); Winterberry (Ilex); Switch Grass (Panicum); Dogwood (Cornus); Barberry (Berberis)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Slow growing, 12 to 24 in. tall and slightly wider in ten years.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Prefers well-drained soil. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. May be watered deeply, less frequently, once established. Prune only new growth of the current season as needed.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949384565&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Conifer; prized for foliage.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;One of the finest of the gold-hued pines, on a dwarf form! Short, densely arranged needles are an attractive green in spring and summer, turning to a rich gold tone as cold weather arrives. Color is most intense in colder climates. Outstanding specimen in smaller gardens, or plant in groupings to make a bold statement in larger landscapes.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional deep watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;7&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;2&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care,Dramatic Foliage Color,Deer Resistant,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Specimen,Rock Garden,Mass Planting,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;053425&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05342&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Larix laricina &apos;Blue Sparkler&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Larix laricina &apos;Blue Sparkler&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Blue Sparkler Larch&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Foliage Color&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Grows to 5 ft. tall in 10 years, eventually to 12 ft. tall and 5 ft wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949298213&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Does not flower.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This showy conifer will brighten up the landscape! Bright blue-green needles are displayed in tight circles, giving the impression of a blue sparkler. Foliage changes to yellow in fall before dropping. Dwarf habit makes it suitable for use as a specimen in smaller gardens. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;05342M&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05342&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;M&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Larix laricina &apos;Blue Sparkler&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Larix laricina &apos;Blue Sparkler&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Blue Sparkler Larch&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Foliage Color&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Grows to 5 ft. tall in 10 years, eventually to 12 ft. tall and 5 ft wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;10&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;7.97 gal. (30.17 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949358870&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Does not flower.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This showy conifer will brighten up the landscape! Bright blue-green needles are displayed in tight circles, giving the impression of a blue sparkler. Foliage changes to yellow in fall before dropping. Dwarf habit makes it suitable for use as a specimen in smaller gardens. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Mon, 04 Apr 2016 21:33:08 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

@@ -1,0 +1,369 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"xmlns:o="urn.schemas-microsoft-com.office"xmlns:x="urn:schemas-microsoft-com:office:excel"xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<title>Top 100 Plants </title>
+<style type="text/css">
+body {background-color:white;font-family:Arial; font size:9pt;}
+.a {font-size:9pt; font-weight:bold;}
+.b {font-size:9pt; font-weight:normal;border-bottom:.1pt solid black;border-right: .1pt solid black;text-align:left; vertical-align:bottom;}
+.bb {color:blue; font-size:9pt; font-weight:normal;border-bottom:.1pt solid black;border-right: .1pt solid black;text-align:left; vertical-align:bottom;}
+.c {font-size:9pt;text-align:right;}
+.sub {font-size:6pt;}
+.d {text-align:left;}
+.e {font-size:9pt;font-weight:bold; text-align:left;border-top: .1pt solid black;border-bottom: .1pt solid black;border-right: .1pt solid black;}
+.g {font-size:9pt;font-weight:bold; text-align:left;border-top:.3pt solid black;border-left: .3pt solid black;border-right: .3pt solid black;}
+.h {font-size:9pt;font-weight:bold; text-align:left;border-left: .3pt solid black;border-right:.3pt solid black;}
+.prc {mso-number-format:"\#\,\#\#0.00_\);";text-align:right;}
+.qty {mso-number-format:"\#\,\#\#0;";text-align:right;}
+.item {mso-number-format:"\@";text-align:left;}
+td {border-bottom:inherit; border-top:inherit;border-left:inherit;border-right:inherit;pad-left:2pt; pad-right:2pt;}
+br {mso-data-placement:same-cell;}
+@page {margin:1.0in .38in 1.0in .38in; mso-header-margin:.5in;mso-footer-data:"Page &P of &N";mso-page-orientation:landscape;}
+error {font-size:10pt; font-weight:bold; color:red;}
+</style>
+<xml><x:ExcelWorkbook>
+<x:ExcelWorksheets>
+<x:ExcelWorksheet>
+<x:Name>OPHSJ012R</x:Name>
+<x:WorksheetOptions>
+<x:FitToPage/>
+<x:Print>
+<x:ValidPrinterInfo/>
+<x:FitHeight>99</x:FitHeight>
+<x:HorizontalResolution>600</x:HorizontalResolution>
+<x:VerticalResolution>600</x:VerticalResolution>
+</x:Print>
+<x:FreezePanes/>
+<x:SplitHorizontal>6</x:SplitHorizontal>
+<x:TopRowBottomPane>6</x:TopRowBottomPane>
+<x:ActivePane>2</x:ActivePane>
+<x:Panes>
+<x:Pane>
+<x:Number>2</x:Number>
+</x:Pane>
+</x:Panes>
+</x:WorksheetOptions>
+</x:Pane>
+</x:WorksheetOptions>
+</x:ExcelWorksheet>
+</x:ExcelWorksheets>
+</x:ExcelWorkbook>
+<x:ExcelName>
+<x:Name>Print_Titles</x:Name>
+<x:SheetIndex>1</x:SheetIndex>
+<x:Formula>=ophsJ012R!$8:$8</x:Formula>
+</x:Name></xml>
+</head>
+<body>
+<table cellpadding=0 cellspacing=0>
+<tr><td rowspan="4" colspan="4"><img src="https://jts1.monrovia.com/MagnoliaJ/theme/Monrovia.gif"width="300" height="73"></td>
+<td></td><td colspan="4" class="a" style="text=align:center;">Top Inv$ Amount 100 Plants                                                                     </td>
+<td>&nbsp;</td>
+<td colspan="3">Run Date: 07/30/2015</td></tr>
+<tr><td></td><td colspan="4" class="a" style="text=align:center;">From: 01/01/2014 To: 08/01/2015                                                                </td></tr>
+<tr><td></td><td colspan="5" class="a" style="text=align:center;">Liners Not Included                                                                            </td></tr>
+<tr><td></td><td colspan="5" class="a" style="text=align:center;">Location: 160000                                                                                    </td></tr>
+<tr><td></td></tr>
+<tr class="e"><td>Rnk#</td><td>Item#</td><td>Item Description</td><td>Size</td><td>Key Code</td><td>Status</td><td>Product</td><td>Sub Category</td><td>Zone</td><td>Invoice$</td><td>Avg Dsc</td><td>Quantity</td>
+<td>OR</td><td>VI</td><td>VH</td><td>GA</td><td>NC</td><td>CT</td><td>GR</td>
+</tr>
+<tr class="b"><td>    1</td><td class="item">067155                   </td><td>PRUNUS LAUR OTTO LUYKEN       </td><td>#5                            </td><td>5     </td><td>   </td><td>Evergreen Shrubs              </td><td>Evergreen small shrub/hedge   </td><td style="text=align:right;">06 </td><td class="prc">    592,174.80   </td><td class="prc">       24.39</td><td class="qty">             41,153</td>
+<td class="qty">      41153</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>    2</td><td class="item">035232                   </td><td>BER T GOLDEN RUBY R PP16203   </td><td>#2                            </td><td>2     </td><td>NEW</td><td>Deciduous Shrubs              </td><td>Berberis                      </td><td style="text=align:right;">04 </td><td class="prc">    550,196.96   </td><td class="prc">       17.91</td><td class="qty">             42,958</td>
+<td class="qty">      42958</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>    3</td><td class="item">013835                   </td><td>BUXUS MIC WINTER GEM          </td><td>#5                            </td><td>5     </td><td>   </td><td>Evergreen Shrubs              </td><td>Evergreen small shrub/hedge   </td><td style="text=align:right;">05 </td><td class="prc">    508,348.49   </td><td class="prc">       20.39</td><td class="qty">             29,270</td>
+<td class="qty">      29270</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>    4</td><td class="item">013895                   </td><td>BUXUS GREEN VELVET            </td><td>#5                            </td><td>5     </td><td>   </td><td>Evergreen Shrubs              </td><td>Evergreen small shrub/hedge   </td><td style="text=align:right;">04 </td><td class="prc">    426,420.85   </td><td class="prc">       19.10</td><td class="qty">             21,575</td>
+<td class="qty">      21575</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>    5</td><td class="item">067152                   </td><td>PRUNUS LAUR OTTO LUYKEN       </td><td>#2                            </td><td>2     </td><td>   </td><td>Evergreen Shrubs              </td><td>Evergreen small shrub/hedge   </td><td style="text=align:right;">06 </td><td class="prc">    410,337.32   </td><td class="prc">       24.07</td><td class="qty">             40,116</td>
+<td class="qty">      40116</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>    6</td><td class="item">013905                   </td><td>BUXUS S GREEN TOWER R PP15243 </td><td>#5                            </td><td>5     </td><td>   </td><td>Evergreen Shrubs              </td><td>Evergreen small shrub/hedge   </td><td style="text=align:right;">05 </td><td class="prc">    374,658.30   </td><td class="prc">       18.36</td><td class="qty">             20,011</td>
+<td class="qty">      20011</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>    7</td><td class="item">013832                   </td><td>BUXUS MIC WINTER GEM          </td><td>#2                            </td><td>2     </td><td>   </td><td>Evergreen Shrubs              </td><td>Evergreen small shrub/hedge   </td><td style="text=align:right;">05 </td><td class="prc">    372,055.33   </td><td class="prc">       19.32</td><td class="qty">             32,070</td>
+<td class="qty">      32070</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>    8</td><td class="item">073015                   </td><td>THUJA OC EMERALD              </td><td>#5                            </td><td>5     </td><td>   </td><td>Conifers                      </td><td>Thuja                         </td><td style="text=align:right;">04 </td><td class="prc">    351,013.50   </td><td class="prc">       19.37</td><td class="qty">             20,696</td>
+<td class="qty">      20696</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>    9</td><td class="item">067175                   </td><td>PRUNUS LAUR SCHIPKAENSIS      </td><td>#5                            </td><td>5     </td><td>   </td><td>Evergreen Shrubs              </td><td>Evergreen large shrub/hedge   </td><td style="text=align:right;">06 </td><td class="prc">    321,062.72   </td><td class="prc">       20.48</td><td class="qty">             18,063</td>
+<td class="qty">      18063</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   10</td><td class="item">064625                   </td><td>PICEA GL CONICA               </td><td>#5                            </td><td>5     </td><td>   </td><td>Conifers                      </td><td>Picea                         </td><td style="text=align:right;">02 </td><td class="prc">    320,349.94   </td><td class="prc">       17.54</td><td class="qty">             14,899</td>
+<td class="qty">      14899</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   11</td><td class="item">013892                   </td><td>BUXUS GREEN VELVET            </td><td>#2                            </td><td>2     </td><td>   </td><td>Evergreen Shrubs              </td><td>Evergreen small shrub/hedge   </td><td style="text=align:right;">04 </td><td class="prc">    302,934.66   </td><td class="prc">       19.08</td><td class="qty">             25,066</td>
+<td class="qty">      25066</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   12</td><td class="item">064622                   </td><td>PICEA GL CONICA               </td><td>#2                            </td><td>2     </td><td>   </td><td>Conifers                      </td><td>Picea                         </td><td style="text=align:right;">02 </td><td class="prc">    298,382.00   </td><td class="prc">       18.98</td><td class="qty">             21,469</td>
+<td class="qty">      21469</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   13</td><td class="item">000755                   </td><td>ACER PAL BLOODGOOD            </td><td>#5                            </td><td>5TREE </td><td>   </td><td>Trees                         </td><td>Japanese maple                </td><td style="text=align:right;">05 </td><td class="prc">    286,776.77   </td><td class="prc">       18.28</td><td class="qty">              6,286</td>
+<td class="qty">       6286</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   14</td><td class="item">023327                   </td><td>CEDRUS ATLANTICA HORSTMANN    </td><td>#7                            </td><td>7     </td><td>NEW</td><td>Conifers                      </td><td>Temperate conifer             </td><td style="text=align:right;">06 </td><td class="prc">    252,484.10   </td><td class="prc">       18.01</td><td class="qty">              4,262</td>
+<td class="qty">       4262</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   15</td><td class="item">070612                   </td><td>SALIX INTEGRA HAKURO NISHIKI  </td><td>#2                            </td><td>2     </td><td>   </td><td>Deciduous Shrubs              </td><td>Deciduous shrub/hedge         </td><td style="text=align:right;">04 </td><td class="prc">    248,383.08   </td><td class="prc">       20.24</td><td class="qty">             22,128</td>
+<td class="qty">      22128</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   16</td><td class="item">076392                   </td><td>WEIGELA FL DARK HORSE PP14381 </td><td>#2                            </td><td>2     </td><td>   </td><td>Deciduous Shrubs              </td><td>Deciduous sumr flower'g shrub </td><td style="text=align:right;">04 </td><td class="prc">    247,326.24   </td><td class="prc">       24.13</td><td class="qty">             23,195</td>
+<td class="qty">      23195</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   17</td><td class="item">013891                   </td><td>BUXUS GREEN VELVET            </td><td>#1                            </td><td>1     </td><td>   </td><td>Evergreen Shrubs              </td><td>Evergreen small shrub/hedge   </td><td style="text=align:right;">04 </td><td class="prc">    241,660.89   </td><td class="prc">       20.00</td><td class="qty">             43,070</td>
+<td class="qty">      43070</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   18</td><td class="item">072342                   </td><td>TAXUS EMERALD SPREADR R P10335</td><td>#2                            </td><td>2     </td><td>   </td><td>Conifers                      </td><td>Hardy conifer                 </td><td style="text=align:right;">04 </td><td class="prc">    238,123.34   </td><td class="prc">       20.15</td><td class="qty">             20,300</td>
+<td class="qty">      20300</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   19</td><td class="item">072345                   </td><td>TAXUS EMERALD SPREADR R P10335</td><td>#5                            </td><td>5     </td><td>   </td><td>Conifers                      </td><td>Hardy conifer                 </td><td style="text=align:right;">04 </td><td class="prc">    233,872.42   </td><td class="prc">       20.89</td><td class="qty">             14,140</td>
+<td class="qty">      14140</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   20</td><td class="item">012202                   </td><td>BER T ROSE GLOW               </td><td>#2                            </td><td>2     </td><td>   </td><td>Deciduous Shrubs              </td><td>Berberis                      </td><td style="text=align:right;">04 </td><td class="prc">    232,162.84   </td><td class="prc">       21.50</td><td class="qty">             23,016</td>
+<td class="qty">      23016</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   21</td><td class="item">012052                   </td><td>BER T CRIMSON PYGMY           </td><td>#2                            </td><td>2     </td><td>   </td><td>Deciduous Shrubs              </td><td>Berberis                      </td><td style="text=align:right;">04 </td><td class="prc">    224,381.63   </td><td class="prc">       19.04</td><td class="qty">             21,665</td>
+<td class="qty">      21665</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   22</td><td class="item">074681S                  </td><td>SYRINGA BLOOMERNG R PUR P20575</td><td>SuperOne TM                   </td><td>1SPW  </td><td>NEW</td><td>Deciduous Shrubs              </td><td>Deciduous early flower'g Shrub</td><td style="text=align:right;">03 </td><td class="prc">    222,666.41   </td><td class="prc">       27.57</td><td class="qty">             29,278</td>
+<td class="qty">      29278</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   23</td><td class="item">064625SP                 </td><td>PICEA GL CONICA               </td><td>#5 SPIRAL                     </td><td>5TOP  </td><td>   </td><td>Conifers                      </td><td>Picea                         </td><td style="text=align:right;">02 </td><td class="prc">    211,160.15   </td><td class="prc">       17.36</td><td class="qty">              3,730</td>
+<td class="qty">       3730</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   24</td><td class="item">047085                   </td><td>PAEONIA ITOH KEIKO TM (PK D D)</td><td>#5                            </td><td>5     </td><td>NEW</td><td>Perennials                    </td><td>Paeonia                       </td><td style="text=align:right;">04 </td><td class="prc">    208,502.61   </td><td class="prc">       17.35</td><td class="qty">              6,057</td>
+<td class="qty">       6057</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   25</td><td class="item">013882                   </td><td>BUXUS SEMP VARIEGATA          </td><td>#2                            </td><td>2     </td><td>   </td><td>Evergreen Shrubs              </td><td>Evergreen small shrub/hedge   </td><td style="text=align:right;">05 </td><td class="prc">    208,145.50   </td><td class="prc">       19.47</td><td class="qty">             16,146</td>
+<td class="qty">      16146</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   26</td><td class="item">024032                   </td><td>CHAM PIS FIL GOLDEN CHARM     </td><td>#2                            </td><td>2     </td><td>   </td><td>Conifers                      </td><td>Chamaecyparis                 </td><td style="text=align:right;">04 </td><td class="prc">    207,969.93   </td><td class="prc">       19.53</td><td class="qty">             17,744</td>
+<td class="qty">      17744</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   27</td><td class="item">013825                   </td><td>BUXUS GREEN MOUNTAIN          </td><td>#5                            </td><td>5     </td><td>   </td><td>Evergreen Shrubs              </td><td>Evergreen small shrub/hedge   </td><td style="text=align:right;">04 </td><td class="prc">    207,085.31   </td><td class="prc">       19.38</td><td class="qty">             10,496</td>
+<td class="qty">      10496</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   28</td><td class="item">076131                   </td><td>VINCA MINOR BOWLES'           </td><td>#1                            </td><td>1     </td><td>   </td><td>Perennials                    </td><td>Ground cover                  </td><td style="text=align:right;">04 </td><td class="prc">    205,687.55   </td><td class="prc">       24.02</td><td class="qty">             56,109</td>
+<td class="qty">      56109</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   29</td><td class="item">063742                   </td><td>PAEONIA X KANSAS (RED)        </td><td>#2                            </td><td>2     </td><td>   </td><td>Perennials                    </td><td>Paeonia                       </td><td style="text=align:right;">04 </td><td class="prc">    201,562.78   </td><td class="prc">       19.37</td><td class="qty">             12,820</td>
+<td class="qty">      12820</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   30</td><td class="item">038681                   </td><td>GR-HAKONECHLOA MACRA AUREOLA  </td><td>#1                            </td><td>1     </td><td>   </td><td>Grasses                       </td><td>Small grasses                 </td><td style="text=align:right;">04 </td><td class="prc">    198,322.66   </td><td class="prc">       18.63</td><td class="qty">             29,600</td>
+<td class="qty">      29600</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   31</td><td class="item">021093                   </td><td>ILEX X SCALLYWAG TM PP21941   </td><td>#3                            </td><td>3     </td><td>NEW</td><td>Evergreen Shrubs              </td><td>Ilex                          </td><td style="text=align:right;">05 </td><td class="prc">    190,914.05   </td><td class="prc">       17.92</td><td class="qty">              9,731</td>
+<td class="qty">       9731</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   32</td><td class="item">033602                   </td><td>EUO ALATUS COMPACTUS          </td><td>#2                            </td><td>2     </td><td>   </td><td>Deciduous Shrubs              </td><td>Euonymus                      </td><td style="text=align:right;">04 </td><td class="prc">    188,925.95   </td><td class="prc">       18.36</td><td class="qty">             16,616</td>
+<td class="qty">      16616</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   33</td><td class="item">033605                   </td><td>EUO ALATUS COMPACTUS          </td><td>#5                            </td><td>5     </td><td>   </td><td>Deciduous Shrubs              </td><td>Euonymus                      </td><td style="text=align:right;">04 </td><td class="prc">    184,091.04   </td><td class="prc">       19.07</td><td class="qty">             11,516</td>
+<td class="qty">      11516</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   34</td><td class="item">067177                   </td><td>PRUNUS LAUR SCHIPKAENSIS      </td><td>#7                            </td><td>7     </td><td>   </td><td>Evergreen Shrubs              </td><td>Evergreen large shrub/hedge   </td><td style="text=align:right;">06 </td><td class="prc">    183,028.08   </td><td class="prc">       21.58</td><td class="qty">              5,750</td>
+<td class="qty">       5750</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   35</td><td class="item">013981                   </td><td>BUXUS SEMP SUFFRUTICOSA       </td><td>#1                            </td><td>1     </td><td>   </td><td>Evergreen Shrubs              </td><td>Evergreen small shrub/hedge   </td><td style="text=align:right;">05 </td><td class="prc">    183,024.98   </td><td class="prc">       18.40</td><td class="qty">             31,215</td>
+<td class="qty">      31215</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   36</td><td class="item">013831                   </td><td>BUXUS MIC WINTER GEM          </td><td>#1                            </td><td>1     </td><td>   </td><td>Evergreen Shrubs              </td><td>Evergreen small shrub/hedge   </td><td style="text=align:right;">05 </td><td class="prc">    180,737.20   </td><td class="prc">       20.11</td><td class="qty">             36,895</td>
+<td class="qty">      36895</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   37</td><td class="item">001025                   </td><td>ACER PAL SANGOKAKU            </td><td>#5                            </td><td>5TREE </td><td>   </td><td>Trees                         </td><td>Japanese maple                </td><td style="text=align:right;">05 </td><td class="prc">    180,386.61   </td><td class="prc">       17.94</td><td class="qty">              3,864</td>
+<td class="qty">       3864</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   38</td><td class="item">064621                   </td><td>PICEA GL CONICA               </td><td>#1                            </td><td>1     </td><td>   </td><td>Conifers                      </td><td>Picea                         </td><td style="text=align:right;">02 </td><td class="prc">    179,128.75   </td><td class="prc">       18.86</td><td class="qty">             28,837</td>
+<td class="qty">      28837</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   39</td><td class="item">079382                   </td><td>RUBUS RSPBRY SHRTCKE TM P22141</td><td>#2                            </td><td>2     </td><td>NEW</td><td>Deciduous Shrubs              </td><td>Edible berries/fruit          </td><td style="text=align:right;">05 </td><td class="prc">    178,972.48   </td><td class="prc">       19.54</td><td class="qty">             13,827</td>
+<td class="qty">      13827</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   40</td><td class="item">065452                   </td><td>PINUS MUGO PUMILIO            </td><td>#2                            </td><td>2     </td><td>   </td><td>Conifers                      </td><td>Pinus                         </td><td style="text=align:right;">02 </td><td class="prc">    177,374.26   </td><td class="prc">       19.22</td><td class="qty">             13,100</td>
+<td class="qty">      13100</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   41</td><td class="item">012212                   </td><td>BER T ROYAL BURGUNDY R P9461  </td><td>#2                            </td><td>2     </td><td>   </td><td>Deciduous Shrubs              </td><td>Berberis                      </td><td style="text=align:right;">04 </td><td class="prc">    174,684.11   </td><td class="prc">       28.22</td><td class="qty">             15,689</td>
+<td class="qty">      15689</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   42</td><td class="item">047075                   </td><td>PAEONIA ITOH YUMI TM (YLW)    </td><td>#5                            </td><td>5     </td><td>NEW</td><td>Perennials                    </td><td>Paeonia                       </td><td style="text=align:right;">04 </td><td class="prc">    172,652.04   </td><td class="prc">       17.05</td><td class="qty">              4,969</td>
+<td class="qty">       4969</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   43</td><td class="item">013982                   </td><td>BUXUS SEMP SUFFRUTICOSA       </td><td>#2                            </td><td>2     </td><td>   </td><td>Evergreen Shrubs              </td><td>Evergreen small shrub/hedge   </td><td style="text=align:right;">05 </td><td class="prc">    170,786.51   </td><td class="prc">       18.24</td><td class="qty">             13,241</td>
+<td class="qty">      13241</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   44</td><td class="item">053392                   </td><td>JUN SQUA BLUE STAR            </td><td>#2                            </td><td>2     </td><td>   </td><td>Conifers                      </td><td>Juniper bush & spreader       </td><td style="text=align:right;">04 </td><td class="prc">    170,382.98   </td><td class="prc">       17.80</td><td class="qty">             16,340</td>
+<td class="qty">      16340</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   45</td><td class="item">070502                   </td><td>SARCOCOCCA HUMILIS            </td><td>#2                            </td><td>2     </td><td>   </td><td>Evergreen Shrubs              </td><td>Evergreen small shrub/hedge   </td><td style="text=align:right;">06 </td><td class="prc">    168,104.56   </td><td class="prc">       21.04</td><td class="qty">             11,767</td>
+<td class="qty">      11767</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   46</td><td class="item">06469M                   </td><td>PICEA PUN GLOBOSA             </td><td>#10 Squat                     </td><td>10    </td><td>   </td><td>Conifers                      </td><td>Picea                         </td><td style="text=align:right;">02 </td><td class="prc">    164,278.99   </td><td class="prc">       18.44</td><td class="qty">              2,636</td>
+<td class="qty">       2636</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   47</td><td class="item">033902                   </td><td>EUO F EMERALD GAIETY          </td><td>#2                            </td><td>2     </td><td>   </td><td>Evergreen Shrubs              </td><td>Euonymus                      </td><td style="text=align:right;">05 </td><td class="prc">    164,137.11   </td><td class="prc">       18.67</td><td class="qty">             15,249</td>
+<td class="qty">      15249</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   48</td><td class="item">063762                   </td><td>PAEONIA X SHIRLEY TEMPLE (WT) </td><td>#2                            </td><td>2     </td><td>   </td><td>Perennials                    </td><td>Paeonia                       </td><td style="text=align:right;">04 </td><td class="prc">    163,488.70   </td><td class="prc">       18.25</td><td class="qty">             10,281</td>
+<td class="qty">      10281</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   49</td><td class="item">035231                   </td><td>BER T GOLDEN RUBY R PP16203   </td><td>#1                            </td><td>1     </td><td>NEW</td><td>Deciduous Shrubs              </td><td>Berberis                      </td><td style="text=align:right;">04 </td><td class="prc">    162,651.86   </td><td class="prc">       17.51</td><td class="qty">             22,974</td>
+<td class="qty">      22974</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   50</td><td class="item">012032                   </td><td>BER GOLDN NUGGET TM P9577 CBR </td><td>#2                            </td><td>2     </td><td>   </td><td>Deciduous Shrubs              </td><td>Berberis                      </td><td style="text=align:right;">04 </td><td class="prc">    162,496.42   </td><td class="prc">       21.09</td><td class="qty">             16,029</td>
+<td class="qty">      16029</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   51</td><td class="item">013822                   </td><td>BUXUS GREEN MOUNTAIN          </td><td>#2                            </td><td>2     </td><td>   </td><td>Evergreen Shrubs              </td><td>Evergreen small shrub/hedge   </td><td style="text=align:right;">04 </td><td class="prc">    161,839.09   </td><td class="prc">       18.35</td><td class="qty">             13,827</td>
+<td class="qty">      13827</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   52</td><td class="item">041705                   </td><td>HYD PETIOLARIS                </td><td>#5 STAKED                     </td><td>5VINE </td><td>   </td><td>Vines                         </td><td>Hardy vine                    </td><td style="text=align:right;">05 </td><td class="prc">    160,428.98   </td><td class="prc">       18.21</td><td class="qty">              6,949</td>
+<td class="qty">       6949</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   53</td><td class="item">064695PT                 </td><td>PICEA PUN GLOBOSA             </td><td>#5 PATIO TREE                 </td><td>5TOP  </td><td>   </td><td>Conifers                      </td><td>Picea                         </td><td style="text=align:right;">02 </td><td class="prc">    159,784.93   </td><td class="prc">       17.79</td><td class="qty">              2,787</td>
+<td class="qty">       2787</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   54</td><td class="item">065455                   </td><td>PINUS MUGO PUMILIO            </td><td>#5                            </td><td>5     </td><td>   </td><td>Conifers                      </td><td>Pinus                         </td><td style="text=align:right;">02 </td><td class="prc">    159,329.67   </td><td class="prc">       19.27</td><td class="qty">              8,850</td>
+<td class="qty">       8850</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   55</td><td class="item">056232                   </td><td>VACC BOUNTIFUL BLUE R PP19381 </td><td>#2                            </td><td>2     </td><td>NEW</td><td>Deciduous Shrubs              </td><td>Edible berries/fruit          </td><td style="text=align:right;">06 </td><td class="prc">    159,202.39   </td><td class="prc">       19.78</td><td class="qty">             13,022</td>
+<td class="qty">      13022</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   56</td><td class="item">072325                   </td><td>TAXUS X MEDIA DENSIFORMIS     </td><td>#5                            </td><td>5     </td><td>   </td><td>Conifers                      </td><td>Hardy conifer                 </td><td style="text=align:right;">04 </td><td class="prc">    158,003.80   </td><td class="prc">       22.43</td><td class="qty">              9,600</td>
+<td class="qty">       9600</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   57</td><td class="item">012201                   </td><td>BER T ROSE GLOW               </td><td>#1                            </td><td>1     </td><td>   </td><td>Deciduous Shrubs              </td><td>Berberis                      </td><td style="text=align:right;">04 </td><td class="prc">    156,685.70   </td><td class="prc">       28.14</td><td class="qty">             37,059</td>
+<td class="qty">      37059</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   58</td><td class="item">012051                   </td><td>BER T CRIMSON PYGMY           </td><td>#1                            </td><td>1     </td><td>   </td><td>Deciduous Shrubs              </td><td>Berberis                      </td><td style="text=align:right;">04 </td><td class="prc">    155,540.83   </td><td class="prc">       21.97</td><td class="qty">             33,147</td>
+<td class="qty">      33147</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   59</td><td class="item">000752                   </td><td>ACER PAL BLOODGOOD            </td><td>#2                            </td><td>2     </td><td>   </td><td>Trees                         </td><td>Japanese maple                </td><td style="text=align:right;">05 </td><td class="prc">    154,043.30   </td><td class="prc">       18.97</td><td class="qty">              5,133</td>
+<td class="qty">       5133</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   60</td><td class="item">035242                   </td><td>BER T PYGMY RUBY TM           </td><td>#2                            </td><td>2     </td><td>NEW</td><td>Deciduous Shrubs              </td><td>Berberis                      </td><td style="text=align:right;">04 </td><td class="prc">    153,311.58   </td><td class="prc">       17.71</td><td class="qty">             12,355</td>
+<td class="qty">      12355</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   61</td><td class="item">071602                   </td><td>ROSA FLWR CAR R RED P11308    </td><td>#2                            </td><td>2     </td><td>   </td><td>Roses                         </td><td>Rosa                          </td><td style="text=align:right;">04 </td><td class="prc">    151,923.61   </td><td class="prc">       18.81</td><td class="qty">             12,395</td>
+<td class="qty">      12395</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   62</td><td class="item">00075M                   </td><td>ACER PAL BLOODGOOD            </td><td>#10 Squat                     </td><td>10TREE</td><td>   </td><td>Trees                         </td><td>Japanese maple                </td><td style="text=align:right;">05 </td><td class="prc">    150,682.37   </td><td class="prc">       19.06</td><td class="qty">              1,621</td>
+<td class="qty">       1621</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   63</td><td class="item">000955ST                 </td><td>ACER PAL CRIMSON QUEEN        </td><td>#5 STAKED                     </td><td>5TREE </td><td>   </td><td>Trees                         </td><td>Japanese maple                </td><td style="text=align:right;">05 </td><td class="prc">    150,080.42   </td><td class="prc">       18.47</td><td class="qty">              3,261</td>
+<td class="qty">       3261</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   64</td><td class="item">072022                   </td><td>SYRINGA PATULA MISS KIM       </td><td>#2                            </td><td>2     </td><td>   </td><td>Deciduous Shrubs              </td><td>Deciduous early flower'g Shrub</td><td style="text=align:right;">04 </td><td class="prc">    145,978.18   </td><td class="prc">       18.88</td><td class="qty">             11,514</td>
+<td class="qty">      11514</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   65</td><td class="item">040111                   </td><td>HEM STELLA DE ORO             </td><td>#1                            </td><td>1     </td><td>   </td><td>Perennials                    </td><td>Hemerocallis                  </td><td style="text=align:right;">04 </td><td class="prc">    145,967.22   </td><td class="prc">       21.70</td><td class="qty">             38,747</td>
+<td class="qty">      38747</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   66</td><td class="item">07301M                   </td><td>THUJA OC EMERALD              </td><td>#10 Squat                     </td><td>10    </td><td>   </td><td>Conifers                      </td><td>Thuja                         </td><td style="text=align:right;">04 </td><td class="prc">    144,522.32   </td><td class="prc">       19.92</td><td class="qty">              3,195</td>
+<td class="qty">       3195</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   67</td><td class="item">00095MST                 </td><td>ACER PAL CRIMSON QUEEN        </td><td>#10 Squat STAKED              </td><td>10TREE</td><td>   </td><td>Trees                         </td><td>Japanese maple                </td><td style="text=align:right;">05 </td><td class="prc">    143,864.33   </td><td class="prc">       18.68</td><td class="qty">              1,548</td>
+<td class="qty">       1548</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   68</td><td class="item">081712                   </td><td>VACCINIUM PEACH SORBET TM PPAF</td><td>#2                            </td><td>2     </td><td>NEW</td><td>Deciduous Shrubs              </td><td>Edible berries/fruit          </td><td style="text=align:right;">05 </td><td class="prc">    143,202.07   </td><td class="prc">       19.64</td><td class="qty">             11,690</td>
+<td class="qty">      11690</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   69</td><td class="item">012031                   </td><td>BER GOLDN NUGGET TM P9577 CBR </td><td>#1                            </td><td>1     </td><td>   </td><td>Deciduous Shrubs              </td><td>Berberis                      </td><td style="text=align:right;">04 </td><td class="prc">    142,379.57   </td><td class="prc">       22.43</td><td class="qty">             29,121</td>
+<td class="qty">      29121</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   70</td><td class="item">064695                   </td><td>PICEA PUN GLOBOSA             </td><td>#5                            </td><td>5     </td><td>   </td><td>Conifers                      </td><td>Picea                         </td><td style="text=align:right;">02 </td><td class="prc">    141,818.44   </td><td class="prc">       19.25</td><td class="qty">              4,481</td>
+<td class="qty">       4481</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   71</td><td class="item">071232                   </td><td>SPIRAEA X LIMEMOUND R         </td><td>#2                            </td><td>2     </td><td>   </td><td>Deciduous Shrubs              </td><td>Deciduous sumr flower'g shrub </td><td style="text=align:right;">03 </td><td class="prc">    141,347.94   </td><td class="prc">       19.54</td><td class="qty">             13,949</td>
+<td class="qty">      13949</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   72</td><td class="item">013893                   </td><td>BUXUS GREEN VELVET            </td><td>#3                            </td><td>3     </td><td>   </td><td>Evergreen Shrubs              </td><td>Evergreen small shrub/hedge   </td><td style="text=align:right;">04 </td><td class="prc">    138,570.82   </td><td class="prc">       18.73</td><td class="qty">              7,942</td>
+<td class="qty">       7942</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   73</td><td class="item">071572                   </td><td>SPIRAEA JAP MAGIC CARPET P9363</td><td>#2                            </td><td>2     </td><td>   </td><td>Deciduous Shrubs              </td><td>Deciduous sumr flower'g shrub </td><td style="text=align:right;">04 </td><td class="prc">    138,413.02   </td><td class="prc">       19.36</td><td class="qty">             13,666</td>
+<td class="qty">      13666</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   74</td><td class="item">06462M                   </td><td>PICEA GL CONICA               </td><td>#10 Squat                     </td><td>10    </td><td>   </td><td>Conifers                      </td><td>Picea                         </td><td style="text=align:right;">02 </td><td class="prc">    136,122.11   </td><td class="prc">       16.94</td><td class="qty">              2,225</td>
+<td class="qty">       2225</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   75</td><td class="item">072335                   </td><td>TAXUS X MEDIA HICKSII         </td><td>#5                            </td><td>5     </td><td>   </td><td>Conifers                      </td><td>Hardy conifer                 </td><td style="text=align:right;">04 </td><td class="prc">    135,462.98   </td><td class="prc">       19.99</td><td class="qty">              8,154</td>
+<td class="qty">       8154</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   76</td><td class="item">053391                   </td><td>JUN SQUA BLUE STAR            </td><td>#1                            </td><td>1     </td><td>   </td><td>Conifers                      </td><td>Juniper bush & spreader       </td><td style="text=align:right;">04 </td><td class="prc">    135,258.37   </td><td class="prc">       19.72</td><td class="qty">             28,355</td>
+<td class="qty">      28355</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   77</td><td class="item">072322                   </td><td>TAXUS X MEDIA DENSIFORMIS     </td><td>#2                            </td><td>2     </td><td>   </td><td>Conifers                      </td><td>Hardy conifer                 </td><td style="text=align:right;">04 </td><td class="prc">    134,134.56   </td><td class="prc">       20.91</td><td class="qty">             10,722</td>
+<td class="qty">      10722</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   78</td><td class="item">028552                   </td><td>COT APICULATUS TOM THUMB      </td><td>#2                            </td><td>2     </td><td>   </td><td>Deciduous Shrubs              </td><td>Deciduous fall/winter interest</td><td style="text=align:right;">04 </td><td class="prc">    131,428.18   </td><td class="prc">       19.60</td><td class="qty">             12,030</td>
+<td class="qty">      12030</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   79</td><td class="item">072332                   </td><td>TAXUS X MEDIA HICKSII         </td><td>#2                            </td><td>2     </td><td>   </td><td>Conifers                      </td><td>Hardy conifer                 </td><td style="text=align:right;">04 </td><td class="prc">    130,603.25   </td><td class="prc">       19.08</td><td class="qty">             10,110</td>
+<td class="qty">      10110</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   80</td><td class="item">013902                   </td><td>BUXUS S GREEN TOWER R PP15243 </td><td>#2                            </td><td>2     </td><td>   </td><td>Evergreen Shrubs              </td><td>Evergreen small shrub/hedge   </td><td style="text=align:right;">05 </td><td class="prc">    125,761.15   </td><td class="prc">       17.98</td><td class="qty">              9,434</td>
+<td class="qty">       9434</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   81</td><td class="item">070615                   </td><td>SALIX INTEGRA HAKURO NISHIKI  </td><td>#5                            </td><td>5     </td><td>   </td><td>Deciduous Shrubs              </td><td>Deciduous shrub/hedge         </td><td style="text=align:right;">04 </td><td class="prc">    125,525.32   </td><td class="prc">       20.28</td><td class="qty">              7,515</td>
+<td class="qty">       7515</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   82</td><td class="item">000759                   </td><td>ACER PAL BLOODGOOD            </td><td>#15                           </td><td>15TREE</td><td>   </td><td>Trees                         </td><td>Japanese maple                </td><td style="text=align:right;">05 </td><td class="prc">    125,324.24   </td><td class="prc">       22.64</td><td class="qty">              1,163</td>
+<td class="qty">       1163</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   83</td><td class="item">06462MSP                 </td><td>PICEA GL CONICA               </td><td>#10 Squat SPIRAL              </td><td>10TOP </td><td>   </td><td>Conifers                      </td><td>Picea                         </td><td style="text=align:right;">02 </td><td class="prc">    123,632.45   </td><td class="prc">       16.53</td><td class="qty">              1,419</td>
+<td class="qty">       1419</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   84</td><td class="item">012102                   </td><td>BER T HELMOND PILLAR          </td><td>#2                            </td><td>2     </td><td>NEW</td><td>Deciduous Shrubs              </td><td>Berberis                      </td><td style="text=align:right;">04 </td><td class="prc">    123,601.35   </td><td class="prc">       19.17</td><td class="qty">             12,008</td>
+<td class="qty">      12008</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   85</td><td class="item">045353                   </td><td>ILEX X LITTLE RASCAL R P9999  </td><td>#3                            </td><td>3     </td><td>   </td><td>Evergreen Shrubs              </td><td>Ilex                          </td><td style="text=align:right;">05 </td><td class="prc">    123,175.39   </td><td class="prc">       18.06</td><td class="qty">              6,944</td>
+<td class="qty">       6944</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   86</td><td class="item">052595                   </td><td>PAEONIA ITOH TAKARA TM PP22374</td><td>#5                            </td><td>5     </td><td>NEW</td><td>Perennials                    </td><td>Paeonia                       </td><td style="text=align:right;">04 </td><td class="prc">    122,531.67   </td><td class="prc">       17.40</td><td class="qty">              3,560</td>
+<td class="qty">       3560</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   87</td><td class="item">023317SE                 </td><td>CEDRUS ATLANTICA GLAUCA PNDULA</td><td>#7 SERPENTINE                 </td><td>7TOP  </td><td>   </td><td>Conifers                      </td><td>Temperate conifer             </td><td style="text=align:right;">06 </td><td class="prc">    121,733.66   </td><td class="prc">       17.60</td><td class="qty">              1,685</td>
+<td class="qty">       1685</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   88</td><td class="item">010052                   </td><td>RHOD (H-1) RAMAPO             </td><td>#2                            </td><td>2     </td><td>   </td><td>Rhododendrons                 </td><td>Rhododendron                  </td><td style="text=align:right;">04 </td><td class="prc">    119,171.24   </td><td class="prc">       21.37</td><td class="qty">              8,914</td>
+<td class="qty">       8914</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   89</td><td class="item">062932                   </td><td>BER T ORANGE ROCKET PP18411   </td><td>#2                            </td><td>2     </td><td>NEW</td><td>Deciduous Shrubs              </td><td>Berberis                      </td><td style="text=align:right;">04 </td><td class="prc">    118,380.47   </td><td class="prc">       18.46</td><td class="qty">              9,223</td>
+<td class="qty">       9223</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   90</td><td class="item">033601                   </td><td>EUO ALATUS COMPACTUS          </td><td>#1                            </td><td>1     </td><td>   </td><td>Deciduous Shrubs              </td><td>Euonymus                      </td><td style="text=align:right;">04 </td><td class="prc">    117,475.29   </td><td class="prc">       20.12</td><td class="qty">             24,512</td>
+<td class="qty">      24512</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   91</td><td class="item">046212                   </td><td>PAEONIA X LADY ORCHID (PINK)  </td><td>#2                            </td><td>2     </td><td>NEW</td><td>Perennials                    </td><td>Paeonia                       </td><td style="text=align:right;">04 </td><td class="prc">    115,934.21   </td><td class="prc">       18.62</td><td class="qty">              7,317</td>
+<td class="qty">       7317</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   92</td><td class="item">041702                   </td><td>HYD PETIOLARIS                </td><td>#2 STAKED                     </td><td>2VINE </td><td>   </td><td>Vines                         </td><td>Hardy vine                    </td><td style="text=align:right;">05 </td><td class="prc">    115,473.49   </td><td class="prc">       18.20</td><td class="qty">              7,622</td>
+<td class="qty">       7622</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   93</td><td class="item">028145                   </td><td>COTINUS COG ROYAL PURPLE      </td><td>#5                            </td><td>5     </td><td>   </td><td>Deciduous Shrubs              </td><td>Deciduous shrub/hedge         </td><td style="text=align:right;">04 </td><td class="prc">    114,075.37   </td><td class="prc">       18.22</td><td class="qty">              4,932</td>
+<td class="qty">       4932</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   94</td><td class="item">063932                   </td><td>PHYSOCARPUS DIABOLO R P11211  </td><td>#2                            </td><td>2     </td><td>   </td><td>Deciduous Shrubs              </td><td>Deciduous shrub/hedge         </td><td style="text=align:right;">02 </td><td class="prc">    114,035.58   </td><td class="prc">       18.58</td><td class="qty">              9,475</td>
+<td class="qty">       9475</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   95</td><td class="item">072155                   </td><td>SYRINGA V LAVENDER LADY       </td><td>#5                            </td><td>5     </td><td>   </td><td>Deciduous Shrubs              </td><td>Deciduous early flower'g Shrub</td><td style="text=align:right;">03 </td><td class="prc">    113,001.21   </td><td class="prc">       18.51</td><td class="qty">              5,938</td>
+<td class="qty">       5938</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   96</td><td class="item">073015SP                 </td><td>THUJA OC EMERALD              </td><td>#5 SPIRAL                     </td><td>5TOP  </td><td>   </td><td>Conifers                      </td><td>Thuja                         </td><td style="text=align:right;">04 </td><td class="prc">    112,451.81   </td><td class="prc">       18.34</td><td class="qty">              2,023</td>
+<td class="qty">       2023</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   97</td><td class="item">06478M                   </td><td>PICEA PUN GLAUCA FAT ALBERT   </td><td>#10 Squat                     </td><td>10    </td><td>   </td><td>Conifers                      </td><td>Picea                         </td><td style="text=align:right;">02 </td><td class="prc">    112,048.20   </td><td class="prc">       17.23</td><td class="qty">              1,791</td>
+<td class="qty">       1791</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   98</td><td class="item">063935                   </td><td>PHYSOCARPUS DIABOLO R P11211  </td><td>#5                            </td><td>5     </td><td>   </td><td>Deciduous Shrubs              </td><td>Deciduous shrub/hedge         </td><td style="text=align:right;">02 </td><td class="prc">    111,780.48   </td><td class="prc">       19.00</td><td class="qty">              6,970</td>
+<td class="qty">       6970</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>   99</td><td class="item">017455                   </td><td>CORYLUS AV CONTORTA-OWN ROOT  </td><td>#5                            </td><td>5     </td><td>   </td><td>Deciduous Shrubs              </td><td>Deciduous early flower'g Shrub</td><td style="text=align:right;">03 </td><td class="prc">    111,449.78   </td><td class="prc">       17.83</td><td class="qty">              4,011</td>
+<td class="qty">       4011</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+<tr class="b"><td>  100</td><td class="item">074682S                  </td><td>SYRINGA BLOOMERNG R PUR P20575</td><td>SuperTwo                      </td><td>2S    </td><td>NEW</td><td>Deciduous Shrubs              </td><td>Deciduous early flower'g Shrub</td><td style="text=align:right;">03 </td><td class="prc">    111,326.34   </td><td class="prc">       18.88</td><td class="qty">              8,010</td>
+<td class="qty">       8010</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td><td class="qty">          0</td>
+</tr>
+</table></body></html>

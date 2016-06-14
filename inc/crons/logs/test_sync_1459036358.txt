@@ -1,0 +1,65 @@
+DATE/TIME: 2016-03-26 23:52:38
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-03-26 23:52:39
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 3265
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;049683&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04968&lt;/Item&gt;
+		&lt;SpecialIcon&gt;Exclusive&lt;/SpecialIcon&gt;
+		&lt;Size&gt;3&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Juniper horizontalis &apos;MonGeo&apos; P.P.A.F.&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Juniper horizontalis &apos;MonGeo&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Jazzy Jewel&amp;#8482; Andorra Juniper&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage Color&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Barberry (Berberis); Rose (Rosa); Clematis (Clematis); Catmint (Nepeta); Russian Sage (Perovskia); Maiden Grass (Miscanthus&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 2 ft. tall, spreading to 6 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Thrives in average to lean, well-drained, sandy soils. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Intolerant of overly wet soils; tolerates hot, relatively dry conditions when established. As a groundcover, space plants 5-6 ft. apart; closer for faster coverage. Control weeds with mulch until plants fill in.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;3&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.54 gal. (9.61 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949434796&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Conifer; prized for foliage.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Exceptional bright green and gold-splashed foliage is arranged on a spreading form to create a showy and durable ground cover. Versatile for use as a rock garden accent or in the foreground of borders. Bright foliage becomes tinged with bronze and purple tones during the winter months, for an added color blast. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional deep watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Fall Color,Extreme Cold Hardiness,Easy Care,Dramatic Foliage Color,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Erosion Control,Deer Resistant&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Rock Garden,Mass Planting,Ground Cover,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Sat, 26 Mar 2016 23:52:37 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

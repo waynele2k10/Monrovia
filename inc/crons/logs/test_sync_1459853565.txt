@@ -1,0 +1,263 @@
+DATE/TIME: 2016-04-05 10:52:45
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-04-05 10:52:56
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 18074
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;097872&lt;/ItemSizeID&gt;
+		&lt;Item&gt;09787&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hydrangea paniculata &apos;PIIHP-I&apos; P.P.#23,387&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hydrangea paniculata &apos;PIIHP-I&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Baby Lace&amp;#174; Hydrangea&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dwarf Habit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Astilbe (Astilbe); Coral Bells (Heuchera); Dogwood (Cornus); Rose Of Sharon (Hibiscus); Viburnum (Viburnum)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 3 to 4 ft. tall and wide&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish an extensive root system. Feed regularly during the growing season with a general purpose fertilizer. Prune annually in late winter to promote vigorous new growth.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949384121&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer into early fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This attractive dwarf hydrangea is easy care and mildew resistant. Petite lacy white blooms stand out against dark green foliage. Wonderful cut or dried flower. Great for borders, accents, or mass planting. Thrives in bright sunny areas.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Requires regular watering to maintain consistently moist soil.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Acidic Soil,Fast Growing,Easy Care,Dwarf Plant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Urban Garden,Mass Planting,Container,Coastal Exposure,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;097872S&lt;/ItemSizeID&gt;
+		&lt;Item&gt;09787&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2S&lt;/Size&gt;
+		&lt;SizeDescription&gt;Super&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hydrangea paniculata &apos;PIIHP-I&apos; P.P.#23,387&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hydrangea paniculata &apos;PIIHP-I&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Baby Lace&amp;#174; Hydrangea&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dwarf Habit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Astilbe (Astilbe); Coral Bells (Heuchera); Dogwood (Cornus); Rose Of Sharon (Hibiscus); Viburnum (Viburnum)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 3 to 4 ft. tall and wide&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish an extensive root system. Feed regularly during the growing season with a general purpose fertilizer. Prune annually in late winter to promote vigorous new growth.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.00 gal. (7.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949428498&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer into early fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This attractive dwarf hydrangea is easy care and mildew resistant. Petite lacy white blooms stand out against dark green foliage. Wonderful cut or dried flower. Great for borders, accents, or mass planting. Thrives in bright sunny areas.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Requires regular watering to maintain consistently moist soil.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Acidic Soil,Fast Growing,Easy Care,Dwarf Plant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Urban Garden,Mass Planting,Container,Coastal Exposure,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;097875&lt;/ItemSizeID&gt;
+		&lt;Item&gt;09787&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hydrangea paniculata &apos;PIIHP-I&apos; P.P.#23,387&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hydrangea paniculata &apos;PIIHP-I&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Baby Lace&amp;#174; Hydrangea&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dwarf Habit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Astilbe (Astilbe); Coral Bells (Heuchera); Dogwood (Cornus); Rose Of Sharon (Hibiscus); Viburnum (Viburnum)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 3 to 4 ft. tall and wide&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish an extensive root system. Feed regularly during the growing season with a general purpose fertilizer. Prune annually in late winter to promote vigorous new growth.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949384060&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer into early fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This attractive dwarf hydrangea is easy care and mildew resistant. Petite lacy white blooms stand out against dark green foliage. Wonderful cut or dried flower. Great for borders, accents, or mass planting. Thrives in bright sunny areas.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Requires regular watering to maintain consistently moist soil.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Acidic Soil,Fast Growing,Easy Care,Dwarf Plant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Urban Garden,Mass Planting,Container,Coastal Exposure,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;413423&lt;/ItemSizeID&gt;
+		&lt;Item&gt;41342&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;3&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Rosa &apos;Meisaliza&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Rosa &apos;Meisaliza&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Best Kept Secret&amp;#8482; Rose&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Improved Disease Resistance&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Rounded, bushy and well-behaved shrub, fast growing 3-4 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish an extensive root system. Feed regularly during the growing season with a general purpose fertilizer. Prune annually in late winter to promote vigorous new growth.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;3&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.54 gal. (9.61 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949428573&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring to summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Amazing, soft pink, exhibition caliber blooms with a strong citrus fragrance. A compact, rounded shrub with dark green, glossy foliage. Excellent repeat-blooming and resistance to many common rose diseases such as black spot, mildew and rust. Perfect in a perennial or shrub border, container, or along pathways. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Improved Pest and Disease Resistance,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;404402&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40440&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Lagerstroemia indica &apos;Coral Filli&apos; P.P.# 14,317&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Lagerstroemia indica &apos;Coral Filli&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Coral Filli Crape Myrtle&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Repeat Bloomer&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 18 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Requires less frequent watering when established. Stems may die back in cold zones and regrow from roots in Spring. Feed with a general purpose fertilizer before new growth begins. Prune to shape.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949394069&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring to Fall&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A delightful dwarf Crape Myrtle with good cold hardiness, this Fleming Hybrid&amp;#8482; is perfect for border or container, reaching under 2 feet tall. A stunning re-bloomer bloomer from spring through fall. Showy purple autumn foliage. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Tolerates Poor Soils,Fall Color,Easy Care,Dwarf Plant,Deer Resistant,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Urban Garden,Mass Planting,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;404405&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40440&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Lagerstroemia indica &apos;Coral Filli&apos; P.P.# 14,317&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Lagerstroemia indica &apos;Coral Filli&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Coral Filli Crape Myrtle&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Repeat Bloomer&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 18 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Requires less frequent watering when established. Stems may die back in cold zones and regrow from roots in Spring. Feed with a general purpose fertilizer before new growth begins. Prune to shape.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949428511&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring to Fall&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A delightful dwarf Crape Myrtle with good cold hardiness, this Fleming Hybrid&amp;#8482; is perfect for border or container, reaching under 2 feet tall. A stunning re-bloomer bloomer from spring through fall. Showy purple autumn foliage. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Tolerates Poor Soils,Fall Color,Easy Care,Dwarf Plant,Deer Resistant,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Urban Garden,Mass Planting,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;406293&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40629&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;3&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Rosa x hybrida &apos;Meipojona&apos; P.P.#18,657&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Rosa x hybrida &apos;Meipojona&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Tequila Gold&amp;#8482; Rose&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Disease Resistant&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower, 5-6 ft. tall and 4-5 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Thrives in loamy, well-drained soil. Water deeply and regularly during the first growing season to establish a deep, extensive root system. Avoid overhead watering. Feed before new growth begins in spring; repeat mid-season. Mulch to retain moisture and keep roots cool. Clip spent flowers for a neat appearance.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;3&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.54 gal. (9.61 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949397947&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring to late summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Delightful bright, yellow flowers all season long with wonderful fragrance combined with exceptional disease resistance in a bushy yet compact form! Enjoy at the front of the border, in mixed perennial beds or in tubs on patio or balcony.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Improved Disease Resistance,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;413433&lt;/ItemSizeID&gt;
+		&lt;Item&gt;41343&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;3&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Rosa &apos;Meiradena&apos; PPTBS&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Rosa &apos;Meiradena&apos; PPTBS&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Icecap&amp;#8482; Rose&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Improved Disease Resistance&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Rounded, bushy and well-behaved shrub, fast growing 2-3 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish an extensive root system. Feed regularly during the growing season with a general purpose fertilizer. Prune annually in late winter to promote vigorous new growth.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;3&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.54 gal. (9.61 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949428580&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring to summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A showy display of dense, pure white flowers on a compact, rounded shrub. Excellent repeat-blooming and resistance to many common rose diseases such as black spot, mildew and rust. Perfect in a perennial or shrub border, container, or along pathways. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Improved Disease Resistance,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Tue, 05 Apr 2016 10:52:52 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

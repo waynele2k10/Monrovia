@@ -1,0 +1,297 @@
+DATE/TIME: 2016-01-22 00:32:38
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-01-22 00:32:51
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 21304
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;038281&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03828&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Geranium cinereum var. subcaulescens&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Geranium cinereum var. subcaulescens&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Black-Eyed Magenta Cranesbill&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Rock Garden Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Rock Garden,Firescaping/Fire Wise,Container,Border,Creeping Phlox (Phlox); Candytuft (Iberis); Thrift (Ameria); Sedum (Sedum); Blue Fescue (Festuca)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Spreading mound 6 to 8 in. tall, 12 to 15 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. As a groundcover, space plants 2 ft. to 3 ft. apart, (closer for faster coverage). Control weeds with mulch until the plants cover the area.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949382813&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Dainty, brilliant magenta flowers marked with black centers above lacy, dark green foliage. Red foliage in fall on this outstanding, long blooming addition to borders or rock gardens. Herbaceous perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Naturalizes Well,Easy Care,Dwarf Plant,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Rock Garden,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;038281S&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03828&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1S&lt;/Size&gt;
+		&lt;SizeDescription&gt;SuperOne&amp;#8482;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Geranium cinereum var. subcaulescens&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Geranium cinereum var. subcaulescens&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Black-Eyed Magenta Cranesbill&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Rock Garden Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Rock Garden,Firescaping/Fire Wise,Container,Border,Creeping Phlox (Phlox); Candytuft (Iberis); Thrift (Ameria); Sedum (Sedum); Blue Fescue (Festuca)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Spreading mound 6 to 8 in. tall, 12 to 15 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. As a ground cover, space plants 2 ft. to 3 ft. apart, (closer for faster coverage). Control weeds with mulch until the plants cover the area.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 gal. (3.79 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949036471&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Dainty, brilliant magenta flowers marked with black centers above lacy, dark green foliage. Red foliage in fall on this outstanding, long blooming addition to borders or rock gardens. Herbaceous perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Naturalizes Well,Easy Care,Dwarf Plant,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Rock Garden,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;038282&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03828&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Geranium cinereum var. subcaulescens&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Geranium cinereum var. subcaulescens&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Black-Eyed Magenta Cranesbill&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Rock Garden Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Rock Garden,Firescaping/Fire Wise,Container,Border,Creeping Phlox (Phlox); Candytuft (Iberis); Thrift (Ameria); Sedum (Sedum); Blue Fescue (Festuca)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Spreading mound 6 to 8 in. tall, 12 to 15 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. As a groundcover, space plants 2 ft. to 3 ft. apart, (closer for faster coverage). Control weeds with mulch until the plants cover the area.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949382820&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Dainty, brilliant magenta flowers marked with black centers above lacy, dark green foliage. Red foliage in fall on this outstanding, long blooming addition to borders or rock gardens. Herbaceous perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Naturalizes Well,Easy Care,Dwarf Plant,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Rock Garden,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;03828UT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03828&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;UT&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Geranium cinereum var. subcaulescens&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Geranium cinereum var. subcaulescens&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Black-Eyed Magenta Cranesbill&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Rock Garden Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Rock Garden,Firescaping/Fire Wise,Container,Border,Creeping Phlox (Phlox); Candytuft (Iberis); Thrift (Ameria); Sedum (Sedum); Blue Fescue (Festuca)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Spreading mound 6 to 8 in. tall, 12 to 15 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. As a groundcover, space plants 2 ft. to 3 ft. apart, (closer for faster coverage). Control weeds with mulch until the plants cover the area.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;QT&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 qt. (946 mL)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949010808&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Dainty, brilliant magenta flowers marked with black centers above lacy, dark green foliage. Red foliage in fall on this outstanding, long blooming addition to borders or rock gardens. Herbaceous perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Naturalizes Well,Easy Care,Dwarf Plant,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Rock Garden,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;068241&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06824&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hosta &apos;Empress Wu&apos; P.P. #20,774&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hosta &apos;Empress Wu&apos; P.P. #20,774&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Empress Wu Hosta&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Shade Loving&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Border,Container,Woodland Garden,Coral Bells (Heuchera); Ligularia (Ligularia); Solomon&apos;s Seal (Polygonatum); Lungwort (Pulmonaria); Bleeding Heart (Dicentra)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 4 ft. tall and 4 to 5 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Prefers rich, moist well-drained soil. Water regularly during first growing season to establish a deep, extensive root system; requires less water once established. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949361672&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;The world&apos;s largest hosta! Over four feet at maturity with gigantic, deeply veined, two-foot leaves. Pale lavender blooms appear just above the foliage in early to midsummer. An outstanding focal point and conversation piece in your shade garden.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade to partial sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Best with regular water - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Shade Loving,Fast Growing&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Border,Container,Woodland Garden&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;068241S&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06824&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1S&lt;/Size&gt;
+		&lt;SizeDescription&gt;SuperOne&amp;#8482;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hosta &apos;Empress Wu&apos; P.P. #20,774&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hosta &apos;Empress Wu&apos; P.P. #20,774&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Empress Wu Hosta&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Shade Loving&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Border,Container,Woodland Garden,Coral Bells (Heuchera); Ligularia (Ligularia); Solomon&apos;s Seal (Polygonatum); Lungwort (Pulmonaria); Bleeding Heart (Dicentra)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 4 ft. tall and 4 to 5 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Prefers rich, moist well-drained soil. Water regularly during first growing season to establish a deep, extensive root system; requires less water once established. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 gal. (3.79 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949428443&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;The world&apos;s largest hosta! Over four feet at maturity with gigantic, deeply veined, two-foot leaves. Pale lavender blooms appear just above the foliage in early to midsummer. An outstanding focal point and conversation piece in your shade garden.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade to partial sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Best with regular water - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Shade Loving,Fast Growing&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Border,Container,Woodland Garden&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;068242&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06824&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hosta &apos;Empress Wu&apos; P.P. #20,774&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hosta &apos;Empress Wu&apos; P.P. #20,774&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Empress Wu Hosta&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Shade Loving&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Border,Container,Woodland Garden,Coral Bells (Heuchera); Ligularia (Ligularia); Solomon&apos;s Seal (Polygonatum); Lungwort (Pulmonaria); Bleeding Heart (Dicentra)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 4 ft. tall and 4 to 5 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Prefers rich, moist well-drained soil. Water regularly during first growing season to establish a deep, extensive root system; requires less water once established. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949324370&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;The world&apos;s largest hosta! Over four feet at maturity with gigantic, deeply veined, two-foot leaves. Pale lavender blooms appear just above the foliage in early to midsummer. An outstanding focal point and conversation piece in your shade garden.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade to partial sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Best with regular water - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Shade Loving,Fast Growing&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Border,Container,Woodland Garden&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;068245&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06824&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hosta &apos;Empress Wu&apos; P.P. #20,774&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hosta &apos;Empress Wu&apos; P.P. #20,774&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Empress Wu Hosta&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Shade Loving&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Border,Container,Woodland Garden,Coral Bells (Heuchera); Ligularia (Ligularia); Solomon&apos;s Seal (Polygonatum); Lungwort (Pulmonaria); Bleeding Heart (Dicentra)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 4 ft. tall and 4 to 5 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Prefers rich, moist well-drained soil. Water regularly during first growing season to establish a deep, extensive root system; requires less water once established. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949354032&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;The world&apos;s largest hosta! Over four feet at maturity with gigantic, deeply veined, two-foot leaves. Pale lavender blooms appear just above the foliage in early to midsummer. An outstanding focal point and conversation piece in your shade garden.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade to partial sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Best with regular water - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Shade Loving,Fast Growing&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Border,Container,Woodland Garden&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;06824M&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06824&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;M&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hosta &apos;Empress Wu&apos; P.P. #20,774&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hosta &apos;Empress Wu&apos; P.P. #20,774&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Empress Wu Hosta&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Shade Loving&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Border,Container,Woodland Garden,Coral Bells (Heuchera); Ligularia (Ligularia); Solomon&apos;s Seal (Polygonatum); Lungwort (Pulmonaria); Bleeding Heart (Dicentra)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 4 ft. tall and 4 to 5 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Prefers rich, moist well-drained soil. Water regularly during first growing season to establish a deep, extensive root system; requires less water once established. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;10&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;7.97 gal. (30.17 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949324387&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;The world&apos;s largest hosta! Over four feet at maturity with gigantic, deeply veined, two-foot leaves. Pale lavender blooms appear just above the foliage in early to midsummer. An outstanding focal point and conversation piece in your shade garden.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade to partial sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Best with regular water - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Shade Loving,Fast Growing&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Border,Container,Woodland Garden&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Fri, 22 Jan 2016 00:32:50 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

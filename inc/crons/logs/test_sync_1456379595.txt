@@ -1,0 +1,268 @@
+DATE/TIME: 2016-02-25 05:53:15
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-02-25 05:53:25
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 18418
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;405981&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40598&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Rhododendron &apos;Skookum&apos; (H-1)&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Rhododendron &apos;Skookum&apos; (H-1)&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Skookum Rhododendron&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Spring Flowering&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Hydrangea (Hydrangea); Holly (Ilex); Astilbe (Astilbe); Bleeding Heart (Dicentra); Coral Bells (Heuchera)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 3 to 4 ft. tall and 4 to 5 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide well-drained, acidic soil, rich in organic matter. Avoid harsh sun and wind. Mulch to keep roots cool. Water regularly during first growing season to establish a deep, extensive root system. Feed with an acid fertilizer after bloom. Remove spent blooms for a cleaner look.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949396698&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A very hardy, compact rhododendron with bright red flowers and visible white filaments cover very dense, deep green foliage. Excellent pick as an evergreen hedge, or as a specimen for showy spring color.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Acidic Soil,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Privacy Screen,Hedge,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;405982&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40598&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Rhododendron &apos;Skookum&apos; (H-1)&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Rhododendron &apos;Skookum&apos; (H-1)&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Skookum Rhododendron&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Spring Flowering&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Hydrangea (Hydrangea); Holly (Ilex); Astilbe (Astilbe); Bleeding Heart (Dicentra); Coral Bells (Heuchera)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 3 to 4 ft. tall and 4 to 5 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide well-drained, acidic soil, rich in organic matter. Avoid harsh sun and wind. Mulch to keep roots cool. Water regularly during first growing season to establish a deep, extensive root system. Feed with an acid fertilizer after bloom. Remove spent blooms for a cleaner look.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949396704&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A very hardy, compact rhododendron with bright red flowers and visible white filaments cover very dense, deep green foliage. Excellent pick as an evergreen hedge, or as a specimen for showy spring color.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Acidic Soil,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Privacy Screen,Hedge,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;405983&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40598&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;3&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Rhododendron &apos;Skookum&apos; (H-1)&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Rhododendron &apos;Skookum&apos; (H-1)&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Skookum Rhododendron&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Spring Flowering&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Hydrangea (Hydrangea); Holly (Ilex); Astilbe (Astilbe); Bleeding Heart (Dicentra); Coral Bells (Heuchera)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 3 to 4 ft. tall and 4 to 5 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide well-drained, acidic soil, rich in organic matter. Avoid harsh sun and wind. Mulch to keep roots cool. Water regularly during first growing season to establish a deep, extensive root system. Feed with an acid fertilizer after bloom. Remove spent blooms for a cleaner look.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;3&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.54 gal. (9.61 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949396728&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A very hardy, compact rhododendron with bright red flowers and visible white filaments cover very dense, deep green foliage. Excellent pick as an evergreen hedge, or as a specimen for showy spring color.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Acidic Soil,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Privacy Screen,Hedge,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;405985&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40598&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Rhododendron &apos;Skookum&apos; (H-1)&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Rhododendron &apos;Skookum&apos; (H-1)&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Skookum Rhododendron&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Spring Flowering&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Hydrangea (Hydrangea); Holly (Ilex); Astilbe (Astilbe); Bleeding Heart (Dicentra); Coral Bells (Heuchera)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 3 to 4 ft. tall and 4 to 5 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide well-drained, acidic soil, rich in organic matter. Avoid harsh sun and wind. Mulch to keep roots cool. Water regularly during first growing season to establish a deep, extensive root system. Feed with an acid fertilizer after bloom. Remove spent blooms for a cleaner look.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949416969&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A very hardy, compact rhododendron with bright red flowers and visible white filaments cover very dense, deep green foliage. Excellent pick as an evergreen hedge, or as a specimen for showy spring color.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Acidic Soil,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Privacy Screen,Hedge,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;404311&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40431&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Kalmia latifolia &apos;Pink Charm&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Kalmia latifolia &apos;Pink Charm&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Pink Charm Mountain Laurel&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Spring Flowering&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Lily of the Valley Shrub (Pieris); Blueberry (Vaccinium); Azalea (Azalea); Holly (Ilex); Hydrangea (Hydrangea)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Upright habit to 10 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Provide well-drained soil, rich in organic matter. Feed with an acid fertilizer after bloom. Keep roots cool with a thick layer of mulch.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949393963&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Deep pink buds open to rich pink flowers with a narrow dark pink ring near the base of the corolla. Ideal for a lightly shaded, woodland setting, providing year round protection for birds. Effective in mixed shrub borders.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly to maintain consistently moist soil.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;High&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Acidic Soil,North American Native Selection,Deer Resistant,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Rock Garden,Mass Planting,Firescaping/Fire Wise&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;404312&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40431&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Kalmia latifolia &apos;Pink Charm&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Kalmia latifolia &apos;Pink Charm&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Pink Charm Mountain Laurel&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Spring Flowering&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Lily of the Valley Shrub (Pieris); Blueberry (Vaccinium); Azalea (Azalea); Holly (Ilex); Hydrangea (Hydrangea)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Upright habit to 10 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Provide well-drained soil, rich in organic matter. Feed with an acid fertilizer after bloom. Keep roots cool with a thick layer of mulch.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949393987&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Deep pink buds open to rich pink flowers with a narrow dark pink ring near the base of the corolla. Ideal for a lightly shaded, woodland setting, providing year round protection for birds. Effective in mixed shrub borders.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly to maintain consistently moist soil.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;High&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Acidic Soil,North American Native Selection,Deer Resistant,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Rock Garden,Mass Planting,Firescaping/Fire Wise&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;404315&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40431&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Kalmia latifolia &apos;Pink Charm&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Kalmia latifolia &apos;Pink Charm&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Pink Charm Mountain Laurel&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Spring Flowering&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Lily of the Valley Shrub (Pieris); Blueberry (Vaccinium); Azalea (Azalea); Holly (Ilex); Hydrangea (Hydrangea)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Upright habit to 10 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Provide well-drained soil, rich in organic matter. Feed with an acid fertilizer after bloom. Keep roots cool with a thick layer of mulch.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949394007&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Deep pink buds open to rich pink flowers with a narrow dark pink ring near the base of the corolla. Ideal for a lightly shaded, woodland setting, providing year round protection for birds. Effective in mixed shrub borders.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly to maintain consistently moist soil.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;High&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Acidic Soil,North American Native Selection,Deer Resistant,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Rock Garden,Mass Planting,Firescaping/Fire Wise&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;404317&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40431&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;7&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Kalmia latifolia &apos;Pink Charm&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Kalmia latifolia &apos;Pink Charm&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Pink Charm Mountain Laurel&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Spring Flowering&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Lily of the Valley Shrub (Pieris); Blueberry (Vaccinium); Azalea (Azalea); Holly (Ilex); Hydrangea (Hydrangea)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Upright habit to 10 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Provide well-drained soil, rich in organic matter. Feed with an acid fertilizer after bloom. Keep roots cool with a thick layer of mulch.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;7&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;6.20 gal. (23.47 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949418000&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Deep pink buds open to rich pink flowers with a narrow dark pink ring near the base of the corolla. Ideal for a lightly shaded, woodland setting, providing year round protection for birds. Effective in mixed shrub borders.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly to maintain consistently moist soil.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;High&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Acidic Soil,North American Native Selection,Deer Resistant,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Rock Garden,Mass Planting,Firescaping/Fire Wise&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 25 Feb 2016 05:53:24 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

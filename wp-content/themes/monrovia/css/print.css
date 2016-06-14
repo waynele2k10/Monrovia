@@ -1,0 +1,69 @@
+/******** Print CSS *******/
+header nav, footer, #right-sidebar, #facebook_contest_banner, .navigation-secondary, .breadcrumb, .no-print{
+	display:none;
+}
+
+img{
+	max-width:100%;
+}
+	/* logo */
+.logo {
+	margin:35px 0px 25px 0px;
+	width:300px;
+	
+}
+
+.print-this{
+	display:block;
+}
+
+.list-plant .print-this{
+	margin-bottom:30px;
+	padding-bottom:20px;
+	border-bottom:2px solid #000;
+	font-size:14px;
+}
+
+.list-plant .print-this span{
+	width:150px;
+	display:inline-block;
+}
+
+.list-plant{
+	page-break-inside:avoid;
+}
+
+a[href]:after {
+		content:" ";
+	}
+	abbr[title]:after {
+		content:" ";
+	}
+	.ir a:after,
+	a[href^="javascript:"]:after,
+	a[href^="#"]:after {
+		content:"";
+	}
+.center{
+	text-align:center;
+}
+
+.left{
+	float:left;
+}
+
+.right{
+	float:right;
+}
+	
+	.clear:before,
+.clear:after {
+    content:' ';
+    display:table;
+}
+
+.clear:after {
+    clear:both;
+}
+.clear {
+ 

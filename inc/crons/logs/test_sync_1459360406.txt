@@ -1,0 +1,152 @@
+DATE/TIME: 2016-03-30 17:53:26
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-03-30 17:53:31
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 9955
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;414225BH&lt;/ItemSizeID&gt;
+		&lt;Item&gt;41422&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5BH&lt;/Size&gt;
+		&lt;SizeDescription&gt;Bush&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Eucalyptus &apos;Moon Lagoon&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Eucalyptus &apos;Moon Lagoon&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Moon Lagoon Dwarf Eucalyptus&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Easy Care Shrub&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Bottlebrush (Callistemon); California Lilac (Ceanothus); Heavenly Bamboo (Nandina); Aloe (Aloe); Cordyline (Cordyline)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 6 to 10 ft. tall and 8 to 10 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide well-drained, slightly alkaline soil. Follow a regular watering schedule during first growing season to establish a deep, extensive root system. Drought tolerant once established in the landscape; water deeply, less frequently. Feed before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949129135&lt;/UPC&gt;
+		&lt;FlowerTime&gt;White flowers, spring to summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Unique, waterwise dwarf shrub with exceptional blue new foliage. Useful as a colorful, easy-care hedge, screen or low windbreak. Leaves mature to blue-green. Easily kept to four feet tall. Periodic shearing promotes the showiest new foliage. Excellent for cut flower arrangements! Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Easy Care,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Deer Resistant&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Privacy Screen,Mass Planting,Hedge,Container,Coastal Exposure&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;412791&lt;/ItemSizeID&gt;
+		&lt;Item&gt;41279&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Wisteria brachybotrys &apos;Shiro-Beni&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Wisteria brachybotrys &apos;Shiro-Beni&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Shiro-Beni Silky Wisteria&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rose (Rosa); Daylily (Hemerocallis); Shasta Daisy (Chrysanthemum); Phlox (Phlox); Salvia (Salvia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast grower with stems 16 ft. long or more.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Water regularly during first growing season to establish a deep, extensive root system. Once established, water deeply and less frequently. Take care not to overwater. Feed with a general purpose fertilizer. Provide support such as a trellis or arbor. Prune annually to control size.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949426005&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring to early summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Lovely racemes, 4 to 60-inches long, thickly covered with dark pink buds that open to highly scented soft pink blooms all at once. A profuse spring bloomer, especially as it ages. An excellent vine for trellis and espalier. Works well in containers and is a wise choice for smaller gardens.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Privacy Screen,Espalier,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;412795&lt;/ItemSizeID&gt;
+		&lt;Item&gt;41279&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Wisteria brachybotrys &apos;Shiro-Beni&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Wisteria brachybotrys &apos;Shiro-Beni&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Shiro-Beni Silky Wisteria&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rose (Rosa); Daylily (Hemerocallis); Shasta Daisy (Chrysanthemum); Phlox (Phlox); Salvia (Salvia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast grower with stems 16 ft. long or more.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Water regularly during first growing season to establish a deep, extensive root system. Once established, water deeply and less frequently. Take care not to overwater. Feed with a general purpose fertilizer. Provide support such as a trellis or arbor. Prune annually to control size.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949426029&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring to early summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Lovely racemes, 4 to 60-inches long, thickly covered with dark pink buds that open to highly scented soft pink blooms all at once. A profuse spring bloomer, especially as it ages. An excellent vine for trellis and espalier. Works well in containers and is a wise choice for smaller gardens.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Privacy Screen,Espalier,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;412795ES&lt;/ItemSizeID&gt;
+		&lt;Item&gt;41279&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5ES&lt;/Size&gt;
+		&lt;SizeDescription&gt;Espalier&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Wisteria brachybotrys &apos;Shiro-Beni&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Wisteria brachybotrys &apos;Shiro-Beni&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Shiro-Beni Silky Wisteria&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rose (Rosa); Daylily (Hemerocallis); Shasta Daisy (Chrysanthemum); Phlox (Phlox); Salvia (Salvia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast grower with stems 16 ft. long or more.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Water regularly during first growing season to establish a deep, extensive root system. Once established, water deeply and less frequently. Take care not to overwater. Feed with a general purpose fertilizer. Provide support such as a trellis or arbor. Prune annually to control size.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949436585&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring to early summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Lovely racemes, 4 to 60-inches long, thickly covered with dark pink buds that open to highly scented soft pink blooms all at once. A profuse spring bloomer, especially as it ages. An excellent vine for trellis and espalier. Works well in containers and is a wise choice for smaller gardens.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Privacy Screen,Espalier,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 30 Mar 2016 17:53:31 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

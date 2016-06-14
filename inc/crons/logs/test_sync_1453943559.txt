@@ -1,0 +1,326 @@
+DATE/TIME: 2016-01-28 01:12:39
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-01-28 01:12:52
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 24441
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;035231&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03523&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Berberis thunbergii &apos;Goruzam&apos; P.P. #16,203&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Berberis thunbergii &apos;Goruzam&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Golden Ruby&amp;#174; Barberry&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dwarf habit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Wildlife Garden,Urban Garden,Mass Planting,Hedge,Firescaping/Fire Wise,Border,Barrier,Boxwood (Buxus); Cypress (Chamaecyparis); Potentilla (Potentilla); Spirea (Spiraea); Weigela (Weigela)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Forms a dense, rounded shrub 2 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949213865&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicuous&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Handsome, compact shrub with striking coral-orange foliage, accented with gold margins late in the season. Excellent as an accent, or plant in groupings in a minimal-care landscape. Rarely produces viable seed. Vigorous and hardy into USDA zone 3 with winter protection. Deciduous&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Urban Pollution,Tolerates Road Salt,Gift Plant,Easy Care,Dwarf Plant,Dramatic Foliage Color,Dense Habit,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Urban Garden,Mass Planting,Hedge,Firescaping/Fire Wise,Border,Barrier&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;035231S&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03523&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1S&lt;/Size&gt;
+		&lt;SizeDescription&gt;SuperOne&amp;#8482;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Berberis thunbergii &apos;Goruzam&apos; P.P. #16,203&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Berberis thunbergii &apos;Goruzam&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Golden Ruby&amp;#174; Barberry&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dwarf habit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Wildlife Garden,Urban Garden,Mass Planting,Hedge,Firescaping/Fire Wise,Border,Barrier,Boxwood (Buxus); Cypress (Chamaecyparis); Potentilla (Potentilla); Spirea (Spiraea); Weigela (Weigela)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Forms a dense, rounded shrub 2 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 gal. (3.79 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949214916&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicuous&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Handsome, compact shrub with striking coral-orange foliage, accented with gold margins late in the season. Excellent as an accent, or plant in groupings in a minimal-care landscape. Rarely produces viable seed. Vigorous and hardy into USDA zone 3 with winter protection. Deciduous&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Urban Pollution,Tolerates Road Salt,Gift Plant,Easy Care,Dwarf Plant,Dramatic Foliage Color,Dense Habit,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Urban Garden,Mass Planting,Hedge,Firescaping/Fire Wise,Border,Barrier&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;035232&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03523&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Berberis thunbergii &apos;Goruzam&apos; P.P. #16,203&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Berberis thunbergii &apos;Goruzam&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Golden Ruby&amp;#174; Barberry&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dwarf habit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Wildlife Garden,Urban Garden,Mass Planting,Hedge,Firescaping/Fire Wise,Border,Barrier,Boxwood (Buxus); Cypress (Chamaecyparis); Potentilla (Potentilla); Spirea (Spiraea); Weigela (Weigela)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Forms a dense, rounded shrub 2 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949214626&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicuous&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Handsome, compact shrub with striking coral-orange foliage, accented with gold margins late in the season. Excellent as an accent, or plant in groupings in a minimal-care landscape. Rarely produces viable seed. Vigorous and hardy into USDA zone 3 with winter protection. Deciduous&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Urban Pollution,Tolerates Road Salt,Gift Plant,Easy Care,Dwarf Plant,Dramatic Foliage Color,Dense Habit,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Urban Garden,Mass Planting,Hedge,Firescaping/Fire Wise,Border,Barrier&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;035233&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03523&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;3&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Berberis thunbergii &apos;Goruzam&apos; P.P. #16,203&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Berberis thunbergii &apos;Goruzam&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Golden Ruby&amp;#174; Barberry&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dwarf habit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Wildlife Garden,Urban Garden,Mass Planting,Hedge,Firescaping/Fire Wise,Border,Barrier,Boxwood (Buxus); Cypress (Chamaecyparis); Potentilla (Potentilla); Spirea (Spiraea); Weigela (Weigela)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Forms a dense, rounded shrub 24 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;3&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.54 gal. (9.61 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949283882&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicuous&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Handsome, compact shrub with striking coral-orange foliage, accented with gold margins late in the season. Excellent as an accent, or plant in groupings in a minimal-care landscape. Rarely produces viable seed. Vigorous and hardy into USDA zone 3 with winter protection. Deciduous&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Urban Pollution,Tolerates Road Salt,Gift Plant,Easy Care,Dwarf Plant,Dramatic Foliage Color,Dense Habit,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Urban Garden,Mass Planting,Hedge,Firescaping/Fire Wise,Border,Barrier&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;035235&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03523&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Berberis thunbergii &apos;Goruzam&apos; P.P. #16,203&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Berberis thunbergii &apos;Goruzam&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Golden Ruby&amp;#174; Barberry&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dwarf habit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Wildlife Garden,Urban Garden,Mass Planting,Hedge,Firescaping/Fire Wise,Border,Barrier,Boxwood (Buxus); Cypress (Chamaecyparis); Potentilla (Potentilla); Spirea (Spiraea); Weigela (Weigela)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Forms a dense, rounded shrub 2 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949213278&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicuous&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Handsome, compact shrub with striking coral-orange foliage, accented with gold margins late in the season. Excellent as an accent, or plant in groupings in a minimal-care landscape. Rarely produces viable seed. Vigorous and hardy into USDA zone 3 with winter protection. Deciduous&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Urban Pollution,Tolerates Road Salt,Gift Plant,Easy Care,Dwarf Plant,Dramatic Foliage Color,Dense Habit,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Urban Garden,Mass Planting,Hedge,Firescaping/Fire Wise,Border,Barrier&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;035239&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03523&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;9&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Berberis thunbergii &apos;Goruzam&apos; P.P. #16,203&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Berberis thunbergii &apos;Goruzam&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Golden Ruby&amp;#174; Barberry&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dwarf habit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Wildlife Garden,Urban Garden,Mass Planting,Hedge,Firescaping/Fire Wise,Border,Barrier,Boxwood (Buxus); Cypress (Chamaecyparis); Potentilla (Potentilla); Spirea (Spiraea); Weigela (Weigela)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Forms a dense, rounded shrub 2 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;15&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;12.07 gal. (45.69 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949436035&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicuous&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Handsome, compact shrub with striking coral-orange foliage, accented with gold margins late in the season. Excellent as an accent, or plant in groupings in a minimal-care landscape. Rarely produces viable seed. Vigorous and hardy into USDA zone 3 with winter protection. Deciduous&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Urban Pollution,Tolerates Road Salt,Gift Plant,Easy Care,Dwarf Plant,Dramatic Foliage Color,Dense Habit,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Urban Garden,Mass Planting,Hedge,Firescaping/Fire Wise,Border,Barrier&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;03523M&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03523&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;M&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Berberis thunbergii &apos;Goruzam&apos; P.P. #16,203&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Berberis thunbergii &apos;Goruzam&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Golden Ruby&amp;#174; Barberry&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dwarf habit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Wildlife Garden,Urban Garden,Mass Planting,Hedge,Firescaping/Fire Wise,Border,Barrier,Boxwood (Buxus); Cypress (Chamaecyparis); Potentilla (Potentilla); Spirea (Spiraea); Weigela (Weigela)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Forms a dense, rounded shrub 2 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;10&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;7.97 gal. (30.17 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949358764&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicuous&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Handsome, compact shrub with striking coral-orange foliage, accented with gold margins late in the season. Excellent as an accent, or plant in groupings in a minimal-care landscape. Rarely produces viable seed. Vigorous and hardy into USDA zone 3 with winter protection. Deciduous&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Urban Pollution,Tolerates Road Salt,Gift Plant,Easy Care,Dwarf Plant,Dramatic Foliage Color,Dense Habit,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Urban Garden,Mass Planting,Hedge,Firescaping/Fire Wise,Border,Barrier&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;03523UT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03523&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;UT&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Berberis thunbergii &apos;Goruzam&apos; P.P. #16,203&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Berberis thunbergii &apos;Goruzam&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Golden Ruby&amp;#174; Barberry&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dwarf habit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Wildlife Garden,Urban Garden,Mass Planting,Hedge,Firescaping/Fire Wise,Border,Barrier,Boxwood (Buxus); Cypress (Chamaecyparis); Potentilla (Potentilla); Spirea (Spiraea); Weigela (Weigela)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Forms a dense, rounded shrub 24 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;QT&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 qt. (946 mL)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949320600&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicuous&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Handsome, compact shrub with striking coral-orange foliage, accented with gold margins late in the season. Excellent as an accent, or plant in groupings in a minimal-care landscape. Rarely produces viable seed. Vigorous and hardy into USDA zone 3 with winter protection. Deciduous&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Urban Pollution,Tolerates Road Salt,Gift Plant,Easy Care,Dwarf Plant,Dramatic Foliage Color,Dense Habit,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Urban Garden,Mass Planting,Hedge,Firescaping/Fire Wise,Border,Barrier&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;033975&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03397&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Ginkgo biloba &apos;Jade Butterfly&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Ginkgo biloba &apos;Jade Butterfly&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Jade Butterfly Maidenhair Tree&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Fall Color&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Urban Garden,Specimen,Firescaping/Fire Wise,Beech (Fagus); Lilac (Syringa); Weigela (Weigela); Dove Tree (Davidia); Daylily (Hemerocallis&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 12 to 15 ft. tall, up to 10 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949224076&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicuous pollen-cones in mid-spring.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A dwarf, vase-shaped male Ginkgo with bright green leaves and lovely gold fall color. Greenish-yellow flowers appear in mid-spring. Its slow growing, dense habit makes it a striking specimen. Deciduous&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly- weekly or more often in extreme heat; less frequently when established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Fall Color,Easy Care,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Urban Garden,Specimen,Firescaping/Fire Wise&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;033977&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03397&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;7&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Ginkgo biloba &apos;Jade Butterfly&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Ginkgo biloba &apos;Jade Butterfly&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Jade Butterfly Maidenhair Tree&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Fall Color&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Urban Garden,Specimen,Firescaping/Fire Wise,Beech (Fagus); Lilac (Syringa); Weigela (Weigela); Dove Tree (Davidia); Daylily (Hemerocallis&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 12 to 15 ft. tall, up to 10 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;7&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;6.20 gal. (23.47 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949358771&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicuous pollen-cones in mid-spring.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A dwarf, vase-shaped male Ginkgo with bright green leaves and lovely gold fall color. Greenish-yellow flowers appear in mid-spring. Its slow growing, dense habit makes it a striking specimen. Deciduous&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly- weekly or more often in extreme heat; less frequently when established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Fall Color,Easy Care,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Urban Garden,Specimen,Firescaping/Fire Wise&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 28 Jan 2016 01:12:52 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

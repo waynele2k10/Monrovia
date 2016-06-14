@@ -1,0 +1,239 @@
+DATE/TIME: 2016-02-04 06:12:39
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-02-04 06:12:54
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 18549
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;028841&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02884&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Clivia miniata &apos;Belgian Hybrid Yellow&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Clivia miniata &apos;Belgian Hybrid Yellow&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Belgian Hybrid Yellow Bush Lily&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Shade Loving&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Urban Garden,Mass Planting,Houseplant,Firescaping/Fire Wise,Dry Shade,Container,Border,Fuchsia (Fuchsia); Cast Iron Plant (Aspidistra); Elephant Ears (Colocasia); Coral Bells (Heuchera); Fatsia (Fatsia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate growing 2 ft tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Avoid constantly wet soils. Tolerates dry shade conditions once established. Clumps can be divided every 3 to 4 years, after flowering. May be overwintered indoors in cold climates.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949065068&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late winter to early spring.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Rare and wonderful bright yellow flowered form. Showy, broad, dark green, strap-like leaves form an attractive clump. Rounded clusters of up to 60 yellow flowers on tall stems make it an absolutely gorgeous accent, border plant or container specimen. Decorative seedpods often follow the blooms. Highly durable and versatile, this is a great plant for dry shade settings. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly; allow soil to dry slightly between watering intervals.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Tolerates Acidic Soil,Shade Loving,Ornamental Berries,Easy Care,Clump Forming&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Urban Garden,Mass Planting,Houseplant,Firescaping/Fire Wise,Dry Shade,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;028841S&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02884&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1S&lt;/Size&gt;
+		&lt;SizeDescription&gt;SuperOne&amp;#8482;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Clivia miniata &apos;Belgian Hybrid Yellow&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Clivia miniata &apos;Belgian Hybrid Yellow&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Belgian Hybrid Yellow Bush Lily&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Shade Loving&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Urban Garden,Mass Planting,Houseplant,Firescaping/Fire Wise,Dry Shade,Container,Border,Fuchsia (Fuchsia); Cast Iron Plant (Aspidistra); Elephant Ears (Colocasia); Coral Bells (Heuchera); Fatsia (Fatsia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate growing 2 ft tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Great plant for dry shade. Divide clumps every 2 to 3 years after flowering in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 gal. (3.79 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949065105&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late winter to early spring.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Rare and wonderful bright yellow flowered form. Showy, broad, dark green, strap-like leaves form an attractive clump. Rounded clusters of up to 60 yellow flowers on tall stems make it an absolutely gorgeous accent, border plant or container specimen. Decorative seedpods often follow the blooms. Highly durable and versatile, this is a great plant for dry shade settings. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly; allow soil to dry slightly between watering intervals.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Tolerates Acidic Soil,Shade Loving,Ornamental Berries,Easy Care,Clump Forming&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Urban Garden,Mass Planting,Houseplant,Firescaping/Fire Wise,Dry Shade,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;028842&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02884&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Clivia miniata &apos;Belgian Hybrid Yellow&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Clivia miniata &apos;Belgian Hybrid Yellow&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Belgian Hybrid Yellow Bush Lily&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Shade Loving&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Urban Garden,Mass Planting,Houseplant,Firescaping/Fire Wise,Dry Shade,Container,Border,Fuchsia (Fuchsia); Cast Iron Plant (Aspidistra); Elephant Ears (Colocasia); Coral Bells (Heuchera); Fatsia (Fatsia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate growing 2 ft tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Avoid constantly wet soils. Tolerates dry shade conditions once established. Clumps can be divided every 3 to 4 years, after flowering. May be overwintered indoors in cold climates.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949065099&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late winter to early spring.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Rare and wonderful bright yellow flowered form. Showy, broad, dark green, strap-like leaves form an attractive clump. Rounded clusters of up to 60 yellow flowers on tall stems make it an absolutely gorgeous accent, border plant or container specimen. Decorative seedpods often follow the blooms. Highly durable and versatile, this is a great plant for dry shade settings. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly; allow soil to dry slightly between watering intervals.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Tolerates Acidic Soil,Shade Loving,Ornamental Berries,Easy Care,Clump Forming&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Urban Garden,Mass Planting,Houseplant,Firescaping/Fire Wise,Dry Shade,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;028845&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02884&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Clivia miniata &apos;Belgian Hybrid Yellow&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Clivia miniata &apos;Belgian Hybrid Yellow&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Belgian Hybrid Yellow Bush Lily&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Shade Loving&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Urban Garden,Mass Planting,Houseplant,Firescaping/Fire Wise,Dry Shade,Container,Border,Fuchsia (Fuchsia); Cast Iron Plant (Aspidistra); Elephant Ears (Colocasia); Coral Bells (Heuchera); Fatsia (Fatsia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate growing 2 ft tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Great plant for dry shade. Divide clumps every 2 to 3 years after flowering in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949065082&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late winter to early spring.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Rare and wonderful bright yellow flowered form. Showy, broad, dark green, strap-like leaves form an attractive clump. Rounded clusters of up to 60 yellow flowers on tall stems make it an absolutely gorgeous accent, border plant or container specimen. Decorative seedpods often follow the blooms. Highly durable and versatile, this is a great plant for dry shade settings. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly; allow soil to dry slightly between watering intervals.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Tolerates Acidic Soil,Shade Loving,Ornamental Berries,Easy Care,Clump Forming&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Urban Garden,Mass Planting,Houseplant,Firescaping/Fire Wise,Dry Shade,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;030441&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03044&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Clivia miniata &apos;Belgian Hybrid Orange&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Clivia miniata &apos;Belgian Hybrid Orange&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Belgian Hybrid Orange Bush Lily&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Shade Loving&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Dry Shade,Woodland Garden,Mass Planting,Houseplant,Container,Border,Fuchsia (Fuchsia); Cast Iron Plant (Aspidistra); Elephant Ears (Colocasia); Japanese Forest Grass (Hakonechloa); Fatsia (Fatsia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate growing 18 to 30 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Tolerates dry shade conditions when established. Ideal in deep to dappled shade. Protect from harsh afternoon sun. Divide clumps every 2 to 3 years after flowering in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949068038&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Showy, broad, dark green, strap-like leaves are wider and shorter than other varieties. Rounded clusters of up to 60 vivid orange flowers on tall stems make this an absolutely gorgeous accent, border plant or container specimen. Great plant for dry shade settings. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full to partial shade&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly; allow soil to dry slightly between watering intervals.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Tolerates Acidic Soil,Shade Loving,Clump Forming,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Dry Shade,Woodland Garden,Mass Planting,Houseplant,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;030442&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03044&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Clivia miniata &apos;Belgian Hybrid Orange&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Clivia miniata &apos;Belgian Hybrid Orange&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Belgian Hybrid Orange Bush Lily&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Shade Loving&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Dry Shade,Woodland Garden,Mass Planting,Houseplant,Container,Border,Fuchsia (Fuchsia); Cast Iron Plant (Aspidistra); Elephant Ears (Colocasia); Japanese Forest Grass (Hakonechloa); Fatsia (Fatsia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate growing 18 to 30 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Great plant for dry shade. Divide clumps every 2 to 3 years after flowering in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949068045&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Showy, broad, dark green, strap-like leaves are wider and shorter than other varieties. Rounded clusters of up to 60 vivid orange flowers on tall stems make this an absolutely gorgeous accent, border plant or container specimen. Great plant for dry shade settings. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full to partial shade&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly; allow soil to dry slightly between watering intervals.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Tolerates Acidic Soil,Shade Loving,Clump Forming,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Dry Shade,Woodland Garden,Mass Planting,Houseplant,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;030445&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03044&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Clivia miniata &apos;Belgian Hybrid Orange&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Clivia miniata &apos;Belgian Hybrid Orange&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Belgian Hybrid Orange Bush Lily&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Shade Loving&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Dry Shade,Woodland Garden,Mass Planting,Houseplant,Container,Border,Fuchsia (Fuchsia); Cast Iron Plant (Aspidistra); Elephant Ears (Colocasia); Japanese Forest Grass (Hakonechloa); Fatsia (Fatsia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate growing 18 to 30 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Tolerates dry shade conditions when established. Ideal in deep to dappled shade. Protect from harsh afternoon sun. Divide clumps every 2 to 3 years after flowering in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949068052&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Showy, broad, dark green, strap-like leaves are wider and shorter than other varieties. Rounded clusters of up to 60 vivid orange flowers on tall stems make this an absolutely gorgeous accent, border plant or container specimen. Great plant for dry shade settings. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full to partial shade&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly; allow soil to dry slightly between watering intervals.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Tolerates Acidic Soil,Shade Loving,Clump Forming,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Dry Shade,Woodland Garden,Mass Planting,Houseplant,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 04 Feb 2016 06:12:53 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

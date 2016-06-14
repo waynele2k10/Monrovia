@@ -1,0 +1,65 @@
+DATE/TIME: 2016-04-15 16:14:11
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-04-15 16:14:18
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 3064
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;30644&lt;/ItemSizeID&gt;
+		&lt;Item&gt;30644&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;LOWES&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Clematis jackmanii x &apos;UNAI 003&apos; P.P.# 22,922&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Clematis jackmanii x &apos;UNAI 003&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Ristimagi Clematis&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Repeat Bloomer&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Japanese Maple (Acer); Climbing Rose (Rosa); Daylily (Hemerocallis); Hydrangea (Hydrangea); Butterfly Bush (Buddleja)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Grows to 4 to 5 ft. tall and 2 to 3 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide well-drained, enriched and slightly alkaline soil. Follow a regular watering to maintain even moisture and establish a deep, extensive root system. Feed during growing season with a balanced general-purpose fertilizer. Mulch to keep roots cool. Clip spent flowers to promote repeat bloom.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late Spring to Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A spectacular compact climber, ideal for containers and smaller gardens. Big, showy violet blue tepals are highlighted with red-purple bars and a creamy center. Blooms prolifically and continuously on current season growth, from late spring to summer. Disease and insect resistance makes this an easy-care garden performer.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Improved Pest and Disease Resistance,Fast Growing,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Urban Garden,Espalier,Cutting Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Fri, 15 Apr 2016 16:14:16 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

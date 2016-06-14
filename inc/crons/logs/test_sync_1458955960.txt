@@ -1,0 +1,326 @@
+DATE/TIME: 2016-03-26 01:32:40
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-03-26 01:32:53
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 17709
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;017832&lt;/ItemSizeID&gt;
+		&lt;Item&gt;01783&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Phormium &apos;Wings of Gold&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Phormium &apos;Wings of Gold&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Wings of Gold New Zealand Flax&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Cranesbill (Geranium); Jasmine (Trachelospermum); Lomandra (Lomandra); Hebe (Hebe); Black-Eyed Susan (Rudbeckia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949220153&lt;/UPC&gt;
+		&lt;FlowerTime&gt;&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;&lt;/Sun_exposure&gt;
+		&lt;Water&gt;&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;0&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;095311&lt;/ItemSizeID&gt;
+		&lt;Item&gt;09531&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Azalea &apos;Maishchnee&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Azalea &apos;Maishchnee&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Kimono&amp;#8482; May Snow Azalea&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Gardenia (Gardenia); Hydrangea (Hydrangea); Tree Fern (Dicksonia); Daphne (Daphne); Fatsia (Fatsia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949424865&lt;/UPC&gt;
+		&lt;FlowerTime&gt;&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;&lt;/Sun_exposure&gt;
+		&lt;Water&gt;&lt;/Water&gt;
+		&lt;CZoneHigh&gt;6&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;0&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;095312&lt;/ItemSizeID&gt;
+		&lt;Item&gt;09531&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Azalea &apos;Maishchnee&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Azalea &apos;Maishchnee&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Kimono&amp;#8482; May Snow Azalea&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Gardenia (Gardenia); Hydrangea (Hydrangea); Tree Fern (Dicksonia); Daphne (Daphne); Fatsia (Fatsia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949424872&lt;/UPC&gt;
+		&lt;FlowerTime&gt;&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;&lt;/Sun_exposure&gt;
+		&lt;Water&gt;&lt;/Water&gt;
+		&lt;CZoneHigh&gt;6&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;0&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;409952&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40995&lt;/Item&gt;
+		&lt;SpecialIcon&gt;Exclusive&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Viburnum dentatum &apos;SMVDE&apos; P.P.A.F.&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Viburnum dentatum &apos;SMVDE&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Sparkler&amp;#174; Arrowood Viburnum&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Magnolia (Magnolia); Beautyberry (Callicarpa); Astilbe (Astilbe); Phlox (Phlox); Bee Balm (Monarda)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949433690&lt;/UPC&gt;
+		&lt;FlowerTime&gt;&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;&lt;/Sun_exposure&gt;
+		&lt;Water&gt;&lt;/Water&gt;
+		&lt;CZoneHigh&gt;0&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;0&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;409955&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40995&lt;/Item&gt;
+		&lt;SpecialIcon&gt;Exclusive&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Viburnum dentatum &apos;SMVDE&apos; P.P.A.F.&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Viburnum dentatum &apos;SMVDE&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Sparkler&amp;#174; Arrowood Viburnum&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Magnolia (Magnolia); Beautyberry (Callicarpa); Astilbe (Astilbe); Phlox (Phlox); Bee Balm (Monarda)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949433706&lt;/UPC&gt;
+		&lt;FlowerTime&gt;&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;&lt;/Sun_exposure&gt;
+		&lt;Water&gt;&lt;/Water&gt;
+		&lt;CZoneHigh&gt;0&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;0&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;406542&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40654&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Sambucus racemosa &apos;Sutherland Gold&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Sambucus racemosa &apos;Sutherland Gold&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Sutherland Gold Elderberry&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Smoke Tree (Cotinus); Chokeberry (Aronia); Rose (Rosa); Snowberry (Symphoricarpos); Sweetspire (Itea)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949422571&lt;/UPC&gt;
+		&lt;FlowerTime&gt;&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;&lt;/Sun_exposure&gt;
+		&lt;Water&gt;&lt;/Water&gt;
+		&lt;CZoneHigh&gt;0&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;0&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;406543&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40654&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;3&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Sambucus racemosa &apos;Sutherland Gold&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Sambucus racemosa &apos;Sutherland Gold&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Sutherland Gold Elderberry&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Smoke Tree (Cotinus); Chokeberry (Aronia); Rose (Rosa); Snowberry (Symphoricarpos); Sweetspire (Itea)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;3&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.54 gal. (9.61 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949398388&lt;/UPC&gt;
+		&lt;FlowerTime&gt;&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;&lt;/Sun_exposure&gt;
+		&lt;Water&gt;&lt;/Water&gt;
+		&lt;CZoneHigh&gt;0&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;0&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;404233&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40423&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;3&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Juniper communis &apos;Gold Cone&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Juniper communis &apos;Gold Cone&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Gold Cone Juniper&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Attractive Foliage&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Abelia (Abelia); Maiden Grass (Miscanthus); Potentilla (Potentilla); Rose (Rosa); Catmint (Nepeta);&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Upright habit, reaches 3 to 5 ft. tall and 1 to 2 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Requires less water once established. Feed with a slow release fertilizer before new growth begins in spring. Prune as needed to maintain shape.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;3&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.54 gal. (9.61 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949393666&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Conifer; prized for foliage.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Golden new growth appears on this columnar, narrow, upright evergreen. Golden foliage gradually fades to bluish-green in winter. Slow growing, easy to grow. Tolerates poor soil conditions. A great choice for smaller landscapes, foundation plantings or in rock gardens.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;7&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Tolerates Poor Soils,Easy Care,Dramatic Foliage Color,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Privacy Screen,Mass Planting,Hedge&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;404235&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40423&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Juniper communis &apos;Gold Cone&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Juniper communis &apos;Gold Cone&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Gold Cone Juniper&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Attractive Foliage&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Abelia (Abelia); Maiden Grass (Miscanthus); Potentilla (Potentilla); Rose (Rosa); Catmint (Nepeta);&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Upright habit, reaches 3 to 5 ft. tall and 1 to 2 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Requires less water once established. Feed with a slow release fertilizer before new growth begins in spring. Prune as needed to maintain shape.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949411162&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Conifer; prized for foliage.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Golden new growth appears on this columnar, narrow, upright evergreen. Golden foliage gradually fades to bluish-green in winter. Slow growing, easy to grow. Tolerates poor soil conditions. A great choice for smaller landscapes, foundation plantings or in rock gardens.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;7&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Tolerates Poor Soils,Easy Care,Dramatic Foliage Color,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Privacy Screen,Mass Planting,Hedge&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;40423UT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40423&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;UT&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Juniper communis &apos;Gold Cone&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Juniper communis &apos;Gold Cone&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Gold Cone Juniper&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Attractive Foliage&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Abelia (Abelia); Maiden Grass (Miscanthus); Potentilla (Potentilla); Rose (Rosa); Catmint (Nepeta);&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Upright habit, reaches 3 to 5 ft. tall and 1 to 2 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Requires less water once established. Feed with a slow release fertilizer before new growth begins in spring. Prune as needed to maintain shape.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;QT&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 qt. (946 mL)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949393680&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Conifer; prized for foliage.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Golden new growth appears on this columnar, narrow, upright evergreen. Golden foliage gradually fades to bluish-green in winter. Slow growing, easy to grow. Tolerates poor soil conditions. A great choice for smaller landscapes, foundation plantings or in rock gardens.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;7&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Tolerates Poor Soils,Easy Care,Dramatic Foliage Color,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Privacy Screen,Mass Planting,Hedge&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Sat, 26 Mar 2016 01:32:50 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

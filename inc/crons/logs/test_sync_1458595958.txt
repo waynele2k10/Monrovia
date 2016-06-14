@@ -1,0 +1,181 @@
+DATE/TIME: 2016-03-21 21:32:38
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-03-21 21:32:45
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 12215
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;054132&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05413&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Buxus sempervirens &apos;Unraveled&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Buxus sempervirens &apos;Unraveled&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Unraveled Weeping Boxwood&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Year-Round Interest&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Cotoneaster (Cotoneaster); Barberry (Berberis); Foxglove (Digitalis); Daylily (Hemerocalis); Rose (Rosa)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 18 to 24 in. tall, 24 to 36 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. Prune only to remove dead wood or to maintain desired shape.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949326657&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicuous&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This unique, arching shrub with exceptional texture drapes beautifully or weeps if trained upright. Shiny dark green foliage maintains good winter color. An outstanding four season specimen for an entryway, or plant in mass to cascade on a hillside or over a wall. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Tolerates Acidic Soil,Easy Care,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Rock Garden,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;054132PT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05413&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2PT&lt;/Size&gt;
+		&lt;SizeDescription&gt;Patio Tree&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Buxus sempervirens &apos;Unraveled&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Buxus sempervirens &apos;Unraveled&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Unraveled Weeping Boxwood&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Year-Round Interest&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Cotoneaster (Cotoneaster); Barberry (Berberis); Foxglove (Digitalis); Daylily (Hemerocalis); Rose (Rosa)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 18 to 24 in. tall, 24 to 36 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. Prune only to remove dead wood or to maintain desired shape.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949326664&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicuous&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This unique, arching shrub with exceptional texture drapes beautifully or weeps if trained upright. Shiny dark green foliage maintains good winter color. An outstanding four season specimen for an entryway, or plant in mass to cascade on a hillside or over a wall. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Tolerates Acidic Soil,Easy Care,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Rock Garden,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;054132ST&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05413&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2ST&lt;/Size&gt;
+		&lt;SizeDescription&gt;Staked&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Buxus sempervirens &apos;Unraveled&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Buxus sempervirens &apos;Unraveled&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Unraveled Weeping Boxwood&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Year-Round Interest&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Cotoneaster (Cotoneaster); Barberry (Berberis); Foxglove (Digitalis); Daylily (Hemerocalis); Rose (Rosa)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 18 to 24 in. tall, 24 to 36 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. Prune only to remove dead wood or to maintain desired shape.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949378793&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicuous&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This unique, arching shrub with exceptional texture drapes beautifully or weeps if trained upright. Shiny dark green foliage maintains good winter color. An outstanding four season specimen for an entryway, or plant in mass to cascade on a hillside or over a wall. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Tolerates Acidic Soil,Easy Care,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Rock Garden,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;068111&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06811&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Euphorbia x martinii &apos;Ascot Rainbow&apos; P.P.# 21, 401&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Euphorbia x martinii &apos;Ascot Rainbow&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Ascot Rainbow Spurge&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Long Bloom Season&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Penstemon (Penstemon); Sun Daisy (Osteospermum); Sedum (Sedum); Daylily (Hemerocallis); Yarrow (Achillea)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 18 to 20 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Easily grown in average, well-drained soil. Water regularly during first growing season to establish a deep, extensive root system. Pinch back mid season to promote dense habit. Avoid contact with sap. Feed in spring and midsummer. Tender perennial to 32&amp;#176;F; treat as an annual elsewhere.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949326138&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring to fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Elegant form covered with striking sage and lime green foliage edged in an attractive yellow border that turns pink-flushed or peachy-salmon in colder months. Vibrant green and yellow striped bracts with prolific, radiant red blooms. A heat-tolerant, fuss-free choice for containers, mixed beds, with low water needs.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water occasionally once established; allow to dry slightly between watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;068112&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06811&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Euphorbia x martinii &apos;Ascot Rainbow&apos; P.P.# 21, 401&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Euphorbia x martinii &apos;Ascot Rainbow&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Ascot Rainbow Spurge&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Long Bloom Season&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Penstemon (Penstemon); Sun Daisy (Osteospermum); Sedum (Sedum); Daylily (Hemerocallis); Yarrow (Achillea)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 18 to 20 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Easily grown in average, well-drained soil. Water regularly during first growing season to establish a deep, extensive root system. Pinch back mid season to promote dense habit. Avoid contact with sap. Feed in spring and midsummer. Tender perennial to 32&amp;#176;F; treat as an annual elsewhere.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949323526&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring to fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Elegant form covered with striking sage and lime green foliage edged in an attractive yellow border that turns pink-flushed or peachy-salmon in colder months. Vibrant green and yellow striped bracts with prolific, radiant red blooms. A heat-tolerant, fuss-free choice for containers, mixed beds, with low water needs.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water occasionally once established; allow to dry slightly between watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Mon, 21 Mar 2016 21:32:41 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

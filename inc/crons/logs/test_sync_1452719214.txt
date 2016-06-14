@@ -1,0 +1,268 @@
+DATE/TIME: 2016-01-13 21:06:54
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-01-13 21:07:06
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 19649
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;404391S&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40439&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1S&lt;/Size&gt;
+		&lt;SizeDescription&gt;SuperOne&amp;#8482;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Lagerstroemia indica &apos;Violet Filli&apos; PP #14,267&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Lagerstroemia indica &apos;Violet Filli&apos; PP #14,267&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Violet Filli Crape Myrtle&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Repeat Bloomer&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Urban Garden,Specimen,Mass Planting,Container,Border,Indian Hawthorn (Rhaphiolepis); Lilyturf (Liriope); Mexican Heather (Cuphea); Agapanthus (Agapanthus); Daylily (Hemerocallis)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 18 inches tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Requires less frequent watering when established. Stems may die back in cold zones and regrow from roots in Spring. Feed with a general purpose fertilizer before new growth begins.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 gal. (3.79 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949394199&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring to Fall&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A captivating focal point for small spaces, on a dwarf mounded form that produces volumes of violet blooms from spring to fall. Extremely cold hardy, this low maintenance shrub is ideal massed as a low hedge or garden bed feature. Performs in containers. A Fleming Hybrid&amp;#8482;. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly- weekly or more often in extreme heat. Low water needs, once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Easy Care,Dwarf Plant,Deer Resistant,Attractive Bark&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Urban Garden,Specimen,Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;404392&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40439&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Lagerstroemia indica &apos;Violet Filli&apos; PP #14,267&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Lagerstroemia indica &apos;Violet Filli&apos; PP #14,267&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Violet Filli Crape Myrtle&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Repeat Bloomer&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Urban Garden,Specimen,Mass Planting,Container,Border,Indian Hawthorn (Rhaphiolepis); Lilyturf (Liriope); Mexican Heather (Cuphea); Agapanthus (Agapanthus); Daylily (Hemerocallis)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 18 inches tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Requires less frequent watering when established. Stems may die back in cold zones and regrow from roots in Spring. Feed with a general purpose fertilizer before new growth begins.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949394243&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring to Fall&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A captivating focal point for small spaces, on a dwarf mounded form that produces volumes of violet blooms from spring to fall. Extremely cold hardy, this low maintenance shrub is ideal massed as a low hedge or garden bed feature. Performs in containers. A Fleming Hybrid&amp;#8482;. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly- weekly or more often in extreme heat. Low water needs, once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Easy Care,Dwarf Plant,Deer Resistant,Attractive Bark&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Urban Garden,Specimen,Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;404395&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40439&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Lagerstroemia indica &apos;Violet Filli&apos; PP #14,267&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Lagerstroemia indica &apos;Violet Filli&apos; PP #14,267&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Violet Filli Crape Myrtle&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Repeat Bloomer&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Urban Garden,Specimen,Mass Planting,Container,Border,Indian Hawthorn (Rhaphiolepis); Lilyturf (Liriope); Mexican Heather (Cuphea); Agapanthus (Agapanthus); Daylily (Hemerocallis)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 18 inches tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Requires less frequent watering when established. Stems may die back in cold zones and regrow from roots in Spring. Feed with a general purpose fertilizer before new growth begins.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949428535&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring to Fall&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A captivating focal point for small spaces, on a dwarf mounded form that produces volumes of violet blooms from spring to fall. Extremely cold hardy, this low maintenance shrub is ideal massed as a low hedge or garden bed feature. Performs in containers. A Fleming Hybrid&amp;#8482;. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly- weekly or more often in extreme heat. Low water needs, once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Easy Care,Dwarf Plant,Deer Resistant,Attractive Bark&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Urban Garden,Specimen,Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;404402&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40440&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Lagerstroemia indica &apos;Coral Filli&apos; P.P.# 14,317&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Lagerstroemia indica &apos;Coral Filli&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Coral Filli Crape Myrtle&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Repeat Bloomer&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Urban Garden,Mass Planting,Firescaping/Fire Wise,Container,Border,&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 18 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Requires less frequent watering when established. Stems may die back in cold zones and regrow from roots in Spring. Feed with a general purpose fertilizer before new growth begins. Prune to shape.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949394069&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring to Fall&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A delightful dwarf Crape Myrtle with good cold hardiness, this Fleming Hybrid&amp;#8482; is perfect for border or container, reaching under 2 feet tall. A stunning re-bloomer bloomer from spring through fall. Showy purple autumn foliage. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Tolerates Poor Soils,Fall Color,Easy Care,Dwarf Plant,Deer Resistant,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Urban Garden,Mass Planting,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;404405&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40440&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Lagerstroemia indica &apos;Coral Filli&apos; P.P.# 14,317&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Lagerstroemia indica &apos;Coral Filli&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Coral Filli Crape Myrtle&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Repeat Bloomer&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Urban Garden,Mass Planting,Firescaping/Fire Wise,Container,Border,&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 18 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Requires less frequent watering when established. Stems may die back in cold zones and regrow from roots in Spring. Feed with a general purpose fertilizer before new growth begins. Prune to shape.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949428511&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring to Fall&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A delightful dwarf Crape Myrtle with good cold hardiness, this Fleming Hybrid&amp;#8482; is perfect for border or container, reaching under 2 feet tall. A stunning re-bloomer bloomer from spring through fall. Showy purple autumn foliage. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Tolerates Poor Soils,Fall Color,Easy Care,Dwarf Plant,Deer Resistant,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Urban Garden,Mass Planting,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;404371S&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40437&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1S&lt;/Size&gt;
+		&lt;SizeDescription&gt;SuperOne&amp;#8482;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Lagerstroemia indica &apos;Red Filli&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Lagerstroemia indica &apos;Red Filli&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Red Filli Crape Myrtle&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Repeat Bloomer&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Firescaping/Fire Wise,Container,Border,&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Dwarf grower, can be maintained at 2 to 3 ft. high and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Water deeply, less frequently, when established. Stems may die back in cold zones and regrow from roots in Spring. Feed with a general purpose fertilizer before new growth begins. No pruning is required except to shape as needed.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 gal. (3.79 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949394137&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Frilly red blooms, spring to early fall&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A captivating focal point for small spaces! Dark green foliage emerges coppery-bronze on a dwarf, mounded form that produces volumes of deep red frilly blooms from spring to fall! Extremely cold hardy, this low maintenance shrub is ideal for smaller gardens, mass plantings or patio containers. A Fleming Hybrid&amp;#8482;. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Extreme Cold Hardiness,Dwarf Plant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;404372&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40437&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Lagerstroemia indica &apos;Red Filli&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Lagerstroemia indica &apos;Red Filli&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Red Filli Crape Myrtle&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Repeat Bloomer&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Firescaping/Fire Wise,Container,Border,&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Dwarf grower, can be maintained at 2 to 3 ft. high and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Water deeply, less frequently, when established. Stems may die back in cold zones and regrow from roots in Spring. Feed with a general purpose fertilizer before new growth begins. No pruning is required except to shape as needed.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949394151&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Frilly red blooms, spring to early fall&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A captivating focal point for small spaces! Dark green foliage emerges coppery-bronze on a dwarf, mounded form that produces volumes of deep red frilly blooms from spring to fall! Extremely cold hardy, this low maintenance shrub is ideal for smaller gardens, mass plantings or patio containers. A Fleming Hybrid&amp;#8482;. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Extreme Cold Hardiness,Dwarf Plant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;404375&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40437&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Lagerstroemia indica &apos;Red Filli&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Lagerstroemia indica &apos;Red Filli&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Red Filli Crape Myrtle&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Repeat Bloomer&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Firescaping/Fire Wise,Container,Border,&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Dwarf grower, can be maintained at 2 to 3 ft. high and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Water deeply, less frequently, when established. Stems may die back in cold zones and regrow from roots in Spring. Feed with a general purpose fertilizer before new growth begins. No pruning is required except to shape as needed.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949428528&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Frilly red blooms, spring to early fall&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A captivating focal point for small spaces! Dark green foliage emerges coppery-bronze on a dwarf, mounded form that produces volumes of deep red frilly blooms from spring to fall! Extremely cold hardy, this low maintenance shrub is ideal for smaller gardens, mass plantings or patio containers. A Fleming Hybrid&amp;#8482;. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Extreme Cold Hardiness,Dwarf Plant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 13 Jan 2016 21:07:05 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

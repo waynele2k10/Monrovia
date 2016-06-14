@@ -1,0 +1,322 @@
+DATE/TIME: 2016-04-05 14:13:28
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-04-05 14:13:40
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 22607
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;087111&lt;/ItemSizeID&gt;
+		&lt;Item&gt;08711&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Heuchera x villosa &apos;Carnival Plum Crazy&apos; P.P.A.F.&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Heuchera x villosa &apos;Carnival Plum Crazy&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Carnival Plum Crazy Coral Bells&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage Color&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;10 - 12&quot; tall and 12 - 14&quot; wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949414538&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring to early summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A heat-tolerant villosa hybrid with incredible, high-impact color. Delicate sprays of flowers bloom above dramatic bronze-plum foliage. Nice mounding habit makes great a display in shady beds, borders or containers.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade to filtered sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;404391S&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40439&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1S&lt;/Size&gt;
+		&lt;SizeDescription&gt;SuperOne&amp;#8482;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Lagerstroemia indica &apos;Violet Filli&apos; PP #14,267&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Lagerstroemia indica &apos;Violet Filli&apos; PP #14,267&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Violet Filli Crape Myrtle&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Repeat Bloomer&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Indian Hawthorn (Rhaphiolepis); Lilyturf (Liriope); Mexican Heather (Cuphea); Agapanthus (Agapanthus); Daylily (Hemerocallis)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 18 inches tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule the first growing season to establish a deep, extensive root system. Fertilize before new growth begins in spring. Thin young trees in late winter to early spring, leaving 3-7 main trunks or canopy branches. On older trees, prune only to remove suckers that have emerged from main trunks or ground&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 gal. (3.79 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949394199&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring to fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A captivating focal point for small spaces, on a dwarf mounded form that produces volumes of violet blooms from spring to fall. Extremely cold hardy, this low maintenance shrub is ideal massed as a low hedge or garden bed feature. Performs in containers. A Fleming Hybrid&amp;#8482;. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly- weekly or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Easy Care,Dwarf Plant,Deer Resistant,Attractive Bark&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Urban Garden,Specimen,Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;404392&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40439&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Lagerstroemia indica &apos;Violet Filli&apos; PP #14,267&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Lagerstroemia indica &apos;Violet Filli&apos; PP #14,267&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Violet Filli Crape Myrtle&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Repeat Bloomer&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Indian Hawthorn (Rhaphiolepis); Lilyturf (Liriope); Mexican Heather (Cuphea); Agapanthus (Agapanthus); Daylily (Hemerocallis)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 18 inches tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule the first growing season to establish a deep, extensive root system. Fertilize before new growth begins in spring. Thin young trees in late winter to early spring, leaving 3-7 main trunks or canopy branches. On older trees, prune only to remove suckers that have emerged from main trunks or ground&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949394243&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring to fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A captivating focal point for small spaces, on a dwarf mounded form that produces volumes of violet blooms from spring to fall. Extremely cold hardy, this low maintenance shrub is ideal massed as a low hedge or garden bed feature. Performs in containers. A Fleming Hybrid&amp;#8482;. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly- weekly or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Easy Care,Dwarf Plant,Deer Resistant,Attractive Bark&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Urban Garden,Specimen,Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;404395&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40439&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Lagerstroemia indica &apos;Violet Filli&apos; PP #14,267&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Lagerstroemia indica &apos;Violet Filli&apos; PP #14,267&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Violet Filli Crape Myrtle&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Repeat Bloomer&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Indian Hawthorn (Rhaphiolepis); Lilyturf (Liriope); Mexican Heather (Cuphea); Agapanthus (Agapanthus); Daylily (Hemerocallis)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 18 inches tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule the first growing season to establish a deep, extensive root system. Fertilize before new growth begins in spring. Thin young trees in late winter to early spring, leaving 3-7 main trunks or canopy branches. On older trees, prune only to remove suckers that have emerged from main trunks or ground&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949428535&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring to fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A captivating focal point for small spaces, on a dwarf mounded form that produces volumes of violet blooms from spring to fall. Extremely cold hardy, this low maintenance shrub is ideal massed as a low hedge or garden bed feature. Performs in containers. A Fleming Hybrid&amp;#8482;. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly- weekly or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Easy Care,Dwarf Plant,Deer Resistant,Attractive Bark&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Urban Garden,Specimen,Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;401251&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40125&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Buddleia x &apos;Podaras #8&apos; P.P. #22,069&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Buddleia x &apos;Podaras #8&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Flutterby Petite&amp;#174; Blue Heaven Butterfly Bush&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dwarf Habit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Bee Balm (Monarda); Coneflower (Echinacea); Butterfly Weed (Asclepias); Salvia (Salvia); Trumpet Vine (Campsis)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 24 to 30 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Thrives in well-drained, average to fertile soil. Water regularly until established to develop a deep, extensive root system. Clip spent flowers to promote continued bloom. Top growth may die to ground in northern climates, re-growing in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949428504&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring to late summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Beautiful blue blooms are accented by silver, fuzzy leaves. A compact grower that forms a mounded, spreading form with continuous bloom from summer until frost. This selection rarely produces unwanted seedlings. Adored by butterflies and hummingbirds.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care,Dwarf Plant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;401252&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40125&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Buddleia x &apos;Podaras #8&apos; P.P. #22,069&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Buddleia x &apos;Podaras #8&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Flutterby Petite&amp;#174; Blue Heaven Butterfly Bush&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dwarf Habit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Bee Balm (Monarda); Coneflower (Echinacea); Butterfly Weed (Asclepias); Salvia (Salvia); Trumpet Vine (Campsis)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 24 to 30 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Thrives in well-drained, average to fertile soil. Water regularly until established to develop a deep, extensive root system. Clip spent flowers to promote continued bloom. Top growth may die to ground in northern climates, re-growing in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949389140&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring to late summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Beautiful blue blooms are accented by silver, fuzzy leaves. A compact grower that forms a mounded, spreading form with continuous bloom from summer until frost. This selection rarely produces unwanted seedlings. Adored by butterflies and hummingbirds.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care,Dwarf Plant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;401253&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40125&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;3&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Buddleia x &apos;Podaras #8&apos; P.P. #22,069&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Buddleia x &apos;Podaras #8&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Flutterby Petite&amp;#174; Blue Heaven Butterfly Bush&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dwarf Habit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Bee Balm (Monarda); Coneflower (Echinacea); Butterfly Weed (Asclepias); Salvia (Salvia); Trumpet Vine (Campsis)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 24 to 30 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Thrives in well-drained, average to fertile soil. Water regularly until established to develop a deep, extensive root system. Clip spent flowers to promote continued bloom. Top growth may die to ground in northern climates, re-growing in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;3&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.54 gal. (9.61 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949420287&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring to late summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Beautiful blue blooms are accented by silver, fuzzy leaves. A compact grower that forms a mounded, spreading form with continuous bloom from summer until frost. This selection rarely produces unwanted seedlings. Adored by butterflies and hummingbirds.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care,Dwarf Plant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;401222&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40122&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Buddleia davidii &apos;Butterfly Heaven&apos; PP #19,935&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Buddleia davidii &apos;Butterfly Heaven&apos; PP #19,935&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Butterfly Heaven Butterfly Bush&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Attracts Butterflies&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 5-6 ft. tall, 4-5 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Thrives in well-drained, average to fertile soil. Water regularly to establish a deep extensive root system. Clip spent flowers to promote continued bloom. In northern climates, plants may die to ground in winter, re-growing in spring. Elsewhere, prune in late winter or early spring. In warm zones, pruning periodically to maintain compact shape.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949389102&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Huge Lilac-purple flower spikes are produced in an abundance with the first flush followed by 8-10&quot; blooms thereafter from mid-summer to fall. Beautifully scented, adored by butterflies and wonderful for cut flower arrangements.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly during the first growing season. Drought tolerant when established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;400101&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40010&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Mentha x piperita f. citrata &apos;Orange&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Mentha x piperita f. citrata &apos;Orange&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Orange Mint&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Edible&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Fast growing 1-2 ft. tall and wide, spreading.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Easily grown in average, evenly moist, well-drained soils. Feed lightly in spring. Harvest mint leaves before bloom for best flavor. Shear occasionally to promote dense growth. Spreads quickly by underground stems if not contained.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949382356&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A great garnish for ice cream or iced tea, this gourmet mint has a wonderful hint of orange mixed with the minty flavor. Crush fresh leaves into water or juice for a refreshing beverage, or add to iced tea. Spreads rapidly. Grows well in containers.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Naturalizes Well,Edible,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Deer Resistant&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;40010RND&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40010&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;RND&lt;/Size&gt;
+		&lt;SizeDescription&gt;Pint&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Mentha x piperita f. citrata &apos;Orange&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Mentha x piperita f. citrata &apos;Orange&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Orange Mint&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Edible&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Fast growing 1-2 ft. tall and wide, spreading.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Easily grown in average, evenly moist, well-drained soils. Feed lightly in spring. Harvest mint leaves before bloom for best flavor. Shear occasionally to promote dense growth. Spreads quickly by underground stems if not contained.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;12.3 oz. (12.3 oz.)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949382363&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A great garnish for ice cream or iced tea, this gourmet mint has a wonderful hint of orange mixed with the minty flavor. Crush fresh leaves into water or juice for a refreshing beverage, or add to iced tea. Spreads rapidly. Grows well in containers.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Naturalizes Well,Edible,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Deer Resistant&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Tue, 05 Apr 2016 14:13:36 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

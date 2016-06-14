@@ -1,0 +1,253 @@
+DATE/TIME: 2015-12-23 16:46:40
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2015-12-23 16:46:40
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 685
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 23 Dec 2015 16:46:39 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+
+DATE/TIME: 2015-12-23 16:46:42
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2015-12-23 16:46:42
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 685
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 23 Dec 2015 16:46:41 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+
+DATE/TIME: 2015-12-23 16:55:42
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2015-12-23 16:55:50
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 13609
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;07613M&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07613&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;M&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Vinca minor &apos;Bowles&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Vinca minor &apos;Bowles&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Bowles&apos; Common Periwinkle TEST&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Ground Cover&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Very Wet Areas,Urban Garden,Firescaping/Fire Wise,Erosion Control,Dry Shade,Border,Japanese Spurge (Pachysandra); Hosta (Hosta); Bleeding Heart (Dicentra); Brunnera (Brunnera); Lungwort (Pulmonaria)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast, vine-like growth, only inches tall, spread indefinite.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. As a ground cover, space plants 5 ft. apart, (closer for faster coverage). Control weeds with mulch until the plants cover the area.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;10&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;7.97 gal. (30.17 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949271421&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;One of the best groundcovers for shade, displaying large, violet-blue, pinwheel-shaped flowers against glossy dark green leaves. Sun tolerant in cool northern zones. In hot summer areas, plant in dappled to deep shade. Blooms in late spring, continuing through summer. Good for use in firescaping. Evergreen perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Best with regular watering. Once established, tolerates mild drought.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Shade Loving,Extreme Cold Hardiness,Easy Care,Deer Resistant,Clump Forming&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Very Wet Areas,Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Very Wet Areas,Urban Garden,Firescaping/Fire Wise,Erosion Control,Dry Shade,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;07613UT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07613&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;UT&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Vinca minor &apos;Bowles&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Vinca minor &apos;Bowles&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Bowles&apos; Common Periwinkle TEST&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Ground Cover&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Very Wet Areas,Urban Garden,Firescaping/Fire Wise,Erosion Control,Dry Shade,Border,Japanese Spurge (Pachysandra); Hosta (Hosta); Bleeding Heart (Dicentra); Brunnera (Brunnera); Lungwort (Pulmonaria)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast, vine-like growth to 4 - 6 inches tall, spread indefinite.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Takes mild drought, but blooms more prolifically with periodic deep watering. As a groundcover, space plants 5 ft. apart, (closer for faster coverage). Control weeds with mulch until the plants cover the area.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;QT&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 qt. (946 mL)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949010730&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;One of the best groundcovers for shade, displaying large, violet-blue, pinwheel-shaped flowers against glossy dark green leaves. Sun tolerant in cool northern zones. In hot summer areas, plant in dappled to deep shade. Blooms in late spring, continuing through summer. Good for use in firescaping. Evergreen perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Best with regular watering. Once established, tolerates mild drought.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Shade Loving,Extreme Cold Hardiness,Easy Care,Deer Resistant,Clump Forming&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Very Wet Areas,Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Very Wet Areas,Urban Garden,Firescaping/Fire Wise,Erosion Control,Dry Shade,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;076131&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07613&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Vinca minor &apos;Bowles&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Vinca minor &apos;Bowles&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Bowles&apos; Common Periwinkle TEST&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Ground Cover&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Very Wet Areas,Urban Garden,Firescaping/Fire Wise,Erosion Control,Dry Shade,Border,Japanese Spurge (Pachysandra); Hosta (Hosta); Bleeding Heart (Dicentra); Brunnera (Brunnera); Lungwort (Pulmonaria)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast, vine-like growth to 4 - 6 inches tall, spread indefinite.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Takes mild drought, but blooms more prolifically with periodic deep watering. As a groundcover, space plants 5 ft. apart, (closer for faster coverage). Control weeds with mulch until the plants cover the area.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949761311&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;One of the best groundcovers for shade, displaying large, violet-blue, pinwheel-shaped flowers against glossy dark green leaves. Sun tolerant in cool northern zones. In hot summer areas, plant in dappled to deep shade. Blooms in late spring, continuing through summer. Good for use in firescaping. Evergreen perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Best with regular watering. Once established, tolerates mild drought.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Shade Loving,Extreme Cold Hardiness,Easy Care,Deer Resistant,Clump Forming&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Very Wet Areas,Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Very Wet Areas,Urban Garden,Firescaping/Fire Wise,Erosion Control,Dry Shade,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;076131S&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07613&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1S&lt;/Size&gt;
+		&lt;SizeDescription&gt;SuperOne&amp;#8482;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Vinca minor &apos;Bowles&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Vinca minor &apos;Bowles&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Bowles&apos; Common Periwinkle TEST&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Ground Cover&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Very Wet Areas,Urban Garden,Firescaping/Fire Wise,Erosion Control,Dry Shade,Border,Japanese Spurge (Pachysandra); Hosta (Hosta); Bleeding Heart (Dicentra); Brunnera (Brunnera); Lungwort (Pulmonaria)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast, vine-like growth, only inches tall, spread indefinite.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. As a ground cover, space plants 5 ft. apart, (closer for faster coverage). Control weeds with mulch until the plants cover the area.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 gal. (3.79 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949060308&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;One of the best groundcovers for shade, displaying large, violet-blue, pinwheel-shaped flowers against glossy dark green leaves. Sun tolerant in cool northern zones. In hot summer areas, plant in dappled to deep shade. Blooms in late spring, continuing through summer. Good for use in firescaping. Evergreen perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Best with regular watering. Once established, tolerates mild drought.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Shade Loving,Extreme Cold Hardiness,Easy Care,Deer Resistant,Clump Forming&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Very Wet Areas,Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Very Wet Areas,Urban Garden,Firescaping/Fire Wise,Erosion Control,Dry Shade,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;076132&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07613&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Vinca minor &apos;Bowles&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Vinca minor &apos;Bowles&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Bowles&apos; Common Periwinkle TEST&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Ground Cover&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Very Wet Areas,Urban Garden,Firescaping/Fire Wise,Erosion Control,Dry Shade,Border,Japanese Spurge (Pachysandra); Hosta (Hosta); Bleeding Heart (Dicentra); Brunnera (Brunnera); Lungwort (Pulmonaria)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast, vine-like growth to 4 - 6 inches tall, spread indefinite.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Takes mild drought, but blooms more prolifically with periodic deep watering. As a groundcover, space plants 5 ft. apart, (closer for faster coverage). Control weeds with mulch until the plants cover the area.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949209325&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;One of the best groundcovers for shade, displaying large, violet-blue, pinwheel-shaped flowers against glossy dark green leaves. Sun tolerant in cool northern zones. In hot summer areas, plant in dappled to deep shade. Blooms in late spring, continuing through summer. Good for use in firescaping. Evergreen perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Best with regular watering. Once established, tolerates mild drought.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Shade Loving,Extreme Cold Hardiness,Easy Care,Deer Resistant,Clump Forming&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Very Wet Areas,Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Very Wet Areas,Urban Garden,Firescaping/Fire Wise,Erosion Control,Dry Shade,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 23 Dec 2015 16:55:49 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

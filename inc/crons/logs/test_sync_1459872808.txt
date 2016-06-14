@@ -1,0 +1,344 @@
+DATE/TIME: 2016-04-05 16:13:28
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-04-05 16:13:39
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 22484
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;086901&lt;/ItemSizeID&gt;
+		&lt;Item&gt;08690&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Athyrium filix-femina &apos;Vernonia Cristata&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Athyrium filix-femina &apos;Vernonia Cristata&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Southern Lady Fern&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Shade Loving&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Lacy fronds to 3 to 4 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed frequently during growing season with a general purpose fertilizer. Cut back old fronds after new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949132203&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Does not flower&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Delicate, finely divided fronds create a woodland effect under the canopy of tall trees. Leaflets have an ornamental crested growth at the tips. Develops a short trunk. Evergreen in mild climates.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs wet or constantly moist soil.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;High&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;North American Native Selection&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Water Garden,Very Wet Areas,Specimen,Houseplant,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;074151&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07415&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Rubus &apos;Triple Crown&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Rubus &apos;Triple Crown&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Triple Crown Blackberry&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Thornless&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Up to 5 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a commercial fertilizer before new growth begins in spring. Train one-year-old canes on trellis, prune canes that have fruited.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949334935&lt;/UPC&gt;
+		&lt;FlowerTime&gt;White flowers in spring followed by summer fruit.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A self-fruitful, free-standing, thornless shrub that produces one crop of fruit per year. Clusters of white, 5-petaled, rose-like flowers in spring give way to firm, glossy blackberries of excellent eating quality that mature in summer.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Showy Fruit,Edible,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Kitchen Garden,Container,Border,Barrier&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;074151S&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07415&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1S&lt;/Size&gt;
+		&lt;SizeDescription&gt;SuperOne&amp;#8482;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Rubus &apos;Triple Crown&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Rubus &apos;Triple Crown&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Triple Crown Blackberry&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Thornless&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Up to 5 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a commercial fertilizer before new growth begins in spring. Train one-year-old canes on trellis, prune canes that have fruited.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 gal. (3.79 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949334942&lt;/UPC&gt;
+		&lt;FlowerTime&gt;White flowers in spring followed by summer fruit.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A self-fruitful, free-standing, thornless shrub that produces one crop of fruit per year. Clusters of white, 5-petaled, rose-like flowers in spring give way to firm, glossy blackberries of excellent eating quality that mature in summer.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Showy Fruit,Edible,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Kitchen Garden,Container,Border,Barrier&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;074152&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07415&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Rubus &apos;Triple Crown&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Rubus &apos;Triple Crown&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Triple Crown Blackberry&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Thornless&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Up to 5 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a commercial fertilizer before new growth begins in spring. Train one-year-old canes on trellis, prune canes that have fruited.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949408827&lt;/UPC&gt;
+		&lt;FlowerTime&gt;White flowers in spring followed by summer fruit.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A self-fruitful, free-standing, thornless shrub that produces one crop of fruit per year. Clusters of white, 5-petaled, rose-like flowers in spring give way to firm, glossy blackberries of excellent eating quality that mature in summer.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Showy Fruit,Edible,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Kitchen Garden,Container,Border,Barrier&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;048041&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04804&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Clematis x &apos;Center Star&apos; P.P.# 17,010&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Clematis x &apos;Center Star&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Center Star Clematis&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Compact Habit&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 30 to 36 inches tall and wide; slightly taller if supported is provided.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide humus-rich, well drained soil. Roots prefer a cool, shaded area, tops in the sun. Follow a regular watering schedule during the first growing season to establish a deep extensive root system. Apply a controlled-release fertilizer when in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949260302&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Early summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This versatile, shrubby Clematis selection provides a burst of color to the perennial garden with its striking, deep purple-blue, upward-facing flowers. Its unique, compact, non-climbing habit is versatile in the landscape; perfect for featuring in large containers or trailing gracefully over a garden wall.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;4&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Clump Forming&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;048045&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04804&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Clematis x &apos;Center Star&apos; P.P.# 17,010&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Clematis x &apos;Center Star&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Center Star Clematis&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Compact Habit&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 30 to 36 inches tall and wide; slightly taller if supported is provided.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide humus-rich, well drained soil. Roots prefer a cool, shaded area, tops in the sun. Follow a regular watering schedule during the first growing season to establish a deep extensive root system. Apply a controlled-release fertilizer when in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949272053&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Early summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This versatile, shrubby Clematis selection provides a burst of color to the perennial garden with its striking, deep purple-blue, upward-facing flowers. Its unique, compact, non-climbing habit is versatile in the landscape; perfect for featuring in large containers or trailing gracefully over a garden wall.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;4&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Clump Forming&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;049891&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04989&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Metapanax delavayi &apos;MonYuLong&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Metapanax delavayi &apos;MonYuLong&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Jade Dragon&amp;#8482; False Ginseng&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Summer Flowering&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 8 to 10 feet tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide a site in part shade or dappled sun, with humus-rich, evenly moist, well drained soil. Benefits with shelter from harsh winter winds. Add a thick layer of mulch under the drip line to conserve moisture and provide winter protection.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949317921&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Mid to late summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Collected by Dan Hinkley in the Yulong (Jade Dragon) mountains in Yunnan, China, this elegant and hardy selection offers a nearly unequaled texture to the garden. Makes a wonderful evergreen tree or large shrub for dappled shade. Its dense, rounded framework is clad with fine textured, glossy green foliage. Clusters of white flowers in mid to late summer yield black berries, providing winter food for birds.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Dense Habit&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Hedge&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;049892&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04989&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Metapanax delavayi &apos;MonYuLong&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Metapanax delavayi &apos;MonYuLong&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Jade Dragon&amp;#8482; False Ginseng&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Summer Flowering&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 8 to 10 feet tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide a site in part shade or dappled sun, with humus-rich, evenly moist, well drained soil. Benefits with shelter from harsh winter winds. Add a thick layer of mulch under the drip line to conserve moisture and provide winter protection.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949317938&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Mid to late summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Collected by Dan Hinkley in the Yulong (Jade Dragon) mountains in Yunnan, China, this elegant and hardy selection offers a nearly unequaled texture to the garden. Makes a wonderful evergreen tree or large shrub for dappled shade. Its dense, rounded framework is clad with fine textured, glossy green foliage. Clusters of white flowers in mid to late summer yield black berries, providing winter food for birds.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Dense Habit&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Hedge&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;023091&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02309&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Centaurea montana&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Centaurea montana&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Mountain Bluet&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Erect, clumping stems 12 to 24 in. tall, 12 to 18 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949043028&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Blue flowers in summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Delicately fringed, rich blue flowers with reddish-blue centers appear atop tall unbranched stems. In cooler climates, can spread and naturalize to form colonies of gray-green, lance-shaped leaves. Excellent for naturalized meadows.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, when top 3 in. of soil is dry.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;023091S&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02309&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1S&lt;/Size&gt;
+		&lt;SizeDescription&gt;SuperOne&amp;#8482;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Centaurea montana&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Centaurea montana&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Mountain Bluet&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Erect, clumping stems 12 to 24 in. tall, 12 to 18 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 gal. (3.79 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949048344&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Blue flowers in summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Delicately fringed, rich blue flowers with reddish-blue centers appear atop tall unbranched stems. In cooler climates, can spread and naturalize to form colonies of gray-green, lance-shaped leaves. Excellent for naturalized meadows.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, when top 3 in. of soil is dry.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;02309UT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02309&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;UT&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Centaurea montana&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Centaurea montana&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Mountain Bluet&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Erect, clumping stems 12 to 24 in. tall, 12 to 18 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;QT&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 qt. (946 mL)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949308264&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Blue flowers in summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Delicately fringed, rich blue flowers with reddish-blue centers appear atop tall unbranched stems. In cooler climates, can spread and naturalize to form colonies of gray-green, lance-shaped leaves. Excellent for naturalized meadows.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, when top 3 in. of soil is dry.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Tue, 05 Apr 2016 16:13:35 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

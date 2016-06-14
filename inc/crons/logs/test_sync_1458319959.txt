@@ -1,0 +1,152 @@
+DATE/TIME: 2016-03-18 16:52:39
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-03-18 16:52:44
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 9746
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;067071&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06707&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Prunus laurocerasus &apos;Nana&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Prunus laurocerasus &apos;Nana&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Dwarf English Laurel&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Hedge Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Holly (Ilex); Heavenly Bamboo (Nandina); Japanese Maple (Acer palmatum); Lilyturf (Liriope); Euonymus (Euonymus);&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Slow growing to 6 to 8 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. For a formal appearance, shear annually after flowering.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949670712&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Very useful for accent or low hedges. An evergreen shrub with glossy dark green foliage on a compact, broadly spreading form. Lovely when in full bloom, with clusters of tiny yet highly fragrant white flowers perfuming the garden. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Ornamental Berries,Easy Care,Dwarf Plant,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Wildlife Garden,Urban Garden,Hedge,Edging,Coastal Exposure,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;067077&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06707&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;7&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Prunus laurocerasus &apos;Nana&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Prunus laurocerasus &apos;Nana&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Dwarf English Laurel&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Hedge Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Holly (Ilex); Heavenly Bamboo (Nandina); Japanese Maple (Acer palmatum); Lilyturf (Liriope); Euonymus (Euonymus);&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Slow growing to 6 to 8 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. For a formal appearance, shear annually after flowering.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;7&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;6.20 gal. (23.47 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949670774&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Very useful for accent or low hedges. An evergreen shrub with glossy dark green foliage on a compact, broadly spreading form. Lovely when in full bloom, with clusters of tiny yet highly fragrant white flowers perfuming the garden. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Ornamental Berries,Easy Care,Dwarf Plant,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Wildlife Garden,Urban Garden,Hedge,Edging,Coastal Exposure,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;067072&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06707&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Prunus laurocerasus &apos;Nana&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Prunus laurocerasus &apos;Nana&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Dwarf English Laurel&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Hedge Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Holly (Ilex); Heavenly Bamboo (Nandina); Japanese Maple (Acer palmatum); Lilyturf (Liriope); Euonymus (Euonymus);&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Slow-growing to 6 to 8 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. For a formal appearance, shear annually after flowering.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949670729&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Very useful for accent or low hedges. An evergreen shrub with glossy dark green foliage on a compact, broadly spreading form. Lovely when in full bloom, with clusters of tiny yet highly fragrant white flowers perfuming the garden. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Ornamental Berries,Easy Care,Dwarf Plant,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Wildlife Garden,Urban Garden,Hedge,Edging,Coastal Exposure,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;067075&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06707&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Prunus laurocerasus &apos;Nana&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Prunus laurocerasus &apos;Nana&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Dwarf English Laurel&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Hedge Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Holly (Ilex); Heavenly Bamboo (Nandina); Japanese Maple (Acer palmatum); Lilyturf (Liriope); Euonymus (Euonymus);&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Slow growing to 6 to 8 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. For a formal appearance, shear annually after flowering.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949670750&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Very useful for accent or low hedges. An evergreen shrub with glossy dark green foliage on a compact, broadly spreading form. Lovely when in full bloom, with clusters of tiny yet highly fragrant white flowers perfuming the garden. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Ornamental Berries,Easy Care,Dwarf Plant,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Wildlife Garden,Urban Garden,Hedge,Edging,Coastal Exposure,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Fri, 18 Mar 2016 16:52:42 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

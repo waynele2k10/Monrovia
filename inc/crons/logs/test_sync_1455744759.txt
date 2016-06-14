@@ -1,0 +1,152 @@
+DATE/TIME: 2016-02-17 21:32:39
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-02-17 21:32:48
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 9428
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;027791&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02779&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Cornus kousa &apos;Satomi&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Cornus kousa &apos;Satomi&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Pink Japanese Dogwood&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Summer Flowering&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Specimen,Oakleaf Hydrangea (Hydrangea); Azalea (Azalea); Fothergilla (Fothergilla); Oregon Grape Holly (Mahonia); Holly (Ilex)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 20 ft. high, 15 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949277911&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Attractive horizontal tiers of branches help make this small deciduous tree popular. Splendid pink to red bracts followed in fall by hanging red fruit. Autumn leaves have red-scarlet tints.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Tolerates Acidic Soil,Showy Fruit,Naturalizes Well,Fall Color,Deer Resistant,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;027795&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02779&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Cornus kousa &apos;Satomi&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Cornus kousa &apos;Satomi&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Pink Japanese Dogwood&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Summer Flowering&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Specimen,Oakleaf Hydrangea (Hydrangea); Azalea (Azalea); Fothergilla (Fothergilla); Oregon Grape Holly (Mahonia); Holly (Ilex)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 20 ft. high, 15 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949277959&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Attractive horizontal tiers of branches help make this small deciduous tree popular. Splendid pink to red bracts followed in fall by hanging red fruit. Autumn leaves have red-scarlet tints.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Tolerates Acidic Soil,Showy Fruit,Naturalizes Well,Fall Color,Deer Resistant,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;027797&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02779&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;7&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Cornus kousa &apos;Satomi&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Cornus kousa &apos;Satomi&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Pink Japanese Dogwood&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Summer Flowering&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Specimen,Oakleaf Hydrangea (Hydrangea); Azalea (Azalea); Fothergilla (Fothergilla); Oregon Grape Holly (Mahonia); Holly (Ilex)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 20 ft. high, 15 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;7&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;6.20 gal. (23.47 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949305706&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Attractive horizontal tiers of branches help make this small deciduous tree popular. Splendid pink to red bracts followed in fall by hanging red fruit. Autumn leaves have red-scarlet tints.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Tolerates Acidic Soil,Showy Fruit,Naturalizes Well,Fall Color,Deer Resistant,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;02779M&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02779&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;M&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Cornus kousa &apos;Satomi&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Cornus kousa &apos;Satomi&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Pink Japanese Dogwood&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Summer Flowering&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Specimen,Oakleaf Hydrangea (Hydrangea); Azalea (Azalea); Fothergilla (Fothergilla); Oregon Grape Holly (Mahonia); Holly (Ilex)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 20 ft. high, 15 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;10&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;7.97 gal. (30.17 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949033241&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Attractive horizontal tiers of branches help make this small deciduous tree popular. Splendid pink to red bracts followed in fall by hanging red fruit. Autumn leaves have red-scarlet tints.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Tolerates Acidic Soil,Showy Fruit,Naturalizes Well,Fall Color,Deer Resistant,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 17 Feb 2016 21:32:46 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

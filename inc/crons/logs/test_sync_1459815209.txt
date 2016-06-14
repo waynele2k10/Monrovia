@@ -1,0 +1,176 @@
+DATE/TIME: 2016-04-05 00:13:29
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-04-05 00:13:34
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 10311
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;31204&lt;/ItemSizeID&gt;
+		&lt;Item&gt;31204&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;LOWES&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Petunia x &apos;Balpepin&apos; P.P. #22,414&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Petunia x &apos;Balpepin&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Pinstripe Petunia&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;8-12&quot; H X 8-12 &quot; W.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Trim off the flower heads after they fade and die to encourage more blooms late into the season. Not particular to soil type or pH. Highly tolerant of urban pollution.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring through Fall&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Pinstripe adds a stylish and sophisticated look to mixed containers, with its stunning deep purple trumpet-shaped flowers showing off a cream white star pattern. It&apos;s pointy leaves remain green throughout the season. Upright mounding form.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Prefers average to evenly moist soil, but will not tolerate standing water.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;31202&lt;/ItemSizeID&gt;
+		&lt;Item&gt;31202&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;LOWES&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Petunia hybrid Flash Mob Series&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Petunia hybrid Flash Mob Series&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Flash Mob Trailing Petunia&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Long Bloom Season&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;10-16&quot; H x 20-30&quot; W.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Easily grown in enriched, well drained planting mix. Keep soil evenly moist. Feed monthly during growing season. May be lightly trimmed mid-season to rejuvenate. Treat as a warm-season annual.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;&lt;/UPC&gt;
+		&lt;FlowerTime&gt;&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Exciting, first-ever colors and patterns in this series of trailing Petunias. Show them off in high impact planters and baskets or combine with other bloomers for a fantastic display. Mounded, spreading habit with nearly non-stop color throughout the season.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Requires regular watering- keep soil surface semi-moist but not soggy.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;10&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;31203&lt;/ItemSizeID&gt;
+		&lt;Item&gt;31203&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;LOWES&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Petunia x &apos;Glow Rose Stardust&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Petunia x &apos;Glow Rose Stardust&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Glow Rose Stardust Petunia&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;8-10&quot; H x 18-24&quot; W.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Easily grown as a warm-season annual in evenly moist, well drained soil. May be lightly trimmed mid-season to rejuvenate. Feed monthly with a slow release granular fertilizer.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Early Spring through late Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Packed with big, exotic blooms this lush, flower-filled plant puts on a high-impact show all season with very little attention. Stunning color for mixed containers and hanging baskets. Butterfly and hummingbird friendly.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Requires regular watering- keep soil surface semi-moist.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;0&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;31201&lt;/ItemSizeID&gt;
+		&lt;Item&gt;31201&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;LOWES&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Perilla frutescens &apos;Balmagpurp&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Perilla frutescens &apos;Balmagpurp&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Magilla&amp;#8482; Purple Perilla&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;showy foliage&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;24 - 36&quot; H X 12 - 18&quot; W.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Foliage color is less vibrant in lower light. Produces small flower spikes that should be pinched off. Apply a slow-release balanced fertilizer once a month after planting and then again in mid-summer. Prefers fertile, well-drained soil.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring through Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Magilla Purple features showy coleus-like foliage, but with studier, woodier stems. The leaves are deep purple with a pink stripe down the center. A wonderful addition to large mixed containers or for adding contrast to landscape beds. May be grown in sun or part shade, however will put on best show in full sun. Very heat and cold tolerant&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;10&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;31200&lt;/ItemSizeID&gt;
+		&lt;Item&gt;31200&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;LOWES&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Capsicum annuum&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Capsicum annuum&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Black Pearl Ornamental Pepper&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;18&quot;H x 12&quot; W.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Performs best in moist, organically rich, fertile, well-drained soils. Best black foliage color occurs in full sun. Good tolerance for high heat and humidity. Hardy to 32 degrees. Treat as an annual elsewhere.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Prized for its glossy black foliage and black-maturing-to-red fruit, Black Pearl grows vigorously in an upright bushy mound. Foliage emerges green but quickly turns shiny black. Small purple flowers appear in clusters in summer followed by small, round, pearl-like fruit. Although technically edible, the fruit is extremely hot! 2006 All-America Selection winner.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;10&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Edible,Easy Care,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Tue, 05 Apr 2016 00:13:30 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

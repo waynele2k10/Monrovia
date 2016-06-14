@@ -1,0 +1,152 @@
+DATE/TIME: 2016-02-10 17:32:40
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-02-10 17:32:44
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 9731
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;095332&lt;/ItemSizeID&gt;
+		&lt;Item&gt;09533&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Rhododendron x (Hachmann&apos;s Kabarett x Schneespiegel)&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Rhododendron x (Hachmann&apos;s Kabarett x Schneespiegel)&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Miyama&amp;#8482; Picobello Rhododendron&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Spring Flowering&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Border,Hydrangea (Hydrangea); Rhododendron (Rhododendron); Lily of the Valley (Pieris); Bleeding Heart (Dicentra); Coral Bells (Heuchera)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate growing to 5 to 7 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Provide well drained soil, rich in organic matter. Feed with an acid fertilizer after bloom. Keep roots cool with a thick layer of mulch.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949387351&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Beautiful glossy dark green foliage with flowers white as snow . Prefers cooler regions but some protection from winter wind is recommended. Makes an outstanding accent specimen or low, informal hedge.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;6&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Acidic Soil,Deer Resistant,Easy Care,Easy Care,Tolerates Acidic Soil&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;095332S&lt;/ItemSizeID&gt;
+		&lt;Item&gt;09533&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2S&lt;/Size&gt;
+		&lt;SizeDescription&gt;Super&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Rhododendron x (Hachmann&apos;s Kabarett x Schneespiegel)&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Rhododendron x (Hachmann&apos;s Kabarett x Schneespiegel)&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Miyama&amp;#8482; Picobello Rhododendron&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Spring Flowering&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Border,Hydrangea (Hydrangea); Rhododendron (Rhododendron); Lily of the Valley (Pieris); Bleeding Heart (Dicentra); Coral Bells (Heuchera)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate growing to 5 to 7 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Provide well drained soil, rich in organic matter. Feed with an acid fertilizer after bloom. Keep roots cool with a thick layer of mulch.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.00 gal. (7.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949412909&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Beautiful glossy dark green foliage with flowers white as snow . Prefers cooler regions but some protection from winter wind is recommended. Makes an outstanding accent specimen or low, informal hedge.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;6&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Acidic Soil,Deer Resistant,Easy Care,Easy Care,Tolerates Acidic Soil&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;019615&lt;/ItemSizeID&gt;
+		&lt;Item&gt;01961&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Cornus kousa &apos;Wolf Eyes&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Cornus kousa &apos;Wolf Eyes&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Wolf Eyes Japanese Dogwood&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Specimen Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Specimen,Mass Planting,Oak Leaf Hydrangea (Hydrangea); Snowberry (Symphoricarpos); Redbud (Cercis); Azalea (Azalea); Oregon Grape Holly (Mahonia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Slow growing to 20 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949018903&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring to early summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Eye-catching gray-green leaves are accented with ivory along wavy margins, making this dogwood a beautiful specimen. Autumn leaves fade into a pink-red hue. Star-shaped white flowers are followed by bright-red berries. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Showy Fruit,Dramatic Foliage Color,Deer Resistant,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Mass Planting&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;01961M&lt;/ItemSizeID&gt;
+		&lt;Item&gt;01961&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;M&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Cornus kousa &apos;Wolf Eyes&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Cornus kousa &apos;Wolf Eyes&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Wolf Eyes Japanese Dogwood&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Specimen Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Specimen,Mass Planting,Oak Leaf Hydrangea (Hydrangea); Snowberry (Symphoricarpos); Redbud (Cercis); Azalea (Azalea); Oregon Grape Holly (Mahonia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Slow growing to 20 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;10&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;7.97 gal. (30.17 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949067437&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring to early summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Eye-catching gray-green leaves are accented with ivory along wavy margins, making this dogwood a beautiful specimen. Autumn leaves fade into a pink-red hue. Star-shaped white flowers are followed by bright-red berries. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Showy Fruit,Dramatic Foliage Color,Deer Resistant,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Mass Planting&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 10 Feb 2016 17:32:43 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

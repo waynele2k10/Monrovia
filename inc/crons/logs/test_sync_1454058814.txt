@@ -1,0 +1,181 @@
+DATE/TIME: 2016-01-29 09:13:34
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-01-29 09:13:44
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 12294
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;011011&lt;/ItemSizeID&gt;
+		&lt;Item&gt;01101&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Sisyrinchium angustifolium&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Sisyrinchium angustifolium&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Blue Note&amp;#8482; Blue-Eyed Grass&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Border Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rock Garden,Poolside,Mass Planting,Container,Border,Clematis (Clematis); Lantana (Lantana); New Zealand Flax (Phormium); Plumbago (Plumbago); Rose (Rosa)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 12 to 18 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide evenly moist, well drained soil. Best with regular moisture but tolerates dry conditions when established. Shear old foliage before new leaves emerge in spring. Clumps may be divided every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949378489&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring to early summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;An excellent perennial for garden borders, tucked among rockery or near the edge of a pond. Clusters of dainty violet-blue flowers on short stalks embellish dark green, grass-like foliage for a beautiful late spring display. Forms a compact clump, gently spreading.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;North American Native Selection,Naturalizes Well,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Poolside,Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;409011&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40901&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Penstemon &apos;Novapenpur&apos; P.P.A.F.&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Penstemon &apos;Novapenpur&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Rock Candy&amp;#8482; Purple Penstemon&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Compact Rebloomer&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Wildlife Garden,Rock Garden,Mass Planting,Firescaping/Fire Wise,Container,Border,Coneflower (Echinacea); Black-Eyed Susan (Rudbeckia); Shasta Daisy (Chrysanthemum); Blue Fescue (Festuca); Blanket Flower (Gaillardia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 8 to 12 in. tall, 18 to 24 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Adaptable to a wide range of soils, including clay. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering may be reduced after establishment. Clip spent flowers midsummer for strong re-flowering.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949414552&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This compact perennial displays deep purple flowers with a white throat. Neat and tidy shape is perfect at the front of a border, along walkways or in containers. Stunning in full bloom in early summer, it will bloom again when given a light trim after the first flush, providing a long season of bold color.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Tolerates Poor Soils,Easy Care,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Rock Garden,Mass Planting,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;044911&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04491&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Sempervivum &apos;Rubikon&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Sempervivum &apos;Rubikon&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Rubikon Hens &amp;amp; Chicks&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Rock Garden Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rock Garden,Green Roof,Firescaping/Fire Wise,Coastal Exposure,Aloe (Aloe); Red Yucca (Hesperaloe); Blue Fescue (Festuca); Sedum (Sedum); Yucca (Yucca)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate growing 2 to 6 in. tall, ground hugging.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949236475&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicuous&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Bright ruby red rosettes readily create offsets, spreading into clumps. Three year old rosettes flower and die, as colorful younger rosettes take their place. Rock garden and trough favorite, thirves in highly porous soil. Architectural form for the modern garden.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Easy Care,Dramatic Foliage Color,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Green Roof,Firescaping/Fire Wise,Coastal Exposure&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;04491RND&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04491&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;RND&lt;/Size&gt;
+		&lt;SizeDescription&gt;Pint&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Sempervivum &apos;Rubikon&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Sempervivum &apos;Rubikon&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Rubikon Hens &amp;amp; Chicks&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Rock Garden Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rock Garden,Green Roof,Firescaping/Fire Wise,Coastal Exposure,Aloe (Aloe); Red Yucca (Hesperaloe); Blue Fescue (Festuca); Sedum (Sedum); Yucca (Yucca)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate growing 2 to 6 in. tall, ground hugging.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;12.3 oz. (12.3 oz.)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949419588&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicuous&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Bright ruby red rosettes readily create offsets, spreading into clumps. Three year old rosettes flower and die, as colorful younger rosettes take their place. Rock garden and trough favorite, thirves in highly porous soil. Architectural form for the modern garden.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Easy Care,Dramatic Foliage Color,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Green Roof,Firescaping/Fire Wise,Coastal Exposure&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;04491UT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04491&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;UT&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Sempervivum &apos;Rubikon&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Sempervivum &apos;Rubikon&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Rubikon Hens &amp;amp; Chicks&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Rock Garden Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rock Garden,Green Roof,Firescaping/Fire Wise,Coastal Exposure,Aloe (Aloe); Red Yucca (Hesperaloe); Blue Fescue (Festuca); Sedum (Sedum); Yucca (Yucca)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate growing 2 to 6 in. tall, ground hugging.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;QT&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 qt. (946 mL)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949249864&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicuous&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Bright ruby red rosettes readily create offsets, spreading into clumps. Three year old rosettes flower and die, as colorful younger rosettes take their place. Rock garden and trough favorite, thirves in highly porous soil. Architectural form for the modern garden.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Easy Care,Dramatic Foliage Color,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Green Roof,Firescaping/Fire Wise,Coastal Exposure&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Fri, 29 Jan 2016 09:13:43 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

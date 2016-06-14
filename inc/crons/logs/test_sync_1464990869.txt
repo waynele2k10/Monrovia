@@ -1,0 +1,235 @@
+DATE/TIME: 2016-06-03 21:54:29
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-06-03 21:54:41
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 17662
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;089981S&lt;/ItemSizeID&gt;
+		&lt;Item&gt;08998&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1S&lt;/Size&gt;
+		&lt;SizeDescription&gt;SuperOne&amp;#8482;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Physocarpus opulifolius &apos;SMPOTW&apos; P.P.# 26,749, Can. 5128&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Physocarpus opulifolius &apos;SMPOTW&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Tiny Wine&amp;#174; Ninebark&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage Color&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 3 to 4 ft. tall wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Prefers well-drained soil; extremely adaptable to other soil conditions. Fertilize in early spring by applying slow release fertilizer specialized for trees and shrubs. Blooms on old wood; prune after flowering. One third of the branches may be pruned in late winter.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 gal. (3.79 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949376195&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Soft pink clusters in spring.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A new dwarf variety, smaller than others on the market, yet extra full with small, refined leaves. The dark bronze-maroon foliage is colorful all season and contrasts beautifully with soft pink and white flowers in late spring. The dainty flowers cover the stems, providing an exceptionally showy display. This durable shrub is perfect for season-long color in the landscape and is a great choice for patio containers.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly in extreme heat. Requires less water once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,North American Native Selection,Extreme Cold Hardiness,Dwarf Plant,Dramatic Foliage Color,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;089982&lt;/ItemSizeID&gt;
+		&lt;Item&gt;08998&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Physocarpus opulifolius &apos;SMPOTW&apos; P.P.# 26,749, Can. 5128&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Physocarpus opulifolius &apos;SMPOTW&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Tiny Wine&amp;#174; Ninebark&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage Color&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 3 to 4 ft. tall wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Prefers well-drained soil; extremely adaptable to other soil conditions. Fertilize in early spring by applying slow release fertilizer specialized for trees and shrubs. Blooms on old wood; prune after flowering. One third of the branches may be pruned in late winter.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949406878&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Soft pink clusters in spring.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A new dwarf variety, smaller than others on the market, yet extra full with small, refined leaves. The dark bronze-maroon foliage is colorful all season and contrasts beautifully with soft pink and white flowers in late spring. The dainty flowers cover the stems, providing an exceptionally showy display. This durable shrub is perfect for season-long color in the landscape and is a great choice for patio containers.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly in extreme heat. Requires less water once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,North American Native Selection,Extreme Cold Hardiness,Dwarf Plant,Dramatic Foliage Color,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;089982S&lt;/ItemSizeID&gt;
+		&lt;Item&gt;08998&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2S&lt;/Size&gt;
+		&lt;SizeDescription&gt;Super&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Physocarpus opulifolius &apos;SMPOTW&apos; P.P.# 26,749, Can. 5128&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Physocarpus opulifolius &apos;SMPOTW&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Tiny Wine&amp;#174; Ninebark&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage Color&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 3 to 4 ft. tall wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Prefers well-drained soil; extremely adaptable to other soil conditions. Fertilize in early spring by applying slow release fertilizer specialized for trees and shrubs. Blooms on old wood; prune after flowering. One third of the branches may be pruned in late winter.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.00 gal. (7.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949376201&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Soft pink clusters in spring.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A new dwarf variety, smaller than others on the market, yet extra full with small, refined leaves. The dark bronze-maroon foliage is colorful all season and contrasts beautifully with soft pink and white flowers in late spring. The dainty flowers cover the stems, providing an exceptionally showy display. This durable shrub is perfect for season-long color in the landscape and is a great choice for patio containers.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly in extreme heat. Requires less water once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,North American Native Selection,Extreme Cold Hardiness,Dwarf Plant,Dramatic Foliage Color,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;089985&lt;/ItemSizeID&gt;
+		&lt;Item&gt;08998&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Physocarpus opulifolius &apos;SMPOTW&apos; P.P.# 26,749, Can. 5128&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Physocarpus opulifolius &apos;SMPOTW&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Tiny Wine&amp;#174; Ninebark&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage Color&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 3 to 4 ft. tall wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Prefers well-drained soil; extremely adaptable to other soil conditions. Fertilize in early spring by applying slow release fertilizer specialized for trees and shrubs. Blooms on old wood; prune after flowering. One third of the branches may be pruned in late winter.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949379080&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Soft pink clusters in spring.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A new dwarf variety, smaller than others on the market, yet extra full with small, refined leaves. The dark bronze-maroon foliage is colorful all season and contrasts beautifully with soft pink and white flowers in late spring. The dainty flowers cover the stems, providing an exceptionally showy display. This durable shrub is perfect for season-long color in the landscape and is a great choice for patio containers.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly in extreme heat. Requires less water once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,North American Native Selection,Extreme Cold Hardiness,Dwarf Plant,Dramatic Foliage Color,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;406532&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40653&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Sambucus racemosa &apos;SMNSRD4&apos; P.P.# 26.613, CBRAF&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Sambucus racemosa &apos;SMNSRD4&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Lemony Lace&amp;#8482; Elderberry&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Smoke Tree (Cotinus); Chokeberry (Aronia); Rose (Rosa); Snowberry (Symphoricarpos); Black Elderberry (Sambucus nigra)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 3 to 6 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Adaptable to most well-drained soils. Requires less frequent watering when established. Tolerates full sun in northern climates, prefers light shade in more southern areas. Hard prune young plants to develop a nice full habit. Blooms on old wood; trim established plants just after flowering.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949398371&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring, followed by berries in fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;An exciting new elderberry with bright golden foliage! Fine, thread-like foliage exhibits colorful reddish new growth. More deeply cut than others, creating a compact, shaggy mound with exquisite texture. White spring flowers produce red fruit in fall, making it a good addition to wildlife gardens.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly- weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Ornamental Berries,North American Native Selection,Fall Color,Extreme Cold Hardiness,Easy Care,Dramatic Foliage Color,Deer Resistant,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Specimen,Privacy Screen,Mass Planting,Hedge,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;406532S&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40653&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2S&lt;/Size&gt;
+		&lt;SizeDescription&gt;Super&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Sambucus racemosa &apos;SMNSRD4&apos; P.P.# 26.613, CBRAF&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Sambucus racemosa &apos;SMNSRD4&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Lemony Lace&amp;#8482; Elderberry&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Smoke Tree (Cotinus); Chokeberry (Aronia); Rose (Rosa); Snowberry (Symphoricarpos); Black Elderberry (Sambucus nigra)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 3 to 6 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Adaptable to most well-drained soils. Requires less frequent watering when established. Tolerates full sun in northern climates, prefers light shade in more southern areas. Hard prune young plants to develop a nice full habit. Blooms on old wood; trim established plants just after flowering.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.00 gal. (7.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949420584&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring, followed by berries in fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;An exciting new elderberry with bright golden foliage! Fine, thread-like foliage exhibits colorful reddish new growth. More deeply cut than others, creating a compact, shaggy mound with exquisite texture. White spring flowers produce red fruit in fall, making it a good addition to wildlife gardens.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly- weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Ornamental Berries,North American Native Selection,Fall Color,Extreme Cold Hardiness,Easy Care,Dramatic Foliage Color,Deer Resistant,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Specimen,Privacy Screen,Mass Planting,Hedge,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;406533&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40653&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;3&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Sambucus racemosa &apos;SMNSRD4&apos; P.P.# 26.613, CBRAF&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Sambucus racemosa &apos;SMNSRD4&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Lemony Lace&amp;#8482; Elderberry&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Smoke Tree (Cotinus); Chokeberry (Aronia); Rose (Rosa); Snowberry (Symphoricarpos); Black Elderberry (Sambucus nigra)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 3 to 6 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Adaptable to most well-drained soils. Requires less frequent watering when established. Tolerates full sun in northern climates, prefers light shade in more southern areas. Hard prune young plants to develop a nice full habit. Blooms on old wood; trim established plants just after flowering.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;3&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.54 gal. (9.61 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949411322&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring, followed by berries in fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;An exciting new elderberry with bright golden foliage! Fine, thread-like foliage exhibits colorful reddish new growth. More deeply cut than others, creating a compact, shaggy mound with exquisite texture. White spring flowers produce red fruit in fall, making it a good addition to wildlife gardens.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly- weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Ornamental Berries,North American Native Selection,Fall Color,Extreme Cold Hardiness,Easy Care,Dramatic Foliage Color,Deer Resistant,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Specimen,Privacy Screen,Mass Planting,Hedge,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Fri, 03 Jun 2016 21:54:39 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

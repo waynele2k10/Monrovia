@@ -1,0 +1,262 @@
+DATE/TIME: 2016-04-05 03:12:42
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-04-05 03:12:51
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 17819
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;075313&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07531&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;3&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Rosa &apos;JAChonew&apos; P.P. #18031&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Rosa &apos;JAChonew&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Aromatherapy&amp;#8482; Hybrid Tea Rose&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Fragrant&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;4 to 6 ft. tall, up to 3 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish an extensive root system. Feed regularly during the growing season with a general purpose fertilizer. Prune annually in late winter to promote vigorous new growth.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;3&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.54 gal. (9.61 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949346969&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Mid spring through summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Highly fragrant pink blooms on long, strong stems adorn this plant from early spring through summer. Plant near windows and doors to enjoy the heavy fragrance all summer. Perfect for cut flower arrangements.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Container,Border,Barrier&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;052601&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05260&lt;/Item&gt;
+		&lt;SpecialIcon&gt;Exclusive&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Paeonia (Intersectional hybrid) x &apos;Smith Opus 1&apos; P.P.# 22,192&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Paeonia (Intersectional hybrid) x &apos;Smith Opus 1&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Misaka&amp;#8482; (Beautiful Blossom) Itoh Peony&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Hydrangea (Hydrangea); Bellflower (Campanula); Phlox (Phlox); Catmint (Nepeta); Coneflower (Echinacea)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 20 to 30 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Once established, water deeply and less frequently. Performs best in slightly acidic soils. Prune stems after foliage and stems dies back in the fall.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949406663&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Large blooms, up to 8 in. wide in spring.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A rarity in intersectional hybrids, magnificent flowers first open orange then fade to a beautiful peachy-yellow. Large, dark red central flares are extremely prominent, and produce a wonderful, mild fragrance. Vigorous, disease resistant growth habit.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Improved Pest and Disease Resistance,Extreme Cold Hardiness,Easy Care,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen,Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;052605&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05260&lt;/Item&gt;
+		&lt;SpecialIcon&gt;Exclusive&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Paeonia (Intersectional hybrid) x &apos;Smith Opus 1&apos; P.P.# 22,192&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Paeonia (Intersectional hybrid) x &apos;Smith Opus 1&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Misaka&amp;#8482; (Beautiful Blossom) Itoh Peony&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Hydrangea (Hydrangea); Bellflower (Campanula); Phlox (Phlox); Catmint (Nepeta); Coneflower (Echinacea)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 20 to 30 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Once established, water deeply and less frequently. Performs best in slightly acidic soils. Prune stems after foliage and stems dies back in the fall.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949278871&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Large blooms, up to 8 in. wide in spring.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A rarity in intersectional hybrids, magnificent flowers first open orange then fade to a beautiful peachy-yellow. Large, dark red central flares are extremely prominent, and produce a wonderful, mild fragrance. Vigorous, disease resistant growth habit.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Improved Pest and Disease Resistance,Extreme Cold Hardiness,Easy Care,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen,Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;067651&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06765&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Kniphofia triangularis&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Kniphofia triangularis&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Dwarf Red Hot Poker&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Waterwise&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Reaches two feet tall.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. Prune old flower heads to encourage more blossoms.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949337806&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Orange blooms in summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A lovely kniphofia with brilliant tangerine orange flowers. This particular selection produces more robust plants that are taller with broader-leaves.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;094711&lt;/ItemSizeID&gt;
+		&lt;Item&gt;09471&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Kniphofia &apos;Nancy&apos;s Red&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Kniphofia &apos;Nancy&apos;s Red&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Nancy&apos;s Red Torch Flower&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Clumps 18 to 24 in. tall and wide; slowly spreads by rhizomes.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Drought tolerant once established. Shear spent blooms for best repeat bloom. Established clumps are best left undisturbed.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949298732&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Mid-summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Tropical flair for the waterwise garden! This tough perennial explodes with large, coral red summer blooms. Clusters of brick-red buds rise above clumps of narrow grass-green leaves, opening to reveal a hint of yellow on the throat and petal margins. This hummingbird magnet also makes a great cut flower. Herbaceous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Drought tolerant once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Dwarf Plant,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Mass Planting,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;094711S&lt;/ItemSizeID&gt;
+		&lt;Item&gt;09471&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1S&lt;/Size&gt;
+		&lt;SizeDescription&gt;SuperOne&amp;#8482;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Kniphofia &apos;Nancy&apos;s Red&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Kniphofia &apos;Nancy&apos;s Red&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Nancy&apos;s Red Torch Flower&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Clumps 18 to 24 in. tall and wide; slowly spreads by rhizomes.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Drought tolerant once established. Shear spent blooms for best repeat bloom. Established clumps are best left undisturbed.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 gal. (3.79 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949335123&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Mid-summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Tropical flair for the waterwise garden! This tough perennial explodes with large, coral red summer blooms. Clusters of brick-red buds rise above clumps of narrow grass-green leaves, opening to reveal a hint of yellow on the throat and petal margins. This hummingbird magnet also makes a great cut flower. Herbaceous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Drought tolerant once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Dwarf Plant,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Mass Planting,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;094712&lt;/ItemSizeID&gt;
+		&lt;Item&gt;09471&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Kniphofia &apos;Nancy&apos;s Red&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Kniphofia &apos;Nancy&apos;s Red&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Nancy&apos;s Red Torch Flower&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Clumps 18 to 24 in. tall and wide; slowly spreads by rhizomes.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Drought tolerant once established. Shear spent blooms for best repeat bloom. Established clumps are best left undisturbed.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949348512&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Mid-summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Tropical flair for the waterwise garden! This tough perennial explodes with large, coral red summer blooms. Clusters of brick-red buds rise above clumps of narrow grass-green leaves, opening to reveal a hint of yellow on the throat and petal margins. This hummingbird magnet also makes a great cut flower. Herbaceous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Drought tolerant once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Dwarf Plant,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Mass Planting,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;068411&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06841&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Helleborus x ericsmithii &apos;HGC Joker&apos; P.P.A.F.&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Helleborus x ericsmithii &apos;HGC Joker&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Gold Collection&amp;#174; Winter&apos;s Song Lenten Rose&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Woodland Garden&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 15 to 18 inches tall and 24 inches wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide well drained soil, rich in organic matter. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Remove old foliage in spring. Feed with an acid fertilizer after bloom. Apply a layer of mulch to preserve moisture and keep roots cool in summer.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949325087&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Januray to March&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Long lasting, large, creamy white flowers with a dark pink reverse cover this lovely new cultivar in late winter to early spring. Foliage is a handsome silvery-green. Like others in the Gold Collection Series, this selection flowers the first year, produces many buds and blossoms, and has forward-facing flowers. Deer-resistant and ideal in containers and window boxes.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full to partial shade&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water weekly or more often in extreme heat. Requires less water once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Shade Loving,Gift Plant,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Mass Planting,Houseplant,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Tue, 05 Apr 2016 03:12:47 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

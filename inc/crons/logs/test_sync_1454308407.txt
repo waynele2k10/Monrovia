@@ -1,0 +1,152 @@
+DATE/TIME: 2016-02-01 06:33:27
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-02-01 06:33:32
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 10360
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;075491&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07549&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Helleborus x hybridus &apos;Picotee&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Helleborus x hybridus &apos;Picotee&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Picotee Lenten Rose (Winter Dreams Series)&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Shade Loving&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Mass Planting,Border,Coral Bells (Heuchera); Columbine (Aquilegia); Hosta (Hosta); Lungwort (Pulmonaria); Bleeding Heart (Dicentra)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 12 to 18 inches tall and 16 to 24 inches wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide humus-rich, well drained soil. Mulch to keep roots cool, avoiding crowns. Winter protection advised in cold winter areas. Remove spent blooms if seedlings are unwanted and to maintain color integrity of the original clump. Shear old foliage in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949364710&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late winter to early spring.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A new, taller stemmed selection offering exquisite, rose-pink flowers with light veining and a fine dark burgundy picotee edge to each petal. Foliage is clean and nearly spot-free. Grown by tissue culture and selected by Miyoshi for exceptional color and form, this oriental hybrid will remain consistent, unlike many seedling strains. A prolific bloomer for beds, borders and woodland gardens.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade to filtered sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly- weekly or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Acidic Soil,Shade Loving,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Deer Resistant&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Mass Planting,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;073422&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07342&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Vaccinium corymbosum &apos;Blueray&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Vaccinium corymbosum &apos;Blueray&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Blueray Blueberry&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Edible Fruit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Kitchen Garden,Hedge,Container,Border,Magnolia (Magnolia); Hydrangea (Hydrangea); Mountain Laurel (Kalmia); Bayberry (Myrica); Camellia (Camellia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 5 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide rich, acidic, well-drained soil. Water regularly during the growing season to maintain a deep, extensive root system. Site away from harsh, prolonged afternoon sun in hot, dry summer areas to avoid leaf burn. Before new growth begins, prune off twiggy growth, leaving only main stems to prevent overbearing.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949422540&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Early spring flowers produce early summer fruit.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Large, firm blue fruit in early to mid-season. Vigorous growth and high-yield; bears fruit earlier than &apos;Bluecrop&apos;. Burgundy foliage in fall, deep red stems in winter. Flowers provide nectar for pollinators and branches provide shelter and nesting sites for birds.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;7&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Acidic Soil,Showy Fruit,North American Native Selection,Edible,Easy Care,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Kitchen Garden,Hedge,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;073423&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07342&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;3&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Vaccinium corymbosum &apos;Blueray&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Vaccinium corymbosum &apos;Blueray&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Blueray Blueberry&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Edible Fruit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Kitchen Garden,Hedge,Container,Border,Magnolia (Magnolia); Hydrangea (Hydrangea); Mountain Laurel (Kalmia); Bayberry (Myrica); Camellia (Camellia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 5 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide rich, acidic, well-drained soil. Water regularly during the growing season to maintain a deep, extensive root system. Site away from harsh, prolonged afternoon sun in hot, dry summer areas to avoid leaf burn. Before new growth begins, prune off twiggy growth, leaving only main stems to prevent overbearing.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;3&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.54 gal. (9.61 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949387733&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Early spring flowers produce early summer fruit.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Large, firm blue fruit in early to mid-season. Vigorous growth and high-yield; bears fruit earlier than &apos;Bluecrop&apos;. Burgundy foliage in fall, deep red stems in winter. Flowers provide nectar for pollinators and branches provide shelter and nesting sites for birds.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;7&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Acidic Soil,Showy Fruit,North American Native Selection,Edible,Easy Care,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Kitchen Garden,Hedge,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;068081&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06808&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Coreopsis x &apos;Redshift&apos; P.P.# 20,412&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Coreopsis x &apos;Redshift&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Big Bang&amp;#8482; Redshift Tickseed&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Summer Flowering&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rock Garden,Mass Planting,Container,Border,Blanket Flower (Gaillardia); Salvia (Salvia); Aster (Aster); Black-Eyed-Susan (Rudbeckia); Sedum (Sedum)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast grower to 24 to 30 in. tall, 18 in. spread.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering frequency may be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring. For repeated bloom, shear old flowers.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949323441&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer through fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Finally, a hardy red coreopsis! This spectacular selection has flowers that start out butter yellow with deep red centers and red streaking toward the outer tips. Color shifts to ruby red as the weather cools, creating added interest. Outstanding perennial for borders, perennial beds, and containers.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water weekly, or more often in extreme heat, until established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Deer Resistant&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Mon, 01 Feb 2016 06:33:32 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

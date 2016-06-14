@@ -1,0 +1,210 @@
+DATE/TIME: 2016-02-14 19:32:38
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-02-14 19:32:46
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 14637
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;034732&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03473&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hibiscus moscheutos &apos;Strawberry Swirl&apos; P.P. #21,542&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hibiscus moscheutos &apos;Strawberry Swirl&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Strawberry Swirl Fleming Hibiscus&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Very Wet Areas,Specimen,Firescaping/Fire Wise,Bee Balm (Monarda); Coneflower (Echinacea); Beardtongue (Penstemon); Salvia (Salvia); Butterfly Bush (Buddleja)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;A strong upright rounded form with very fast growth 3 to 4 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Provide a rich, well-drained soil. Water and fertilize regularly throughout the growing season. For a neat appearance, cut to the ground in winter.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949312360&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Very large flowers bear alternating pink and pale pink petals, providing tropical appeal over a long season. Maple-like foliage is shiny green. Quick addition to the shrub or perennial border for instant makeover. Herbaceous perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Keep soil surface moist, but not soggy.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;High&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Wet Soils,Easy Care,Fast Growing&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Very Wet Areas&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Very Wet Areas,Specimen,Firescaping/Fire Wise&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;034733&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03473&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;3&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hibiscus moscheutos &apos;Strawberry Swirl&apos; P.P. #21,542&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hibiscus moscheutos &apos;Strawberry Swirl&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Strawberry Swirl Fleming Hibiscus&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Very Wet Areas,Specimen,Firescaping/Fire Wise,Bee Balm (Monarda); Coneflower (Echinacea); Beardtongue (Penstemon); Salvia (Salvia); Butterfly Bush (Buddleja)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;A strong upright rounded form with very fast growth 3 to 4 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Provide a rich, well-drained soil and water and fertilize regularly throughout the growing season. For a neat appearance, cut to the ground in winter.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;3&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.54 gal. (9.61 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949263341&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Very large flowers bear alternating pink and pale pink petals, providing tropical appeal over a long season. Maple-like foliage is shiny green. Quick addition to the shrub or perennial border for instant makeover. Herbaceous perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Keep soil surface moist, but not soggy.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;High&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Wet Soils,Easy Care,Fast Growing&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Very Wet Areas&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Very Wet Areas,Specimen,Firescaping/Fire Wise&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;034735&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03473&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hibiscus moscheutos &apos;Strawberry Swirl&apos; P.P. #21,542&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hibiscus moscheutos &apos;Strawberry Swirl&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Strawberry Swirl Fleming Hibiscus&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Very Wet Areas,Specimen,Firescaping/Fire Wise,Bee Balm (Monarda); Coneflower (Echinacea); Beardtongue (Penstemon); Salvia (Salvia); Butterfly Bush (Buddleja)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;A strong upright rounded form with very fast growth 3 to 4 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Provide a rich, well-drained soil and water and fertilize regularly throughout the growing season. For a neat appearance, cut to the ground in winter.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949072202&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Very large flowers bear alternating pink and pale pink petals, providing tropical appeal over a long season. Maple-like foliage is shiny green. Quick addition to the shrub or perennial border for instant makeover. Herbaceous perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Keep soil surface moist, but not soggy.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;High&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Wet Soils,Easy Care,Fast Growing&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Very Wet Areas&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Very Wet Areas,Specimen,Firescaping/Fire Wise&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;034739&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03473&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;9&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hibiscus moscheutos &apos;Strawberry Swirl&apos; P.P. #21,542&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hibiscus moscheutos &apos;Strawberry Swirl&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Strawberry Swirl Fleming Hibiscus&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Very Wet Areas,Specimen,Firescaping/Fire Wise,Bee Balm (Monarda); Coneflower (Echinacea); Beardtongue (Penstemon); Salvia (Salvia); Butterfly Bush (Buddleja)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;A strong upright rounded form with very fast growth 3 to 4 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Provide a rich, well-drained soil. Water and fertilize regularly throughout the growing season. For a neat appearance, cut to the ground in winter.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;15&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;12.07 gal. (45.69 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949261484&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Very large flowers bear alternating pink and pale pink petals, providing tropical appeal over a long season. Maple-like foliage is shiny green. Quick addition to the shrub or perennial border for instant makeover. Herbaceous perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Keep soil surface moist, but not soggy.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;High&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Wet Soils,Easy Care,Fast Growing&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Very Wet Areas&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Very Wet Areas,Specimen,Firescaping/Fire Wise&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;033011&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03301&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Asplenium hybrid (dimorphum x difforme)&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Asplenium hybrid (dimorphum x difforme)&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Austral Gem&amp;#8482; Bird&apos;s Nest Fern&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Shade Loving&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Specimen,Mass Planting,Houseplant,Container,Coastal Exposure,Border,Stromanthe (Stromanthe); Elephant Ear (Colocasia); Bush Lily (Clivia); Black Mondo Grass (Ophiopogon); Cast Iron Plant (Aspidistra)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 20 inches tall by 24 inches wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949263594&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Does not bloom.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A new, unique fern with thick and glossy dark-green foliage held on strong, feathery fronds. Durable, handsome, and highly adaptable to low humidity, this sterile variety does not develop messy spores, making it an ideal houseplant in any climate. Perfect for planting in outdoor shady spots in warmer zones.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, when the soil surface becomes dry.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Shade Loving,Gift Plant,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Mass Planting,Houseplant,Container,Coastal Exposure,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;033015&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03301&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Asplenium hybrid (dimorphum x difforme)&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Asplenium hybrid (dimorphum x difforme)&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Austral Gem&amp;#8482; Bird&apos;s Nest Fern&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Shade Loving&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Specimen,Mass Planting,Houseplant,Container,Coastal Exposure,Border,Stromanthe (Stromanthe); Elephant Ear (Colocasia); Bush Lily (Clivia); Black Mondo Grass (Ophiopogon); Cast Iron Plant (Aspidistra)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 20 inches tall by 24 inches wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949375563&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Does not bloom.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A new, unique fern with thick and glossy dark-green foliage held on strong, feathery fronds. Durable, handsome, and highly adaptable to low humidity, this sterile variety does not develop messy spores, making it an ideal houseplant in any climate. Perfect for planting in outdoor shady spots in warmer zones.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, when the soil surface becomes dry.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Shade Loving,Gift Plant,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Mass Planting,Houseplant,Container,Coastal Exposure,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Sun, 14 Feb 2016 19:32:44 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

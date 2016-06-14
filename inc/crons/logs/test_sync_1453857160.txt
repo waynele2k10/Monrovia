@@ -1,0 +1,17 @@
+DATE/TIME: 2016-01-27 01:12:40
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-01-27 01:12:40
+STATUS: ERROR
+REQUEST:
+  
+
+RESPONSE:
+
+
+
+*************
+

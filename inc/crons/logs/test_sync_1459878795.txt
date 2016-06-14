@@ -1,0 +1,267 @@
+DATE/TIME: 2016-04-05 17:53:15
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-04-05 17:53:25
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 18156
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;412721&lt;/ItemSizeID&gt;
+		&lt;Item&gt;41272&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Sedum &apos;Firecracker&apos; P.P.A.F.&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Sedum &apos;Firecracker&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;SunSparkler&amp;#174; Firecracker Sedum&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Pathway Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Basket of Gold (Alyssum); Yarrow (Achillea); Hens and Chicks (Sempervivum); Cranesbill (Geranium); Tickseed (Coreopsis)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 6-8 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide well-drained soil. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Reduce watering, once established. For a neat appearance, remove old foliage before new leaves emerge.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949424902&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late summer to early fall&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Brilliant burgundy-red sedum clusters all season long with soft pink flowers in late summer. Perfect in shallow containers or tucked into rockery or a green wall, where it will gently cascade. Excellent ground cover or accent for borders and rock gardens.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, requires only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Ground Cover,Green Wall,Firescaping/Fire Wise,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;41272UT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;41272&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;UT&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Sedum &apos;Firecracker&apos; P.P.A.F.&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Sedum &apos;Firecracker&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;SunSparkler&amp;#174; Firecracker Sedum&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Pathway Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Basket of Gold (Alyssum); Yarrow (Achillea); Hens and Chicks (Sempervivum); Cranesbill (Geranium); Tickseed (Coreopsis)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 6-8 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide well-drained soil. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Reduce watering, once established. For a neat appearance, remove old foliage before new leaves emerge.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;QT&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 qt. (946 mL)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949424919&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late summer to early fall&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Brilliant burgundy-red sedum clusters all season long with soft pink flowers in late summer. Perfect in shallow containers or tucked into rockery or a green wall, where it will gently cascade. Excellent ground cover or accent for borders and rock gardens.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, requires only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Ground Cover,Green Wall,Firescaping/Fire Wise,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;088961&lt;/ItemSizeID&gt;
+		&lt;Item&gt;08896&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Scabiosa columbaria &apos;Giga Blue&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Scabiosa columbaria &apos;Giga Blue&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Giga&amp;#8482; Blue Pincushion Flower&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Long Bloom Season&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Moderate growing to 15 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Remove old flowers to prolong flowering. Cut back to the ground at the end of the season.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949423370&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Mid-summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Graceful, honey-scented flowers rise above mounds of deeply cut, often fuzzy foliage. Excellent cut flowers. Attractive as a border plant, specimen in a rock gardens, or in a mass planting. Prefers slightly alkaline soils.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen,Mass Planting,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;412691&lt;/ItemSizeID&gt;
+		&lt;Item&gt;41269&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Salvia nemorosa &apos;Blue Marvel&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Salvia nemorosa &apos;Blue Marvel&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Blue Marvel Salvia&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Summer Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Blanket Flower (Gaillardia); Black-Eyed Susan (Rudbeckia); Coneflower (Echinacea); Blue Fescue (Festuca); Sedum (Sedum)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Clumps to 10 to 12 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep extensive root system. Cut within 3 in. of the soil &amp;amp; feed with a general purpose fertilizer before new spring growth begins. Prune old flowers to encourage reblooming.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949424773&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Early spring to fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This especially compact selection is a stunning addition to any border. Spikes of bright violet-blue flowers top gray-green foliage. Dense, shrub-like growth. Deciduous perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Regular water - weekly or more often in extreme heat, until established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Rock Garden,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;412692&lt;/ItemSizeID&gt;
+		&lt;Item&gt;41269&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Salvia nemorosa &apos;Blue Marvel&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Salvia nemorosa &apos;Blue Marvel&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Blue Marvel Salvia&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Summer Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Blanket Flower (Gaillardia); Black-Eyed Susan (Rudbeckia); Coneflower (Echinacea); Blue Fescue (Festuca); Sedum (Sedum)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Clumps to 10 to 12 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep extensive root system. Cut within 3 in. of the soil &amp;amp; feed with a general purpose fertilizer before new spring growth begins. Prune old flowers to encourage reblooming.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949424773&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Early spring to fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This especially compact selection is a stunning addition to any border. Spikes of bright violet-blue flowers top gray-green foliage. Dense, shrub-like growth. Deciduous perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Regular water - weekly or more often in extreme heat, until established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Rock Garden,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;409171&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40917&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Salvia greggii &apos;Radio Red&apos; P.P.A.F.&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Salvia greggii &apos;Radio Red&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Radio Red Autumn Sage&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Long Bloom Season&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Blanket Flower (Gaillardia); Black-Eyed Susan (Rudbeckia); Coneflower (Echinacea); Blue Fescue (Festuca); Sedum (Sedum)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 2 to 3 ft. tall, 3 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Prune old flowers to encourage reblooming. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949416006&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring to late fall&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;With stunning crimson-red blooms over a long season, this Salvia deserves a prominent location in a garden setting. Kept lightly clipped, it can be utilized as a low informal hedge or as a single specimen in a perennial border or container garden.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,North American Native Selection,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Mass Planting,Hedge,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;086671&lt;/ItemSizeID&gt;
+		&lt;Item&gt;08667&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Kniphofia &apos;Lemon Popsicle&apos; P.P. 24,01&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Kniphofia &apos;Lemon Popsicle&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Lemon Popsicle Hot Poker&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Attractive Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Avens (Geum); Blanket Flower (Gaillardia); Black-Eyed Susan (Rudbeckia); Coneflower (Echinacea); Salvia (Salvia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Clumping growth to 14 in. tall and wide; flower spikes to 30 in. tall.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Prefers enriched, well-drained soil. Avoid wet, heavy soils. Apply a slow-release fertilizer in spring. Promptly remove spent flower spikes. Mulch to protect crowns in colder winter zones. Clumps may be divided in spring or fall.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949425305&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring through fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Brilliant yellow color with dynamic texture of the vertical flower spikes. Great for beds, borders or patio containers. Elegant, grass-like foliage is wonderful background for such a display of pyrotechnics. Blooms begin in June and continue into October.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly; requires less once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;6&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Tolerates Poor Soils,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;086671S&lt;/ItemSizeID&gt;
+		&lt;Item&gt;08667&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1S&lt;/Size&gt;
+		&lt;SizeDescription&gt;SuperOne&amp;#8482;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Kniphofia &apos;Lemon Popsicle&apos; P.P. 24,01&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Kniphofia &apos;Lemon Popsicle&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Lemon Popsicle Hot Poker&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Attractive Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Avens (Geum); Blanket Flower (Gaillardia); Black-Eyed Susan (Rudbeckia); Coneflower (Echinacea); Salvia (Salvia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Clumping growth to 14 in. tall and wide; flower spikes to 30 in. tall.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Prefers enriched, well-drained soil. Avoid wet, heavy soils. Apply a slow-release fertilizer in spring. Promptly remove spent flower spikes. Mulch to protect crowns in colder winter zones. Clumps may be divided in spring or fall.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 gal. (3.79 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949415887&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring through fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Brilliant yellow color with dynamic texture of the vertical flower spikes. Great for beds, borders or patio containers. Elegant, grass-like foliage is wonderful background for such a display of pyrotechnics. Blooms begin in June and continue into October.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly; requires less once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;6&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Tolerates Poor Soils,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Tue, 05 Apr 2016 17:53:20 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

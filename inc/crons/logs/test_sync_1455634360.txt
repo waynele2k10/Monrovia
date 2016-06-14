@@ -1,0 +1,210 @@
+DATE/TIME: 2016-02-16 14:52:40
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-02-16 14:52:48
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 15649
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;020101&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02010&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Magnolia grandiflora &apos;Southern Charm&apos; P.P.# 13049&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Magnolia grandiflora &apos;Southern Charm&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Teddy Bear&amp;#174; Southern Magnolia&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Compact Habit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Specimen,Urban Garden,Firescaping/Fire Wise,Container,Coastal Exposure,Camellia (Camellia); Indian Hawthorn (Rhaphiolepis); Hydrangea (Hydrangea); Viburnum (Viburnum); Hosta (Hosta)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate growth to 16 to 20 ft. tall, 10 to 12 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Highly adaptable; tolerates periodic drought when established, as well occasionally very wet soils. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949280607&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer and fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A very compact, upright grower whose shiny, deep green leaves have a heavy reddish-brown felt beneath. Large 6 to 8 inch fragrant white flowers dot the plant throughout the warm months. A superb small specimen or accent in the landscape. Highly adaptable tree tolerates mild drought, when established.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, when top 3&quot; of soil is dry; less often, once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Tolerates Road Salt,Tolerates Acidic Soil,Easy Care,Dwarf Plant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Very Wet Areas&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen,Urban Garden,Firescaping/Fire Wise,Container,Coastal Exposure&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;020105&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02010&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Magnolia grandiflora &apos;Southern Charm&apos; P.P.# 13049&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Magnolia grandiflora &apos;Southern Charm&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Teddy Bear&amp;#174; Southern Magnolia&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Compact Habit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Specimen,Urban Garden,Firescaping/Fire Wise,Container,Coastal Exposure,Camellia (Camellia); Indian Hawthorn (Rhaphiolepis); Hydrangea (Hydrangea); Viburnum (Viburnum); Hosta (Hosta)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate growth rate 16 to 20 ft. tall, 10 to 12 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949021163&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer and fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A very compact, upright grower whose shiny, deep green leaves have a heavy reddish-brown felt beneath. Large 6 to 8 inch fragrant white flowers dot the plant throughout the warm months. A superb small specimen or accent in the landscape. Highly adaptable tree tolerates mild drought, when established.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, when top 3&quot; of soil is dry; less often, once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Tolerates Road Salt,Tolerates Acidic Soil,Easy Care,Dwarf Plant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Very Wet Areas&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen,Urban Garden,Firescaping/Fire Wise,Container,Coastal Exposure&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;020107&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02010&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;7&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Magnolia grandiflora &apos;Southern Charm&apos; P.P.# 13049&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Magnolia grandiflora &apos;Southern Charm&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Teddy Bear&amp;#174; Southern Magnolia&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Compact Habit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Specimen,Urban Garden,Firescaping/Fire Wise,Container,Coastal Exposure,Camellia (Camellia); Indian Hawthorn (Rhaphiolepis); Hydrangea (Hydrangea); Viburnum (Viburnum); Hosta (Hosta)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate growth rate 16 to 20 ft. tall, 10 to 12 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;7&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;6.20 gal. (23.47 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949021224&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer and fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A very compact, upright grower whose shiny, deep green leaves have a heavy reddish-brown felt beneath. Large 6 to 8 inch fragrant white flowers dot the plant throughout the warm months. A superb small specimen or accent in the landscape. Highly adaptable tree tolerates mild drought, when established.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, when top 3&quot; of soil is dry; less often, once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Tolerates Road Salt,Tolerates Acidic Soil,Easy Care,Dwarf Plant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Very Wet Areas&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen,Urban Garden,Firescaping/Fire Wise,Container,Coastal Exposure&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;020109&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02010&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;9&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Magnolia grandiflora &apos;Southern Charm&apos; P.P.# 13049&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Magnolia grandiflora &apos;Southern Charm&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Teddy Bear&amp;#174; Southern Magnolia&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Compact Habit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Specimen,Urban Garden,Firescaping/Fire Wise,Container,Coastal Exposure,Camellia (Camellia); Indian Hawthorn (Rhaphiolepis); Hydrangea (Hydrangea); Viburnum (Viburnum); Hosta (Hosta)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate growth rate 16 to 20 ft. tall, 10 to 12 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;15&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;12.07 gal. (45.69 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949058381&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer and fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A very compact, upright grower whose shiny, deep green leaves have a heavy reddish-brown felt beneath. Large 6 to 8 inch fragrant white flowers dot the plant throughout the warm months. A superb small specimen or accent in the landscape. Highly adaptable tree tolerates mild drought, when established.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, when top 3&quot; of soil is dry; less often, once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Tolerates Road Salt,Tolerates Acidic Soil,Easy Care,Dwarf Plant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Very Wet Areas&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen,Urban Garden,Firescaping/Fire Wise,Container,Coastal Exposure&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;02010M&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02010&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;M&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Magnolia grandiflora &apos;Southern Charm&apos; P.P.# 13049&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Magnolia grandiflora &apos;Southern Charm&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Teddy Bear&amp;#174; Southern Magnolia&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Compact Habit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Specimen,Urban Garden,Firescaping/Fire Wise,Container,Coastal Exposure,Camellia (Camellia); Indian Hawthorn (Rhaphiolepis); Hydrangea (Hydrangea); Viburnum (Viburnum); Hosta (Hosta)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate growth to 16 to 20 ft. tall, 10 to 12 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Highly adaptable; tolerates periodic drought when established, as well occasionally very wet soils. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;10&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;7.97 gal. (30.17 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949327746&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer and fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A very compact, upright grower whose shiny, deep green leaves have a heavy reddish-brown felt beneath. Large 6 to 8 inch fragrant white flowers dot the plant throughout the warm months. A superb small specimen or accent in the landscape. Highly adaptable tree tolerates mild drought, when established.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, when top 3&quot; of soil is dry; less often, once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Tolerates Road Salt,Tolerates Acidic Soil,Easy Care,Dwarf Plant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Very Wet Areas&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen,Urban Garden,Firescaping/Fire Wise,Container,Coastal Exposure&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;02010X&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02010&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;X&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Magnolia grandiflora &apos;Southern Charm&apos; P.P.# 13049&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Magnolia grandiflora &apos;Southern Charm&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Teddy Bear&amp;#174; Southern Magnolia&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Compact Habit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Specimen,Urban Garden,Firescaping/Fire Wise,Container,Coastal Exposure,Camellia (Camellia); Indian Hawthorn (Rhaphiolepis); Hydrangea (Hydrangea); Viburnum (Viburnum); Hosta (Hosta)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate growth to 16 to 20 ft. tall, 10 to 12 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Highly adaptable; tolerates periodic drought when established, as well occasionally very wet soils. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;30&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;27.6 gal. (104.50 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949230107&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer and fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A very compact, upright grower whose shiny, deep green leaves have a heavy reddish-brown felt beneath. Large 6 to 8 inch fragrant white flowers dot the plant throughout the warm months. A superb small specimen or accent in the landscape. Highly adaptable tree tolerates mild drought, when established.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, when top 3&quot; of soil is dry; less often, once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Tolerates Road Salt,Tolerates Acidic Soil,Easy Care,Dwarf Plant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Very Wet Areas&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen,Urban Garden,Firescaping/Fire Wise,Container,Coastal Exposure&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Tue, 16 Feb 2016 14:52:47 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

@@ -1,0 +1,326 @@
+DATE/TIME: 2016-01-21 23:12:41
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-01-21 23:12:56
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 23687
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;059931&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05993&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hemerocallis x &apos;Rosy Returns&apos; P.P. #9,779&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hemerocallis x &apos;Rosy Returns&apos; P.P. #9,779&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Happy Ever Appster&amp;#174; Rosy Returns Daylily&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dwarf Habit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Mass Planting,Border,Rock Garden,Coneflower (Echinacea); Maiden Grass (Miscanthus); Switch Grass (Panicum); Russian Sage (Perovskia); Sedum (Sedum)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast growing to 12 to 15 in. tall, 10 to 12 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949310656&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Blooms from early summer until frost.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This re-blooming daylily has profuse, bright pink flowers that brighten the garden all season. Neat, dwarf form is ideal for borders in shrub plantings, perennial gardens or massing as a small-scale ground cover. Attractive combined bold foliage plants. Herbaceous perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Extreme Cold Hardiness,Dwarf Plant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Border,Rock Garden&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;059932&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05993&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hemerocallis x &apos;Rosy Returns&apos; P.P. #9,779&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hemerocallis x &apos;Rosy Returns&apos; P.P. #9,779&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Happy Ever Appster&amp;#174; Rosy Returns Daylily&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dwarf Habit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Mass Planting,Border,Rock Garden,Coneflower (Echinacea); Maiden Grass (Miscanthus); Switch Grass (Panicum); Russian Sage (Perovskia); Sedum (Sedum)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast growing to 12 to 15 in. tall, 10 to 12 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949403730&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Blooms from early summer until frost.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This re-blooming daylily has profuse, bright pink flowers that brighten the garden all season. Neat, dwarf form is ideal for borders in shrub plantings, perennial gardens or massing as a small-scale ground cover. Attractive combined bold foliage plants. Herbaceous perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Extreme Cold Hardiness,Dwarf Plant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Border,Rock Garden&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;001911&lt;/ItemSizeID&gt;
+		&lt;Item&gt;00191&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Agapanthus praecox orientalis &apos;Snow Storm&apos; P.P.# 12554&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Agapanthus praecox orientalis &apos;Snow Storm&apos; P.P.# 12554&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Snow Storm&amp;#8482; Lily Of The Nile&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Prolific Flowering&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Firescaping/Fire Wise,Coneflower (Echinacea); Coral Bells (Heuchera); Iris (Iris); Pinks (Dianthus); Shasta Daisy (Chrysanthemum)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Rapid growth 2 to 3 ft. tall and as wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. For a neat appearance, remove old flower stalks. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949019115&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Mid-Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Abundant, snow white bell shaped blossoms are perfect for smaller landscapes. Rich emerald leaf blades produce a tidy symmetrical clump. Produces numerous short sturdy stalks. Excellent for containers and as edging. Herbaceous perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Firescaping/Fire Wise&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;001912&lt;/ItemSizeID&gt;
+		&lt;Item&gt;00191&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Agapanthus praecox orientalis &apos;Snow Storm&apos; P.P.# 12554&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Agapanthus praecox orientalis &apos;Snow Storm&apos; P.P.# 12554&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Snow Storm&amp;#8482; Lily Of The Nile&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Prolific Flowering&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Firescaping/Fire Wise,Coneflower (Echinacea); Coral Bells (Heuchera); Iris (Iris); Pinks (Dianthus); Shasta Daisy (Chrysanthemum)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Rapid growth 2 to 3 ft. tall and as wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. For a neat appearance, remove old flower stalks. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949019122&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Mid-Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Abundant, snow white bell shaped blossoms are perfect for smaller landscapes. Rich emerald leaf blades produce a tidy symmetrical clump. Produces numerous short sturdy stalks. Excellent for containers and as edging. Herbaceous perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Firescaping/Fire Wise&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;001915&lt;/ItemSizeID&gt;
+		&lt;Item&gt;00191&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Agapanthus praecox orientalis &apos;Snow Storm&apos; P.P.# 12554&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Agapanthus praecox orientalis &apos;Snow Storm&apos; P.P.# 12554&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Snow Storm&amp;#8482; Lily Of The Nile&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Prolific Flowering&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Firescaping/Fire Wise,Coneflower (Echinacea); Coral Bells (Heuchera); Iris (Iris); Pinks (Dianthus); Shasta Daisy (Chrysanthemum)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Rapid growth 2 to 3 ft. tall and as wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. For a neat appearance, remove old flower stalks. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949000779&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Mid-Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Abundant, snow white bell shaped blossoms are perfect for smaller landscapes. Rich emerald leaf blades produce a tidy symmetrical clump. Produces numerous short sturdy stalks. Excellent for containers and as edging. Herbaceous perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Firescaping/Fire Wise&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;060701&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06070&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Mahonia aquifolium&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Mahonia aquifolium&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Oregon Grape Holly&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Year-round Interest&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Wildlife Garden,Urban Garden,Hedge,Firescaping/Fire Wise,Container,Border,Clethra (Clethra); Sweetspire (Itea); Fothergilla (Fothergilla); Iris (Iris); Cardinal Flower (Lobelia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Irregular, erect stems; grows to 3 to 6 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949607015&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring flowers, summer berries.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Excellent shrub for massed planting as hedge or screen or planted singly for color accent. New growth has bronze-red coloring. Purplish-red leaves in winter. Yellow flowers followed by blue berries.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Ornamental Berries,North American Native Selection,Improved Pest and Disease Resistance,Easy Care,Deer Resistant,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Wildlife Garden,Urban Garden,Hedge,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;060702&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06070&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Mahonia aquifolium&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Mahonia aquifolium&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Oregon Grape Holly&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Year-round Interest&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Wildlife Garden,Urban Garden,Hedge,Firescaping/Fire Wise,Container,Border,Clethra (Clethra); Sweetspire (Itea); Fothergilla (Fothergilla); Iris (Iris); Cardinal Flower (Lobelia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Irregular, erect stems; grows to 3 to 6 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949607022&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring flowers, summer berries.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Excellent shrub for massed planting as hedge or screen or planted singly for color accent. New growth has bronze-red coloring. Purplish-red leaves in winter. Yellow flowers followed by blue berries.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Ornamental Berries,North American Native Selection,Improved Pest and Disease Resistance,Easy Care,Deer Resistant,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Wildlife Garden,Urban Garden,Hedge,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;060705&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06070&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Mahonia aquifolium&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Mahonia aquifolium&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Oregon Grape Holly&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Year-round Interest&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Wildlife Garden,Urban Garden,Hedge,Firescaping/Fire Wise,Container,Border,Clethra (Clethra); Sweetspire (Itea); Fothergilla (Fothergilla); Iris (Iris); Cardinal Flower (Lobelia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Irregular, erect stems; grows to 3 to 6 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949607053&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring flowers, summer berries.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Excellent shrub for massed planting as hedge or screen or planted singly for color accent. New growth has bronze-red coloring. Purplish-red leaves in winter. Yellow flowers followed by blue berries.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Ornamental Berries,North American Native Selection,Improved Pest and Disease Resistance,Easy Care,Deer Resistant,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Wildlife Garden,Urban Garden,Hedge,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;060707&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06070&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;7&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Mahonia aquifolium&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Mahonia aquifolium&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Oregon Grape Holly&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Year-round Interest&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Wildlife Garden,Urban Garden,Hedge,Firescaping/Fire Wise,Container,Border,Clethra (Clethra); Sweetspire (Itea); Fothergilla (Fothergilla); Iris (Iris); Cardinal Flower (Lobelia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Irregular, erect stems; grows to 3 to 6 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;7&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;6.20 gal. (23.47 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949033074&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring flowers, summer berries.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Excellent shrub for massed planting as hedge or screen or planted singly for color accent. New growth has bronze-red coloring. Purplish-red leaves in winter. Yellow flowers followed by blue berries.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Ornamental Berries,North American Native Selection,Improved Pest and Disease Resistance,Easy Care,Deer Resistant,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Wildlife Garden,Urban Garden,Hedge,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;011011&lt;/ItemSizeID&gt;
+		&lt;Item&gt;01101&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Sisyrinchium angustifolium&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Sisyrinchium angustifolium&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Blue Note&amp;#8482; Blue-Eyed Grass&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Border Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rock Garden,Poolside,Mass Planting,Container,Border,&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 12 to 18 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide evenly moist, well drained soil. Best with regular moisture but tolerates dry conditions when established. Shear old foliage before new leaves emerge in spring. Clumps may be divided every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949378489&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring to early summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;An excellent perennial for garden borders, tucked among rockery or near the edge of a pond. Clusters of dainty violet-blue flowers on short stalks embellish dark green, grass-like foliage for a beautiful late spring display. Forms a compact clump, gently spreading.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;North American Native Selection,Naturalizes Well,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Poolside,Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 21 Jan 2016 23:12:55 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

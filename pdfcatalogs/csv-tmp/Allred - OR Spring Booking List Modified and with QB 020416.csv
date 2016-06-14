@@ -1,0 +1,597 @@
+Loc,New Plant,Item,Size,Plant Name,Common Name,CAT,Zone,Qty Allocated,QTY AVAIL NOW,2ND QTY AVAIL,2ND QTY READY DATE,2016 LIST PRICE,"ADD'L 10% 
+QTY 
+BUY PRICE","ADD'L 12.5% 
+QTY
+BUY
+PRICE","UNIT 
+FRT"
+OR,,51312,#2,ABIES CONCOLOR CANDICANS,Candicans White Fir                                         ,CON,4,     ,     ,56,5/15/2016,28.6,25.74,25.03,1.45
+OR,,51315,#5,ABIES CONCOLOR CANDICANS,Candicans White Fir                                         ,CON,4,     ,     ,9,4/27/2016,48.5,43.65,42.44,2.91
+OR,    ,19342,#2,ABIES LAS GLAUCA COMPACTA,Dwarf Blue Rocky Mountain Fir                               ,CON,3,     ,10,     ,          ,28.75,25.88,25.16,1.45
+OR,    ,19345,#5,ABIES LAS GLAUCA COMPACTA,Dwarf Blue Rocky Mountain Fir                               ,CON,3,17,     ,17,6/1/2016,48.5,43.65,42.44,2.91
+OR,    ,485,#5,ACER GIN RED RHAPSODY R,Red Rhapsody®  Amur Maple,TRE,2,     ,16,96,5/15/2016,28,25.2,24.5,2.91
+OR,,58241,#1,ACHILLEA APRICOT DLGHT PP18738,Tutti Frutti Apricot Delight Yarrow                         ,PRN,4,     ,214,,,5.25,4.73,4.59,0.58
+OR,    ,407531,#1,ACHILLEA MILL PRETTY BELINDA,Pretty Belinda Yarrow                                       ,PRN,3,     ,447,,,5.25,4.73,4.59,0.58
+OR,    ,29061,#1,ACHILLEA MILL RED VELVET,Red Velvet Yarrow                                           ,PRN,3,     ,468,,,5.25,4.73,4.59,0.58
+OR,    ,1351,#1,ACHILLEA X MOONSHINE,Moonshine Yarrow                                            ,PRN,3,     ,     ,649,6/1/2016,5.25,4.73,4.59,0.58
+OR,X,96081,#1 STAKED,ACTINIDIA ARG HARDY MALE,Hardy Kiwi (Male)                                           ,VIN,4,     ,     ,160,4/27/2016,12,10.8,10.5,0.58
+OR,X,96085,#5 STAKED,ACTINIDIA ARG HARDY MALE,Hardy Kiwi (Male)                                           ,VIN,4,     ,134,30,3/1/2016,32.25,29.03,28.22,2.91
+OR,    ,1391,#1 STAKED,ACTINIDIA ARG ISSAI (FEMALE),Hardy Kiwi Vine                                             ,VIN,4,     ,86,     ,          ,12,10.8,10.5,0.58
+OR,    ,1395,#5 STAKED,ACTINIDIA ARG ISSAI (FEMALE),Hardy Kiwi Vine                                             ,VIN,4,     ,83,53,3/1/2016,32.25,29.03,28.22,2.91
+OR,    ,28895,#5,AESCULUS X ARN AUTUMN SPLENDOR,Autumn Splendor Horse Chestnut                              ,TRE,4,15,15,     ,          ,35,31.5,30.63,2.91
+OR,    ,80301,#1,AJUGA CHOCOLATE CHIP,Chocolate Chip Carpet Bugle                                 ,PRN,4,     ,165,     ,          ,5.25,4.73,4.59,0.58
+OR,    ,08030UT,LittleOne,AJUGA CHOCOLATE CHIP,Chocolate Chip Carpet Bugle                                 ,PRN,4,     ,83,     ,          ,3.25,2.93,2.84,0.44
+OR,    ,00189UT,LittleOne,AJUGA REPTANS BRONZE BEAUTY,Bronze Beauty Carpet Bugle                                  ,PRN,4,     ,1,     ,          ,3.25,2.93,2.84,0.44
+OR,    ,591,#1,AJUGA REPTANS BURGUNDY GLOW,Burgundy Glow Carpet Bugle                                  ,PRN,4,     ,511,,,5.25,4.73,4.59,0.58
+OR,    ,16632,#2,ANDROMEDA POL BLUE ICE,Blue Ice Bog Rosemary                                       ,EVS,2,     ,140,     ,          ,17.75,15.98,15.53,1.45
+OR,    ,2741,#1,ANEMONE SYLVESTRIS,Snowdrop Anemone                                            ,PRN,2,     ,109,     ,          ,5.25,4.73,4.59,0.58
+OR,    ,05908UT,LittleOne,AQUILEGIA C LITTLE LANTERNS,Little Lanterns Columbine                                   ,PRN,3,     ,27,     ,          ,3.25,2.93,2.84,0.44
+OR,    ,37331,#1,AQUILEGIA CAE ORIGAMI BLU & WT,Origami Blue & White Columbine                              ,PRN,3,     ,     ,181,3/1/2016,5.25,4.73,4.59,0.58
+OR,    ,45921,#1,AQUILEGIA CAE ORIGAMI PNK & WT,Origami Pink & White Columbine                              ,PRN,3,     ,     ,280,3/1/2016,5.25,4.73,4.59,0.58
+OR,    ,36901,#1,AQUILEGIA CAE ORIGAMI RED & WT,Origami Red & White Columbine                               ,PRN,3,     ,     ,382,3/1/2016,5.25,4.73,4.59,0.58
+OR,    ,45931,#1,AQUILEGIA CAE ORIGAMI YELLOW,Origami Yellow Columbine                                    ,PRN,3,     ,     ,288,3/1/2016,5.25,4.73,4.59,0.58
+OR,    ,00272UT,LittleOne,AQUILEGIA FLA CAMEO BLUE & WT,Cameo Series Blue & White Columbine                         ,PRN,3,34,343,     ,          ,3.25,2.93,2.84,0.44
+OR,    ,3041,#1,ARMERIA MAR BLOODSTONE,Bloodstone Thrift                                           ,PRN,3,     ,704,     ,          ,5.25,4.73,4.59,0.58
+OR,    ,00304UT,LittleOne,ARMERIA MAR BLOODSTONE,Bloodstone Thrift                                           ,PRN,3,     ,94,     ,          ,3.25,2.93,2.84,0.44
+OR,    ,2691,#1,ARMERIA MAR COTTON TAIL,Cotton Tail Thrift                                          ,PRN,3,13,770,     ,          ,5.25,4.73,4.59,0.58
+OR,    ,00269UT,LittleOne,ARMERIA MAR COTTON TAIL,Cotton Tail Thrift                                          ,PRN,3,     ,163,     ,          ,3.25,2.93,2.84,0.44
+OR,    ,19461,#1,ARMERIA MAR RUBRIFOLIA,Red Leaf Thrift                                             ,PRN,3,     ,428,     ,          ,5.25,4.73,4.59,0.58
+OR,    ,01946UT,LittleOne,ARMERIA MAR RUBRIFOLIA,Red Leaf Thrift                                             ,PRN,3,     ,367,     ,          ,3.25,2.93,2.84,0.44
+OR,    ,30091,#1,ASTER FARMINGTON PPAF,Farmington Michaelmas Daisy                                 ,PRN,3,     ,116,62,3/28/2016,5.25,4.73,4.59,0.58
+OR,X,412531,#1,ASTER N-A VIBRANT DOME,Vibrant Dome New England Aster                              ,PRN,4,     ,5,     ,          ,5.25,4.73,4.59,0.58
+OR,    ,3411,#1,ASTER PURPLE DOME,Purple Dome New England Aster                               ,PRN,4,     ,     ,120,3/28/2016,5.25,4.73,4.59,0.58
+OR,    ,1531,#1,ASTER WOOD'S PINK,Woods Pink New York Aster                                   ,PRN,4,     ,108,     ,          ,5.25,4.73,4.59,0.58
+OR,    ,1591,#1,ASTILBE BRIDAL VEIL,Bridal Veil®  Astilbe,PRN,4,     ,443,44,5/1/2016,5.25,4.73,4.59,0.58
+OR,    ,00159UT,LittleOne,ASTILBE BRIDAL VEIL,Bridal Veil®  Astilbe,PRN,4,     ,2,     ,          ,3.25,2.93,2.84,0.44
+OR,    ,27501,#1,ASTILBE COLOR FLASH R PP17343,Color Flash®  Astilbe,PRN,4,     ,601,     ,          ,7.25,6.53,6.34,0.58
+OR,X,412541,#1,ASTILBE DELFT LACE,Delft Lace Astilbe                                          ,PRN,4,     ,     ,184,3/1/2016,5.25,4.73,4.59,0.58
+OR,    ,00351UT,LittleOne,ASTILBE DEUTSCHLAND,Deutschland Astilbe                                         ,PRN,4,     ,4,     ,          ,3.25,2.93,2.84,0.44
+OR,    ,1631,#1,ASTILBE HENNIE GRAAFLAND,Hennie Graafland Star Astilbe                               ,PRN,4,     ,20,     ,          ,5.25,4.73,4.59,0.58
+OR,    ,1681,#1,ASTILBE RED SENTINEL,Red Sentinel Astilbe                                        ,PRN,4,     ,10,     ,          ,5.25,4.73,4.59,0.58
+OR,    ,3541,#1,ASTILBE RHEINLAND,Rheinland Astilbe                                           ,PRN,4,     ,72,     ,          ,5.25,4.73,4.59,0.58
+OR,    ,59151,#1,ASTILBE VISION IN PINK PP11860,Visions in Pink Astilbe                                     ,PRN,4,     ,     ,180,3/1/2016,5.25,4.73,4.59,0.58
+OR,,17601,#1,ASTILBE VISION IN WHITE P18965,Vision in White Astilbe                                     ,PRN,4,     ,     ,207,3/1/2016,5.25,4.73,4.59,0.58
+OR,    ,37391,#1,ASTILBE WHT SENSATION PP18462,White Sensation Astilbe                                     ,PRN,4,     ,196,     ,          ,5.25,4.73,4.59,0.58
+OR,    ,400811,#1,ASTILBE YOUNIQUE CRM TM P20324,Younique  Carmine Astilbe,PRN,4,     ,     ,74,3/1/2016,5.25,4.73,4.59,0.58
+OR,    ,400821,#1,ASTILBE YOUNIQUE SLP TM P20656,Younique  Silvery Pink Astilbe,PRN,4,     ,     ,301,3/1/2016,5.25,4.73,4.59,0.58
+OR,    ,1811,#1,AZALEA GA KAREN,Karen Azalea                                                ,RHO,4,     ,34,     ,          ,6.5,5.85,5.69,0.58
+OR,    ,1812,#2,AZALEA GA KAREN,Karen Azalea                                                ,RHO,4,     ,15,     ,          ,16,14.4,14,1.45
+OR,    ,7782,#2,AZALEA NL GOLDEN LIGHTS,Golden Lights Azalea                                        ,RHO,3,     ,126,     ,          ,16,14.4,14,1.45
+OR,    ,12033,#3,BER GOLDN NUGGET TM P9577 CBR,Golden Nugget  Dwarf Japanese Barberry,DCS,4,     ,53,     ,          ,21.5,19.35,18.81,2.33
+OR,,080771S,SuperOne TM,BER SUNJOY R MINI SALSA PPAF,Sunjoy®  Mini Salsa Barberry,DCS,4,     ,40,     ,          ,11, N/A , N/A ,0.97
+OR,,080772S,SuperTwo,BER SUNJOY R MINI SALSA PPAF,Sunjoy®  Mini Salsa Barberry,DCS,4,5,5,     ,          ,17.75,15.98,15.53,1.94
+OR,    ,12002,#2,BER T ATROPURPUREA,Red Leaf Japanese Barberry                                  ,DCS,4,8,15,     ,          ,14,12.6,12.25,1.45
+OR,    ,12005,#5,BER T ATROPURPUREA,Red Leaf Japanese Barberry                                  ,DCS,4,9,14,     ,          ,21.5,19.35,18.81,2.91
+OR,    ,12012,#2,BER T CHERRY BOMB R CPBR 3488,Cherry Bomb®  Japanese Barberry,DCS,4,     ,123,     ,          ,14,12.6,12.25,1.45
+OR,    ,12013,#3,BER T CHERRY BOMB R CPBR 3488,Cherry Bomb®  Japanese Barberry,DCS,4,16,62,     ,          ,21.5,19.35,18.81,2.33
+OR,    ,12053,#3,BER T CRIMSON PYGMY,Crimson Pygmy Dwarf Japanese Barberry                       ,DCS,4,80,127,     ,          ,20.25,18.23,17.72,2.33
+OR,    ,35232,#2,BER T GOLDEN RUBY R PP16203,Golden Ruby®  Barberry,DCS,4,"1,717","3,212",     ,          ,16,14.4,14,1.45
+OR,    ,35233,#3,BER T GOLDEN RUBY R PP16203,Golden Ruby®  Barberry,DCS,4,555,576,     ,          ,23.75,21.38,20.78,2.33
+OR,    ,12102,#2,BER T HELMOND PILLAR,Helmond Pillar Barberry                                     ,DCS,4,52,     ,121,6/1/2016,14,12.6,12.25,1.45
+OR,    ,12105,#5,BER T HELMOND PILLAR,Helmond Pillar Barberry                                     ,DCS,4,50,273,,,23.75,21.38,20.78,2.91
+OR,,62932,#2,BER T ORANGE ROCKET PP18411,Orange Rocket Barberry                                      ,DCS,4,30,152,     ,          ,16,14.4,14,1.45
+OR,,62935,#5,BER T ORANGE ROCKET PP18411,Orange Rocket Barberry                                      ,DCS,4,99,99,     ,          ,26.75,24.08,23.41,2.91
+OR,    ,35242,#2,BER T PYGMY RUBY TM,Pygmy Ruby  Barberry,DCS,4,117,117,     ,          ,16.25,14.63,14.22,1.45
+OR,    ,12202,#2,BER T ROSE GLOW,Rose Glow Japanese Barberry                                 ,DCS,4,     ,904,     ,          ,14,12.6,12.25,1.45
+OR,    ,12203,#3,BER T ROSE GLOW,Rose Glow Japanese Barberry                                 ,DCS,4,     ,16,     ,          ,20.25,18.23,17.72,2.33
+OR,    ,12205,#5,BER T ROSE GLOW,Rose Glow Japanese Barberry                                 ,DCS,4,     ,561,,,21.5,19.35,18.81,2.91
+OR,    ,12212,#2,BER T ROYAL BURGUNDY R P9461,Royal Burgundy®  Barberry,DCS,4,     ,3,     ,          ,16,14.4,14,1.45
+OR,    ,12213,#3,BER T ROYAL BURGUNDY R P9461,Royal Burgundy®  Barberry,DCS,4,20,21,     ,          ,20.25,18.23,17.72,2.33
+OR,    ,11932,#2,BER T SUNSATION R PP11332 CBR,Sunsation®  Japanese Barberry,DCS,4,     ,10,     ,          ,14,12.6,12.25,1.45
+OR,    ,24715,#5,BETULA N SUMR CASCADE PP15150,Summer Cascade River Birch                                  ,TRE,4,2,3,     ,          ,37,33.3,32.38,2.91
+OR,    ,02471M,#10 Squat,BETULA N SUMR CASCADE PP15150,Summer Cascade River Birch                                  ,TRE,4,     ,13,     ,          ,76.25,68.63,66.72,10.47
+OR,    ,12365,#5,BETULA PENDULA PURPLE RAIN R,Purple Rain®  European White Birch,TRE,2,4,47,     ,          ,38,34.2,33.25,2.91
+OR,    ,012415SE,#5 SERPENTINE,BETULA PENDULA YOUNGII,Young's Weeping Birch                                       ,TRE,2,     ,49,     ,          ,48.75,43.88,42.66,4.36
+OR,    ,13651,#1,BRUNNERA MAC VARIEGATA,Variegated Siberian Bugloss                                 ,PRN,3,     ,     ,29,3/28/2016,7.25,6.53,6.34,0.58
+OR,    ,02235UT,LittleOne,CAMPANULA CAR DEEP BLUE CLIPS,Deep Blue Clips Bellflower                                  ,PRN,4,     ,55,,,3.25,2.93,2.84,0.44
+OR,X,408391,#1,CAMPANULA CAR RAPIDO BLUE,Rapido Blue Bellflower                                      ,PRN,3,     ,164,     ,          ,5.75,5.18,5.03,0.58
+OR,X,408401,#1,CAMPANULA CAR RAPIDO WHITE,Rapido White Bellflower                                     ,PRN,4,     ,128,     ,          ,5.75,5.18,5.03,0.58
+OR,X,408421,#1,CAMPANULA GLOM GENTI BLUE PPAF,Genti Blue Bellflower                                       ,PRN,4,     ,"1,511",     ,          ,5.75,5.18,5.03,0.58
+OR,X,408411,#1,CAMPANULA GLOM GENTI WHITE PAF,Genti White Bellflower                                      ,PRN,4,     ,"1,485",     ,          ,5.75,5.18,5.03,0.58
+OR,    ,22361,#1,CAMPANULA PORTENSCHLAGIANA,Dalmatian Bellflower                                        ,PRN,4,     ,32,     ,          ,5.25,4.73,4.59,0.58
+OR,    ,24191,#1,CHELONE HOT LIPS,Hot Lips Turtlehead                                         ,PRN,3,     ,4,,,5.25,4.73,4.59,0.58
+OR,    ,90661,#1 STAKED,CLEM ALP PAMELA JACKMAN,Pamela Jackman Alpine Clematis                              ,VIN,3,21,93,40,4/27/2016,9.5,8.55,8.31,0.58
+OR,X,414542TE,#2 TRELLIS,CLEM BLVRD R CHROKEE TM P24171,Boulevard®  Cherokee  Clematis,VIN,4,     ,     ,273,3/1/2016,26.5,23.85,23.19,1.45
+OR,X,414522TE,#2 TRELLIS,CLEM BLVRD R FLEURI TM PP24172,Boulevard®  Fleuri  Clematis,VIN,4,     ,     ,275,3/1/2016,26.5,23.85,23.19,1.45
+OR,X,414532TE,#2 TRELLIS,CLEM BLVRD R NINON TM PPAF,Boulevard®  Ninon  Clematis,VIN,4,     ,     ,92,3/1/2016,26.5,23.85,23.19,1.45
+OR,X,414552TE,#2 TRELLIS,CLEM BLVRD R PRSNNE TM PP16069,Boulevard®  Parisienne  Clematis,VIN,4,     ,     ,456,3/1/2016,26.5,23.85,23.19,1.45
+OR,X,414562TE,#2 TRELLIS,CLEM BLVRD R REBECCA TM P21583,Boulevard®  Patio Rebecca  Clematis,VIN,4,     ,     ,434,3/1/2016,26.5,23.85,23.19,1.45
+OR,X,414572TE,#2 TRELLIS,CLEM BLVRD R ZARA TM PPAF,Boulevard®  Patio Zara  Clematis,VIN,4,     ,     ,270,3/1/2016,26.5,23.85,23.19,1.45
+OR,X,414582,#2,CLEM FLORA TM BIJOU TM PP15991,Flora  Bijou  Clematis,VIN,4,66,     ,173,3/1/2016,19,17.1,16.63,1.45
+OR,    ,27251,#1,CLEM INTEGRIFOLIA CAERULEA,Bushy Blue Bell Clematis                                    ,PRN,3,     ,378,     ,          ,9.5,8.55,8.31,0.58
+OR,    ,27281,#1,CLEM LAN CANDIDA,White Flowering Clematis                                    ,VIN,4,19,418,,,9.5,8.55,8.31,0.58
+OR,    ,27285,#5,CLEM LAN CANDIDA,White Flowering Clematis                                    ,VIN,4,5,21,110,3/1/2016,31,27.9,27.13,2.91
+OR,X,414602TE,#2 TRELLIS,CLEM RGL R DMANTINA TM PP20638,Regal®  Diamantina  Clematis,VIN,4,     ,     ,151,3/1/2016,26.5,23.85,23.19,1.45
+OR,X,414612TE,#2 TRELLIS,CLEM RGL R EMPRESS TM P16072,Regal®  Empress Clematis,VIN,4,     ,     ,163,3/1/2016,26.5,23.85,23.19,1.45
+OR,    ,21862,#2 STAKED,CLEM SAPPHIRE INDIGO TMPP17012,Sapphire Indigo  Clematis,VIN,4,     ,24,,,19,17.1,16.63,1.45
+OR,    ,21865,#5 STAKED,CLEM SAPPHIRE INDIGO TMPP17012,Sapphire Indigo  Clematis,VIN,4,     ,149,,,31,27.9,27.13,2.91
+OR,,089922S,SuperTwo,CLEM SWEET SUMMER LOVE PPAF,Sweet Summer Love Clematis                                  ,VIN,4,12,12,,,18.25,16.43,15.97,1.94
+OR,    ,51481,#1 STAKED,CLEM VANCOUVER TM DANIELLE,Vancouver  Danielle Clematis,VIN,4,26,     ,31,3/1/2016,10.5,9.45,9.19,0.58
+OR,    ,51482,#2 STAKED,CLEM VANCOUVER TM DANIELLE,Vancouver  Danielle Clematis,VIN,4,13,13,,,19,17.1,16.63,1.45
+OR,    ,51485,#5 STAKED,CLEM VANCOUVER TM DANIELLE,Vancouver  Danielle Clematis,VIN,4,     ,10,86,3/1/2016,33.5,30.15,29.31,2.91
+OR,    ,46271,#1 STAKED,CLEM VANCOUVER TM FRGRNT STAR,Vancouver  Fragrant Star Clematis,VIN,4,49,     ,57,3/1/2016,10.5,9.45,9.19,0.58
+OR,    ,46272,#2 STAKED,CLEM VANCOUVER TM FRGRNT STAR,Vancouver  Fragrant Star Clematis,VIN,4,20,13,7,3/1/2016,19,17.1,16.63,1.45
+OR,    ,46275,#5 STAKED,CLEM VANCOUVER TM FRGRNT STAR,Vancouver  Fragrant Star Clematis,VIN,4,10,18,,,33.5,30.15,29.31,2.91
+OR,    ,48741,#1 STAKED,CLEM VANCOUVER TM STARRY NGHTS,Vancouver  Starry Nights Clematis,VIN,4,     ,     ,83,3/1/2016,10.5,9.45,9.19,0.58
+OR,    ,48745,#5 STAKED,CLEM VANCOUVER TM STARRY NGHTS,Vancouver  Starry Nights Clematis,VIN,4,     ,15,,,33.5,30.15,29.31,2.91
+OR,    ,27215,#5 STAKED,CLEM VIT ETOILE VIOLETTE,Etoile Violette Clematis                                    ,VIN,4,16,16,     ,          ,31,27.9,27.13,2.91
+OR,    ,27302,#2 STAKED,CLEM VIT MADAME JULIA CORREVON,Madame Julia Correvon Clematis                              ,VIN,4,     ,5,     ,          ,19,17.1,16.63,1.45
+OR,    ,21782,#2 STAKED,CLEM X ARABELLA,Arabella Clematis                                           ,VIN,4,     ,34,     ,          ,19,17.1,16.63,1.45
+OR,    ,15905,#5 STAKED,CLEM X BLUE LIGHT R PP15953,Blue Light®  Clematis,VIN,4,     ,     ,42,3/1/2016,31,27.9,27.13,2.91
+OR,    ,27221,#1 STAKED,CLEM X COMTESSE DE BOUCHAUD,Comtesse De Bouchaud Clematis                               ,VIN,4,     ,147,,,9.5,8.55,8.31,0.58
+OR,    ,27225,#5 STAKED,CLEM X COMTESSE DE BOUCHAUD,Comtesse De Bouchaud Clematis                               ,VIN,4,     ,180,,,31,27.9,27.13,2.91
+OR,    ,27011,#1 STAKED,CLEM X ERNEST MARKHAM,Ernest Markham Clematis                                     ,VIN,3,     ,4,,,9.5,8.55,8.31,0.58
+OR,    ,27015,#5 STAKED,CLEM X ERNEST MARKHAM,Ernest Markham Clematis                                     ,VIN,3,7,25,,,31,27.9,27.13,2.91
+OR,    ,27411,#1,CLEM X HENRYI,Henry Clematis                                              ,VIN,4,     ,3,     ,          ,9.5,8.55,8.31,0.58
+OR,    ,27265,#5 STAKED,CLEM X JACKMANII,Jackman Clematis                                            ,VIN,4,     ,43,,,31,27.9,27.13,2.91
+OR,    ,44485,#5 STAKED,CLEM X JACKMANII SUPERBA,Jackman Superba Clematis                                    ,VIN,4,18,     ,229,3/1/2016,31,27.9,27.13,2.91
+OR,    ,55205,#5 STAKED,CLEM X MRS. SPENCER CASTLE,Mrs. Spencer Castle Clematis                                ,VIN,4,     ,22,,,31,27.9,27.13,2.91
+OR,    ,27061,#1 STAKED,CLEM X MULTI-BLUE,Multi-Blue Clematis                                         ,VIN,4,     ,7,,,9.5,8.55,8.31,0.58
+OR,    ,27065,#5 STAKED,CLEM X MULTI-BLUE,Multi-Blue Clematis                                         ,VIN,4,9,111,,,31,27.9,27.13,2.91
+OR,    ,27441,#1 STAKED,CLEM X NELLY MOSER,Nelly Moser Clematis                                        ,VIN,4,     ,16,,,9.5,8.55,8.31,0.58
+OR,    ,27442,#2 STAKED,CLEM X NELLY MOSER,Nelly Moser Clematis                                        ,VIN,4,     ,     ,5,3/1/2016,19,17.1,16.63,#N/A
+OR,    ,27445,#5 STAKED,CLEM X NELLY MOSER,Nelly Moser Clematis                                        ,VIN,4,7,17,,,31,27.9,27.13,2.91
+OR,    ,27461,#1 STAKED,CLEM X NIOBE,Niobe Clematis                                              ,VIN,4,31,39,,,9.5,8.55,8.31,0.58
+OR,    ,27465,#5 STAKED,CLEM X NIOBE,Niobe Clematis                                              ,VIN,4,     ,139,500,3/1/2016,31,27.9,27.13,2.91
+OR,    ,27071,#1 STAKED,CLEM X PINK CHAMPAGNE,Pink Champagne Clematis                                     ,VIN,4,38,     ,76,3/1/2016,9.5,8.55,8.31,0.58
+OR,    ,27072,#2 STAKED,CLEM X PINK CHAMPAGNE,Pink Champagne Clematis                                     ,VIN,4,     ,48,,,19,17.1,16.63,1.45
+OR,    ,27075,#5 STAKED,CLEM X PINK CHAMPAGNE,Pink Champagne Clematis                                     ,VIN,4,7,226,,,31,27.9,27.13,2.91
+OR,    ,27481,#1 STAKED,CLEM X RAMONA,Ramona Clematis                                             ,VIN,4,5,46,,,9.5,8.55,8.31,0.58
+OR,    ,27482,#2 STAKED,CLEM X RAMONA,Ramona Clematis                                             ,VIN,4,23,     ,30,3/1/2016,19,17.1,16.63,1.45
+OR,    ,27495,#5 STAKED,CLEM X ROUGE CARDINAL,Rouge Cardinal Clematis                                     ,VIN,4,8,82,,,31,27.9,27.13,2.91
+OR,    ,26371,#1 STAKED,CLEM X TOKI,Toki Clematis                                               ,VIN,4,5,     ,89,3/1/2016,9.5,8.55,8.31,0.58
+OR,    ,26372,#2 STAKED,CLEM X TOKI,Toki Clematis                                               ,VIN,4,19,396,,,19,17.1,16.63,1.45
+OR,    ,26375,#5 STAKED,CLEM X TOKI,Toki Clematis                                               ,VIN,4,     ,77,,,31,27.9,27.13,2.91
+OR,    ,56212,#2 STAKED,CLEM X WESTERPLATTE,Westerplatte Clematis                                       ,VIN,4,55,     ,55,3/1/2016,19,17.1,16.63,1.45
+OR,,22431,#1,CLEMATIS INT BLUE RIBBONS,Blue Ribbons Bush Clematis                                  ,PRN,2,     ,689,     ,          ,9.5,8.55,8.31,0.58
+OR,    ,02797UT,LittleOne,COREOPSIS VERT ZAGREB,Zagreb Threadleaf Tickseed                                  ,PRN,3,     ,105,,,3.25,2.93,2.84,0.44
+OR,    ,27732,#2,CORNUS ALBA ELEGANTISSIMA,Variegated Red Twig Dogwood                                 ,DCS,2,     ,92,     ,          ,16.75,15.08,14.66,1.45
+OR,    ,027735PT,#5 PATIO TREE,CORNUS ALBA ELEGANTISSIMA,Variegated Red Twig Dogwood                                 ,DCS,2,27,37,     ,          ,50,45,43.75,4.36
+OR,    ,27862,#2,CORNUS ALBA IVORYHALO TM,Ivory Halo®  Dogwood,DCS,3,     ,305,,,16.75,15.08,14.66,1.45
+OR,    ,27865,#5,CORNUS ALBA IVORYHALO TM,Ivory Halo®  Dogwood,DCS,3,223,     ,227,6/1/2016,24.25,21.83,21.22,2.91
+OR,    ,45285,#5,CORNUS ALBA PRAIRIE FIRE AUREA,Prairie Fire Dogwood                                        ,DCS,2,     ,65,,,24.25,21.83,21.22,2.91
+OR,    ,27875,#5,CORNUS ALTERNIFOLIA,Pagoda Dogwood                                              ,TRE,4,     ,     ,36,5/15/2016,30.25,27.23,26.47,2.91
+OR,    ,02787M,#10 Squat,CORNUS ALTERNIFOLIA,Pagoda Dogwood                                              ,TRE,4,     ,53,     ,          ,77.5,69.75,67.81,10.47
+OR,X,77325,#5,CORNUS MAS GOLDEN GLORY,Cornelian Cherry Dogwood                                    ,TRE,4,     ,55,     ,          ,43,38.7,37.63,2.91
+OR,    ,074801S,SuperOne TM,CORNUS S ARCTIC FIRE TM P18523,Arctic Fire  Red Twig Dogwood,DCS,3,     ,56,     ,          ,10,9,8.75,0.97
+OR,    ,074802S,SuperTwo,CORNUS S ARCTIC FIRE TM P18523,Arctic Fire  Red Twig Dogwood,DCS,3,340,340,     ,          ,17.75,15.98,15.53,1.94
+OR,    ,74805,#5,CORNUS S ARCTIC FIRE TM P18523,Arctic Fire  Red Twig Dogwood,DCS,3,648,     ,648,4/27/2016,25.25,22.73,22.09,2.91
+OR,    ,27805,#5,CORNUS SERICEA FLAVIRAMEA,Yellow Twig Dogwood                                         ,DCS,2,     ,173,,,24.25,21.83,21.22,2.91
+OR,    ,44702,#2,CORNUS SERICEA KELSEYI,Kelsey's Dwarf Red-Osier Dogwood                            ,DCS,2,     ,7,     ,          ,16.75,15.08,14.66,1.45
+OR,    ,44705,#5,CORNUS SERICEA KELSEYI,Kelsey's Dwarf Red-Osier Dogwood                            ,DCS,2,160,     ,251,6/1/2016,24.25,21.83,21.22,2.91
+OR,,080842S,SuperTwo,CORNUS STO PUCKERED UP TM PPAF,Pucker Up!  Red Twig Dogwood,DCS,3,15,15,     ,          ,17.75,15.98,15.53,1.94
+OR,    ,17455,#5,CORYLUS AV CONTORTA-OWN ROOT,Harry Lauder's Walking Stick                                ,DCS,3,     ,40,     ,          ,36.75,33.08,32.16,2.91
+OR,    ,28502,#2,COT APICULATUS,Cranberry Cotoneaster                                       ,DCS,4,     ,13,     ,          ,14.75,13.28,12.91,1.45
+OR,    ,028505PT,#5 PATIO TREE,COT APICULATUS,Cranberry Cotoneaster                                       ,DCS,4,     ,38,     ,          ,62,55.8,54.25,4.36
+OR,    ,28552,#2,COT APICULATUS TOM THUMB,Tom Thumb Cranberry Cotoneaster                             ,DCS,4,     ,9,     ,          ,14.75,13.28,12.91,1.45
+OR,    ,028555PT,#5 PATIO TREE,COT APICULATUS TOM THUMB,Tom Thumb Cranberry Cotoneaster                             ,DCS,4,     ,37,     ,          ,62,55.8,54.25,4.36
+OR,    ,29455,#5,COT HOR PERPUSILLUS,Prostrate Rock Cotoneaster                                  ,EVS,4,21,53,     ,          ,21.75,19.58,19.03,2.91
+OR,    ,16615,#5,COTINUS C GOLDEN SPIRIT P13082,Golden Spirit Smoke Tree                                    ,DCS,4,21,21,     ,          ,32,28.8,28,2.91
+OR,,97231,#1,DELOSPERMA FIRE WONDER PPAF,Wheels of Wonder®  Fire Wonder Ice Plant,PRN,4,5,115,     ,          ,5.75,5.18,5.03,0.58
+OR,    ,59461,#1,DELOSPERMA MESA VERDE PP13876,Mesa Verde®  Ice Plant,PRN,4,     ,540,     ,          ,5.75,5.18,5.03,0.58
+OR,    ,05946UT,LittleOne,DELOSPERMA MESA VERDE PP13876,Mesa Verde®  Ice Plant,PRN,4,     ,876,     ,          ,3.25,2.93,2.84,0.44
+OR,    ,31331,#1,DIANTHUS FROSTY FIRE,Frosty Fire Cheddar Pink                                    ,PRN,2,     ,12,,,5.25,4.73,4.59,0.58
+OR,    ,4721,#1,DIANTHUS GRAT FIREWITCH,Firewitch Cheddar Pink                                      ,PRN,3,     ,43,     ,          ,5.25,4.73,4.59,0.58
+OR,    ,4801,#1,DICENTRA BURNINGHEARTS PP20797,Burning Hearts Bleeding Heart                               ,PRN,4,     ,     ,191,4/27/2016,6.75,6.08,5.91,0.58
+OR,,4902,#2,DICENTRA SP VALENTINE R P22739,Valentine®  Bleeding Heart,PRN,3,48,48,     ,          ,15.5,13.95,13.56,1.45
+OR,    ,31611,#1,DICENTRA X LUXURIANT,Luxuriant Fringed Bleeding Heart                            ,PRN,2,     ,     ,"1,400",3/28/2016,5.25,4.73,4.59,0.58
+OR,    ,402361,#1,ECHIN DBL SCP TM BBLGM PP23103,Double Scoop  Bubble Gum Echinacea,PRN,4,     ,17,,,6,5.4,5.25,0.58
+OR,    ,402351,#1,ECHIN DBL SCP TM RSPBRY P23117,Double Scoop  Raspberry Coneflower,PRN,4,     ,     ,546,6/1/2016,6,5.4,5.25,0.58
+OR,,22831,#1,ECHINACEA CRNBRY CUPCAKE PPAF,Cranberry Cupcake Coneflower                                ,PRN,4,     ,21,     ,          ,7.25,6.53,6.34,0.58
+OR,    ,47511,#1,ECHINACEA PNK DBL DLITE P18803,Pink Double Delight Coneflower                              ,PRN,4,     ,532,204,6/1/2016,7.25,6.53,6.34,0.58
+OR,    ,2991,#1,ECHINACEA POWWOW R WILDBERRY,PowWow®  Wild Berry Coneflower,PRN,3,     ,25,     ,          ,6,5.4,5.25,0.58
+OR,    ,33655,#5,EUO F CANADALE GOLD,Canadale Gold Wintercreeper                                 ,EVS,4,     ,     ,417,4/27/2016,21.75,19.58,19.03,2.91
+OR,    ,34452,#2,EUO F IVORY JADE,Ivory Jade Wintercreeper                                    ,EVS,4,5,177,,,14,12.6,12.25,1.45
+OR,    ,19202,#2,EUO F SUNRISE PP12341,Sunrise Wintercreeper                                       ,EVS,4,111,     ,139,4/27/2016,14.5,13.05,12.69,1.45
+OR,    ,35855,#5,FAGUS SYL PURPLE FOUNTAIN,Purple Fountain Beech                                       ,TRE,4,6,139,     ,          ,46,41.4,40.25,2.91
+OR,    ,35795,#5,FAGUS SYL RIVERSII,River's Purple European Beech                               ,TRE,4,6,26,     ,          ,46,41.4,40.25,2.91
+OR,    ,20515,#5,FAGUS SYL ROHAN OBELISK(RED OB,Red Obelisk European Beech                                  ,TRE,4,     ,3,     ,          ,46,41.4,40.25,2.91
+OR,    ,077431S,SuperOne TM,FORS X SHOW OFF TM STARLT PAF,Show Off  Starlet Forsythia,DCS,4,     ,105,     ,          ,11, N/A , N/A ,0.97
+OR,    ,37105,#5,FORSYTHIA X SPRING GLORY,Spring Glory Forsythia                                      ,DCS,3,     ,92,     ,          ,22.5,20.25,19.69,2.91
+OR,    ,68351,#1,FRAGARIA ALBION R PP16228,Albion Strawberry                                           ,PRN,3,     ,12,103,4/27/2016,4.75,4.28,4.16,0.58
+OR,    ,68341,#1,FRAGARIA TRISTAR,Tristar Strawberry                                          ,PRN,4,     ,274,424,4/27/2016,4.75,4.28,4.16,0.58
+OR,    ,73101,#1,FRAGARIA X SAN ANDREAS PP19975,San Andreas Strawberry                                      ,PRN,3,     ,471,     ,          ,4.75,4.28,4.16,0.58
+OR,    ,68361,#1,FRAGARIA X SEASCAPE R,Seascape Strawberry                                         ,PRN,4,20,313,489,4/27/2016,4.75,4.28,4.16,0.58
+OR,    ,06836UT,LittleOne,FRAGARIA X SEASCAPE R,Seascape Strawberry                                         ,PRN,4,     ,5,,,3.25,2.93,2.84,0.44
+OR,X,412631,#1,GAILLARDIA FANFARE CITRNLA PAF,Fanfare Citronella Blanket Flower                           ,PRN,3,     ,23,,,6,5.4,5.25,0.58
+OR,    ,48591,#1,GAZANIA LIN COLORADO GOLD R,Colorado Gold®  Treasure Flower,PRN,4,     ,581,     ,          ,5.25,4.73,4.59,0.58
+OR,    ,38122,#2,GENISTA PIL GOLD FLASH,Gold Flash Broom                                            ,DCS,3,36,99,     ,          ,16.25,14.63,14.22,1.45
+OR,    ,021454PTC,"4"" Pot POT-TERRA",GEUM COCC BORISII,Boris Avens                                                 ,PRN,4,     ,168,     ,          ,3.5,3.15,3.06,0.33
+OR,    ,02145UT,LittleOne,GEUM COCC BORISII,Boris Avens                                                 ,PRN,4,     ,469,     ,          ,3.25,2.93,2.84,0.44
+OR,    ,35601,#1,GEUM COCC WERNER ARENDS,Werner Arends Avens                                         ,PRN,4,     ,678,,,5.25,4.73,4.59,0.58
+OR,,67791,#1,GR-BOUT BLOND AMBITION PP22048,Blonde Ambition Blue Grama Grass                            ,GRS,4,     ,17,     ,          ,9,8.1,7.88,0.58
+OR,    ,44551,#1,GR-CAL ACUT AVALANCHE,Avalanche Feather Reed Grass                                ,GRS,4,     ,4,     ,          ,6.75,6.08,5.91,0.58
+OR,    ,44552,#2,GR-CAL ACUT AVALANCHE,Avalanche Feather Reed Grass                                ,GRS,4,2,9,     ,          ,15,13.5,13.13,1.45
+OR,    ,01401P18SA,"4"" Pot P",GR-CAL ACUT KARL FOERSTER,Foerster's Feather Reed Grass                               ,GRS,4,     ,104,     ,          ,2.35,2.12,2.06,0
+OR,    ,14071,#1,GR-CAL ACUT OVERDAM,Overdam Feather Reed Grass                                  ,GRS,4,     ,3,     ,          ,6.75,6.08,5.91,0.58
+OR,,14082,#2,GR-CALAMAGROSTIS  BRACHYTRICA,Korean Feather Reed Grass                                   ,GRS,4,     ,99,     ,          ,15,13.5,13.13,1.45
+OR,,14085,#5,GR-CALAMAGROSTIS  BRACHYTRICA,Korean Feather Reed Grass                                   ,GRS,4,     ,33,,,19.75,17.78,17.28,2.91
+OR,    ,24091,#1,GR-CHASMANTHIUM LATIFOLIUM,Northern Sea Oats                                           ,GRS,4,     ,51,,,6.75,6.08,5.91,0.58
+OR,    ,5392,#2,GR-DESCHAMPSIA NORTHERN LIGHTS,Northern Lights Tufted Hair Grass                           ,GRS,4,     ,50,     ,          ,15,13.5,13.13,1.45
+OR,,89282,#2,GR-DESCHAMPSIA SCHOTTLAND,Scottish Tufted Hair Grass                                  ,GRS,4,5,23,     ,          ,15,13.5,13.13,1.45
+OR,    ,31941,#1,GR-ELYMUS ARENARIUS BLUE DUNE,Blue Dune Lyme Grass                                        ,GRS,4,     ,71,     ,          ,6.75,6.08,5.91,0.58
+OR,    ,28051,#1,GR-ERIANTHUS RAVENNAE,Hardy Pampas Grass                                          ,GRS,4,     ,     ,91,3/1/2016,6.75,6.08,5.91,0.58
+OR,    ,36671,#1,GR-FESTUCA GLAUCA ELIJAH BLUE,Elijah Blue Fescue                                          ,GRS,4,     ,15,     ,          ,6.25,5.63,5.47,0.58
+OR,,89291,#1,GR-HAKONECHLOA FUBUKI PP21757,Fubuki Japanese Forest Grass                                ,GRS,4,     ,74,,,11.25,10.13,9.84,0.58
+OR,    ,03591UT,LittleOne,GR-HAKONECHLOA MACRA ALL GOLD,All Gold Japanese Forest Grass                              ,GRS,4,49,     ,49,3/28/2016,5,4.5,4.38,0.44
+OR,    ,38681,#1,GR-HAKONECHLOA MACRA AUREOLA,Golden Japanese Forest Grass                                ,GRS,4,5,478,,,9,8.1,7.88,0.58
+OR,    ,39971,#1,GR-HELICTOTRICHON SEMPERVIRENS,Blue Oat Grass                                              ,GRS,4,259,459,,,6.75,6.08,5.91,0.58
+OR,    ,39972,#2,GR-HELICTOTRICHON SEMPERVIRENS,Blue Oat Grass                                              ,GRS,4,     ,     ,78,3/28/2016,15,13.5,13.13,1.45
+OR,    ,61551,#1,GR-MIS SIN STRICTUS,Porcupine Grass                                             ,GRS,4,     ,3,     ,          ,6.75,6.08,5.91,0.58
+OR,    ,5621,#1,GR-MOLINIA CAER ARUND SKYRACER,Skyracer Purple Moor Grass                                  ,GRS,4,     ,243,     ,          ,7,6.3,6.13,0.58
+OR,    ,5622,#2,GR-MOLINIA CAER ARUND SKYRACER,Skyracer Purple Moor Grass                                  ,GRS,4,22,201,     ,          ,15,13.5,13.13,1.45
+OR,,22961,#1,GR-PAN VIR NORTHWIND,Northwind Switch Grass                                      ,GRS,4,     ,     ,20,3/1/2016,7,6.3,6.13,0.58
+OR,    ,63881,#1,GR-PAN VIR SHENANDOAH,Shenandoah Switch Grass                                     ,GRS,4,     ,11,,,6.75,6.08,5.91,0.58
+OR,    ,63882,#2,GR-PAN VIR SHENANDOAH,Shenandoah Switch Grass                                     ,GRS,4,     ,28,,,15,13.5,13.13,1.45
+OR,    ,63885,#5,GR-PAN VIR SHENANDOAH,Shenandoah Switch Grass                                     ,GRS,4,     ,     ,28,3/28/2016,19.75,17.78,17.28,2.91
+OR,    ,64261,#1,GR-PENN ALO HAMELN,Dwarf Fountain Grass                                        ,GRS,4,     ,41,,,6.75,6.08,5.91,0.58
+OR,,86111,#1,GR-SCHIZACH BL HEAVN TM P17310,Blue Heaven Little Bluestem                                 ,GRS,3,     ,     ,216,4/27/2016,7,6.3,6.13,0.58
+OR,    ,5811,#1,GR-SORGHASTRUM SIOUX BLUE,Sioux Blue Indian Grass                                     ,GRS,4,     ,4,     ,          ,6.75,6.08,5.91,0.58
+OR,    ,73391,#1,GR-TYPHA MINIMA,Miniature Cattail                                           ,GRS,4,31,31,     ,          ,6.75,6.08,5.91,0.58
+OR,X,412821,#1,HELENIUM AUT CAN CAN,Can Can Sneezeweed                                          ,PRN,4,     ,163,     ,          ,5.75,5.18,5.03,0.58
+OR,X,413081,#1,HELIOPSIS HEL SUNSTRUCK P25524,Sunstruck False Sunflower                                   ,PRN,4,     ,,38,6/1/2016,5.75,5.18,5.03,0.58
+OR,    ,67241,#1,HELLE WJEWELS R APRICOT BLUSH,Winter Jewels®  Apricot Blush Lenten Rose,PRN,4,     ,24,,,9.25,8.33,8.09,0.58
+OR,    ,67231,#1,HELLE WJEWELS R PAINTED,Winter Jewels®  Painted Lenten Rose,PRN,4,     ,     ,45,5/1/2016,9.25,8.33,8.09,0.58
+OR,    ,39991,#1,HELLE X IVORY PRINCE PP16199,Ivory Prince Lenten Rose                                    ,PRN,4,     ,678,,,9.5,8.55,8.31,0.58
+OR,,75431,#1,HELLEBORUS X DOUBLE FANTASY,Double Fantasy Lenten Rose (Winter Dreams Series)           ,PRN,3,     ,     ,120,3/1/2016,9.5,8.55,8.31,0.58
+OR,X,413241,#1,HELLEBORUS X FLORENCE PICOTEE,Florence Picotee Lenten Rose                                ,PRN,3,     ,350,,,9.5,8.55,8.31,0.58
+OR,,75491,#1,HELLEBORUS X PICOTEE,Picotee Lenten Rose (Winter Dreams Series)                  ,PRN,3,     ,5,     ,          ,9.5,8.55,8.31,0.58
+OR,    ,40512,#2,HEM HAPPY RETURNS,Happy Returns Dwarf Daylily                                 ,PRN,4,     ,1,     ,          ,13.5,12.15,11.81,1.45
+OR,    ,40071,#1,HEM JOAN SENIOR,Joan Senior Daylily                                         ,PRN,4,     ,138,     ,          ,5.25,4.73,4.59,0.58
+OR,    ,40091,#1,HEM LITTLE BUSINESS,Little Business Dwarf Daylily                               ,PRN,4,     ,206,     ,          ,5.25,4.73,4.59,0.58
+OR,    ,40121,#1,HEM LITTLE GRAPETTE,Little Grapette Dwarf Daylily                               ,PRN,4,     ,439,     ,          ,5.25,4.73,4.59,0.58
+OR,    ,83981,#1,HEM PINK PLAYMATE,Pink Playmate Daylily                                       ,PRN,4,     ,189,     ,          ,5.25,4.73,4.59,0.58
+OR,    ,40631,#1,HEM PRAIRIE BLUE EYES,Prairie Blue Eyes Daylily                                   ,PRN,4,     ,55,     ,          ,5.25,4.73,4.59,0.58
+OR,    ,40571,#1,HEM RED RUM,Red Rum Daylily                                             ,PRN,4,     ,874,     ,          ,5.25,4.73,4.59,0.58
+OR,    ,83941,#1,HEM SILOAM GUMDROP,Siloam Gumdrop Daylily                                      ,PRN,4,     ,230,     ,          ,5.25,4.73,4.59,0.58
+OR,    ,40111,#1,HEM STELLA DE ORO,Stella De Oro Dwarf Daylily                                 ,PRN,4,     ,"2,878",,,5.25,4.73,4.59,0.58
+OR,    ,40112,#2,HEM STELLA DE ORO,Stella De Oro Dwarf Daylily                                 ,PRN,4,31,     ,31,3/1/2016,13.5,12.15,11.81,1.45
+OR,    ,6631,#1,HEM STRAWBERRY CANDY,Strawberry Candy Daylily                                    ,PRN,4,     ,     ,42,3/1/2016,5.25,4.73,4.59,0.58
+OR,    ,40291,#1,HEM SUMMER WINE,Summer Wine Daylily                                         ,PRN,4,     ,35,     ,          ,5.25,4.73,4.59,0.58
+OR,    ,83931,#1,HEM SWIRLING WATER,Swirling Water Daylily                                      ,PRN,4,     ,329,     ,          ,5.25,4.73,4.59,0.58
+OR,,97091,#1,HEUCHERA CARNIVAL LIMEADE PPAF,Carnival Limeade Heuchera                                   ,PRN,4,     ,     ,286,4/1/2016,7.25,6.53,6.34,0.58
+OR,,97171,#1,HEUCHERA CARNIVAL RSE GRNT PAF,Carnival Rose Granita Coral Bells                           ,PRN,4,     ,59,     ,          ,7.25,6.53,6.34,0.58
+OR,    ,18661,#1,HEUCHERA GREEN SPICE,Green Spice Coral Bells                                     ,PRN,4,     ,307,644,3/1/2016,7.25,6.53,6.34,0.58
+OR,    ,28871,#1,HEUCHERA MARMALADE PP15945,Marmalade Coral Bells                                       ,PRN,4,     ,18,,,8.25,7.43,7.22,0.58
+OR,    ,45721,#1,HEUCHERA MIDNIGHT ROSE PP18551,Midnight Rose Coral Bells                                   ,PRN,4,     ,10,,,8.25,7.43,7.22,0.58
+OR,    ,37541,#1,HEUCHERA OBSIDIAN PP14836,Obsidian Coral Bells                                        ,PRN,4,     ,391,     ,          ,8.25,7.43,7.22,0.58
+OR,,76241,#1,HEUCHERELLA REDSTN FLLS P22394,Redstone Falls Trailing Foamy Bells                         ,PRN,4,     ,     ,676,6/1/2016,8.25,7.43,7.22,0.58
+OR,    ,407761,#1,HEUCHERELLA SOLAR ECLIPSE,Solar Eclipse Foamy Bells                                   ,PRN,4,     ,311,782,6/1/2016,8.25,7.43,7.22,0.58
+OR,    ,41171,#1,HEUCHERELLA SWEET TEA PPAF,Sweet Tea Foamy Bells                                       ,PRN,4,     ,6,     ,          ,7.25,6.53,6.34,0.58
+OR,    ,31871,#1,HOSTA ABIQUA DRINKING GOURD,Abiqua Drinking Gourd Plantain Lily                         ,PRN,3,     ,679,     ,          ,7.25,6.53,6.34,0.58
+OR,    ,31872,#2,HOSTA ABIQUA DRINKING GOURD,Abiqua Drinking Gourd Plantain Lily                         ,PRN,3,47,231,,,15,13.5,13.13,1.45
+OR,    ,036984PTC,"4"" Pot POT-TERRA",HOSTA APHRODITE,Aphrodite Plantain Lily                                     ,PRN,3,     ,243,     ,          ,3.4,3.06,2.98,0.33
+OR,    ,16761,#1,HOSTA CHERRY BERRY,Cherry Berry Plantain Lily                                  ,PRN,4,     ,17,591,3/1/2016,7.25,6.53,6.34,0.58
+OR,    ,403611,#1,HOSTA EARTH ANGEL,Earth Angel Hosta                                           ,PRN,3,     ,161,     ,          ,6,5.4,5.25,0.58
+OR,,93061,#1,HOSTA ENTERPRISE,Enterprise Hosta                                            ,PRN,3,     ,"1,141",     ,          ,7.25,6.53,6.34,0.58
+OR,,93062,#2,HOSTA ENTERPRISE,Enterprise Hosta                                            ,PRN,3,10,114,     ,          ,15,13.5,13.13,1.45
+OR,    ,41471,#1,HOSTA EOLA SAPPHIRE,Eola Sapphire Plantain Lily                                 ,PRN,3,     ,152,     ,          ,6,5.4,5.25,0.58
+OR,    ,41475,#5,HOSTA EOLA SAPPHIRE,Eola Sapphire Plantain Lily                                 ,PRN,3,32,32,     ,          ,25.75,23.18,22.53,2.91
+OR,,75111,#1,HOSTA FANTASY ISLAND,Fantasy Island Plantain Lily                                ,PRN,3,     ,139,139,3/1/2016,7.25,6.53,6.34,0.58
+OR,    ,17492,#2,HOSTA FIRE & ICE,Fire And Ice Plantain Lily                                  ,PRN,4,     ,98,     ,          ,15,13.5,13.13,1.45
+OR,    ,42981,#1,HOSTA FIRST FROST,First Frost Plantain Lily                                   ,PRN,4,     ,52,     ,          ,7.25,6.53,6.34,0.58
+OR,    ,42982,#2,HOSTA FIRST FROST,First Frost Plantain Lily                                   ,PRN,4,4,4,     ,          ,15,13.5,13.13,1.16
+OR,    ,41861,#1,HOSTA FLUCTUANS VARIEG (SAGAE),Variegated Plantain Lily                                    ,PRN,4,     ,297,     ,          ,7.25,6.53,6.34,0.58
+OR,    ,41862,#2,HOSTA FLUCTUANS VARIEG (SAGAE),Variegated Plantain Lily                                    ,PRN,4,5,155,     ,          ,15,13.5,13.13,1.45
+OR,    ,41865,#5,HOSTA FLUCTUANS VARIEG (SAGAE),Variegated Plantain Lily                                    ,PRN,4,     ,154,     ,          ,25.75,23.18,22.53,2.91
+OR,    ,403491,#1,HOSTA FRAGRANT BOUQUET,Fragrant Bouquet Hosta                                      ,PRN,3,     ,276,     ,          ,6,5.4,5.25,0.58
+OR,    ,41691,#1,HOSTA FRANCEE,Francee Plantain Lily                                       ,PRN,4,     ,211,     ,          ,6,5.4,5.25,0.58
+OR,    ,41695,#5,HOSTA FRANCEE,Francee Plantain Lily                                       ,PRN,4,     ,26,     ,          ,25.75,23.18,22.53,2.91
+OR,    ,41531,#1,HOSTA GINKO CRAIG,Ginko Craig Plantain Lily                                   ,PRN,3,     ,251,     ,          ,6,5.4,5.25,0.58
+OR,    ,41532,#2,HOSTA GINKO CRAIG,Ginko Craig Plantain Lily                                   ,PRN,3,     ,"1,044",     ,          ,15,13.5,13.13,1.45
+OR,    ,41771,#1,HOSTA GOLDEN PRAYERS,Golden Prayers Plantain Lily                                ,PRN,3,     ,70,510,3/1/2016,6,5.4,5.25,0.58
+OR,    ,19911,#1,HOSTA GREAT EXPECTATIONS,Great Expectations Plantain Lily                            ,PRN,3,     ,462,     ,          ,7.25,6.53,6.34,0.58
+OR,    ,17521,#1,HOSTA GUACAMOLE,Guacamole Plantain Lily                                     ,PRN,3,     ,151,     ,          ,7.25,6.53,6.34,0.58
+OR,    ,17525,#5,HOSTA GUACAMOLE,Guacamole Plantain Lily                                     ,PRN,3,3,3,     ,          ,25.75,23.18,22.53,2.91
+OR,    ,31891,#1,HOSTA HADSPEN BLUE,Hadspen Blue Plantain Lily                                  ,PRN,4,     ,     ,768,3/1/2016,7.25,6.53,6.34,0.58
+OR,    ,17531,#1,HOSTA JUNE,June Plantain Lily                                          ,PRN,3,2,"1,805",,,7.25,6.53,6.34,0.58
+OR,    ,41821,#1,HOSTA KROSSA REGAL,Krossa Regal Plantain Lily                                  ,PRN,3,     ,"1,035",     ,          ,6,5.4,5.25,0.58
+OR,    ,41822,#2,HOSTA KROSSA REGAL,Krossa Regal Plantain Lily                                  ,PRN,3,2,31,     ,          ,15,13.5,13.13,1.45
+OR,    ,41825,#5,HOSTA KROSSA REGAL,Krossa Regal Plantain Lily                                  ,PRN,3,     ,28,     ,          ,25.75,23.18,22.53,2.91
+OR,    ,6981,#1,HOSTA MINUTEMAN,Minuteman Plantain Lily                                     ,PRN,3,     ,     ,58,3/1/2016,7.25,6.53,6.34,0.58
+OR,    ,6982,#2,HOSTA MINUTEMAN,Minuteman Plantain Lily                                     ,PRN,3,2,29,     ,          ,15,13.5,13.13,1.45
+OR,    ,28391,#1,HOSTA OLIVE BAILEY LANGDON,Olive Bailey Langdon Plantain Lily                          ,PRN,4,     ,387,     ,          ,7.25,6.53,6.34,0.58
+OR,    ,28392,#2,HOSTA OLIVE BAILEY LANGDON,Olive Bailey Langdon Plantain Lily                          ,PRN,4,34,268,     ,          ,15,13.5,13.13,1.45
+OR,    ,28395,#5,HOSTA OLIVE BAILEY LANGDON,Olive Bailey Langdon Plantain Lily                          ,PRN,4,5,308,     ,          ,25.75,23.18,22.53,2.91
+OR,    ,403561,#1,HOSTA PARADIGM,Paradigm Hosta                                              ,PRN,3,     ,     ,179,4/1/2016,7.25,6.53,6.34,0.58
+OR,    ,403562,#2,HOSTA PARADIGM,Paradigm Hosta                                              ,PRN,3,     ,     ,137,4/1/2016,15,13.5,13.13,1.45
+OR,    ,62011,#1,HOSTA PAUL'S GLORY,Paul's Glory Hosta                                          ,PRN,3,     ,     ,340,4/1/2016,7.25,6.53,6.34,0.58
+OR,    ,403621,#1,HOSTA PRAYING HANDS,Praying Hands Hosta                                         ,PRN,3,     ,     ,15,3/28/2016,7.25,6.53,6.34,0.58
+OR,    ,7011,#1,HOSTA REGAL SPLENDOR,Regal Splendor Plantain Lily                                ,PRN,4,5,65,     ,          ,6,5.4,5.25,0.58
+OR,    ,7015,#5,HOSTA REGAL SPLENDOR,Regal Splendor Plantain Lily                                ,PRN,4,     ,10,     ,          ,25.75,23.18,22.53,2.91
+OR,,39471,#1,HOSTA ROSEDALE GOLDEN GOOSE,Rosedale Golden Goose Plantain Lily                         ,PRN,3,     ,99,     ,          ,7.25,6.53,6.34,0.58
+OR,,39472,#2,HOSTA ROSEDALE GOLDEN GOOSE,Rosedale Golden Goose Plantain Lily                         ,PRN,3,28,209,     ,          ,15,13.5,13.13,1.45
+OR,,39475,#5,HOSTA ROSEDALE GOLDEN GOOSE,Rosedale Golden Goose Plantain Lily                         ,PRN,3,17,159,     ,          ,25.75,23.18,22.53,2.91
+OR,    ,403641,#1,HOSTA SO SWEET,So Sweet Hosta                                              ,PRN,3,     ,227,     ,          ,6,5.4,5.25,0.58
+OR,    ,44671,#1,HOSTA STAINED GLASS PPAF,Stained Glass Plantain Lily                                 ,PRN,3,     ,7,     ,          ,7.25,6.53,6.34,0.58
+OR,    ,29791,#1,HOSTA STRIPTEASE,Striptease Plantain Lily                                    ,PRN,4,     ,128,     ,          ,7.25,6.53,6.34,0.58
+OR,    ,83972,#2,HOSTA SUM & SUBSTANCE,Sum & Substance Hosta                                       ,PRN,4,     ,4,     ,          ,15,13.5,13.13,1.45
+OR,    ,83975,#5,HOSTA SUM & SUBSTANCE,Sum & Substance Hosta                                       ,PRN,4,     ,62,     ,          ,25.75,23.18,22.53,2.91
+OR,,75161,#1,HOSTA THE RAZOR'S EDGE,The Razor's Edge Plantain Lily                              ,PRN,3,     ,143,     ,          ,7.25,6.53,6.34,0.58
+OR,,75162,#2,HOSTA THE RAZOR'S EDGE,The Razor's Edge Plantain Lily                              ,PRN,3,4,167,     ,          ,15,13.5,13.13,1.45
+OR,X,93131,#1,HOSTA VICTORY,Victory Plantain Lily                                       ,PRN,3,     ,     ,230,3/28/2016,7.25,6.53,6.34,0.58
+OR,    ,41851,#1,HOSTA WIDE BRIM,Wide Brim Plantain Lily                                     ,PRN,3,     ,556,     ,          ,6,5.4,5.25,0.58
+OR,    ,41852,#2,HOSTA WIDE BRIM,Wide Brim Plantain Lily                                     ,PRN,3,53,381,     ,          ,15,13.5,13.13,1.45
+OR,,82011,#1,HOSTA X LIBERTY,Liberty Hosta                                               ,PRN,3,     ,     ,29,3/28/2016,7.25,6.53,6.34,0.58
+OR,,82012,#2,HOSTA X LIBERTY,Liberty Hosta                                               ,PRN,3,     ,     ,398,5/1/2016,15,13.5,13.13,1.45
+OR,    ,42022,#2,HYD PAN ANGEL'S BLUSH R P10751,Angel's Blush®  Hydrangea,DCS,4,     ,56,103,3/28/2016,16.5,14.85,14.44,1.45
+OR,    ,42025,#5,HYD PAN ANGEL'S BLUSH R P10751,Angel's Blush®  Hydrangea,DCS,4,     ,22,     ,          ,23,20.7,20.13,2.91
+OR,    ,024372S,SuperTwo,HYD PAN LIMELIGHT PP12874,Limelight Hardy Hydrangea                                   ,DCS,3,14,14,     ,          ,17.75,15.98,15.53,1.94
+OR,    ,35011,#1 STAKED,HYD PET MIRANDA,Miranda Climbing Hydrangea                                  ,VIN,4,     ,110,,,8.75,7.88,7.66,0.58
+OR,    ,35012,#2 STAKED,HYD PET MIRANDA,Miranda Climbing Hydrangea                                  ,VIN,4,16,338,,,19.75,17.78,17.28,1.45
+OR,    ,42132,#2,HYPERICUM FRONDOSUM SUNBURST,Sunburst St. John's Wort                                    ,DCS,4,5,     ,5,4/27/2016,15.25,13.73,13.34,1.45
+OR,    ,42135,#5,HYPERICUM FRONDOSUM SUNBURST,Sunburst St. John's Wort                                    ,DCS,4,     ,14,     ,          ,22,19.8,19.25,2.91
+OR,,080891S,SuperOne TM,HYPERICUM K BLUES FSTVL TM PAF,Blue & Gold St. John's Wort                                 ,DCS,4,26,77,     ,          ,11,9.9,9.63,0.97
+OR,    ,45115,#5,ILEX GLA NORDIC TM,Nordic  Inkberry Holly,EVS,3,     ,13,     ,          ,23,20.7,20.13,2.91
+OR,,086352S,SuperTwo,ILEX VERT MR POPPINS R,Mr. Poppins  Winterberry,DCS,3,     ,38,     ,          ,17.25,15.53,15.09,1.94
+OR,,86355,#5,ILEX VERT MR POPPINS R,Mr. Poppins  Winterberry,DCS,3,     ,6,     ,          ,23,20.7,20.13,2.91
+OR,    ,16461,#1,IRIS EN BUTTERFLIES IN FLIGHT,Butterflies In Flight Japanese Iris                         ,PRN,4,     ,7,     ,          ,6,5.4,5.25,0.58
+OR,    ,16471,#1,IRIS EN CASCADE SPICE,Cascade Spice Japanese Iris                                 ,PRN,4,7,561,     ,          ,6,5.4,5.25,0.58
+OR,    ,44011,#1,IRIS EN VARIEGATA,Variegated Japanese Water Iris                              ,PRN,4,     ,29,     ,          ,7.25,6.53,6.34,0.58
+OR,    ,46361,#1,IRIS SIB BENNERUP BLUE,Bennerup Blue Siberian Iris                                 ,PRN,4,     ,948,     ,          ,6,5.4,5.25,0.58
+OR,    ,45971,#1,IRIS SIB BUTTER & SUGAR,Butter & Sugar Siberian Iris                                ,PRN,4,     ,314,     ,          ,6,5.4,5.25,0.58
+OR,    ,46441,#1,IRIS SIB CAESAR'S BROTHER,Caesar's Brother Siberian Iris                              ,PRN,4,     ,830,     ,          ,6,5.4,5.25,0.58
+OR,    ,46471,#1,IRIS SIB ERIC THE RED,Eric The Red Siberian Iris                                  ,PRN,4,     ,10,     ,          ,6,5.4,5.25,0.58
+OR,    ,46011,#1,IRIS SIB RUFFLED VELVET,Ruffled Velvet Siberian Iris                                ,PRN,4,     ,"1,212",     ,          ,6,5.4,5.25,0.58
+OR,    ,46015,#5,IRIS SIB RUFFLED VELVET,Ruffled Velvet Siberian Iris                                ,PRN,4,     ,68,     ,          ,18.5,16.65,16.19,2.91
+OR,    ,48132,#2,JUN C SEA OF GOLD R PP17622,Sea Of Gold®  Juniper,CON,3,10,10,     ,          ,14.25,12.83,12.47,1.45
+OR,    ,49902,#2,JUN H ICEE BLUE R P9639,Icee Blue®  Juniper,CON,3,     ,59,,,13.75,12.38,12.03,1.45
+OR,    ,50202,#2,JUN H YOUNGSTOWN,Youngstown Andorra Juniper                                  ,CON,3,4,15,     ,          ,13.75,12.38,12.03,1.45
+OR,    ,50205,#5,JUN H YOUNGSTOWN,Youngstown Andorra Juniper                                  ,CON,3,     ,9,     ,          ,19,17.1,16.63,2.91
+OR,    ,50902,#2,JUN PRO NANA,Dwarf Japanese Garden Juniper                               ,CON,4,     ,7,     ,          ,13.75,12.38,12.03,1.45
+OR,    ,51602,#2,JUN SA BROADMOOR,Broadmoor Juniper                                           ,CON,3,10,10,     ,          ,13.75,12.38,12.03,1.45
+OR,    ,51702,#2,JUN SA BUFFALO,Buffalo Juniper                                             ,CON,3,     ,61,     ,          ,13.75,12.38,12.03,1.45
+OR,    ,51752,#2,JUN SA CALGARY CARPET R,Calgary Carpet®  Juniper,CON,3,6,6,     ,          ,13.75,12.38,12.03,1.45
+OR,    ,05330M,#10 Squat,JUN SC WICHITA BLUE,Wichita Blue Juniper                                        ,CON,3,36,36,     ,          ,68,61.2,59.5,10.47
+OR,    ,53392,#2,JUN SQUA BLUE STAR,Blue Star Juniper                                           ,CON,4,4,4,     ,          ,13.75,12.38,12.03,1.45
+OR,    ,53395,#5,JUN SQUA BLUE STAR,Blue Star Juniper                                           ,CON,4,34,110,     ,          ,19,17.1,16.63,2.91
+OR,    ,053395PT,#5 PATIO TREE,JUN SQUA BLUE STAR,Blue Star Juniper                                           ,CON,4,3,3,     ,          ,61.75,55.58,54.03,4.36
+OR,    ,43121,#1,KNIPHOFIA HIR FIRE DANCE,Fire Dance Dwarf Poker                                      ,PRN,4,     ,     ,339,5/1/2016,6,5.4,5.25,0.58
+OR,    ,24901,#1,LAMIUM M PURPLE DRAGON P15890,Purple Dragon Dead Nettle                                   ,PRN,4,     ,20,,,5.25,4.73,4.59,0.58
+OR,    ,02490UT,LittleOne,LAMIUM M PURPLE DRAGON P15890,Purple Dragon Dead Nettle                                   ,PRN,4,     ,105,     ,          ,3.25,2.93,2.84,0.44
+OR,    ,57265,#5,LARIX DECIDUA,European Larch                                              ,CON,3,     ,14,     ,          ,27.75,24.98,24.28,2.91
+OR,    ,57277,#7,LARIX DECIDUA PENDULA,Weeping European Larch                                      ,CON,3,     ,14,     ,          ,89.75,80.78,78.53,7.27
+OR,    ,29611,#1,LUPINUS POL MINARETTE,Minarette Dwarf Lupine                                      ,PRN,4,     ,5,91,4/27/2016,5.25,4.73,4.59,0.58
+OR,    ,059425TR,#5 TREE,MAG X ELIZABETH,Elizabeth Magnolia                                          ,TRE,4,     ,11,     ,          ,45,40.5,39.38,2.91
+OR,    ,30575,#5,MALUS CENTURION R,Centurion®  Crabapple,TRE,4,     ,36,     ,          ,30.75,27.68,26.91,2.91
+OR,    ,18325,#5,MALUS SARGENTII TINA,Tina Sargent Crabapple                                      ,TRE,4,     ,2,     ,          ,30.75,27.68,26.91,2.91
+OR,    ,36167,#7,METASEQUOIA G OGON GOLD RUSH,Gold Rush Dawn Redwood                                      ,CON,3,     ,     ,14,4/27/2016,56.25,50.63,49.22,7.27
+OR,,38512,#2,MICROBIOTA DRWS BLUE TM P20298,Drew's Blue  Siberian Carpet Cypress,CON,2,     ,107,     ,          ,13.75,12.38,12.03,1.45
+OR,    ,46701,#1,MONARDA D FIREBALL P14235,Fireball Bee Balm                                           ,PRN,4,     ,21,,,5.25,4.73,4.59,0.58
+OR,    ,25861,#1,MONARDA RASPBERRY WINE,Raspberry Wine Bee Balm                                     ,PRN,4,     ,37,,,5.25,4.73,4.59,0.58
+OR,,82581,#1,NEPETA LITTLE TRUDY R PP18904,Little Trudy®  Catmint,PRN,4,     ,     ,509,6/1/2016,5.25,4.73,4.59,0.58
+OR,,81741,#1,NEPETA NERVOSA PINK CAT,Pink Cat Catmint                                            ,PRN,4,     ,     ,235,3/1/2016,5.25,4.73,4.59,0.58
+OR,,77131,#1,OSTEO AVALANCHE PP22705,Avalanche White Sun Daisy                                   ,PRN,4,     ,30,     ,          ,5.25,4.73,4.59,0.58
+OR,    ,63351,#1,PACHYSANDRA TERM GREEN SHEEN,Green Sheen Japanese Spurge                                 ,PRN,4,     ,"3,460","2,982",4/1/2016,5.75,5.18,5.03,0.58
+OR,    ,06335UT,LittleOne,PACHYSANDRA TERM GREEN SHEEN,Green Sheen Japanese Spurge                                 ,PRN,4,     ,"2,262",,,3.25,2.93,2.84,0.44
+OR,    ,39135,#5,PAEONIA ITOH JULIA ROSE,Julia Rose Itoh Peony                                       ,PRN,4,22,22,,,44.5,40.05,38.94,2.91
+OR,    ,19522,#2,PAEONIA X BOWL OF BEAUTY (PK),Bowl Of Beauty Herbaceous Peony                             ,PRN,4,     ,139,     ,          ,20.75,18.68,18.16,1.45
+OR,    ,50282,#2,PAEONIA X BUCKEYE BELLE (RED),Buckeye Belle Herbaceous Peony                              ,PRN,4,     ,"1,205",     ,          ,20.75,18.68,18.16,1.45
+OR,    ,63512,#2,PAEONIA X DBL WHITE,Double White Herbaceous Peony                               ,PRN,3,     ,175,     ,          ,20.25,18.23,17.72,1.45
+OR,    ,36332,#2,PAEONIA X INSPECTEUR LAVERGNE,Inspecteur Lavergne Peony                                   ,PRN,4,     ,226,     ,          ,20.75,18.68,18.16,1.45
+OR,    ,46132,#2,PAEONIA X JAN VAN LEEUWEN (WT),Jan Van Leeuwen Peony                                       ,PRN,4,     ,10,     ,          ,20.75,18.68,18.16,1.45
+OR,    ,63742,#2,PAEONIA X KANSAS (RED),Kansas Double Peony                                         ,PRN,4,     ,"2,702",     ,          ,20.75,18.68,18.16,1.45
+OR,    ,63572,#2,PAEONIA X KARL ROSENFIELD(RED),Karl Rosenfield Double Peony                                ,PRN,4,     ,331,     ,          ,20.75,18.68,18.16,1.45
+OR,    ,64912,#2,PAEONIA X MME EMILE DEBATENE,Madame Emile Debatene Double Peony                          ,PRN,4,     ,43,     ,          ,20.75,18.68,18.16,1.45
+OR,    ,24272,#2,PAEONIA X PAUL M WILD (RED),Paul M. Wild Double Peony                                   ,PRN,4,21,278,     ,          ,20.75,18.68,18.16,1.45
+OR,    ,63762,#2,PAEONIA X SHIRLEY TEMPLE (WT),Shirley Temple Double Peony                                 ,PRN,4,     ,23,     ,          ,20.75,18.68,18.16,1.45
+OR,,081522S,SuperTwo STAKED,PARTH Q RED WALL TM PPAF,Red Wall  Virginia Creeper,VIN,3,156,341,,,18.25,16.43,15.97,1.94
+OR,,81525,#5 STAKED,PARTH Q RED WALL TM PPAF,Red Wall  Virginia Creeper,VIN,3,40,238,371,3/28/2016,32.25,29.03,28.22,2.91
+OR,    ,2501,#1 STAKED,PARTH TRI VEITCHII,Boston Ivy                                                  ,VIN,4,     ,21,     ,          ,9.25,8.33,8.09,0.58
+OR,    ,2505,#5 STAKED,PARTH TRI VEITCHII,Boston Ivy                                                  ,VIN,4,     ,98,     ,          ,29.75,26.78,26.03,2.91
+OR,,67781,#1,PENSTEMON X PIKES PEAK PURPL R,Pikes Peak Purple®  Penstemon,PRN,4,     ,217,,,6.75,6.08,5.91,0.58
+OR,,66811,#1,PENSTEMON X PRETTY PETTICOAT,Pretty Petticoat Beardtongue                                ,PRN,4,     ,15,     ,          ,5.25,4.73,4.59,0.58
+OR,    ,405141,#1,PEROVSKIA ATR PEEK-A-BLUE PPAF,Peek-A-Blue Russian Sage                                    ,PRN,4,     ,571,     ,          ,5.25,4.73,4.59,0.58
+OR,    ,64211,#1,PEROVSKIA ATRIPLICIFOLIA,Russian Sage                                                ,PRN,4,     ,256,,,5.25,4.73,4.59,0.58
+OR,    ,64212,#2,PEROVSKIA ATRIPLICIFOLIA,Russian Sage                                                ,PRN,4,     ,38,,,13.5,12.15,11.81,1.45
+OR,,84781,#1,PEROVSKIA LACEY BLUE PP20845,Lacey Blue Russian Sage                                     ,PRN,4,     ,25,,,6.75,6.08,5.91,0.58
+OR,    ,64341,#1,PHLOX SUB CANDY STRIPE,Candy Stripe Creeping Phlox                                 ,PRN,3,     ,15,,,5.25,4.73,4.59,0.58
+OR,    ,64451,#1,PHLOX SUB EMERALD BLUE,Emerald Blue Creeping Phlox                                 ,PRN,3,     ,     ,54,3/1/2016,5.25,4.73,4.59,0.58
+OR,    ,06445UT,LittleOne,PHLOX SUB EMERALD BLUE,Emerald Blue Creeping Phlox                                 ,PRN,3,     ,8,     ,          ,3.25,2.93,2.84,0.44
+OR,    ,64601,#1,PHLOX SUB RED WINGS,Red Wings Creeping Phlox                                    ,PRN,3,     ,613,,,5.25,4.73,4.59,0.58
+OR,    ,34652,#2,PHYSOCARPUS CENTER GLOW P16894,Center Glow Ninebark                                        ,DCS,2,5,30,     ,          ,16,14.4,14,1.45
+OR,    ,029945PT,#5 PATIO TREE,PHYSOCARPUS SUMR WINE R P14821,Summer Wine®  Ninebark,DCS,3,     ,46,     ,          ,40,36,35,4.36
+OR,    ,064577ST,#7 STAKED,PICEA ABIES PENDULA,Weeping Norway Spruce                                       ,CON,2,3,3,     ,          ,95,85.5,83.13,7.27
+OR,    ,33265,#5,PICEA ENG BUSH'S LACE,Bush's Lace Engleman Spruce                                 ,CON,3,9,79,     ,          ,43.25,38.93,37.84,2.91
+OR,    ,64622,#2,PICEA GL CONICA,Dwarf Alberta Spruce                                        ,CON,2,2,"28,270",     ,          ,18.75,16.88,16.41,1.45
+OR,    ,064622P2,#2 2BALL POODLE,PICEA GL CONICA,Dwarf Alberta Spruce                                        ,CON,2,     ,2,     ,          ,42.75,38.48,37.41,2.18
+OR,    ,064622SP,#2 SPIRAL,PICEA GL CONICA,Dwarf Alberta Spruce                                        ,CON,2,     ,40,     ,          ,49.75,44.78,43.53,2.18
+OR,    ,64625,#5,PICEA GL CONICA,Dwarf Alberta Spruce                                        ,CON,2,     ,"2,267",     ,          ,28.5,25.65,24.94,2.91
+OR,    ,64629,#15,PICEA GL CONICA,Dwarf Alberta Spruce                                        ,CON,2,5,5,     ,          ,117,105.3,102.38,14.55
+OR,    ,06462M,#10 Squat,PICEA GL CONICA,Dwarf Alberta Spruce                                        ,CON,2,     ,51,,,79.5,71.55,69.56,10.47
+OR,    ,06462MP3,#10 Squat 3BALL POODLE,PICEA GL CONICA,Dwarf Alberta Spruce                                        ,CON,2,     ,     ,5,4/27/2016,100.25,90.23,87.72,10.47
+OR,    ,06462MSP,#10 Squat SPIRAL,PICEA GL CONICA,Dwarf Alberta Spruce                                        ,CON,2,     ,2,     ,          ,111.75,100.58,97.78,10.47
+OR,,19372,#2,PICEA GL CONICA TINY TOWER R,Tiny Tower®  Dwarf Alberta Spruce,CON,3,     ,49,     ,          ,19.25,17.33,16.84,1.45
+OR,    ,64655,#5,PICEA GL DENSATA,Black Hills Spruce                                          ,CON,2,4,     ,26,6/1/2016,27.75,24.98,24.28,2.91
+OR,,33275,#5,PICEA GL DENSATA WELLS' WEEPER,Wells' Weeper Spruce                                        ,CON,2,11,144,,,43.25,38.93,37.84,2.91
+OR,,36275,#5,PICEA GL PENDULA,Weeping White Spruce                                        ,CON,2,     ,     ,5,4/27/2016,38.75,34.88,33.91,2.91
+OR,    ,64875,#5,PICEA OMORIKA BRUNS,Bruns Serbian Spruce                                        ,CON,4,     ,36,,,38.75,34.88,33.91,2.91
+OR,    ,64832,#2,PICEA OMORIKA NANA,Dwarf Serbian Spruce                                        ,CON,4,     ,78,,,28.75,25.88,25.16,1.45
+OR,    ,64835,#5,PICEA OMORIKA NANA,Dwarf Serbian Spruce                                        ,CON,4,     ,46,,,38.75,34.88,33.91,2.91
+OR,,47615,#5,PICEA OMORIKA SKY TRAILS,Sky Trails Serbian Spruce                                   ,CON,4,75,     ,167,4/27/2016,43.25,38.93,37.84,2.91
+OR,,04761M,#10 Squat,PICEA OMORIKA SKY TRAILS,Sky Trails Serbian Spruce                                   ,CON,4,     ,13,     ,          ,82,73.8,71.75,10.47
+OR,    ,64815,#5,PICEA ORIEN ATROVIRENS,Oriental Spruce                                             ,CON,2,69,     ,69,5/15/2016,48.5,43.65,42.44,2.91
+OR,    ,64665,#5,PICEA PUN GLAUCA,Colorado Blue Spruce                                        ,CON,2,     ,     ,45,6/1/2016,26.75,24.08,23.41,2.91
+OR,    ,064695PT,#5 PATIO TREE,PICEA PUN GLOBOSA,Dwarf Globe Blue Spruce                                     ,CON,2,     ,     ,11,6/1/2016,76.25,68.63,66.72,4.36
+OR,    ,64715,#5,PICEA PUN HOOPSII,Hoop's Blue Spruce                                          ,CON,2,9,     ,13,5/15/2016,43.25,38.93,37.84,2.91
+OR,    ,64719,#15,PICEA PUN HOOPSII,Hoop's Blue Spruce                                          ,CON,2,2,22,     ,          ,132.75,119.48,116.16,14.55
+OR,    ,64765,#5,PICEA PUN MOERHEIM,Moerheim Blue Spruce                                        ,CON,2,     ,     ,67,6/1/2016,43.25,38.93,37.84,2.91
+OR,,38745,#5,PICEA PUN SPARKLER R,Sparkler®  Colorado Blue Spruce,CON,2,15,     ,15,6/1/2016,43.25,38.93,37.84,2.91
+OR,    ,19395,#5,PICEA PUN THE BLUES,The Blues Blue Spruce                                       ,CON,2,4,4,,,43.25,38.93,37.84,2.91
+OR,    ,01939M,#10 Squat,PICEA PUN THE BLUES,The Blues Blue Spruce                                       ,CON,2,22,31,,,82.5,74.25,72.19,10.47
+OR,,47375,#5,PICEA PUN THOMPSENII,Thompsen Blue Spruce                                        ,CON,2,     ,     ,158,5/15/2016,43.25,38.93,37.84,2.91
+OR,,04737M,#10 Squat,PICEA PUN THOMPSENII,Thompsen Blue Spruce                                        ,CON,2,     ,     ,13,4/27/2016,82.5,74.25,72.19,10.47
+OR,    ,28565,#5,PICEA PUN WALDBRUNN,Waldbrunn Dwarf Blue Spruce                                 ,CON,2,     ,1,     ,          ,43.25,38.93,37.84,2.91
+OR,    ,65395,#5,PINUS FL VANDERWOLFES PYRAMID,Vanderwolf's Pyramid Limber Pine                            ,CON,4,     ,8,     ,          ,43.25,38.93,37.84,2.91
+OR,    ,32742,#2,PINUS MUGO COMPACT SELECT,Compact Mugo Pine                                           ,CON,2,     ,3,     ,          ,19.75,17.78,17.28,1.16
+OR,    ,32745,#5,PINUS MUGO COMPACT SELECT,Compact Mugo Pine                                           ,CON,2,     ,30,     ,          ,24.5,22.05,21.44,2.91
+OR,,49072,#2,PINUS MUGO MOPS,Mops Mugo Pine                                              ,CON,2,21,21,     ,          ,19.75,17.78,17.28,1.45
+OR,    ,065455NT,#5 NATURAL,PINUS MUGO PUMILIO,Dwarf Mugo Pine                                             ,CON,2,     ,97,,,24.5,22.05,21.44,2.91
+OR,    ,065459NT,#15 NATURAL,PINUS MUGO PUMILIO,Dwarf Mugo Pine                                             ,CON,2,     ,1,     ,          ,84.75,76.28,74.16,21.82
+OR,,49605,#5,PINUS STROBUS TINY KURLS,Tiny Kurls Eastern White Pine                               ,CON,3,     ,8,     ,          ,43.25,38.93,37.84,2.91
+OR,    ,65361,#1,POLEMONIUM BRISE D'ANJOU P9781,Variegated Jacob's Ladder                                   ,PRN,4,     ,     ,133,3/1/2016,6.75,6.08,5.91,0.58
+OR,    ,15161,#1,POLYGONATUM FAL VARIEGATUM,Variegated Solomon's Seal                                   ,PRN,4,     ,63,     ,          ,6.75,6.08,5.91,0.58
+OR,    ,66692,#2,POTENTILLA ABBOTSWOOD,Abbotswood Potentilla                                       ,DCS,3,     ,94,     ,          ,14,12.6,12.25,1.45
+OR,    ,66782,#2,POTENTILLA FROSTY R P10987,Frosty®  Potentilla,DCS,3,78,308,     ,          ,14,12.6,12.25,1.45
+OR,    ,66802,#2,POTENTILLA GOLD STAR,Gold Star Potentilla                                        ,DCS,3,     ,25,     ,          ,14,12.6,12.25,1.45
+OR,    ,66685,#5,POTENTILLA GOLDFINGER,Goldfinger Potentilla                                       ,DCS,3,     ,23,     ,          ,22,19.8,19.25,2.91
+OR,    ,86652,#2,POTENTILLA PINK BEAUTY P9874,Pink Beauty Potentilla                                      ,DCS,3,     ,32,     ,          ,14,12.6,12.25,1.45
+OR,    ,66772,#2,POTENTILLA RED ACE,Red Ace Potentilla                                          ,DCS,3,     ,76,     ,          ,14,12.6,12.25,1.45
+OR,X,412841,#1,POTENTILLA TWINKLING STAR,Twinkling Star potentilla                                   ,PRN,4,     ,     ,288,6/1/2016,6,5.4,5.25,0.58
+OR,    ,31815,#5,PRUNUS CRMSON POINTE TM P19564,Crimson Pointe  Flowering Plum,TRE,4,15,15,     ,          ,35,31.5,30.63,2.91
+OR,    ,66955,#5,PRUNUS PEN PLENO ROSEA,Double Weeping Rosebud Cherry                               ,TRE,4,     ,12,     ,          ,43,38.7,37.63,2.91
+OR,    ,06695M,#10 Squat,PRUNUS PEN PLENO ROSEA,Double Weeping Rosebud Cherry                               ,TRE,4,     ,35,     ,          ,112.5,101.25,98.44,10.47
+OR,X,81785,#5,PRUNUS VIR CANADA RED,Canada Red Chokecherry                                      ,TRE,2,     ,81,     ,          ,43,38.7,37.63,2.91
+OR,X,405465,#5,PRUNUS X ROMEO TM,Romeo  Sour Cherry,TRE,3,     ,122,     ,          ,34.75,31.28,30.41,2.91
+OR,    ,06693MSE,#10 Squat SERPENTINE,PRUNUS X SNOW FOUNTAIN TM,Snow Fountains®  Weeping Cherry,TRE,4,     ,22,     ,          ,125,112.5,109.38,15.71
+OR,    ,06693MST,#10 Squat STAKED,PRUNUS X SNOW FOUNTAIN TM,Snow Fountains®  Weeping Cherry,TRE,4,     ,1,     ,          ,91.25,82.13,79.84,10.47
+OR,    ,66985,#5,PRUNUS X YEDOENSIS AKEBONO,Akebono Yoshino Cherry                                      ,TRE,4,1,2,     ,          ,43,38.7,37.63,2.91
+OR,    ,11061,#1,PULMONARIA RASP SPLASH PP12138,Raspberry Splash Lungwort                                   ,PRN,4,     ,     ,246,3/28/2016,6.75,6.08,5.91,0.58
+OR,    ,35611,#1,PULMONARIA TREVI FOUNTN P13047,Trevi Fountain Lungwort                                     ,PRN,4,     ,165,     ,          ,6.75,6.08,5.91,0.58
+OR,    ,69455,#5,QUERCUS PALUSTRIS,Pin Oak                                                     ,TRE,4,15,15,     ,          ,27,24.3,23.63,2.91
+OR,    ,69255,#5,QUERCUS RUBRA,Northern Red Oak                                            ,TRE,4,     ,6,     ,          ,27,24.3,23.63,2.91
+OR,    ,30461,#1,RHOD (H-1) ELVIIRA,Elviira Rhododendron                                        ,RHO,4,     ,19,,,9,8.1,7.88,0.58
+OR,    ,30462,#2,RHOD (H-1) ELVIIRA,Elviira Rhododendron                                        ,RHO,4,     ,148,,,18.5,16.65,16.19,1.45
+OR,    ,18015,#5,RHOD (H-1) HAAGA,Haaga Rhododendron                                          ,RHO,4,     ,204,     ,          ,27.5,24.75,24.06,2.91
+OR,    ,16222,#2,RHOD (H-1) HELLIKKI,Hellikki Rhododendron                                       ,RHO,4,     ,37,     ,          ,18.5,16.65,16.19,1.45
+OR,    ,16225,#5,RHOD (H-1) HELLIKKI,Hellikki Rhododendron                                       ,RHO,4,     ,79,     ,          ,27.5,24.75,24.06,2.91
+OR,    ,9485,#5,RHOD (H-1) IGNATIUS SARGENT,Ignatius Sargent Rhododendron                               ,RHO,4,     ,29,     ,          ,27.5,24.75,24.06,2.91
+OR,    ,9735,#5,RHOD (H-1) NORMANDY,Normandy Rhododendron                                       ,RHO,4,     ,331,     ,          ,27.5,24.75,24.06,2.91
+OR,    ,9801,#1,RHOD (H-1) P.J.M.,P.J.M. Rhododendron                                         ,RHO,4,     ,205,     ,          ,9,8.1,7.88,0.58
+OR,    ,9971,#1,RHOD (H-1) PURPLE GEM,Purple Gem Rhododendron                                     ,RHO,4,     ,518,     ,          ,9,8.1,7.88,0.58
+OR,    ,9972,#2,RHOD (H-1) PURPLE GEM,Purple Gem Rhododendron                                     ,RHO,4,     ,182,     ,          ,18.5,16.65,16.19,1.45
+OR,    ,10051,#1,RHOD (H-1) RAMAPO,Ramapo Rhododendron                                         ,RHO,4,     ,712,     ,          ,9,8.1,7.88,0.58
+OR,    ,10055,#5,RHOD (H-1) RAMAPO,Ramapo Rhododendron                                         ,RHO,4,     ,215,     ,          ,27.5,24.75,24.06,2.91
+OR,    ,19772,#2,RHOD (H-1) RTR HOOPLA,Hoopla Rhododendron                                         ,RHO,4,6,6,     ,          ,18.5,16.65,16.19,1.45
+OR,,20195,#5,RHOD (H-1) RTR MARCH MADNESS,March Madness Rhododendron                                  ,RHO,4,     ,197,     ,          ,28.5,25.65,24.94,2.91
+OR,    ,19742,#2,RHOD (H-1) RTR SLAM DUNK,Slam Dunk Rhododendron                                      ,RHO,4,4,4,     ,          ,18.5,16.65,16.19,1.45
+OR,    ,36292,#2,ROSA FLWR CAR R AMBER PPAF,Flower Carpet®  Amber Groundcover Rose,ROS,4,     ,8,     ,          ,15,13.5,13.13,1.45
+OR,    ,69292,#2,ROSA FLWR CAR R APLBLSM P10239,Flower Carpet®  Appleblossom Groundcover Rose,ROS,4,     ,53,     ,          ,15,13.5,13.13,#N/A
+OR,    ,69782,#2,ROSA FLWR CAR R PINK,Flower Carpet®  Pink Groundcover Rose,ROS,4,     ,279,,,15,13.5,13.13,1.45
+OR,    ,36382,#2,ROSA FLWR CAR R PNK SUP P16276,Flower Carpet®  Pink Supreme Ground Cover Rose,ROS,4,     ,176,,,15,13.5,13.13,1.45
+OR,    ,71602,#2,ROSA FLWR CAR R RED P11308,Flower Carpet®  Red Groundcover Rose,ROS,4,     ,28,,,15,13.5,13.13,1.45
+OR,    ,18242,#2,ROSA FLWR CAR R YELLOW PP13869,Flower Carpet®  Yellow Rose,ROS,4,     ,459,,,15,13.5,13.13,1.45
+OR,    ,090791ST,#1 STAKED,ROSA-CL-CECILE BRUNNER,Cecile Brunner Climbing Rose                                ,ROS,4,     ,72,     ,          ,7.5,6.75,6.56,0.58
+OR,    ,090795ST,#5 STAKED,ROSA-CL-CECILE BRUNNER,Cecile Brunner Climbing Rose                                ,ROS,4,7,50,     ,          ,24,21.6,21,2.91
+OR,    ,58912,#2,ROSA-CL-WILLIAM BAFFIN,William Baffin Climbing Rose                                ,ROS,3,9,9,     ,          ,17.5,15.75,15.31,1.45
+OR,,79382,#2,RUBUS RSPBRY SHRTCKE TM P22141,BrazelBerries®  Raspberry Shortcake  Dwarf Thor,DCS,4,97,791,     ,          ,16.75,15.08,14.66,1.45
+OR,,79389,#15,RUBUS RSPBRY SHRTCKE TM P22141,BrazelBerries®  Raspberry Shortcake  Dwarf Thor,DCS,4,     ,1,     ,          ,82,73.8,71.75,14.55
+OR,,18631,#1,RUDBECKIA LTLE GOLDSTAR P22397,Little Goldstar Black Eyed Susan                            ,PRN,4,     ,     ,380,6/1/2016,5.25,4.73,4.59,0.58
+OR,,39492,#2,SALIX INTEGRA FLAMINGO PP17490,Flamingo Dappled Willow                                     ,DCS,4,70,333,     ,          ,15.25,13.73,13.34,1.45
+OR,,39495,#5,SALIX INTEGRA FLAMINGO PP17490,Flamingo Dappled Willow                                     ,DCS,4,110,     ,124,4/27/2016,22.25,20.03,19.47,2.91
+OR,    ,70615,#5,SALIX INTEGRA HAKURO NISHIKI,Dappled Willow                                              ,DCS,4,32,32,     ,          ,23,20.7,20.13,2.91
+OR,    ,86705,#5,SALIX PURPUREA CANYON BLUE,Canyon Blue Arctic Blue Leaf Willow                         ,DCS,4,     ,34,     ,          ,22.5,20.25,19.69,2.91
+OR,X,412691,#1,SALVIA NEM BLUE MARVEL PPAF,Blue Marvel Salvia                                          ,PRN,4,     ,680,669,6/1/2016,6,5.4,5.25,0.58
+OR,    ,19541,#1,SALVIA NEM MARCUS R PP13322,Marcus®  Meadow Sage,PRN,4,     ,356,172,3/28/2016,6,5.4,5.25,0.58
+OR,    ,20411,#1,SALVIA NEMOROSA CARADONNA,Caradonna Meadow Sage                                       ,PRN,4,     ,442,,,5.75,5.18,5.03,0.58
+OR,    ,70591,#1,SALVIA NEMOROSA EAST FRIESLAND,East Friesland Meadow Sage                                  ,PRN,4,     ,"1,171",,,5.75,5.18,5.03,0.58
+OR,    ,407941,#1,SALVIA SNSATION R DEEP ROS PAF,Sensation Deep Rose Salvia                                  ,PRN,4,     ,283,218,6/1/2016,6,5.4,5.25,0.58
+OR,    ,070264PTC,"4"" Pot POT-TERRA",SALVIA X SYL MAY NIGHT,May Night Sage                                              ,PRN,4,     ,48,     ,          ,3.5,3.15,3.06,0.33
+OR,    ,30321,#1,SALVIA X SYL SNOW HILL,Snow Hill Meadow Sage                                       ,PRN,4,     ,580,,,5.25,4.73,4.59,0.58
+OR,X,88961,#1,SCABIOSA COL GIGA TM BLUE,Giga  Blue Pincushion Flower,PRN,3,     ,     ,520,6/1/2016,5.25,4.73,4.59,0.58
+OR,    ,06501UT,LittleOne,SEDUM ACRE,Goldmoss Sedum                                              ,PRN,3,     ,260,     ,          ,3.25,2.93,2.84,0.44
+OR,    ,06500UT,LittleOne,SEDUM ALB C BABY TEARS,Baby Tears Stonecrop                                        ,PRN,4,     ,241,     ,          ,3.25,2.93,2.84,0.44
+OR,    ,29141,#1,SEDUM BLUE SPRUCE,Blue Spruce Stonecrop                                       ,PRN,3,5,390,     ,          ,5.5,4.95,4.81,0.58
+OR,    ,70941,#1,SEDUM BRONZE CARPET,Bronze Carpet Stonecrop                                     ,PRN,3,     ,923,"1,101",3/1/2016,5.5,4.95,4.81,0.58
+OR,    ,07094UT,LittleOne,SEDUM BRONZE CARPET,Bronze Carpet Stonecrop                                     ,PRN,3,14,395,     ,          ,3.25,2.93,2.84,0.44
+OR,X,92351,#1,SEDUM ELSIE GOLD PP20368,Elsie's Gold Stonecrop                                      ,PRN,4,     ,204,     ,          ,5.5,4.95,4.81,0.58
+OR,    ,01182UT,LittleOne,SEDUM JOHN CREECH,John Creech Stonecrop                                       ,PRN,3,     ,208,     ,          ,3.25,2.93,2.84,0.44
+OR,    ,35171,#1,SEDUM SPURIUM VOODOO,Voodoo Stonecrop                                            ,PRN,3,     ,351,     ,          ,5.5,4.95,4.81,0.58
+OR,    ,035174PTC,"4"" Pot POT-TERRA",SEDUM SPURIUM VOODOO,Voodoo Stonecrop                                            ,PRN,3,     ,55,     ,          ,3.2,2.88,2.8,0.33
+OR,,87481,#1,SEDUM SSPKLR R CHERRY TART PAF,Sunsparkler®  Cherry Tart Stonecrop,PRN,4,20,167,     ,          ,5.75,5.18,5.03,0.58
+OR,,7331,#1,SEDUM SSPRKLR R DZLBRY PP22457,Sunsparkler®  Dazzleberry Sedum,PRN,4,     ,216,     ,          ,5.75,5.18,5.03,0.58
+OR,,00733UT,LittleOne,SEDUM SSPRKLR R DZLBRY PP22457,Sunsparkler®  Dazzleberry Sedum,PRN,4,     ,1,     ,          ,3.75,3.38,3.28,0.44
+OR,    ,70911,#1,SEDUM VERA JAMESON,Vera Jameson Stonecrop                                      ,PRN,4,     ,     ,235,4/1/2016,5.5,4.95,4.81,0.58
+OR,X,57161,#1,SEDUM X AUTUMN CHARM PP14421,Autumn Charm  Stonecrop,PRN,3,     ,     ,366,3/28/2016,5.5,4.95,4.81,0.58
+OR,    ,25041,#1,SEDUM X AUTUMN FIRE,Autumn Fire Stonecrop                                       ,PRN,3,     ,     ,69,3/28/2016,5.5,4.95,4.81,0.58
+OR,    ,70741,#1,SEDUM X AUTUMN JOY,Autumn Joy Stonecrop                                        ,PRN,4,     ,521,,,5.5,4.95,4.81,0.58
+OR,    ,06560UT,LittleOne,SEMPERVIVUM GREEN WHEEL,Green Wheel Hens and Chicks                                 ,PRN,4,     ,31,     ,          ,3.25,2.93,2.84,0.44
+OR,    ,04491UT,LittleOne,SEMPERVIVUM RUBIKON,Rubikon Hens & Chicks                                       ,PRN,4,     ,322,,,3.25,2.93,2.84,0.44
+OR,    ,56961,#1,SEMPERVIVUM RUBY HEARTS,Ruby Hearts Hens and Chicks                                 ,PRN,4,     ,     ,271,3/28/2016,6.75,6.08,5.91,0.58
+OR,    ,71031,#1,SOLIDAGO CROWN OF RAYS,Crown Of Rays Goldenrod                                     ,PRN,4,     ,127,,,5.25,4.73,4.59,0.58
+OR,    ,71185,#5,SORBUS HUPEHEN CORAL FIRE TM,Coral Fire  Mountain Ash,TRE,2,11,30,     ,          ,37,33.3,32.38,2.91
+OR,    ,075012S,SuperTwo,SPIRAEA DBLPLAY R ARTIST PPAF,Double Play®  Artist Spirea,DCS,4,     ,20,     ,          ,16.5,14.85,14.44,1.94
+OR,X,408162S,SuperTwo,SPIRAEA DBLPLAY R BL KZO TMPAF,Double Play®  Blue Kazoo Spirea,DCS,4,10,10,     ,          ,16.5,14.85,14.44,1.94
+OR,    ,075022S,SuperTwo,SPIRAEA DBLPLAY R GOLD PPAF,Double Play®  Gold Spirea,DCS,4,30,     ,30,3/28/2016,16.5,14.85,14.44,1.94
+OR,    ,71252,#2,SPIRAEA JAP LITTLE PRINCESS,Little Princess Spirea                                      ,DCS,4,     ,2,     ,          ,10.75,9.68,9.41,1.45
+OR,    ,71572,#2,SPIRAEA JAP MAGIC CARPET P9363,Magic Carpet Spirea                                         ,DCS,4,8,8,     ,          ,10.75,9.68,9.41,1.45
+OR,    ,71585,#5,SPIRAEA JAP NEON FLASH,Neon Flash Spirea                                           ,DCS,4,     ,20,     ,          ,22,19.8,19.25,2.91
+OR,    ,71285,#5,SPIRAEA JAP SHIROBANA,Shirobana Spirea                                            ,DCS,4,     ,30,     ,          ,22,19.8,19.25,2.91
+OR,    ,71302,#2,SPIRAEA NIPPON SNOWMOUND,Snowmound Spirea                                            ,DCS,4,     ,16,     ,          ,13.75,12.38,12.03,1.45
+OR,    ,71155,#5,SPIRAEA X ANTHONY WATERER,Anthony Waterer Spirea                                      ,DCS,4,46,80,     ,          ,22,19.8,19.25,2.91
+OR,    ,71172,#2,SPIRAEA X GOLDFLAME,Goldflame Spirea                                            ,DCS,4,78,88,     ,          ,13.75,12.38,12.03,1.45
+OR,    ,71175,#5,SPIRAEA X GOLDFLAME,Goldflame Spirea                                            ,DCS,4,79,111,     ,          ,22,19.8,19.25,2.91
+OR,    ,71235,#5,SPIRAEA X LIMEMOUND R,Limemound®  Spirea,DCS,3,82,82,     ,          ,22,19.8,19.25,2.91
+OR,    ,12091,#1,STACHYS BIG EARS,Big Ears Lamb's Ear                                         ,PRN,4,     ,60,     ,          ,5.25,4.73,4.59,0.58
+OR,    ,12111,#1,STACHYS SILVER CARPET,Silver Carpet Lamb's Ear                                    ,PRN,4,     ,146,     ,          ,5.25,4.73,4.59,0.58
+OR,,086431S,SuperOne TM,SYRINGA BLOOMERNG R DK PPL PAF,Bloomerang®  Dark Purple Lilac,DCS,3,407,"1,289",,,11, N/A , N/A ,0.97
+OR,X,406801S,SuperOne TM,SYRINGA BLOOMERNG R PNK PRFM,Bloomerang®  Pink Perfume Lilac,DCS,3,132,249,     ,          ,11, N/A , N/A ,0.97
+OR,X,406802S,SuperTwo,SYRINGA BLOOMERNG R PNK PRFM,Bloomerang®  Pink Perfume Lilac,DCS,3,45,     ,45,3/28/2016,18.5,16.65,16.19,1.94
+OR,    ,71972,#2,SYRINGA PATULA,Korean Lilac                                                ,DCS,4,     ,35,     ,          ,16.75,15.08,14.66,1.45
+OR,    ,72022,#2,SYRINGA PATULA MISS KIM,Miss Kim Korean Lilac                                       ,DCS,4,     ,60,     ,          ,16.75,15.08,14.66,1.45
+OR,    ,072025PT,#5 PATIO TREE,SYRINGA PATULA MISS KIM,Miss Kim Korean Lilac                                       ,DCS,4,56,63,     ,          ,62,55.8,54.25,4.36
+OR,    ,71802,#2,SYRINGA V ANGEL WHITE,Angel White Lilac                                           ,DCS,3,     ,74,     ,          ,16.75,15.08,14.66,1.45
+OR,    ,71792,#2,SYRINGA V BLUE SKIES R,Blue Skies®  Lilac,DCS,3,     ,12,     ,          ,16.75,15.08,14.66,1.45
+OR,    ,71795,#5,SYRINGA V BLUE SKIES R,Blue Skies®  Lilac,DCS,3,     ,95,     ,          ,25.25,22.73,22.09,2.91
+OR,    ,72102,#2,SYRINGA V CHARLES JOLY,Charles Joly Lilac                                          ,DCS,3,     ,38,     ,          ,16.75,15.08,14.66,1.45
+OR,    ,72105,#5,SYRINGA V CHARLES JOLY,Charles Joly Lilac                                          ,DCS,3,29,39,     ,          ,25.25,22.73,22.09,2.91
+OR,    ,72152,#2,SYRINGA V LAVENDER LADY,Lavender Lady Lilac                                         ,DCS,3,     ,380,     ,          ,16.75,15.08,14.66,1.45
+OR,    ,72155,#5,SYRINGA V LAVENDER LADY,Lavender Lady Lilac                                         ,DCS,3,     ,184,     ,          ,25.25,22.73,22.09,2.91
+OR,    ,71902,#2,SYRINGA V LUDWIG SPAETH,Ludwig Spaeth Lilac                                         ,DCS,3,     ,11,     ,          ,16.75,15.08,14.66,1.45
+OR,    ,72145,#5,SYRINGA V PRESIDENT LINCOLN,President Lincoln Lilac                                     ,DCS,3,     ,111,     ,          ,25.25,22.73,22.09,2.91
+OR,    ,72162,#2,SYRINGA V SENSATION,Sensation Lilac                                             ,DCS,3,     ,18,     ,          ,16.75,15.08,14.66,1.45
+OR,    ,72165,#5,SYRINGA V SENSATION,Sensation Lilac                                             ,DCS,3,     ,59,     ,          ,25.25,22.73,22.09,2.91
+OR,    ,72192,#2,SYRINGA X HYA POCAHONTAS,Pocahontas Canadian Lilac                                   ,DCS,2,     ,362,     ,          ,16.75,15.08,14.66,1.45
+OR,    ,72342,#2,TAXUS EMERALD SPREADR R P10335,Emerald Spreader®  Japanese Yew,CON,4,157,     ,341,5/15/2016,15.75,14.18,13.78,1.45
+OR,    ,72345,#5,TAXUS EMERALD SPREADR R P10335,Emerald Spreader®  Japanese Yew,CON,4,23,123,,,23,20.7,20.13,2.91
+OR,,28852,#2,TAXUS X MED HUBERS TAWNY GOLD,Huber's Tawny Gold Spreading Yew                            ,CON,4,72,113,     ,          ,17.25,15.53,15.09,1.45
+OR,    ,72812,#2,THUJA OC DEGROOT'S SPIRE,Degroot's Spire Arborvitae                                  ,CON,3,29,76,     ,          ,14.75,13.28,12.91,1.45
+OR,    ,73015,#5,THUJA OC EMERALD,Emerald Green Arborvitae                                    ,CON,4,     ,984,     ,          ,23,20.7,20.13,2.91
+OR,    ,073015SP,#5 SPIRAL,THUJA OC EMERALD,Emerald Green Arborvitae                                    ,CON,4,4,5,     ,          ,77.25,69.53,67.59,4.36
+OR,    ,07301M,#10 Squat,THUJA OC EMERALD,Emerald Green Arborvitae                                    ,CON,4,21,70,     ,          ,63.75,57.38,55.78,10.47
+OR,,55972,#2,THUJA OC GOLDEN TUFFET,Golden Tuffet Arborvitae                                    ,CON,3,     ,30,     ,          ,15,13.5,13.13,1.45
+OR,,31185,#5,THUJA OC MALONYANA,Malonyana Arborvitae                                        ,CON,4,     ,389,     ,          ,23,20.7,20.13,2.91
+OR,,03118M,#10 Squat,THUJA OC MALONYANA,Malonyana Arborvitae                                        ,CON,4,     ,11,     ,          ,57.5,51.75,50.31,10.47
+OR,    ,22172,#2,THUJA OC MR BOWLING BALL R,Mr. Bowling Ball  Arborvitae,CON,3,13,13,     ,          ,16.25,14.63,14.22,1.45
+OR,,75055,#5,THUJA OC NORTH POLE R PPAF,North Pole  Arborvitae,CON,3,     ,65,     ,          ,24.5,22.05,21.44,2.91
+OR,    ,73055,#5,THUJA OC RUSHMORE,Rushmore Arborvitae                                         ,CON,4,7,24,     ,          ,23,20.7,20.13,2.91
+OR,    ,72912,#2,THUJA OC YELLOW RIBBON,Yellow Ribbon Arborvitae                                    ,CON,3,5,160,     ,          ,15,13.5,13.13,1.45
+OR,    ,05124UT,LittleOne,THYMUS PRA PINK CHINTZ,Pink Chintz Thyme                                           ,PRN,4,     ,8,,,3.25,2.93,2.84,0.44
+OR,X,412851,#1,TIARELLA JEEPERS CRPRS PP13437,Jeepers Creepers Tiarella                                   ,PRN,4,     ,152,,,6,5.4,5.25,0.58
+OR,    ,29675,#5,TILIA TOMENTOSA SATIN SHADOW R,Satin Shadow®  Linden,TRE,4,     ,58,     ,          ,42,37.8,36.75,2.91
+OR,,34095,#5,TSUGA CAN GRACILLIS,Gracilis Hemlock                                            ,CON,4,     ,328,     ,          ,31,27.9,27.13,2.91
+OR,,38192,#2,TSUGA CAN JEDDELOH,Jeddeloh Canadian Hemlock                                   ,CON,4,     ,40,     ,          ,17.5,15.75,15.31,1.45
+OR,    ,73285,#5,TSUGA CAN PENDULA,Sargent's Weeping Hemlock                                   ,CON,4,     ,155,     ,          ,48.5,43.65,42.44,2.91
+OR,    ,73287,#7,TSUGA CAN PENDULA,Sargent's Weeping Hemlock                                   ,CON,4,     ,24,     ,          ,78.5,70.65,68.69,7.27
+OR,,56525,#5,ULMUS X FRONTIER,Frontier Hybrid Elm                                         ,TRE,4,     ,20,     ,          ,37,33.3,32.38,2.91
+OR,    ,80362,#2,VACCINIUM CORYMBOSUM CHANDLER,Chandler Midseason Blueberry                                ,DCS,4,25,134,     ,          ,15.75,14.18,13.78,1.45
+OR,    ,73402,#2,VACCINIUM CORYMBOSUM NORTHLAND,Northland Midseason Blueberry                               ,DCS,3,13,59,     ,          ,15.75,14.18,13.78,1.45
+OR,    ,73742,#2,VACCINIUM CORYMBOSUM PATRIOT,Patriot Early Season Blueberry                              ,DCS,3,     ,20,     ,          ,15.75,14.18,13.78,1.45
+OR,    ,73745,#5,VACCINIUM CORYMBOSUM PATRIOT,Patriot Early Season Blueberry                              ,DCS,3,10,10,     ,          ,24.25,21.83,21.22,2.91
+OR,    ,407072,#2,VACCINIUM X BLUE CROP,Bluecrop Blueberry                                          ,DCS,4,     ,354,     ,          ,16.25,14.63,14.22,1.45
+OR,    ,407082,#2,VACCINIUM X CHIPPEWA,Chippewa Blueberry                                          ,DCS,3,     ,132,     ,          ,16.25,14.63,14.22,1.45
+OR,,81702,#2,VACCINIUM X JELLY BEAN TM PPAF,BrazelBerries®  Jelly Bean  Blueberry,DCS,4,     ,193,     ,          ,16.25,14.63,14.22,1.45
+OR,,79481,#1,VERONICA HYB WHITE WATER PPAF,Whitewater Speedwell                                        ,PRN,4,     ,14,     ,          ,5.75,5.18,5.03,0.58
+OR,X,409261,#1,VERONICA MDY BLUES LT BLU PPAF,Moody Blues Light Blue Speedwell                            ,PRN,4,     ,75,,,5.25,4.73,4.59,0.58
+OR,X,409271,#1,VERONICA MDY BLUES MAUVE PPAF,Moody Blues Mauve Speedwell                                 ,PRN,4,     ,502,,,5.25,4.73,4.59,0.58
+OR,X,409251,#1,VERONICA MDY BLUES PINK PPAF,Moody Blues Pink Speedwell                                  ,PRN,4,     ,29,62,4/1/2016,5.25,4.73,4.59,0.58
+OR,    ,07426UT,LittleOne,VERONICA PROSTRATA TREHANE,Trehane Speedwell                                           ,PRN,4,     ,334,     ,          ,3.25,2.93,2.84,0.44
+OR,    ,17391,#1,VERONICA ROYAL CANDLES PP18932,Royal Candles Speedwell                                     ,PRN,4,     ,     ,387,6/1/2016,5.25,4.73,4.59,0.58
+OR,    ,73621,#1,VERONICA SPICATA RED FOX,Red Fox Spike Speedwell                                     ,PRN,4,     ,133,202,3/1/2016,5.25,4.73,4.59,0.58
+OR,    ,073624PTC,"4"" Pot POT-TERRA",VERONICA SPICATA RED FOX,Red Fox Spike Speedwell                                     ,PRN,4,     ,46,     ,          ,3.5,3.15,3.06,0.33
+OR,    ,07362UT,LittleOne,VERONICA SPICATA RED FOX,Red Fox Spike Speedwell                                     ,PRN,4,     ,16,     ,          ,3.25,2.93,2.84,0.44
+OR,X,412861,#1,VERONICA VERNIQUE TM BLUE,Vernique  Blue Speedwell,PRN,4,     ,6,     ,          ,5.75,5.18,5.03,0.58
+OR,    ,74652,#2,VIB OPULUS NANUM,Dwarf Cranberry Bush                                        ,DCS,4,     ,1,     ,          ,14.75,13.28,12.91,1.45
+OR,    ,76081,#1,VINCA MINOR ATROPURPUREA,Wine Common Periwinkle                                      ,PRN,4,     ,681,     ,          ,5.25,4.73,4.59,0.58
+OR,    ,76131,#1,VINCA MINOR BOWLES',Bowles' Common Periwinkle                                   ,PRN,4,     ,"2,313",,,5.25,4.73,4.59,0.58
+OR,    ,07613UT,LittleOne,VINCA MINOR BOWLES',Bowles' Common Periwinkle                                   ,PRN,4,56,"8,735",,,3.25,2.93,2.84,0.44
+OR,    ,76392,#2,WEIGELA FL DARK HORSE PP14381,Dark Horse Weigela                                          ,DCS,4,     ,695,,,15.25,13.73,13.34,1.45
+OR,    ,76542,#2,WEIGELA FL PINK POPPET,Pink Poppet Weigela                                         ,DCS,3,     ,91,     ,          ,15,13.5,13.13,1.45
+OR,    ,76545,#5,WEIGELA FL PINK POPPET,Pink Poppet Weigela                                         ,DCS,3,5,194,     ,          ,22,19.8,19.25,2.91
+OR,    ,076561S,SuperOne TM,WEIGELA FL WINE&ROSES R P10772,Wine & Roses®  Weigela,DCS,4,     ,15,     ,          ,10,9,8.75,0.97
+OR,    ,076562S,SuperTwo,WEIGELA FL WINE&ROSES R P10772,Wine & Roses®  Weigela,DCS,4,     ,115,     ,          ,17.75,15.98,15.53,1.94
+OR,    ,17572,#2,WEIGELA MAGICAL R FNTSY P13567,Magical®  Fantasy Weigela,DCS,4,     ,88,     ,          ,15,13.5,13.13,1.45
+OR,    ,17575,#5,WEIGELA MAGICAL R FNTSY P13567,Magical®  Fantasy Weigela,DCS,4,17,28,     ,          ,22,19.8,19.25,2.91
+OR,    ,407362S,SuperTwo,WEIGELA SONIC BLOOM TM PRL PAF,Sonic Bloom  Pearl Weigela,DCS,4,36,     ,437,4/27/2016,19,17.1,16.63,1.94
+OR,    ,17341,#1 STAKED,WISTERIA MAC BLUE MOON,Blue Moon Kentucky Wisteria                                 ,VIN,4,     ,52,     ,          ,9.25,8.33,8.09,0.58
+OR,    ,17345,#5 STAKED,WISTERIA MAC BLUE MOON,Blue Moon Kentucky Wisteria                                 ,VIN,4,     ,18,     ,          ,23.75,21.38,20.78,2.91

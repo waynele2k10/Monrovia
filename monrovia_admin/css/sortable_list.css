@@ -1,0 +1,67 @@
+.sortable_list {
+	list-style-position:outside;
+}
+.sortable_list li {
+	padding:4px 0px;
+	border:1px solid #fff;
+	cursor:n-resize;
+	background-color:#fff;
+	margin-left:0px;
+}
+.sortable_list li.deleted {
+	display:none;
+}
+.sortable_list li span.title {
+	font-weight:bold;
+	position:absolute;
+	#padding-top:1px;
+}
+.sortable_list li:hover {
+	border-bottom:1px solid #ddd;
+	border-top:1px solid #ddd;
+}
+.sortable_list div.control {
+	display:inline;
+	opacity:.5;
+	filter:alpha(opacity=50);
+	margin-right:6px;
+	#zoom:1;
+}
+.sortable_list li:hover div.control {
+	opacity:1;
+	filter:alpha(opacity=100);
+}
+.sortable_list li input {
+	border:1px solid #999;
+	width:150px;
+	position:absolute;
+	visibility:hidden;
+}
+.sortable_list.inline_edit li.edit_mode input {
+	visibility:visible;
+}
+.sortable_list.inline_edit li.edit_mode span.title {
+	visibility:hidden;
+}
+.sortable_list.inline_edit li span.total_items {
+	position:absolute;
+	left:580px;
+}
+.sortable_list li.inactive span, .sortable_list li.inactive input {
+	color:#aaa;
+}
+.sortable_list li img.make_active_inactive {
+	background-image:url(/monrovia_admin/img/icon_pause.png);
+}
+.sortable_list li.inactive img.make_active_inactive {
+	background-image:url(/monrovia_admin/img/icon_play.png);
+}
+.sortable_list div.control img {
+	width:16px;
+	height:16px;
+	cursor:pointer;
+	margin:0px 3px;
+}
+.sortable_list div.control img.delete {
+	margin-right:8px;
+}

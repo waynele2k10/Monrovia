@@ -1,0 +1,203 @@
+Loc,,New Plant,Item,,Size,Plant Name,Common Name,CAT,Zone,Condition,Current Specs,Qty Allocated,QTY AVAIL NOW,2ND QTY AVAIL,2ND QTY READY DATE,2016 LIST PRICE,"ADD'L 10% 
+QTY 
+BUY PRICE","ADD'L 12.5% 
+QTY
+BUY
+PRICE","UNIT 
+FRT"
+CA,170000,    ,001351,170000001351,#1,ACHILLEA X MOONSHINE,Moonshine Yarrow                                            ,PRN,03,,CAN FULL,     ,     , 174 ,03/15/16  , 5.25 , 4.73 , 4.59 ,0.54
+CA,170000,    ,001391,170000001391,#1 STAKED,ACTINIDIA ARG ISSAI (FEMALE),Hardy Kiwi Vine                                             ,VIN,04,DORMANT,24''H, 23 , 762 ,,, 12.00 , 10.80 , 10.50 ,0.54
+CA,170000,    ,001395,170000001395,#5 STAKED,ACTINIDIA ARG ISSAI (FEMALE),Hardy Kiwi Vine                                             ,VIN,04,DORMANT,48''H, 11 , 26 ,     ,          , 32.25 , 29.03 , 28.22 ,2.72
+CA,170000,    ,080301,170000080301,#1,AJUGA CHOCOLATE CHIP,Chocolate Chip Carpet Bugle                                 ,PRN,04,,CAN FULL,     ,     , 373 ,05/01/16  , 5.25 , 4.73 , 4.59 ,0.54
+CA,170000,    ,000591,170000000591,#1,AJUGA REPTANS BURGUNDY GLOW,Burgundy Glow Carpet Bugle                                  ,PRN,04,-,CAN FULL,     ,     , 657 ,04/01/16  , 5.25 , 4.73 , 4.59 ,0.54
+CA,170000,    ,001931,170000001931,#1,AJUGA REPTANS CATLIN'S GIANT,Catlin's Giant Carpet Bugle                                 ,PRN,03,-,CAN FULL,     ,     , 233 ,04/01/16  , 5.25 , 4.73 , 4.59 ,0.54
+CA,170000,X,412551,170000412551,#1,BAPTISIA PRAIRIEBLUES TM MDNGT,Midnight Prairieblues  Indigo,PRN,04,,CAN FULL,     ,     , 50 ,04/15/16  , 6.25 , 5.63 , 5.47 ,0.54
+CA,170000,    ,401061,170000401061,#1,BAPTISIA SOLAR FLARE PP20408,Solar Flare Prairieblues  False Indigo,PRN,04,,CAN FULL,     ,     , 134 ,04/15/16  , 6.25 , 5.63 , 5.47 ,0.54
+CA,170000,    ,401081,170000401081,#1,BAPTISIA TWILITE PP19011,Twilite Prairieblues  False Indigo,PRN,04,,CAN FULL,     ,     , 71 ,04/15/16  , 6.25 , 5.63 , 5.47 ,0.54
+CA,170000,    ,074741S,170000074741S,SuperOne TM,BER SUNJOY R GOLD PILLAR PPAF,Sunjoy®  Gold Pillar Barberry,DCS,04,-,"8""H - 4""S",     ,     , 286 ,04/01/16  , 11.00 , N/A , N/A ,0.91
+CA,170000,    ,074742S,170000074742S,SuperTwo,BER SUNJOY R GOLD PILLAR PPAF,Sunjoy®  Gold Pillar Barberry,DCS,04,DORMANT,"12""H - 6""S",     , 451 ,     ,          , 17.75 , 15.98 , 15.53 ,1.81
+CA,170000,    ,002242,170000002242,#2,BER T CONCORDE,Concorde Japanese Barberry                                  ,DCS,04,DORMANT,"9""H - 9""S",     , 412 ,     ,          , 14.00 , 12.60 , 12.25 ,1.36
+CA,170000,    ,035232,170000035232,#2,BER T GOLDEN RUBY R PP16203,Golden Ruby®  Barberry,DCS,04,DORMANT,"6""H - 10""S",     , 75 ,     ,          , 16.00 , 14.40 , 14.00 ,1.36
+CA,170000,,062932,170000062932,#2,BER T ORANGE ROCKET PP18411,Orange Rocket Barberry                                      ,DCS,04,DORMANT,"14""H - 6""S",     , 91 ,     ,          , 16.00 , 14.40 , 14.00 ,1.36
+CA,170000,    ,012202,170000012202,#2,BER T ROSE GLOW,Rose Glow Japanese Barberry                                 ,DCS,04,-,"10""H - 10""S",     ,     , 74 ,03/01/16  , 14.00 , 12.60 , 12.25 ,1.36
+CA,170000,    ,013825CU,170000013825CU,#5 CUBE,BUXUS GREEN MOUNTAIN,Green Mountain Boxwood                                      ,EVS,04,-,"17""H - 15""S", 40 ,     , 40 ,04/01/16  , 43.25 , 38.93 , 37.84 ,4.08
+CA,170000,    ,022711,170000022711,#1 STAKED,CAMPSIS BALBOA SUNSET R,Balboa Sunset®  Trumpet Creeper,VIN,04,DORMANT,24''H, 46 , 77 ,     ,          , 8.00 , 7.20 , 7.00 ,0.54
+CA,170000,    ,022715PT,170000022715PT,#5 PATIO TREE,CAMPSIS BALBOA SUNSET R,Balboa Sunset®  Trumpet Creeper,VIN,04,DORMANT,15''S,     , 143 ,,, 41.00 , 36.90 , 35.88 ,4.08
+CA,170000,    ,022381,170000022381,#1 STAKED,CAMPSIS FLAVA,Yellow Trumpet Creeper                                      ,VIN,04,DORMANT,"24""H", 76 , 322 ,     ,          , 8.00 , 7.20 , 7.00 ,0.54
+CA,170000,    ,022385,170000022385,#5 STAKED,CAMPSIS FLAVA,Yellow Trumpet Creeper                                      ,VIN,04,DORMANT,"48""H", 22 , 32 ,     ,          , 27.50 , 24.75 , 24.06 ,2.72
+CA,170000,    ,022385PT,170000022385PT,#5 PATIO TREE,CAMPSIS FLAVA,Yellow Trumpet Creeper                                      ,VIN,04,DORMANT,15''S,     , 191 ,     ,          , 41.00 , 36.90 , 35.88 ,4.08
+CA,170000,    ,022551,170000022551,#1 STAKED,CAMPSIS MADAME GALEN,Trumpet Creeper                                             ,VIN,04,DORMANT,24''H, 147 ," 1,653 ",     ,          , 8.00 , 7.20 , 7.00 ,0.54
+CA,170000,    ,022555,170000022555,#5 STAKED,CAMPSIS MADAME GALEN,Trumpet Creeper                                             ,VIN,04,DORMANT,48''H, 30 , 197 ,     ,          , 27.50 , 24.75 , 24.06 ,2.72
+CA,170000,    ,022555PT,170000022555PT,#5 PATIO TREE,CAMPSIS MADAME GALEN,Trumpet Creeper                                             ,VIN,04,DORMANT,15''S,     , 41 ,     ,          , 41.00 , 36.90 , 35.88 ,4.08
+CA,170000,    ,024191,170000024191,#1,CHELONE HOT LIPS,Hot Lips Turtlehead                                         ,PRN,03,,,     ,     , 163 ,03/15/16  , 5.25 , 4.73 , 4.59 ,0.54
+CA,170000,    ,027305,170000027305,#5 STAKED,CLEM VIT MADAME JULIA CORREVON,Madame Julia Correvon Clematis                              ,VIN,04,,"48""H", 17 ,     , 17 ,03/15/16  , 31.00 , 27.90 , 27.13 ,2.72
+CA,170000,    ,074802S,170000074802S,SuperTwo,CORNUS S ARCTIC FIRE TM P18523,Arctic Fire  Red Twig Dogwood,DCS,03,,,     , 3 ,     ,          , 17.75 , 15.98 , 15.53 ,1.81
+CA,170000,X,412591,170000412591,#1,DIAN WHETMAN STARS STARGAZER,Whetman Stars  Stargazer Pink,PRN,04,,CAN FULL,     ,     , 370 ,04/01/16  , 5.75 , 5.18 , 5.03 ,0.54
+CA,170000,    ,031331,170000031331,#1,DIANTHUS FROSTY FIRE,Frosty Fire Cheddar Pink                                    ,PRN,02,,CAN FULL,     ,     , 494 ,04/01/16  , 5.25 , 4.73 , 4.59 ,0.54
+CA,170000,    ,094501,170000094501,#1,DIANTHUS RASP SURPRISE PP16029,Raspberry Surprise Maiden Pink                              ,PRN,04,BUDS,CAN FULL,     , 15 ,     ,          , 5.25 , 4.73 , 4.59 ,0.54
+CA,170000,    ,074341,170000074341,#1,ERYNGIUM PLANUM BLUE HOBBIT,Blue Hobbit Dwarf Sea Holly                                 ,PRN,04,-,CAN FULL,     , 42 ,     ,          , 6.75 , 6.08 , 5.91 ,0.54
+CA,170000,    ,034452,170000034452,#2,EUO F IVORY JADE,Ivory Jade Wintercreeper                                    ,EVS,04,-,"8""H - 10""S",     ,     , 121 ,04/01/16  , 14.00 , 12.60 , 12.25 ,1.36
+CA,170000,    ,019241,170000019241,#1,FERN-ATHYRIUM F LADY IN RED,Lady In Red Fern                                            ,FRN,02,DORMANT,CAN FULL, 13 , 93 ,     ,          , 7.00 , 6.30 , 6.13 ,0.54
+CA,170000,    ,019242,170000019242,#2,FERN-ATHYRIUM F LADY IN RED,Lady In Red Fern                                            ,FRN,02,DORMANT,"10""S", 23 , 280 ,     ,          , 16.00 , 14.40 , 14.00 ,1.36
+CA,170000,    ,018761,170000018761,#1,FERN-ATHYRIUM GHOST,Ghost Fern                                                  ,FRN,04,DORMANT,CAN FULL, 22 , 407 ,     ,          , 7.00 , 6.30 , 6.13 ,0.54
+CA,170000,    ,018762,170000018762,#2,FERN-ATHYRIUM GHOST,Ghost Fern                                                  ,FRN,04,DORMANT,CAN FULL,     , 401 ,     ,          , 16.00 , 14.40 , 14.00 ,1.36
+CA,170000,    ,036455,170000036455,#5,FERN-MATTEUCCIA STRUTHIOPTERIS,European Ostrich Fern                                       ,FRN,03,DORMANT,"12""S", 18 , 18 ,     ,          , 24.50 , 22.05 , 21.44 ,2.72
+CA,170000,    ,068351,170000068351,#1,FRAGARIA ALBION R PP16228,Albion Strawberry                                           ,PRN,03,-,CAN FULL,     , 84 ,     ,          , 4.75 , 4.28 , 4.16 ,0.54
+CA,170000,    ,071521,170000071521,#1,FRAGARIA X AN DIAMANTE PP10435,Diamante Strawberry                                         ,PRN,03,,CAN FULL,     ,     , 348 ,05/01/16  , 4.75 , 4.28 , 4.16 ,0.54
+CA,170000,,086091,170000086091,#1,FRAGARIA X ANANASSA TOSCANA,Toscana Strawberry                                          ,PRN,04,,CAN FULL, 10 ,     , 145 ,03/01/16  , 5.25 , 4.73 , 4.59 ,0.54
+CA,170000,    ,073101,170000073101,#1,FRAGARIA X SAN ANDREAS PP19975,San Andreas Strawberry                                      ,PRN,03,-,CAN FULL,     , 377 ,     ,          , 4.75 , 4.28 , 4.16 ,0.54
+CA,170000,    ,068361,170000068361,#1,FRAGARIA X SEASCAPE R,Seascape Strawberry                                         ,PRN,04,-,CAN FULL,     , 428 ,     ,          , 4.75 , 4.28 , 4.16 ,0.54
+CA,170000,    ,035711,170000035711,#1,GAILLARDIA ARIZONA SUN,Arizona Sun Blanket Flower                                  ,PRN,03,,CAN FULL,     ,     , 162 ,03/01/16  , 5.25 , 4.73 , 4.59 ,0.54
+CA,170000,    ,037611,170000037611,#1,GAILLARDIA GOBLIN,Goblin Blanket Flower                                       ,PRN,03,,CAN FULL,     , 98 , 334 ,05/15/16  , 5.25 , 4.73 , 4.59 ,0.54
+CA,170000,    ,036441,170000036441,#1,GAILLARDIA ORNGS&LEMONS P17092,Oranges & Lemons Blanket Flower                             ,PRN,03,,CAN FULL,     ,     , 12 ,05/15/16  , 6.00 , 5.40 , 5.25 ,0.54
+CA,170000,    ,048591,170000048591,#1,GAZANIA LIN COLORADO GOLD R,Colorado Gold®  Treasure Flower,PRN,04,,,     ,     , 474 ,04/01/16  , 5.25 , 4.73 , 4.59 ,0.54
+CA,170000,,067791,170000067791,#1,GR-BOUT BLOND AMBITION PP22048,Blonde Ambition Blue Grama Grass                            ,GRS,04,DORMANT,CAN FULL, 153 , 249 ,     ,          , 9.00 , 8.10 , 7.88 ,0.54
+CA,170000,,067792,170000067792,#2,GR-BOUT BLOND AMBITION PP22048,Blonde Ambition Blue Grama Grass                            ,GRS,04,DORMANT,CAN FULL,     , 24 ,     ,          , 15.75 , 14.18 , 13.78 ,1.36
+CA,170000,    ,044552,170000044552,#2,GR-CAL ACUT AVALANCHE,Avalanche Feather Reed Grass                                ,GRS,04,WINTER COLOR,"10""H",     , 18 ,,, 15.00 , 13.50 , 13.13 ,1.36
+CA,170000,    ,014015,170000014015,#5,GR-CAL ACUT KARL FOERSTER,Foerster's Feather Reed Grass                               ,GRS,04,-,"12""H", 16 ,     , 16 ,03/01/16  , 20.25 , 18.23 , 17.72 ,2.72
+CA,170000,    ,014071,170000014071,#1,GR-CAL ACUT OVERDAM,Overdam Feather Reed Grass                                  ,GRS,04,WINTER COLOR,"6""H",     , 49 ,,, 6.75 , 6.08 , 5.91 ,0.54
+CA,170000,,014081,170000014081,#1,GR-CALAMAGROSTIS  BRACHYTRICA,Korean Feather Reed Grass                                   ,GRS,04,DORMANT,"6""H", 218 , 223 ,,, 7.00 , 6.30 , 6.13 ,0.54
+CA,170000,,014082,170000014082,#2,GR-CALAMAGROSTIS  BRACHYTRICA,Korean Feather Reed Grass                                   ,GRS,04,DORMANT,"10""H", 31 , 69 ,     ,          , 15.00 , 13.50 , 13.13 ,1.36
+CA,170000,    ,024091,170000024091,#1,GR-CHASMANTHIUM LATIFOLIUM,Northern Sea Oats                                           ,GRS,04,-,"6""H", 25 ,     , 26 ,03/01/16  , 6.75 , 6.08 , 5.91 ,0.54
+CA,170000,    ,024092,170000024092,#2,GR-CHASMANTHIUM LATIFOLIUM,Northern Sea Oats                                           ,GRS,04,,,     ,     , 28 ,03/01/16  , 15.00 , 13.50 , 13.13 ,1.36
+CA,170000,,089282,170000089282,#2,GR-DESCHAMPSIA SCHOTTLAND,Scottish Tufted Hair Grass                                  ,GRS,04,WINTER COLOR,CAN FULL, 29 , 133 ,     ,          , 15.00 , 13.50 , 13.13 ,1.36
+CA,170000,    ,031941,170000031941,#1,GR-ELYMUS ARENARIUS BLUE DUNE,Blue Dune Lyme Grass                                        ,GRS,04,DORMANT,"10""H", 14 , 66 ,,, 6.75 , 6.08 , 5.91 ,0.54
+CA,170000,    ,028051,170000028051,#1,GR-ERIANTHUS RAVENNAE,Hardy Pampas Grass                                          ,GRS,04,DORMANT,"20""H",     , 115 ,     ,          , 6.75 , 6.08 , 5.91 ,0.54
+CA,170000,    ,028052,170000028052,#2,GR-ERIANTHUS RAVENNAE,Hardy Pampas Grass                                          ,GRS,04,DORMANT,"20""H",     , 13 ,     ,          , 15.00 , 13.50 , 13.13 ,1.36
+CA,170000,    ,036671,170000036671,#1,GR-FESTUCA GLAUCA ELIJAH BLUE,Elijah Blue Fescue                                          ,GRS,04,-,"4""H", 48 ,     ," 4,089 ",03/01/16  , 6.25 , 5.63 , 5.47 ,0.54
+CA,170000,,089291,170000089291,#1,GR-HAKONECHLOA FUBUKI PP21757,Fubuki Japanese Forest Grass                                ,GRS,04,,,     ,     , 10 ,04/15/16  , 11.25 , 10.13 , 9.84 ,0.54
+CA,170000,    ,035911,170000035911,#1,GR-HAKONECHLOA MACRA ALL GOLD,All Gold Japanese Forest Grass                              ,GRS,04,-,2/3 CAN FULL, 179 ,     , 179 ,04/15/16  , 11.25 , 10.13 , 9.84 ,0.54
+CA,170000,    ,038681,170000038681,#1,GR-HAKONECHLOA MACRA AUREOLA,Golden Japanese Forest Grass                                ,GRS,04,-,2/3 CAN FULL, 61 ,     , 68 ,04/15/16  , 9.00 , 8.10 , 7.88 ,0.54
+CA,170000,    ,061551,170000061551,#1,GR-MIS SIN STRICTUS,Porcupine Grass                                             ,GRS,04,DORMANT,"8""H",     , 86 ,,, 6.75 , 6.08 , 5.91 ,0.54
+CA,170000,    ,061552,170000061552,#2,GR-MIS SIN STRICTUS,Porcupine Grass                                             ,GRS,04,DORMANT,"12""H", 39 , 111 ,,, 15.00 , 13.50 , 13.13 ,1.36
+CA,170000,    ,061555,170000061555,#5,GR-MIS SIN STRICTUS,Porcupine Grass                                             ,GRS,04,DORMANT,"24""H", 21 , 21 ,,, 19.75 , 17.78 , 17.28 ,2.72
+CA,170000,    ,005621,170000005621,#1,GR-MOLINIA CAER ARUND SKYRACER,Skyracer Purple Moor Grass                                  ,GRS,04,,, 35 ,     , 141 ,04/01/16  , 7.00 , 6.30 , 6.13 ,0.54
+CA,170000,    ,061791,170000061791,#1,GR-PAN VIR HEAVY METAL,Heavy Metal Blue Switch Grass                               ,GRS,04,DORMANT,"15""H",     , 40 ,,, 6.75 , 6.08 , 5.91 ,0.54
+CA,170000,    ,061795,170000061795,#5,GR-PAN VIR HEAVY METAL,Heavy Metal Blue Switch Grass                               ,GRS,04,DORMANT,"24""H",     , 48 ,     ,          , 19.75 , 17.78 , 17.28 ,2.72
+CA,170000,,022961,170000022961,#1,GR-PAN VIR NORTHWIND,Northwind Switch Grass                                      ,GRS,04,DORMANT,"15""H",     , 22 ,,, 7.00 , 6.30 , 6.13 ,0.54
+CA,170000,,022962,170000022962,#2,GR-PAN VIR NORTHWIND,Northwind Switch Grass                                      ,GRS,04,DORMANT,"15""H", 53 , 53 ,,, 15.00 , 13.50 , 13.13 ,1.36
+CA,170000,    ,063881,170000063881,#1,GR-PAN VIR SHENANDOAH,Shenandoah Switch Grass                                     ,GRS,04,DORMANT,"15""H",     , 130 ,,, 6.75 , 6.08 , 5.91 ,0.54
+CA,170000,    ,063882,170000063882,#2,GR-PAN VIR SHENANDOAH,Shenandoah Switch Grass                                     ,GRS,04,DORMANT,"15""H",     , 10 ,     ,          , 15.00 , 13.50 , 13.13 ,1.36
+CA,170000,    ,064261,170000064261,#1,GR-PENN ALO HAMELN,Dwarf Fountain Grass                                        ,GRS,04,DORMANT,CAN FULL,     , 92 ,,, 6.75 , 6.08 , 5.91 ,0.54
+CA,170000,,086111,170000086111,#1,GR-SCHIZACH BL HEAVN TM P17310,Blue Heaven Little Bluestem                                 ,GRS,03,DORMANT,"6""H", 13 , 128 ,,, 7.00 , 6.30 , 6.13 ,0.54
+CA,170000,    ,005811,170000005811,#1,GR-SORGHASTRUM SIOUX BLUE,Sioux Blue Indian Grass                                     ,GRS,04,DORMANT,"6""H", 17 , 19 ,     ,          , 6.75 , 6.08 , 5.91 ,0.54
+CA,170000,    ,005815,170000005815,#5,GR-SORGHASTRUM SIOUX BLUE,Sioux Blue Indian Grass                                     ,GRS,04,,, 50 ,     , 50 ,04/01/16  , 19.75 , 17.78 , 17.28 ,2.72
+CA,170000,    ,067241,170000067241,#1,HELLE WJEWELS R APRICOT BLUSH,Winter Jewels®  Apricot Blush Lenten Rose,PRN,04,,CAN FULL,     ,     , 839 ,04/15/16  , 9.25 , 8.33 , 8.09 ,0.54
+CA,170000,    ,067261,170000067261,#1,HELLE WJEWELS R CHERRY BLOSSOM,Winter Jewels®  Cherry Blossom Lenten Rose,PRN,04,,CAN FULL,     ,     , 882 ,04/15/16  , 9.25 , 8.33 , 8.09 ,0.54
+CA,170000,    ,065791,170000065791,#1,HELLE WJEWELS R GOLDEN SUNRISE,Winter Jewels®  Golden Sunrise Lenten Rose,PRN,04,,CAN FULL,     ,     , 359 ,04/15/16  , 9.25 , 8.33 , 8.09 ,0.54
+CA,170000,    ,040111,170000040111,#1,HEM STELLA DE ORO,Stella De Oro Dwarf Daylily                                 ,PRN,04,-,2-3 FANS,     ,     , 453 ,04/01/16  , 5.25 , 4.73 , 4.59 ,0.54
+CA,170000,    ,403231,170000403231,#1,HEUCHERA BERRY SMOOTHIE P21871,Berry Smoothie Coral Bells                                  ,PRN,04,,CAN FULL,     ,     , 64 ,04/01/16  , 8.25 , 7.43 , 7.22 ,0.54
+CA,170000,,087131,170000087131,#1,HEUCHERA CARNIVAL WATRMELN PAF,Carnival Watermelon Coral Bells                             ,PRN,04,,CAN FULL,     ,     , 188 ,04/15/16  , 7.25 , 6.53 , 6.34 ,0.54
+CA,170000,    ,023101,170000023101,#1,HEUCHERA FROSTED VIOLET P15085,Frosted Violet Coral Bells                                  ,PRN,04,,CAN FULL,     ,     , 529 ,04/01/16  , 6.25 , 5.63 , 5.47 ,0.54
+CA,170000,    ,018661,170000018661,#1,HEUCHERA GREEN SPICE,Green Spice Coral Bells                                     ,PRN,04,,,     ,     , 330 ,04/01/16  , 7.25 , 6.53 , 6.34 ,0.54
+CA,170000,    ,028871,170000028871,#1,HEUCHERA MARMALADE PP15945,Marmalade Coral Bells                                       ,PRN,04,-,CAN FULL,     , 323 , 304 ,04/01/16  , 8.25 , 7.43 , 7.22 ,0.54
+CA,170000,    ,045721,170000045721,#1,HEUCHERA MIDNIGHT ROSE PP18551,Midnight Rose Coral Bells                                   ,PRN,04,,CAN FULL, 10 ,     , 10 ,04/01/16  , 8.25 , 7.43 , 7.22 ,0.54
+CA,170000,    ,047541,170000047541,#1,HEUCHERA PEACH FLAMBEE PP17195,Peach Flambe Coral Bells                                    ,PRN,04,,CAN FULL, 5 ,     , 73 ,04/01/16  , 8.25 , 7.43 , 7.22 ,0.54
+CA,170000,    ,040721,170000040721,#1,HEUCHERA PLUM PUDDING,Plum Pudding Coral Bells                                    ,PRN,04,-,CAN FULL,     ,     , 274 ,04/01/16  , 5.25 , 4.73 , 4.59 ,0.54
+CA,170000,    ,049711,170000049711,#1,HEUCHERA SOUTHERN COMFORT PPAF,Southern Comfort Coral Bells                                ,PRN,04,-,CAN FULL,     , 147 ,     ,          , 8.25 , 7.43 , 7.22 ,0.54
+CA,170000,    ,033531,170000033531,#1,HEUCHERELLA STOPLIGHT PP16835,Stoplight Foamy Bells                                       ,PRN,04,,CAN FULL,     ,     , 46 ,04/01/16  , 8.25 , 7.43 , 7.22 ,0.54
+CA,170000,    ,041171,170000041171,#1,HEUCHERELLA SWEET TEA PPAF,Sweet Tea Foamy Bells                                       ,PRN,04,,CAN FULL,     ,     , 544 ,04/01/16  , 7.25 , 6.53 , 6.34 ,0.54
+CA,170000,    ,034712,170000034712,#2,HIB MOS DAVE FLEMING PP21392,Dave Fleming Hibiscus                                       ,PRN,04,CUT BACK,"10""H - 10""S",     , 669 ,     ,          , 15.75 , 14.18 , 13.78 ,1.36
+CA,170000,    ,024372S,170000024372S,SuperTwo,HYD PAN LIMELIGHT PP12874,Limelight Hardy Hydrangea                                   ,DCS,03,DORMANT,"10""H - 12""S", 138 , 138 ,     ,          , 17.75 , 15.98 , 15.53 ,1.81
+CA,170000,    ,074615,170000074615,#5,HYD PAN PINKY WINKY TM PP16166,Pinky Winky  Hardy Hydrangea,DCS,03,DORMANT,"10""H - 15""S", 63 , 80 ,     ,          , 25.25 , 22.73 , 22.09 ,2.72
+CA,170000,,065382,170000065382,#2,HYPERICUM AN IGNITE RED P19468,Ignite Red St. John's Wort                                  ,DCS,04,-,"15""H - 12""S", 5 ,     , 5 ,03/01/16  , 15.25 , 13.73 , 13.34 ,1.36
+CA,170000,    ,042132,170000042132,#2,HYPERICUM FRONDOSUM SUNBURST,Sunburst St. John's Wort                                    ,DCS,04,-,"12""H - 12""S", 80 ,     , 80 ,03/01/16  , 15.25 , 13.73 , 13.34 ,1.36
+CA,170000,    ,042135,170000042135,#5,HYPERICUM FRONDOSUM SUNBURST,Sunburst St. John's Wort                                    ,DCS,04,DORMANT,"12""H - 15""S", 21 , 34 ,     ,          , 22.00 , 19.80 , 19.25 ,2.72
+CA,170000,    ,046805,170000046805,#5,JUN C ARMSTRONGII,Armstrong Juniper                                           ,CON,03,-,"18""S",     , 8 ,     ,          , 19.00 , 17.10 , 16.63 ,2.72
+CA,170000,    ,047509P3,170000047509P3,#15 3BALL POODLE,JUN C HETZII COLUMN,Green Columnar Juniper                                      ,CON,04,WINTER COLOR,"72""H",     , 2 ,     ,          , 156.75 , 141.08 , 137.16 ,13.60
+CA,170000,    ,048002P2,170000048002P2,#2 2BALL POODLE,JUN C MINT JULEP R,Mint Julep®  Juniper,CON,03,-,"32""H", 5 , 5 ,     ,          , 42.75 , 38.48 , 37.41 ,2.04
+CA,170000,    ,048005GL,170000048005GL,#5 GLOBE,JUN C MINT JULEP R,Mint Julep®  Juniper,CON,03,-,"10""H - 15""S", 5 , 22 ,     ,          , 34.00 , 30.60 , 29.75 ,2.72
+CA,170000,    ,048005OP,170000048005OP,#5 ORIENTAL POMPON,JUN C MINT JULEP R,Mint Julep®  Juniper,CON,03,-,"54""H", 5 ,     , 5 ,04/01/16  , 79.50 , 71.55 , 69.56 ,4.08
+CA,170000,    ,048007PP,170000048007PP,#7 POMPON,JUN C MINT JULEP R,Mint Julep®  Juniper,CON,03,-,"34""H - 30""S", 5 , 15 ,     ,          , 95.00 , 85.50 , 83.13 ,10.20
+CA,170000,    ,048009PP,170000048009PP,#15 POMPON,JUN C MINT JULEP R,Mint Julep®  Juniper,CON,03,-,"41""H - 41""S",     , 13 ,     ,          , 122.25 , 110.03 , 106.97 ,20.40
+CA,170000,    ,048452P3,170000048452P3,#2 3BALL POODLE,JUN C SAN JOSE,San Jose Juniper                                            ,CON,04,WINTER COLOR,"26""H - 8""S", 3 , 3 ,     ,          , 47.00 , 42.30 , 41.13 ,2.04
+CA,170000,    ,048455BO,170000048455BO,#5 BONSAI,JUN C SAN JOSE,San Jose Juniper                                            ,CON,04,WINTER COLOR,5 -7 BALLS,     , 356 ,     ,          , 61.75 , 55.58 , 54.03 ,4.08
+CA,170000,    ,049705,170000049705,#5,JUN H HUGHES,Hughes Juniper                                              ,CON,03,WINTER COLOR,"18""S",     , 55 ,     ,          , 19.00 , 17.10 , 16.63 ,2.72
+CA,170000,    ,049902,170000049902,#2,JUN H ICEE BLUE R P9639,Icee Blue®  Juniper,CON,03,-,"12""S", 23 , 172 ,,, 13.75 , 12.38 , 12.03 ,1.36
+CA,170000,    ,050302,170000050302,#2,JUN H PRINCE OF WALES,Prince Of Wales Juniper                                     ,CON,03,WINTER COLOR,"12""S",     , 60 ,     ,          , 13.75 , 12.38 , 12.03 ,1.36
+CA,170000,    ,050202,170000050202,#2,JUN H YOUNGSTOWN,Youngstown Andorra Juniper                                  ,CON,03,WINTER COLOR,"14""S",     , 16 ,     ,          , 13.75 , 12.38 , 12.03 ,1.36
+CA,170000,    ,050205,170000050205,#5,JUN H YOUNGSTOWN,Youngstown Andorra Juniper                                  ,CON,03,WINTER COLOR,"18""S",     , 17 ,     ,          , 19.00 , 17.10 , 16.63 ,2.72
+CA,170000,    ,050902,170000050902,#2,JUN PRO NANA,Dwarf Japanese Garden Juniper                               ,CON,04,WINTER COLOR,"12""S", 2 , 158 ,,, 13.75 , 12.38 , 12.03 ,1.36
+CA,170000,    ,051402,170000051402,#2,JUN SA ARCADIA,Arcadia Juniper                                             ,CON,03,-,"14""S",     , 31 ,     ,          , 13.75 , 12.38 , 12.03 ,1.36
+CA,170000,    ,051752,170000051752,#2,JUN SA CALGARY CARPET R,Calgary Carpet®  Juniper,CON,03,-,"14""S", 1 , 1 ,     ,          , 13.75 , 12.38 , 12.03 ,1.36
+CA,170000,    ,051755,170000051755,#5,JUN SA CALGARY CARPET R,Calgary Carpet®  Juniper,CON,03,-,"18""S", 9 , 9 ,     ,          , 19.00 , 17.10 , 16.63 ,2.72
+CA,170000,    ,051652,170000051652,#2,JUN SA MOOR-DENSE R,Moor-Dense®  Juniper,CON,03,-,"14""S",     , 6 ,     ,          , 13.75 , 12.38 , 12.03 ,1.36
+CA,170000,    ,051655,170000051655,#5,JUN SA MOOR-DENSE R,Moor-Dense®  Juniper,CON,03,-,"21""S", 46 , 86 ,     ,          , 19.00 , 17.10 , 16.63 ,2.72
+CA,170000,    ,053655,170000053655,#5,JUN SC BLUE ARROW,Blue Arrow Juniper                                          ,CON,04,-,"42""H",     ,     , 175 ,04/15/16  , 27.75 , 24.98 , 24.28 ,2.72
+CA,170000,    ,052705SP,170000052705SP,#5 SPIRAL,JUN SC MEDORA,Medora Juniper                                              ,CON,03,WINTER COLOR,"48""H",     , 2 ,     ,          , 77.25 , 69.53 , 67.59 ,4.08
+CA,170000,    ,052709,170000052709,#15,JUN SC MEDORA,Medora Juniper                                              ,CON,03,WINTER COLOR,"60""H - 24""S", 9 , 9 ,     ,          , 95.00 , 85.50 , 83.13 ,13.60
+CA,170000,    ,054005,170000054005,#5,JUN SC SKYROCKET,Skyrocket Juniper                                           ,CON,04,-,"36""H - 10""S",     , 20 ,,, 27.75 , 24.98 , 24.28 ,2.72
+CA,170000,    ,053105PT,170000053105PT,#5 PATIO TREE,JUN SC TOLL BLU WEEPING,Tolleson's Blue Weeping Juniper                             ,CON,03,-,"60""H  - 24""S", 10 , 18 ,     ,          , 61.75 , 55.58 , 54.03 ,4.08
+CA,170000,    ,053302,170000053302,#2,JUN SC WICHITA BLUE,Wichita Blue Juniper                                        ,CON,03,-,"28""H - 10""S",     , 16 ,     ,          , 16.75 , 15.08 , 14.66 ,1.36
+CA,170000,    ,053309,170000053309,#15,JUN SC WICHITA BLUE,Wichita Blue Juniper                                        ,CON,03,-,"36""H - 24""S", 17 ,     , 17 ,04/01/16  , 95.00 , 85.50 , 83.13 ,13.60
+CA,170000,    ,05330M,17000005330M,#10 Squat,JUN SC WICHITA BLUE,Wichita Blue Juniper                                        ,CON,03,-,"44""H - 16""S", 19 , 19 ,     ,          , 68.00 , 61.20 , 59.50 ,9.79
+CA,170000,    ,06104MT,17000006104MT,#10 Tall TREE,MALUS X GOLDEN DELICIOUS APPLE,Golden Delicious Apple                                      ,TRE,04,DORMANT,"60""H - 24""S*", 4 , 86 ,     ,          , 51.50 , 46.35 , 45.06 ,10.79
+CA,170000,    ,05896MT,17000005896MT,#10 Tall TREE,MALUS X RED DELICIOUS APPLE,Red Delicious Apple                                         ,TRE,04,DORMANT,"58""H - 24""S",     , 35 ,     ,          , 51.50 , 46.35 , 45.06 ,10.79
+CA,170000,    ,063351,170000063351,#1,PACHYSANDRA TERM GREEN SHEEN,Green Sheen Japanese Spurge                                 ,PRN,04,-,CAN FULL,     ,     , 689 ,03/01/16  , 5.75 , 5.18 , 5.03 ,0.54
+CA,170000,    ,002471,170000002471,#1 STAKED,PARTH Q STAR SHOWERS R P10128,Star Showers®  Virginia Creeper,VIN,04,DORMANT,"24""H", 47 , 320 ,     ,          , 9.25 , 8.33 , 8.09 ,0.54
+CA,170000,    ,002475,170000002475,#5 STAKED,PARTH Q STAR SHOWERS R P10128,Star Showers®  Virginia Creeper,VIN,04,DORMANT,"38""H", 38 , 506 ,     ,          , 29.75 , 26.78 , 26.03 ,2.72
+CA,170000,    ,002451,170000002451,#1 STAKED,PARTH QUINQUEFOLIA,Virginia Creeper                                            ,VIN,04,DORMANT,"24""H", 14 , 196 ,     ,          , 9.25 , 8.33 , 8.09 ,0.54
+CA,170000,    ,002455,170000002455,#5 STAKED,PARTH QUINQUEFOLIA,Virginia Creeper                                            ,VIN,04,DORMANT,"38""H",     , 295 ,     ,          , 29.75 , 26.78 , 26.03 ,2.72
+CA,170000,    ,002581,170000002581,#1 STAKED,PARTH TRI GREEN SHOWERS,Green Showers Boston Ivy                                    ,VIN,04,DORMANT,24''H,     , 31 ,     ,          , 9.25 , 8.33 , 8.09 ,0.54
+CA,170000,    ,002585,170000002585,#5 STAKED,PARTH TRI GREEN SHOWERS,Green Showers Boston Ivy                                    ,VIN,04,DORMANT,"36""H",     , 70 ,     ,          , 29.75 , 26.78 , 26.03 ,2.72
+CA,170000,    ,002501,170000002501,#1 STAKED,PARTH TRI VEITCHII,Boston Ivy                                                  ,VIN,04,DORMANT,"18""H", 103 , 444 ,     ,          , 9.25 , 8.33 , 8.09 ,0.54
+CA,170000,    ,002505,170000002505,#5 STAKED,PARTH TRI VEITCHII,Boston Ivy                                                  ,VIN,04,DORMANT,"36""H", 43 , 124 ,     ,          , 29.75 , 26.78 , 26.03 ,2.72
+CA,170000,,067781,170000067781,#1,PENSTEMON X PIKES PEAK PURPL R,Pikes Peak Purple®  Penstemon,PRN,04,,CAN FULL, 2 ,     , 213 ,04/01/16  , 6.75 , 6.08 , 5.91 ,0.54
+CA,170000,    ,064211,170000064211,#1,PEROVSKIA ATRIPLICIFOLIA,Russian Sage                                                ,PRN,04,,"8""H - 6""S",     ,     ," 2,872 ",04/01/16  , 5.25 , 4.73 , 4.59 ,0.54
+CA,170000,    ,064212,170000064212,#2,PEROVSKIA ATRIPLICIFOLIA,Russian Sage                                                ,PRN,04,,"12""H - 10""S",     ,     , 91 ,04/01/16  , 13.50 , 12.15 , 11.81 ,1.36
+CA,170000,,084781,170000084781,#1,PEROVSKIA LACEY BLUE PP20845,Lacey Blue Russian Sage                                     ,PRN,04,,,     ,     , 63 ,04/01/16  , 6.75 , 6.08 , 5.91 ,0.54
+CA,170000,,084782,170000084782,#2,PEROVSKIA LACEY BLUE PP20845,Lacey Blue Russian Sage                                     ,PRN,04,,,     ,     , 361 ,04/01/16  , 17.25 , 15.53 , 15.09 ,1.36
+CA,170000,    ,010591,170000010591,#1,PEROVSKIA LITTLE SPIRE P11643,Little Spire Russian Sage                                   ,PRN,04,,"8""H - 6""S",     ,     , 231 ,05/01/16  , 6.75 , 6.08 , 5.91 ,0.54
+CA,170000,    ,06167MT,17000006167MT,#10 Tall TREE,PRUNUS X BEAUTY PLUM,Beauty Japanese Plum                                        ,TRE,04,BUDS,"60""H", 3 , 3 ,     ,          , 51.50 , 46.35 , 45.06 ,10.79
+CA,170000,    ,069711,170000069711,#1,RATIBIDA COLUMNIFERA,Mexican Hat                                                 ,PRN,04,,CAN FULL,     ,     , 271 ,04/01/16  , 5.25 , 4.73 , 4.59 ,0.54
+CA,170000,    ,058142,170000058142,#2,RIBES HERTELLUM PIXWELL,Pixwell Gooseberry                                          ,DCS,03,DORMANT,"12""H",     , 2 ,     ,          , 17.25 , 15.53 , 15.09 ,1.36
+CA,170000,    ,036292,170000036292,#2,ROSA FLWR CAR R AMBER PPAF,Flower Carpet®  Amber Groundcover Rose,ROS,04,WINTER LOOK,"8""H - 10""S"," 1,218 "," 3,903 ",     ,          , 15.00 , 13.50 , 13.13 ,1.36
+CA,170000,    ,036295PT,170000036295PT,#5 PATIO TREE,ROSA FLWR CAR R AMBER PPAF,Flower Carpet®  Amber Groundcover Rose,ROS,04,WINTER LOOK,"15""S", 99 , 94 ,,, 40.00 , 36.00 , 35.00 ,4.08
+CA,170000,    ,069292,170000069292,#2,ROSA FLWR CAR R APLBLSM P10239,Flower Carpet®  Appleblossom Groundcover Rose,ROS,04,WINTER LOOK,"6""H - 10""S", 103 , 972 ,     ,          , 15.00 , 13.50 , 13.13 ,1.36
+CA,170000,    ,069782,170000069782,#2,ROSA FLWR CAR R PINK,Flower Carpet®  Pink Groundcover Rose,ROS,04,WINTER LOOK,"8""H - 10""S", 746 ," 2,909 ",     ,          , 15.00 , 13.50 , 13.13 ,1.36
+CA,170000,    ,036382,170000036382,#2,ROSA FLWR CAR R PNK SUP P16276,Flower Carpet®  Pink Supreme Ground Cover Rose,ROS,04,WINTER LOOK,"8""H - 10""S", 59 ," 1,461 ",     ,          , 15.00 , 13.50 , 13.13 ,1.36
+CA,170000,    ,036385PT,170000036385PT,#5 PATIO TREE,ROSA FLWR CAR R PNK SUP P16276,Flower Carpet®  Pink Supreme Ground Cover Rose,ROS,04,,, 11 ,     , 11 ,04/01/16  , 40.00 , 36.00 , 35.00 ,4.08
+CA,170000,    ,071602,170000071602,#2,ROSA FLWR CAR R RED P11308,Flower Carpet®  Red Groundcover Rose,ROS,04,WINTER LOOK,8''H - 10''S,     ," 3,280 ",     ,          , 15.00 , 13.50 , 13.13 ,1.36
+CA,170000,    ,071605PT,170000071605PT,#5 PATIO TREE,ROSA FLWR CAR R RED P11308,Flower Carpet®  Red Groundcover Rose,ROS,04,,"15""S", 122 ,     , 122 ,04/01/16  , 40.00 , 36.00 , 35.00 ,4.08
+CA,170000,    ,018242,170000018242,#2,ROSA FLWR CAR R YELLOW PP13869,Flower Carpet®  Yellow Rose,ROS,04,WINTER LOOK,"10""H - 10""S", 437 ," 1,308 ",     ,          , 15.00 , 13.50 , 13.13 ,1.36
+CA,170000,    ,018245PT,170000018245PT,#5 PATIO TREE,ROSA FLWR CAR R YELLOW PP13869,Flower Carpet®  Yellow Rose,ROS,04,WINTER LOOK,"15""S", 126 , 128 ,,, 40.00 , 36.00 , 35.00 ,4.08
+CA,170000,    ,022152S,170000022152S,SuperTwo,ROSA KNCK OUT R P15070 (PINK),Pink Knock Out®  Rose,ROS,04,WINTER LOOK,10''H - 10''S,     , 63 ,     ,          , 13.75 , 12.38 , 12.03 ,1.81
+CA,170000,    ,022155,170000022155,#5,ROSA KNCK OUT R P15070 (PINK),Pink Knock Out®  Rose,ROS,04,WINTER LOOK,12''H - 12''S,     , 117 ,     ,          , 18.50 , 16.65 , 16.19 ,2.72
+CA,170000,    ,022155PT,170000022155PT,#5 PATIO TREE,ROSA KNCK OUT R P15070 (PINK),Pink Knock Out®  Rose,ROS,04,WINTER LOOK,12''S, 5 , 31 , 265 ,04/01/16  , 40.00 , 36.00 , 35.00 ,4.08
+CA,170000,    ,090791ST,170000090791ST,#1 STAKED,ROSA-CL-CECILE BRUNNER,Cecile Brunner Climbing Rose                                ,ROS,04,WINTER LOOK,"24""H",     , 39 ,     ,          , 7.50 , 6.75 , 6.56 ,0.54
+CA,170000,    ,090795ST,170000090795ST,#5 STAKED,ROSA-CL-CECILE BRUNNER,Cecile Brunner Climbing Rose                                ,ROS,04,WINTER LOOK,"48""H", 11 , 30 ,     ,          , 24.00 , 21.60 , 21.00 ,2.72
+CA,170000,    ,075415ST,170000075415ST,#5 STAKED,ROSA-CL-SKY'S THE LIMIT TM PAF,Sky's The Limit  Climbing Rose,ROS,04,WINTER LOOK,"32""H", 20 , 20 ,,, 28.50 , 25.65 , 24.94 ,2.72
+CA,170000,    ,070345,170000070345,#5 STAKED,RUBUS CANBY RED RASPBERRY,Canby Red Raspberry                                         ,DCS,04,DORMANT,"48""H",     , 6 ,     ,          , 30.00 , 27.00 , 26.25 ,2.72
+CA,170000,    ,406432,170000406432,#2,RUBUS IDAEUS JEWEL BLK RASPBRY,Jewel Black Raspberry                                       ,DCS,03,,"30""H", 255 ,     , 943 ,04/01/16  , 16.75 , 15.08 , 14.66 ,1.36
+CA,170000,    ,067845,170000067845,#5 STAKED,RUBUS IDEAUS FALL GOLD RASPBRY,Fall Gold Raspberry                                         ,DCS,03,DORMANT,"3/4""STAKE",     , 4 ,     ,          , 30.00 , 27.00 , 26.25 ,2.72
+CA,170000,,079382,170000079382,#2,RUBUS RSPBRY SHRTCKE TM P22141,BrazelBerries®  Raspberry Shortcake  Dwarf Thor,DCS,04,DORMANT,"8""H - 12"":S", 348 , 448 ,,, 16.75 , 15.08 , 14.66 ,1.36
+CA,170000,X,412691,170000412691,#1,SALVIA NEM BLUE MARVEL PPAF,Blue Marvel Salvia                                          ,PRN,04,,CAN FULL, 90 ,     , 93 ,04/01/16  , 6.00 , 5.40 , 5.25 ,0.54
+CA,170000,    ,019542,170000019542,#2,SALVIA NEM MARCUS R PP13322,Marcus®  Meadow Sage,PRN,04,,CAN FULL,     ,     , 885 ,04/01/16  , 12.75 , 11.48 , 11.16 ,1.36
+CA,170000,    ,020411,170000020411,#1,SALVIA NEMOROSA CARADONNA,Caradonna Meadow Sage                                       ,PRN,04,-,CAN FULL, 12 ,     , 665 ,04/01/16  , 5.75 , 5.18 , 5.03 ,0.54
+CA,170000,    ,020412,170000020412,#2,SALVIA NEMOROSA CARADONNA,Caradonna Meadow Sage                                       ,PRN,04,,CAN FULL,     ,     , 208 ,04/01/16  , 12.75 , 11.48 , 11.16 ,1.36
+CA,170000,    ,070591,170000070591,#1,SALVIA NEMOROSA EAST FRIESLAND,East Friesland Meadow Sage                                  ,PRN,04,,CAN FULL,     ,     , 509 ,03/01/16  , 5.75 , 5.18 , 5.03 ,0.54
+CA,170000,    ,070592,170000070592,#2,SALVIA NEMOROSA EAST FRIESLAND,East Friesland Meadow Sage                                  ,PRN,04,,"8""H - 8""S",     ,     , 78 ,03/01/16  , 12.75 , 11.48 , 11.16 ,1.36
+CA,170000,    ,407941,170000407941,#1,SALVIA SNSATION R DEEP ROS PAF,Sensation Deep Rose Salvia                                  ,PRN,04,-,"6""H - 8""S", 45 ,     , 361 ,04/01/16  , 6.00 , 5.40 , 5.25 ,0.54
+CA,170000,    ,400271,170000400271,#1,SALVIA SNSATION R SKY BLUE PAF,Sensation®  Sky Blue Meadow Sage,PRN,04,,CAN FULL,     ,     , 113 ,04/01/16  , 6.00 , 5.40 , 5.25 ,0.54
+CA,170000,    ,070941,170000070941,#1,SEDUM BRONZE CARPET,Bronze Carpet Stonecrop                                     ,PRN,03,-,CAN FULL,     ," 1,867 ",     ,          , 5.50 , 4.95 , 4.81 ,0.54
+CA,170000,    ,044871,170000044871,#1,SEDUM RUP ANGELINA PPAF,Angelina Stonecrop                                          ,PRN,03,-,CAN FULL,     , 63 ,     ,          , 5.50 , 4.95 , 4.81 ,0.54
+CA,170000,    ,070911,170000070911,#1,SEDUM VERA JAMESON,Vera Jameson Stonecrop                                      ,PRN,04,EMERGING,.,     , 259 , 105 ,04/01/16  , 5.50 , 4.95 , 4.81 ,0.54
+CA,170000,    ,025041,170000025041,#1,SEDUM X AUTUMN FIRE,Autumn Fire Stonecrop                                       ,PRN,03,EMERGING,.,     , 117 , 10 ,04/01/16  , 5.50 , 4.95 , 4.81 ,0.54
+CA,170000,    ,070741,170000070741,#1,SEDUM X AUTUMN JOY,Autumn Joy Stonecrop                                        ,PRN,04,EMERGING,CAN FULL,     , 11 ,,, 5.50 , 4.95 , 4.81 ,0.54
+CA,170000,    ,069971,170000069971,#1,SEMPERVIVUM ARACH RED COBWEB,Red Cobweb Hens and Chicks                                  ,PRN,04,-,CAN FULL,     , 14 ,,, 6.75 , 6.08 , 5.91 ,0.54
+CA,170000,    ,065591,170000065591,#1,SEMPERVIVUM BLACK,Black Hens and Chicks                                       ,PRN,04,-,CAN FULL,     , 30 , 67 ,04/01/16  , 6.75 , 6.08 , 5.91 ,0.54
+CA,170000,    ,05696E,17000005696E,"7"" Terra Cotta",SEMPERVIVUM RUBY HEARTS,Ruby Hearts Hens and Chicks                                 ,PRN,04,-,CAN FULL,     , 135 ,     ,          , 17.50 , 15.75 , 15.31 ,0.54
+CA,170000,    ,070011,170000070011,#1,SEMPERVIVUM SILVER KING,Silver King Houseleek                                       ,PRN,04,-,CAN FULL,     ,     , 153 ,04/01/16  , 6.75 , 6.08 , 5.91 ,0.54
+CA,170000,    ,071612,170000071612,#2,SPIRAEA X VAN RENAISSANCE,Renaissance Spirea                                          ,DCS,03,DORMANT,"12""H - 10""S", 45 , 344 ,     ,          , 13.75 , 12.38 , 12.03 ,1.36
+CA,170000,    ,072005,170000072005,#5,SYRINGA X CHINENSIS,Chinese Lilac                                               ,DCS,03,BUDS,"16""H - 14""S", 4 , 4 ,     ,          , 25.25 , 22.73 , 22.09 ,2.72
+CA,170000,    ,072835PT,170000072835PT,#5 PATIO TREE,THUJA OC FILIFORMIS,Weeping Threadleaf Arborvitae                               ,CON,04,WINTER COLOR,"36""H - 18""S", 3 , 3 ,     ,          , 61.75 , 55.58 , 54.03 ,4.08
+CA,170000,    ,073742,170000073742,#2,VACCINIUM CORYMBOSUM PATRIOT,Patriot Early Season Blueberry                              ,DCS,03,,,     ,     , 83 ,03/01/16  , 15.75 , 14.18 , 13.78 ,1.36
+CA,170000,,081702,170000081702,#2,VACCINIUM X JELLY BEAN TM PPAF,BrazelBerries®  Jelly Bean  Blueberry,DCS,04,BUDS,"10''H - 8""S",     , 572 ,     ,          , 16.25 , 14.63 , 14.22 ,1.36
+CA,170000,    ,076131,170000076131,#1,VINCA MINOR BOWLES',Bowles' Common Periwinkle                                   ,PRN,04,-,CAN FULL,     ,     , 850 ,04/01/16  , 5.25 , 4.73 , 4.59 ,0.54
+CA,170000,    ,076311,170000076311,#1 STAKED,VITIS LAB CATAWBA,Catawba Grape                                               ,VIN,04,DORMANT,"24""H", 13 , 28 ,     ,          , 8.75 , 7.88 , 7.66 ,0.54
+CA,170000,    ,076225,170000076225,#5 STAKED,VITIS LAB EASTERN CONCORD,Eastern Concord Grape                                       ,VIN,04,,"48""H", 26 ,     , 26 ,05/01/16  , 24.50 , 22.05 , 21.44 ,2.72
+CA,170000,    ,076251,170000076251,#1 STAKED,VITIS LAB NIAGARA,Niagara Grape                                               ,VIN,04,DORMANT,"3/4"" STAKE", 91 , 207 ,     ,          , 8.75 , 7.88 , 7.66 ,0.54
+CA,170000,    ,017341,170000017341,#1 STAKED,WISTERIA MAC BLUE MOON,Blue Moon Kentucky Wisteria                                 ,VIN,04,DORMANT,3/4''STAKE, 64 , 107 ,     ,          , 9.25 , 8.33 , 8.09 ,0.54
+CA,170000,    ,017345,170000017345,#5 STAKED,WISTERIA MAC BLUE MOON,Blue Moon Kentucky Wisteria                                 ,VIN,04,DORMANT,48''H,     , 12 ,     ,          , 23.75 , 21.38 , 20.78 ,2.72
+CA,170000,,090152,170000090152,#2,YUCCA FIL COLOR GUARD,Color Guard Adam's Needle                                   ,EVS,04,WINTER COLOR,10''H - 12''S,     , 10 ,     ,          , 17.75 , 15.98 , 15.53 ,1.36
+CA,170000,    ,077225,170000077225,#5,YUCCA FIL IVORY TOWER,Ivory Tower Yucca                                           ,EVS,04,-,"15""H - 15""S",     , 3 ,     ,          , 23.00 , 20.70 , 20.13 ,2.72

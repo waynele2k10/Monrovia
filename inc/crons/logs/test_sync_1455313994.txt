@@ -1,0 +1,268 @@
+DATE/TIME: 2016-02-12 21:53:14
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-02-12 21:53:21
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 19753
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;082011&lt;/ItemSizeID&gt;
+		&lt;Item&gt;08201&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hosta &apos;Liberty&apos; P.P. #12,531&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hosta &apos;Liberty&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Liberty Hosta&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Shade Loving&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Urban Garden,Mass Planting,Container,Border,Coral Bells (Heuchera); Ligularia (Ligularia); Mukdenia (Mukdenia); Japanese Forest Grass (Hakonechloa); Bleeding Heart (Dicentra)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to just over 2 ft tall and 3 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. For a neat appearance, remove old foliage before new leaves emerge. Avoid harsh sun. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949372029&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A gorgeous sport of &apos;Sagae&apos;. Blue-green leaves have a wide, dramatically streaked, yellow margin which fades to a creamy-white. Lavender flowers appear above heavier foliage which provides a greater slug resistance. Adds stunning color to any shade border or woodland garden. Awarded Hosta of the Year 2012.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade to filtered sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Best with regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Acidic Soil,Shade Loving,Easy Care,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Urban Garden,Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;082012&lt;/ItemSizeID&gt;
+		&lt;Item&gt;08201&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hosta &apos;Liberty&apos; P.P. #12,531&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hosta &apos;Liberty&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Liberty Hosta&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Shade Loving&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Urban Garden,Mass Planting,Container,Border,Coral Bells (Heuchera); Ligularia (Ligularia); Mukdenia (Mukdenia); Japanese Forest Grass (Hakonechloa); Bleeding Heart (Dicentra)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to just over 2 ft tall and 3 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. For a neat appearance, remove old foliage before new leaves emerge. Avoid harsh sun. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949372036&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A gorgeous sport of &apos;Sagae&apos;. Blue-green leaves have a wide, dramatically streaked, yellow margin which fades to a creamy-white. Lavender flowers appear above heavier foliage which provides a greater slug resistance. Adds stunning color to any shade border or woodland garden. Awarded Hosta of the Year 2012.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade to filtered sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Best with regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Acidic Soil,Shade Loving,Easy Care,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Urban Garden,Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;082015&lt;/ItemSizeID&gt;
+		&lt;Item&gt;08201&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hosta &apos;Liberty&apos; P.P. #12,531&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hosta &apos;Liberty&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Liberty Hosta&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Shade Loving&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Urban Garden,Mass Planting,Container,Border,Coral Bells (Heuchera); Ligularia (Ligularia); Mukdenia (Mukdenia); Japanese Forest Grass (Hakonechloa); Bleeding Heart (Dicentra)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to just over 2 ft tall and 3 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. For a neat appearance, remove old foliage before new leaves emerge. Avoid harsh sun. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949379004&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A gorgeous sport of &apos;Sagae&apos;. Blue-green leaves have a wide, dramatically streaked, yellow margin which fades to a creamy-white. Lavender flowers appear above heavier foliage which provides a greater slug resistance. Adds stunning color to any shade border or woodland garden. Awarded Hosta of the Year 2012.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade to filtered sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Best with regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Acidic Soil,Shade Loving,Easy Care,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Urban Garden,Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;08201UT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;08201&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;UT&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hosta &apos;Liberty&apos; P.P. #12,531&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hosta &apos;Liberty&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Liberty Hosta&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Shade Loving&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Urban Garden,Mass Planting,Container,Border,Coral Bells (Heuchera); Ligularia (Ligularia); Mukdenia (Mukdenia); Japanese Forest Grass (Hakonechloa); Bleeding Heart (Dicentra)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to just over 2 ft tall and 3 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. For a neat appearance, remove old foliage before new leaves emerge. Avoid harsh sun. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;QT&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 qt. (946 mL)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949435205&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A gorgeous sport of &apos;Sagae&apos;. Blue-green leaves have a wide, dramatically streaked, yellow margin which fades to a creamy-white. Lavender flowers appear above heavier foliage which provides a greater slug resistance. Adds stunning color to any shade border or woodland garden. Awarded Hosta of the Year 2012.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade to filtered sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Best with regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Acidic Soil,Shade Loving,Easy Care,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Urban Garden,Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;047251&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04725&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Mukdenia rossii &apos;Crimson Fans&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Mukdenia rossii &apos;Crimson Fans&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Red-Leafed Mukdenia&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Groundcover&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Mass Planting,Ground Cover,Edging,Border,Coral Bells (Heuchera); Ligularia (Ligularia); Hosta (Hosta); Lungwort (Pulmonaria); Bleeding Heart (Dicentra)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Slowly forms a clump to 1 ft. tall and 2 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Prefers cool, organically enriched, moist but not wet soil. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. As a groundcover, space plants 2 to 3 ft. apart (closer for faster coverage). Control weeds with mulch until the plants fill in.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949255988&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Mid-Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Fanned, maple-like leaves emerge bright green in spring, age to bronze-green and by summer mature to green with bright red streaks. In early spring, white bell-shaped flowers dance above the foliage. Excellent groundcover for woodland gardens, accent for borders or tucked into containers. Deciduous perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Naturalizes Well,Easy Care,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Ground Cover,Edging,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;047251S&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04725&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1S&lt;/Size&gt;
+		&lt;SizeDescription&gt;SuperOne&amp;#8482;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Mukdenia rossii &apos;Crimson Fans&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Mukdenia rossii &apos;Crimson Fans&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Red-Leafed Mukdenia&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Groundcover&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Mass Planting,Ground Cover,Edging,Border,Coral Bells (Heuchera); Ligularia (Ligularia); Hosta (Hosta); Lungwort (Pulmonaria); Bleeding Heart (Dicentra)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;A spreading clump to 12 in. tall.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. As a ground cover, space plants 2 ft. to 3 ft. apart, (closer for faster coverage). Control weeds with mulch until the plants cover the area.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 gal. (3.79 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949269237&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Mid-Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Fanned, maple-like leaves emerge bright green in spring, age to bronze-green and by summer mature to green with bright red streaks. In early spring, white bell-shaped flowers dance above the foliage. Excellent groundcover for woodland gardens, accent for borders or tucked into containers. Deciduous perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Naturalizes Well,Easy Care,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Ground Cover,Edging,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;047252&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04725&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Mukdenia rossii &apos;Crimson Fans&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Mukdenia rossii &apos;Crimson Fans&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Red-Leafed Mukdenia&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Groundcover&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Mass Planting,Ground Cover,Edging,Border,Coral Bells (Heuchera); Ligularia (Ligularia); Hosta (Hosta); Lungwort (Pulmonaria); Bleeding Heart (Dicentra)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Slowly forms a clump to 1 ft. tall and 2 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Prefers cool, organically enriched, moist but not wet soil. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. As a groundcover, space plants 2 to 3 ft. apart (closer for faster coverage). Control weeds with mulch until the plants fill in.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949348567&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Mid-Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Fanned, maple-like leaves emerge bright green in spring, age to bronze-green and by summer mature to green with bright red streaks. In early spring, white bell-shaped flowers dance above the foliage. Excellent groundcover for woodland gardens, accent for borders or tucked into containers. Deciduous perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Naturalizes Well,Easy Care,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Ground Cover,Edging,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;04725UT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04725&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;UT&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Mukdenia rossii &apos;Crimson Fans&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Mukdenia rossii &apos;Crimson Fans&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Red-Leafed Mukdenia&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Groundcover&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Mass Planting,Ground Cover,Edging,Border,Coral Bells (Heuchera); Ligularia (Ligularia); Hosta (Hosta); Lungwort (Pulmonaria); Bleeding Heart (Dicentra)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;A spreading clump to 12 in. tall.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. As a ground cover, space plants 2 ft. to 3 ft. apart, (closer for faster coverage). Control weeds with mulch until the plants cover the area.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;QT&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 qt. (946 mL)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949251751&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Mid-Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Fanned, maple-like leaves emerge bright green in spring, age to bronze-green and by summer mature to green with bright red streaks. In early spring, white bell-shaped flowers dance above the foliage. Excellent groundcover for woodland gardens, accent for borders or tucked into containers. Deciduous perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Naturalizes Well,Easy Care,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Ground Cover,Edging,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Fri, 12 Feb 2016 21:53:20 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

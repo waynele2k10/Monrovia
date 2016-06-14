@@ -1,0 +1,68 @@
+body {
+	margin:0px!important;
+	padding:0px!important;
+	line-height:1.25em;
+}
+.print_only {
+	display:block!important;
+}
+.editable_module .btn_edit, .editable_module .btn_publish {
+	display:none!important;
+}
+.print_hide {
+	display:none!important;
+	width:0px;
+	height:0px;
+}
+#print_logo {
+	width:283px;
+	height:52px;
+	margin-bottom:16px;
+}
+#page_content .padding {
+	padding:0px;
+}
+* {
+	color:#000!important;
+	font-family:arial;
+	font-size:9.5pt;
+	background-image:none!important;
+}
+.small {
+	font-size:7.5pt;
+}
+
+a {
+	text-decoration:none;
+}
+.print_indent_10 {
+	padding-left:100px;
+}
+
+.print_bold {
+	font-weight:bold;
+}
+
+/* PLANT DETAILS */
+
+	.copyHdr, .specName {
+		font-weight:bold;
+	}
+	.specName, .specValue {
+		font-size:9.5pt!important;
+	}
+	#details_right_column {
+		width:450px!important;
+	}
+	.specsTable {
+		margin-top:0px;
+	}
+	table.specsTable tr td {
+		padding:1px 0px;
+	}
+
+/* END PLANT DETAILS */
+
+.editable_module {
+	border:0px!important;
+}

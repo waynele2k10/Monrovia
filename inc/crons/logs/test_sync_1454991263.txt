@@ -1,0 +1,181 @@
+DATE/TIME: 2016-02-09 04:14:23
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-02-09 04:14:30
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 13006
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;069443&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06944&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;3&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Rosa x &apos;Joseph&apos;s Coat&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Rosa x &apos;Joseph&apos;s Coat&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Joseph&apos;s Coat Climbing Rose&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Fragrant Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Urban Garden,Specimen,Privacy Screen,Espalier,Barrier,Clematis (Clematis); Boxwood (Buxus); Eastern Snowball (Viburnum); Peony (Paeonia); Salvia (Salvia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Produces long flexible canes 8 to 12 ft. long.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish an extensive root system. Avoid overhead watering. Feed regularly during the growing season with a general purpose fertilizer. Prune annually in late winter to promote vigorous new growth.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;3&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.54 gal. (9.61 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949358924&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring to summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;One of the most popular climbing roses! Produces multicolored, red-orange to yellow-orange fragrant blooms for cutting. A natural climber that is best used on fences or arbors. Cutting faded flowers extends blooming season. Blooms on new wood; prune early to promote new growth.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, when top 3 in. of soil is dry.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;6&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Urban Garden,Specimen,Privacy Screen,Espalier,Barrier&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;069445ST&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06944&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5ST&lt;/Size&gt;
+		&lt;SizeDescription&gt;Staked&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Rosa x &apos;Joseph&apos;s Coat&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Rosa x &apos;Joseph&apos;s Coat&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Joseph&apos;s Coat Climbing Rose&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Fragrant Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Urban Garden,Specimen,Privacy Screen,Espalier,Barrier,Clematis (Clematis); Boxwood (Buxus); Eastern Snowball (Viburnum); Peony (Paeonia); Salvia (Salvia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Produces long flexible canes 8 to 12 ft. long.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish an extensive root system. Avoid overhead watering. Feed regularly during the growing season with a general purpose fertilizer. Prune annually in late winter to promote vigorous new growth.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949314029&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring to summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;One of the most popular climbing roses! Produces multicolored, red-orange to yellow-orange fragrant blooms for cutting. A natural climber that is best used on fences or arbors. Cutting faded flowers extends blooming season. Blooms on new wood; prune early to promote new growth.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, when top 3 in. of soil is dry.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;6&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Urban Garden,Specimen,Privacy Screen,Espalier,Barrier&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;069181&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06918&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Bulbine frutescens &apos;Orange&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Bulbine frutescens &apos;Orange&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Orange Stalked Bulbine&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Easy Care Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rock Garden,Mass Planting,Green Roof,Firescaping/Fire Wise,Erosion Control,Container,Border,Aloe (Aloe); Red Yucca (Hesperaloe); Hens &amp;amp; Chicks (Sempervivum); Sedum (Sedum); Kalanchoe (Kalanchoe)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Clumps to 1 to 2 ft. tall, spreads by rhizomes to 3 to 4 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Best in well-drained, compost-enriched soil. Spreads quickly by rhizomes to create wide-spreading clumps. A short summer dormant period may occur in hot interior climates. Remove spent flower heads to encourage fall re-bloom. Evergreen to 25 degrees F. For a neat appearance, remove old foliage before new growth appears in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949328088&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring through late summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;South African native with slender succulent foliage accented by tall flower stalks that emerge in spring to late summer. The buds have a unique green center stripe, revealing deep orange petals and frilly yellow stamens. This versatile dry climate gem adapts to humidity and harsh weather. Ideal frock garden plant or massed ground cover.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Sustainable,Easy Care,Deer Resistant,Clump Forming&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Mass Planting,Green Roof,Firescaping/Fire Wise,Erosion Control,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;069182&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06918&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Bulbine frutescens &apos;Orange&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Bulbine frutescens &apos;Orange&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Orange Stalked Bulbine&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Easy Care Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rock Garden,Mass Planting,Green Roof,Firescaping/Fire Wise,Erosion Control,Container,Border,Aloe (Aloe); Red Yucca (Hesperaloe); Hens &amp;amp; Chicks (Sempervivum); Sedum (Sedum); Kalanchoe (Kalanchoe)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Clumps to 1 to 2 ft. tall, spreads by rhizomes to 3 to 4 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Best in well-drained, compost-enriched soil. Spreads quickly by rhizomes to create wide-spreading clumps. A short summer dormant period may occur in hot interior climates. Remove spent flower heads to encourage fall re-bloom. Evergreen to 25 degrees F. For a neat appearance, remove old foliage before new growth appears in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949337561&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring through late summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;South African native with slender succulent foliage accented by tall flower stalks that emerge in spring to late summer. The buds have a unique green center stripe, revealing deep orange petals and frilly yellow stamens. This versatile dry climate gem adapts to humidity and harsh weather. Ideal frock garden plant or massed ground cover.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Sustainable,Easy Care,Deer Resistant,Clump Forming&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Mass Planting,Green Roof,Firescaping/Fire Wise,Erosion Control,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;06918UT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06918&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;UT&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Bulbine frutescens &apos;Orange&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Bulbine frutescens &apos;Orange&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Orange Stalked Bulbine&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Easy Care Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rock Garden,Mass Planting,Green Roof,Firescaping/Fire Wise,Erosion Control,Container,Border,Aloe (Aloe); Red Yucca (Hesperaloe); Hens &amp;amp; Chicks (Sempervivum); Sedum (Sedum); Kalanchoe (Kalanchoe)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Clumps to 1 to 2 ft. tall, spreads by rhizomes to 3 to 4 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Best in well-drained, compost-enriched soil. Spreads quickly by rhizomes to create wide-spreading clumps. A short summer dormant period may occur in hot interior climates. Remove spent flower heads to encourage fall re-bloom. Evergreen to 25 degrees F. For a neat appearance, remove old foliage before new growth appears in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;QT&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 qt. (946 mL)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949331200&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring through late summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;South African native with slender succulent foliage accented by tall flower stalks that emerge in spring to late summer. The buds have a unique green center stripe, revealing deep orange petals and frilly yellow stamens. This versatile dry climate gem adapts to humidity and harsh weather. Ideal frock garden plant or massed ground cover.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Sustainable,Easy Care,Deer Resistant,Clump Forming&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Mass Planting,Green Roof,Firescaping/Fire Wise,Erosion Control,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Tue, 09 Feb 2016 04:14:30 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

@@ -1,0 +1,326 @@
+DATE/TIME: 2016-03-09 21:53:25
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-03-09 21:53:39
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 23884
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;021591&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02159&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Agave desmettiana &apos;Variegata&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Agave desmettiana &apos;Variegata&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Variegated Dwarf Agave&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Drought Tolerant Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Hens &amp;amp; Chicks (Sempervivum); Sedum (Sedum); Aloe (Aloe); Red Yucca (Hesperaloe); Kalanchoe (Kalanchoe)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;30-36&quot; tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide lean to average, well drained soil away from reflected sun and heat. Tolerates drought once established, but thrives with supplemental watering during the hot season. Mother plant declines after flowering; younger rosettes will perpetuate the plant.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949040843&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Bloooms once, at maturity&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Bright golden-yellow edged, fleshy, curved leaves create an elegant urn-like form. Great focal point for the landscape or in a large container. Mass for great effect. Leaves have tiny, marginal thorns. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Tolerates Urban Pollution,Tolerates Poor Soils,Easy Care,Dramatic Foliage Color,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Urban Garden,Rock Garden,Poolside,Container,Coastal Exposure&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;021592&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02159&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Agave desmettiana &apos;Variegata&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Agave desmettiana &apos;Variegata&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Variegated Dwarf Agave&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Drought Tolerant Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Hens &amp;amp; Chicks (Sempervivum); Sedum (Sedum); Aloe (Aloe); Red Yucca (Hesperaloe); Kalanchoe (Kalanchoe)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;30-36&quot; tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide lean to average, well drained soil away from reflected sun and heat. Tolerates drought once established, but thrives with supplemental watering during the hot season. Mother plant declines after flowering; younger rosettes will perpetuate the plant.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949428184&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Bloooms once, at maturity&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Bright golden-yellow edged, fleshy, curved leaves create an elegant urn-like form. Great focal point for the landscape or in a large container. Mass for great effect. Leaves have tiny, marginal thorns. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Tolerates Urban Pollution,Tolerates Poor Soils,Easy Care,Dramatic Foliage Color,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Urban Garden,Rock Garden,Poolside,Container,Coastal Exposure&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;021595&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02159&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Agave desmettiana &apos;Variegata&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Agave desmettiana &apos;Variegata&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Variegated Dwarf Agave&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Drought Tolerant Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Hens &amp;amp; Chicks (Sempervivum); Sedum (Sedum); Aloe (Aloe); Red Yucca (Hesperaloe); Kalanchoe (Kalanchoe)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Slow growing to 30 to 36 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide a well drained soil away from reflected heat. After establishment, can tolerate drought, but looks best with regular watering during the hot season. Mother plant will die after flowering but new suckers from below the rosette perpetuate the plant.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949040850&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Bloooms once, at maturity&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Bright golden-yellow edged, fleshy, curved leaves create an elegant urn-like form. Great focal point for the landscape or in a large container. Mass for great effect. Leaves have tiny, marginal thorns. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Tolerates Urban Pollution,Tolerates Poor Soils,Easy Care,Dramatic Foliage Color,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Urban Garden,Rock Garden,Poolside,Container,Coastal Exposure&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;021599&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02159&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;9&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Agave desmettiana &apos;Variegata&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Agave desmettiana &apos;Variegata&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Variegated Dwarf Agave&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Drought Tolerant Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Hens &amp;amp; Chicks (Sempervivum); Sedum (Sedum); Aloe (Aloe); Red Yucca (Hesperaloe); Kalanchoe (Kalanchoe)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;30-36&quot; tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide lean to average, well drained soil away from reflected sun and heat. Tolerates drought once established, but thrives with supplemental watering during the hot season. Mother plant declines after flowering; younger rosettes will perpetuate the plant.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;15&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;12.07 gal. (45.69 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949070574&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Bloooms once, at maturity&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Bright golden-yellow edged, fleshy, curved leaves create an elegant urn-like form. Great focal point for the landscape or in a large container. Mass for great effect. Leaves have tiny, marginal thorns. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Tolerates Urban Pollution,Tolerates Poor Soils,Easy Care,Dramatic Foliage Color,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Urban Garden,Rock Garden,Poolside,Container,Coastal Exposure&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;02159M&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02159&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;M&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Agave desmettiana &apos;Variegata&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Agave desmettiana &apos;Variegata&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Variegated Dwarf Agave&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Drought Tolerant Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Hens &amp;amp; Chicks (Sempervivum); Sedum (Sedum); Aloe (Aloe); Red Yucca (Hesperaloe); Kalanchoe (Kalanchoe)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Slow growing to 30 to 36 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide a well drained soil away from reflected heat. After establishment, can tolerate drought, but looks best with regular watering during the hot season. Mother plant will die after flowering but new suckers from below the rosette perpetuate the plant.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;10&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;7.97 gal. (30.17 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949107973&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Bloooms once, at maturity&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Bright golden-yellow edged, fleshy, curved leaves create an elegant urn-like form. Great focal point for the landscape or in a large container. Mass for great effect. Leaves have tiny, marginal thorns. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Tolerates Urban Pollution,Tolerates Poor Soils,Easy Care,Dramatic Foliage Color,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Urban Garden,Rock Garden,Poolside,Container,Coastal Exposure&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;092821&lt;/ItemSizeID&gt;
+		&lt;Item&gt;09282&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Agave &apos;Blue Glow&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Agave &apos;Blue Glow&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Blue Glow Agave&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Attractive Foliage&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Hens &amp;amp; Chicks (Echeveria); Sedum (Sedum); Aloe (Aloe); Red Yucca (Hesperaloe); Kalanchoe (Kalanchoe)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Slow grower to 18 in. tall, 24 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide well-drained soil away from reflected heat. Thrives in full sun to part shade in cool coastal areas; part shade in hot summer areas. Performs best with regular water or with environmental humidity. The mother plant declines after flowering; younger rosettes will perpetuate the plant.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949270233&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Blooms only once after about 10 years.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Smooth, blue-green leaves with yellow-edged red margins form a single, symmetrical rosette. Each leaf tip bears a short red spine. A comely choice for sunny, low water gardens in warm coastal or humid Mediterranean-like climates. Handsome in dry desert gardens as well, provided some shade and supplemental water.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly in extreme heat; less water once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Tolerates Poor Soils,Easy Care,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Rock Garden,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;092822&lt;/ItemSizeID&gt;
+		&lt;Item&gt;09282&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Agave &apos;Blue Glow&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Agave &apos;Blue Glow&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Blue Glow Agave&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Attractive Foliage&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Hens &amp;amp; Chicks (Echeveria); Sedum (Sedum); Aloe (Aloe); Red Yucca (Hesperaloe); Kalanchoe (Kalanchoe)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Slow grower to 18 in. tall, 24 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide well-drained soil away from reflected heat. Thrives in full sun to part shade in cool coastal areas; part shade in hot summer areas. Performs best with regular water or with environmental humidity. The mother plant declines after flowering; younger rosettes will perpetuate the plant.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949270240&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Blooms only once after about 10 years.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Smooth, blue-green leaves with yellow-edged red margins form a single, symmetrical rosette. Each leaf tip bears a short red spine. A comely choice for sunny, low water gardens in warm coastal or humid Mediterranean-like climates. Handsome in dry desert gardens as well, provided some shade and supplemental water.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly in extreme heat; less water once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Tolerates Poor Soils,Easy Care,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Rock Garden,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;092823&lt;/ItemSizeID&gt;
+		&lt;Item&gt;09282&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;3&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Agave &apos;Blue Glow&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Agave &apos;Blue Glow&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Blue Glow Agave&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Attractive Foliage&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Hens &amp;amp; Chicks (Echeveria); Sedum (Sedum); Aloe (Aloe); Red Yucca (Hesperaloe); Kalanchoe (Kalanchoe)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Slow grower to 18 in. tall, 24 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide well-drained soil away from reflected heat. Thrives in full sun to part shade in cool coastal areas; part shade in hot summer areas. Performs best with regular water or with environmental humidity. The mother plant declines after flowering; younger rosettes will perpetuate the plant.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;3&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.54 gal. (9.61 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949347997&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Blooms only once after about 10 years.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Smooth, blue-green leaves with yellow-edged red margins form a single, symmetrical rosette. Each leaf tip bears a short red spine. A comely choice for sunny, low water gardens in warm coastal or humid Mediterranean-like climates. Handsome in dry desert gardens as well, provided some shade and supplemental water.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly in extreme heat; less water once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Tolerates Poor Soils,Easy Care,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Rock Garden,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;092825&lt;/ItemSizeID&gt;
+		&lt;Item&gt;09282&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Agave &apos;Blue Glow&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Agave &apos;Blue Glow&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Blue Glow Agave&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Attractive Foliage&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Hens &amp;amp; Chicks (Echeveria); Sedum (Sedum); Aloe (Aloe); Red Yucca (Hesperaloe); Kalanchoe (Kalanchoe)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Slow grower to 18 in. tall, 2 ft. wide. &lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide a well drained soil away from reflected heat. After establishment, water infrequently during the hot season. Mother plant will die after flowering; replant with plantlets.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949270264&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Blooms only once after about 10 years.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Smooth, blue-green leaves with yellow-edged red margins form a single, symmetrical rosette. Each leaf tip bears a short red spine. A comely choice for sunny, low water gardens in warm coastal or humid Mediterranean-like climates. Handsome in dry desert gardens as well, provided some shade and supplemental water.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly in extreme heat; less water once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Tolerates Poor Soils,Easy Care,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Rock Garden,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;09282M&lt;/ItemSizeID&gt;
+		&lt;Item&gt;09282&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;M&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Agave &apos;Blue Glow&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Agave &apos;Blue Glow&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Blue Glow Agave&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Attractive Foliage&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Hens &amp;amp; Chicks (Echeveria); Sedum (Sedum); Aloe (Aloe); Red Yucca (Hesperaloe); Kalanchoe (Kalanchoe)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Slow grower to 18 in. tall, 24 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide well-drained soil away from reflected heat. Thrives in full sun to part shade in cool coastal areas; part shade in hot summer areas. Performs best with regular water or with environmental humidity. The mother plant declines after flowering; younger rosettes will perpetuate the plant.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;10&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;7.97 gal. (30.17 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949433454&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Blooms only once after about 10 years.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Smooth, blue-green leaves with yellow-edged red margins form a single, symmetrical rosette. Each leaf tip bears a short red spine. A comely choice for sunny, low water gardens in warm coastal or humid Mediterranean-like climates. Handsome in dry desert gardens as well, provided some shade and supplemental water.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly in extreme heat; less water once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Tolerates Poor Soils,Easy Care,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Rock Garden,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 09 Mar 2016 21:53:37 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

@@ -1,0 +1,210 @@
+DATE/TIME: 2016-02-08 21:52:39
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-02-08 21:52:47
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 14444
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;036481&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03648&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Gaura lindheimeri &apos;Passionate Rainbow&apos; P.P.# 17,002&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Gaura lindheimeri &apos;Passionate Rainbow&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Passionate Rainbow Gaura&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Compact Habit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Mass Planting,Cutting Garden,Container,Border,Phlox (Phlox); Bellflower (Campanula); Beardtongue (Penstemon); Iris (Iris); Red Valerian (Centranthus)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Grows to 24 to 30 in. tall and 12 to 15 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide well drained soil. Before new spring growth begins, shear to 3-4 in. above soil and feed with a general purpose fertilizer. Clip spent flowers to encourage repeat blooming.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949219676&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring through fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Rose pink flowers appear in profusion along slender stems, spring to fall. Narrow green leaves are neatly edged in white. Compact, easy-care perennial with outstanding heat and drought tolerance. A great choice for rock gardens, perennial borders or containers.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;6&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care,Waterwise,North American Native Selection,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Cutting Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;036481S&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03648&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1S&lt;/Size&gt;
+		&lt;SizeDescription&gt;SuperOne&amp;#8482;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Gaura lindheimeri &apos;Passionate Rainbow&apos; P.P.# 17,002&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Gaura lindheimeri &apos;Passionate Rainbow&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Passionate Rainbow Gaura&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Compact Habit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Mass Planting,Cutting Garden,Container,Border,Phlox (Phlox); Bellflower (Campanula); Beardtongue (Penstemon); Iris (Iris); Red Valerian (Centranthus)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Compact grower 24 to 30 in. tall, 12 to 15 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep extensive root system. Cut within 3 in. of the soil &amp;amp; feed with a general purpose fertilizer before new spring growth begins. Prune old flowers to encourage reblooming.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 gal. (3.79 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949212981&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring through fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Rose pink flowers appear in profusion along slender stems, spring to fall. Narrow green leaves are neatly edged in white. Compact, easy-care perennial with outstanding heat and drought tolerance. A great choice for rock gardens, perennial borders or containers.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;6&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care,Waterwise,North American Native Selection,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Cutting Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;03648UT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03648&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;UT&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Gaura lindheimeri &apos;Passionate Rainbow&apos; P.P.# 17,002&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Gaura lindheimeri &apos;Passionate Rainbow&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Passionate Rainbow Gaura&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Compact Habit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Mass Planting,Cutting Garden,Container,Border,Phlox (Phlox); Bellflower (Campanula); Beardtongue (Penstemon); Iris (Iris); Red Valerian (Centranthus)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Grows to 24 to 30 in. tall and 12 to 15 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide well drained soil. Before new spring growth begins, shear to 3-4 in. above soil and feed with a general purpose fertilizer. Clip spent flowers to encourage repeat blooming.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;QT&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 qt. (946 mL)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949364871&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring through fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Rose pink flowers appear in profusion along slender stems, spring to fall. Narrow green leaves are neatly edged in white. Compact, easy-care perennial with outstanding heat and drought tolerance. A great choice for rock gardens, perennial borders or containers.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;6&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care,Waterwise,North American Native Selection,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Cutting Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;024551&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02455&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Cistus x aguilarii &apos;Maculatus&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Cistus x aguilarii &apos;Maculatus&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Spotted White Rock Rose&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Firescaping Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rock Garden,Mass Planting,Firescaping/Fire Wise,Erosion Control,Lavender (Lavandula); Dwarf Olive (Olea); Rosemary (Rosmarinus); Yarrow (Achillea); Sedum (Sedum)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 4 to 6 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Drought tolerant, once established. Feed with a general purpose fertilizer before new growth begins in spring. Does not tolerate or need heavy pruning.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949245514&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Sturdy shrub considered one of the showiest of the white-flowered rock roses. Large, single white flowers with maroon spots are displayed in profusion in spring. Excellent for firescaping, on dry banks, in rock gardens or an accent plant. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Tolerates Poor Soils,Naturalizes Well,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Mass Planting,Firescaping/Fire Wise,Erosion Control&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;024552&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02455&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Cistus x aguilarii &apos;Maculatus&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Cistus x aguilarii &apos;Maculatus&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Spotted White Rock Rose&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Firescaping Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rock Garden,Mass Planting,Firescaping/Fire Wise,Erosion Control,Lavender (Lavandula); Dwarf Olive (Olea); Rosemary (Rosmarinus); Yarrow (Achillea); Sedum (Sedum)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 4 to 6 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Drought tolerant, once established. Feed with a general purpose fertilizer before new growth begins in spring. Does not tolerate or need heavy pruning.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949433485&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Sturdy shrub considered one of the showiest of the white-flowered rock roses. Large, single white flowers with maroon spots are displayed in profusion in spring. Excellent for firescaping, on dry banks, in rock gardens or an accent plant. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Tolerates Poor Soils,Naturalizes Well,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Mass Planting,Firescaping/Fire Wise,Erosion Control&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;024555&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02455&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Cistus x aguilarii &apos;Maculatus&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Cistus x aguilarii &apos;Maculatus&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Spotted White Rock Rose&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Firescaping Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rock Garden,Mass Planting,Firescaping/Fire Wise,Erosion Control,Lavender (Lavandula); Dwarf Olive (Olea); Rosemary (Rosmarinus); Yarrow (Achillea); Sedum (Sedum)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 3 to 5 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. For a formal appearance, shear annually after flowering.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949055793&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Sturdy shrub considered one of the showiest of the white-flowered rock roses. Large, single white flowers with maroon spots are displayed in profusion in spring. Excellent for firescaping, on dry banks, in rock gardens or an accent plant. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Tolerates Poor Soils,Naturalizes Well,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Mass Planting,Firescaping/Fire Wise,Erosion Control&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Mon, 08 Feb 2016 21:52:46 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

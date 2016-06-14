@@ -1,0 +1,152 @@
+DATE/TIME: 2016-03-24 22:12:40
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-03-24 22:12:45
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 9535
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;400491&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40049&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Achillea millefolium &apos;Sunny Seduction&apos; P.P. #20,808&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Achillea millefolium &apos;Sunny Seduction&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Sunny Seduction Yarrow&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Coneflower (Echinacea); Shasta Daisy (Chrysanthemum); Speedwell (Veronica); Blue Fescue (Festuca); Gayfeather (Liatris)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Clumping growth 24-30 in. tall by 28 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide well-drained soil. Water regularly during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Clip spent flower stems to encourage re-bloom. Clumps may be divided every 2 to 3 years in early spring.Pruning time: late winter or early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949388273&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Soft yellow flowers in summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Easy-to-grow perennial boasts showy soft yellow flowers that offer a cool look to the summer garden. Fast-growing clumps of ferny, gray-green leaves form a compact, spreading mound, perfect for massed plantings. Flowers may be cut and dried for bouquets.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs only occasional watering, once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Extreme Cold Hardiness,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Deer Resistant&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Cutting Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;069401&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06940&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Kalanchoe thyrsiflora &apos;Desert Rose&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Kalanchoe thyrsiflora &apos;Desert Rose&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Desert Rose Paddle Plant&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Drought Tolerant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Aloe (Aloe); Red Yucca (Hesperaloe); Hens &amp;amp; Chicks (Echeveria); Sedum (Sedum); Ice Plant (Delosperma)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Clumps to 12 to 18 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide porous, well drained soil. Do not over water. Performs well with partial sun in extremely hot summer areas. Prune to remove wayward, dead, or top-heavy growth.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949433492&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Mid-Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Noted for its distinctive round foliage, this succulent has chalky blue-green leaves tinged with red. Color intensifies in full sun. Clusters of yellow flowers on spikes appear on mature plants. Provides dramatic color and texture in rock gardens or xeriscapes. Easily grown in containers, indoors or out.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Requires only occasional watering once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;069402&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06940&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Kalanchoe thyrsiflora &apos;Desert Rose&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Kalanchoe thyrsiflora &apos;Desert Rose&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Desert Rose Paddle Plant&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Drought Tolerant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Aloe (Aloe); Red Yucca (Hesperaloe); Hens &amp;amp; Chicks (Echeveria); Sedum (Sedum); Ice Plant (Delosperma)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Clumps to 12 to 18 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide porous, well drained soil. Do not over water. Performs well with partial sun in extremely hot summer areas. Prune to remove wayward, dead, or top-heavy growth.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949328293&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Mid-Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Noted for its distinctive round foliage, this succulent has chalky blue-green leaves tinged with red. Color intensifies in full sun. Clusters of yellow flowers on spikes appear on mature plants. Provides dramatic color and texture in rock gardens or xeriscapes. Easily grown in containers, indoors or out.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Requires only occasional watering once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;06940E&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06940&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;E&lt;/Size&gt;
+		&lt;SizeDescription&gt;Pot&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Kalanchoe thyrsiflora &apos;Desert Rose&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Kalanchoe thyrsiflora &apos;Desert Rose&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Desert Rose Paddle Plant&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Drought Tolerant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Aloe (Aloe); Red Yucca (Hesperaloe); Hens &amp;amp; Chicks (Echeveria); Sedum (Sedum); Ice Plant (Delosperma)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Clumps to 12 to 18 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide porous, well drained soil. Do not over water. Performs well with partial sun in extremely hot summer areas. Prune to remove wayward, dead, or top-heavy growth.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;7&amp;quot;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.6 qt. (2.50 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949380628&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Mid-Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Noted for its distinctive round foliage, this succulent has chalky blue-green leaves tinged with red. Color intensifies in full sun. Clusters of yellow flowers on spikes appear on mature plants. Provides dramatic color and texture in rock gardens or xeriscapes. Easily grown in containers, indoors or out.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Requires only occasional watering once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 24 Mar 2016 22:12:43 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

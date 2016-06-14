@@ -1,0 +1,206 @@
+DATE/TIME: 2016-04-05 13:53:28
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-04-05 13:53:35
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 13208
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;400561&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40056&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Allium &apos;ALLMIG1&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Allium &apos;ALLMIG1&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Millenium Ornamental Onion&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Beardtongue (Penstemon); Coneflower (Echinacea); Tickseed (Coreopsis); Blanket Flower (Gaillardia); Black-Eyed-Susan (Rudbeckia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Foliage clumps to 16 to 20 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Easily grown in average, well-drained soil. Follow a regular watering schedule during first growing season to establish a deep root system. Harvest by clipping leaves at the base. Clumps may be divided in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949388341&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A profusion of large 2&quot; round, bright rosy purple flower clusters appear on strong stems. Forms a picture perfect, compact, upright clump of glossy green, thick and strappy leaves. Does not reseed. A great addition to any sunny perennial bed.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water weekly or more often in extreme heat; less often when established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Deer Resistant&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;400561S&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40056&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1S&lt;/Size&gt;
+		&lt;SizeDescription&gt;SuperOne&amp;#8482;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Allium &apos;ALLMIG1&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Allium &apos;ALLMIG1&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Millenium Ornamental Onion&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Beardtongue (Penstemon); Coneflower (Echinacea); Tickseed (Coreopsis); Blanket Flower (Gaillardia); Black-Eyed-Susan (Rudbeckia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Foliage clumps to 16 to 20 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Easily grown in average, well-drained soil. Follow a regular watering schedule during first growing season to establish a deep root system. Harvest by clipping leaves at the base. Clumps may be divided in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 gal. (3.79 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949427019&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A profusion of large 2&quot; round, bright rosy purple flower clusters appear on strong stems. Forms a picture perfect, compact, upright clump of glossy green, thick and strappy leaves. Does not reseed. A great addition to any sunny perennial bed.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water weekly or more often in extreme heat; less often when established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Deer Resistant&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;029965&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02996&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Acer palmatum &apos;Omurayama&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Acer palmatum &apos;Omurayama&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Omurayama Japanese Maple&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Weeping Habit&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Slowly reaches 6-8 ft. tall and wide in 10 years; to 10-15 ft. with age.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Best with enriched, slightly acidic soil. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Requires less water once established. Apply a slow-release fertilizer in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949067123&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicuous red flowers in spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A choice variety with an upright, semi-cascading form when young, developing a weeping habit with age. Spring foliage is tinted orange, matures to rich green in summer before turning bright red orange-gold in fall. Excellent accent specimen. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Best with deep watering at regular intervals, when the top 2-3 inches of soil is dry.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Fall Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;029969&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02996&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;9&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Acer palmatum &apos;Omurayama&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Acer palmatum &apos;Omurayama&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Omurayama Japanese Maple&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Weeping Habit&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Slowly reaches 6-8 ft. tall and wide in 10 years; to 10-15 ft. with age.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Best with enriched, slightly acidic soil. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Requires less water once established. Apply a slow-release fertilizer in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;15&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;12.07 gal. (45.69 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949374900&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicuous red flowers in spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A choice variety with an upright, semi-cascading form when young, developing a weeping habit with age. Spring foliage is tinted orange, matures to rich green in summer before turning bright red orange-gold in fall. Excellent accent specimen. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Best with deep watering at regular intervals, when the top 2-3 inches of soil is dry.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Fall Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;087561S&lt;/ItemSizeID&gt;
+		&lt;Item&gt;08756&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1S&lt;/Size&gt;
+		&lt;SizeDescription&gt;SuperOne&amp;#8482;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Lonicera nitida &apos;Brilliame&apos; P.P. #20,761&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Lonicera nitida &apos;Brilliame&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Ophelia&amp;#8482; Honeysuckle&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Compact habit&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 3 1/2 ft. tall and wide&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide well drained soil. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 gal. (3.79 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949405963&lt;/UPC&gt;
+		&lt;FlowerTime&gt;&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A versatile shrub that performs well in full sun, dull shade and anywhere in between. Glossy green to lime-green foliage takes on a golden tone when grown in full sun and will not burn. Beautiful as a specimen or low border hedge.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Hedge,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;080441&lt;/ItemSizeID&gt;
+		&lt;Item&gt;08044&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Iberis x &apos;IB2401&apos; P.P. #23,048&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Iberis x &apos;IB2401&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Absolutely Amethyst&amp;#174; Candytuft&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Drought Tolerant&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;10-12 in. tall x 8-10 in. wide&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. As a groundcover, space plants 5 ft. apart, (closer for faster coverage). Control weeds with mulch until the plants cover the area.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949405048&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Large clusters of purple flowers dotted with tiny yellow stamens blanket the evergreen foliage in late spring. The outermost flowers are a light lavender, while the inner flowers are deeper lavender. An old time favorite - a great filler for crevices in walls or between stones of walkways; drought tolerant. Also effective as edging or a ground cover.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Rock Garden,Poolside,Container,Coastal Exposure,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Tue, 05 Apr 2016 13:53:31 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

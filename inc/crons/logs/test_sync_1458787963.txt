@@ -1,0 +1,120 @@
+DATE/TIME: 2016-03-24 02:52:43
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-03-24 02:52:46
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 6731
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;30450&lt;/ItemSizeID&gt;
+		&lt;Item&gt;30450&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;LOWES&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Pelargonium Cumbanita Series PPAF&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Pelargonium Cumbanita Series PPAF&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Cumbanita Geranium&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Bold Summer Color&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Grows to 12 to 18 in. tall and 12 to 24 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Prefers organically rich, well-drained soil. Performs best with moderate water; tolerates some drought if planted in good quality soil and provided with part shade in hottest regions. Clip spent blooms to promote continued bloom. Trim mid-season to re-shape and rejuvenate. Feed every two weeks.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring to fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Wonderfully vibrant color in the form of large, double flowers on a mound of lush, deeply lobed foliage. Vigorous grower that withstands summer heat and performs all season. Tolerant of humidity. Thrives in full sun but benefits from some shade in hottest regions. Generally an annual, grows as a perennial in mild winter areas.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;10&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Gift Plant,Easy Care,Dense Habit&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;30449&lt;/ItemSizeID&gt;
+		&lt;Item&gt;30449&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;LOWES&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Pelargonium Calliope&amp;#174; Series Patented&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Pelargonium Calliope&amp;#174; Series Patented&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Calliope&amp;#174; Geranium&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Bold Colors&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Grows 10 to 14 in. tall and 12 to 20 n. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Prefers organically rich, well-drained soil. Performs best with moderate water; tolerates some drought if planted in good quality soil and provided with part shade in hottest regions. Clip spent blooms to promote continued bloom. Trim mid-season to re-shape and rejuvenate. Feed every two weeks.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring to fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A symphony of reds and and pinks that will take center stage in baskets and containers! Mounds of large, semi-double flowers that will flourish throughout summer. A sun-loving annual that also performs well in partial shade, especially in hottest regions. An herbaceous perennial in mild winter regions; treat as an annual elsewhere.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;10&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Gift Plant,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;30448&lt;/ItemSizeID&gt;
+		&lt;Item&gt;30448&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;LOWES&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Pelargonium Caliente&amp;#8482; Series Patented&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Pelargonium Caliente&amp;#8482; Series Patented&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Caliente&amp;#8482; Geranium&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Bright, colorful blooms&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;10-12&quot; H x 10-12&quot; W&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Easily grown in average to rich, well drained soil. Clip faded flower stems to promote continued bloom. May be sheared lightly mid-season to shape. Feed monthly.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;&lt;/UPC&gt;
+		&lt;FlowerTime&gt;&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A wide array of vibrant colors on versatile, heat-tolerant plants. The best of ivy and zonal types, with prolific bloom, great foliage and a super mounding habit. Perfect for baskets, containers or flower beds.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Low, once established&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;10&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 24 Mar 2016 02:52:45 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

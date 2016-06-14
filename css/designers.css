@@ -1,0 +1,505 @@
+div.clear {
+	clear:both;
+}
+
+.view_profile_wrap{
+	margin-top: 30px;
+}
+.designers_search_form {
+	background:#E5E2BF;
+	padding:10px;
+	margin-top:15px;
+	-webkit-border-radius: 5px;    
+    border-radius: 5px;
+}
+
+.field_select {
+	font-size:.9em;
+	border:1px solid #ADAC95;
+}
+
+.profile_result_img{
+	float:left;
+	margin-right:15px;
+	background-size: cover;
+	background-image:url('/img/404_sr.gif');
+	background-position: center;
+	width:105px;
+	height:70px;
+	overflow:hidden;
+}
+
+.designers_search_form .field_text {
+	height:15px;
+}
+
+.designers_search_form .field_city {
+	width:90px;
+}
+
+.find-wrap{
+	min-height: 22px;
+}
+
+.designers_search_form .field_zip {
+	width:50px;
+}
+
+.designers_search_form .field_radius {
+	width:110px;
+}
+
+.designers_search_form .field_specialty {
+	width:100px;
+}
+
+.designers_search_form .field_expertise {
+	width:100px;
+}
+
+.designers_search_form td {
+	padding:2px;
+}
+
+.designers_search_disclaimer {
+	color:#545135;
+	font-size:10px;
+	line-height:14px;
+	margin-top:10px;
+}
+
+.designers_search_results {
+	margin-top:30px;
+	border-top:1px solid #d3d1b2;
+}
+
+.search_result_item {
+	margin-top:5px;
+	padding-bottom:5px;
+	border-bottom:1px solid #d3d1b2;
+}
+
+.search_result_item a {
+	text-decoration:none;
+}
+
+#page_content a.search_result_item_title {
+	font-weight:bold;
+	text-decoration:underline;
+	border-bottom:0;
+}
+
+.search_result_item_firm_name {
+	font-weight:bold;
+}
+
+.search_result_item_left {
+	float:left;
+	width: 610px;
+}
+
+.search_result_item_right {
+	float:left;
+	text-align: right;
+}
+
+.designers_search_results_no_results, .designers_search_results_empty_form {
+	margin-top:5px;
+}
+
+#profile_detail {
+	position:relative;
+	margin-top:10px;
+}
+
+.profile_logo {
+	float:left;
+}
+
+.profile_logo img {
+	width:140px;
+	height:100px;
+	background-color:#fff;
+	background-repeat:no-repeat;
+	background-position:center;
+	border:0px;
+}
+
+.profile_contact_information {
+	float:left;
+	margin-left:10px;
+	width:400px;
+}
+
+.profile_social_icons {
+	float:left;
+	margin-left:10px;
+	margin-top:75px;
+}
+
+.profile_social_icons .profile_social_icon {
+	float:left;
+	width:16px;
+	height:16px;
+	margin-right:5px;
+	margin-bottom:5px;
+}
+
+.profile_title {
+	padding-bottom:5px;
+}
+
+.profile_title h1 {
+	display:inline;
+	margin-top:15px;
+}
+
+.profile_firm_name {
+	font-weight:bold;
+}
+
+#profile_detail a, #profile_edit a {
+	border:0;
+}
+
+.profile_details_bar {
+	background:url("/img/page_nav_header_static.gif") no-repeat;
+	color:#FFF;
+	padding:3px 12px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.profile_details {
+	padding-left:12px;
+}
+
+.profile_details_information label {
+	float:left;
+	width:140px;
+	color:#545135;
+}
+
+.profile_details_information .profile_details_line_item_text {
+	float:left;
+	width:200px;
+}
+
+.profile_details br {
+	clear:both;
+}
+
+.profile_details_line_item {
+	margin-bottom:5px;
+}
+
+.profile_details_information {
+	float:left;
+	width:344px;
+}
+
+.profile_details_images {
+	float:right;
+	margin-left:10px;
+	width:320px;
+}
+
+.profile_details_images ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+.profile_description {
+	padding-left:12px;
+	padding-top:30px;
+}
+
+.profile_description label {
+	display:block;
+	margin-bottom:5px;
+	color:#545135;
+}
+
+.profile_edit_buttons {
+	position:absolute;
+	right:0;
+	top:0;
+	text-align:right;
+}
+
+.profile_edit_button {
+	margin-bottom:10px;
+}
+
+#profile_edit h1 {
+	display:inline;
+}
+
+#profile_edit.profile_create h1 {
+	display:block;
+	margin-bottom:5px;
+}
+
+#profile_edit .cancel_return {
+	float:right;
+	padding-top:10px;
+}
+
+#edit_profile_form, #create_profile_form {
+	padding-top:20px;
+}
+
+#profile_edit .left {
+	float:left;
+	width:290px;
+	padding-top:20px;
+}
+
+#profile_edit .left table td {
+	padding:3px;
+}
+
+#profile_edit .left label {
+	float:left;
+	width:130px;
+	font-size:11px;
+	text-align:right;
+	margin-right:5px;
+	padding-top:2px;
+}
+
+#profile_edit .right {
+	float:left;
+	width:320px;
+	padding-top:20px;
+	margin-left:80px;
+}
+
+#profile_edit .right label {
+	font-size:11px;
+}
+
+#profile_edit .field_select {
+	width:154px;
+}
+
+#profile_edit .field_state {
+	width:60px;
+}
+
+#profile_edit .field_zip {
+	width:60px;
+	margin-left:27px;
+}
+
+#profile_edit .field_textarea {
+	width:100%;
+	height:120px;
+}
+
+#profile_edit .heading {
+	color:#545135;
+	margin-bottom:5px;
+}
+
+#profile_edit .membership_affiliation_checkboxes {
+	/*margin-left:102px;*/
+}
+
+#profile_edit .services_checkboxes input,
+#profile_edit .membership_affiliation_checkboxes input {
+	float:left;
+	width:20px;
+	margin-bottom:2px;
+}
+
+#profile_edit .services_checkboxes label,
+#profile_edit .membership_affiliation_checkboxes label {
+	float:left;
+	width:60px;
+	margin-left:3px;
+	margin-bottom:2px;
+	padding-top:0 !important;
+	padding-top:2px;
+	text-align:left;
+}
+
+#profile_edit .services_checkboxes .checkbox_and_label,
+#profile_edit .membership_affiliation_checkboxes .checkbox_and_label {
+	float:left;
+	width:90px;
+}
+#profile_edit .services_checkboxes.error_validation label,
+#profile_edit .membership_affiliation_checkboxes.error_validation label {
+	color:#d00;
+}
+
+#profile_edit .expertise_checkboxes {
+}
+
+#profile_edit .expertise_checkboxes input {
+	float:left;
+	width:20px;
+	margin-bottom:2px;
+}
+
+#profile_edit .expertise_checkboxes label {
+	float:left;
+	width:130px;
+	margin-left:3px;
+	margin-bottom:2px;
+	padding-top:0 !important;
+	padding-top:2px;
+}
+
+#profile_edit .expertise_checkboxes .checkbox_and_label {
+	float:left;
+	width:160px;
+}
+
+.services_checkboxes.error_validation label, 
+#profile_edit .expertise_checkboxes.error_validation label, .membership_affiliation_checkboxes.error_validation label {
+	color:#d00;
+}
+
+#profile_edit .finished {
+	text-align:center;
+	margin-top:20px;
+}
+
+#profile_edit .finished .btn_green {
+	width:100px;
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:110px;
+}
+
+#page_content a.btn_green.profile_link{
+	color:#fff;
+	padding: 5px;
+}
+
+#profile_edit .social_networks {
+	margin-top:20px;
+}
+
+#profile_edit .social_networks .add_new {
+	padding-top:5px;
+	margin-left:105px;
+}
+
+#profile_edit .social_networks_items a {
+	margin-right:5px;
+}
+
+#profile_edit .social_networks_items .field_select {
+	margin-right:5px;
+	width:80px;
+}
+
+#profile_edit .social_networks_items div {
+	margin-bottom:5px;
+}
+
+#profile_edit .firm_logo {
+	margin-top:20px;
+}
+
+#profile_edit .portfolio_images {
+	margin-top:20px;
+}
+
+#profile_edit .portfolio_images a {
+	margin-right:5px;
+}
+
+.alert_bar {
+	background:url(/img/designers/alert_bar_bg.gif) no-repeat;
+	color:#FFF;
+	padding:5px 10px;
+	margin-bottom:20px;
+}
+
+.alert_bar_tall {
+	background:#6ab1cc;
+	color:#FFF;
+	padding:10px 10px;
+	margin-bottom:20px;
+}
+
+.SI-FILES-STYLIZED label.cabinet
+{
+	width: 59px;
+	height: 15px;
+	background: url(/img/designers/browse.gif) 0 0 no-repeat;
+
+	display: block;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.SI-FILES-STYLIZED label.cabinet input.file
+{
+	position: relative;
+	height: 100%;
+	width: auto;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}
+
+#profile_edit .firm_logo .field_text, #profile_edit .portfolio_images .field_text {
+	float:left;
+}
+
+#profile_edit .portfolio_images a {
+	float:left;
+	margin-top:3px;
+}
+
+#profile_edit label.cabinet {
+	float:left;
+	margin-left:5px;
+	margin-top:3px;
+}
+
+#profile_edit_admin_form table {
+	margin-top:5px;
+}
+
+#profile_edit_admin_form fieldset {
+	padding:5px;
+	height:35px;
+}
+
+#profile_edit_admin_form fieldset.email_message {
+	height:89px;
+	margin-left:5px;
+	margin-right:5px;
+	padding-right:5px;
+}
+
+#profile_edit_admin_form textarea {
+	width:100%;
+	height:70px;
+}
+
+.autocomplete-w1 { position:absolute; top:4px; left:6px; /* IE6 fix: */ _background:none; _top:1px; }
+.autocomplete-w2 { padding:0 6px 6px 0; }
+.autocomplete { width:300px; border:1px solid #999; background:#FFF; cursor:default; text-align:left; max-height:350px; overflow:auto; margin:-6px 6px 6px -6px; /* IE specific: */ _height:350px;  _margin:0px 6px 6px 0; overflow-x:hidden; }
+.autocomplete .selected { background:#F0F0F0; }
+.autocomplete div { padding:2px 5px; white-space:nowrap; }
+.autocomplete strong { font-weight:normal; color:#3399FF; }
+
+#user_agreement_contents {
+	width:700px;
+	text-align:left;
+	font-weight:normal;
+}
+
+#notification ul {
+	margin-bottom:0;
+	padding-bottom:0;
+	text-align:left;
+}

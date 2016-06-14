@@ -1,0 +1,123 @@
+DATE/TIME: 2016-03-15 23:33:39
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-03-15 23:33:43
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 7930
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;075631&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07563&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hydrangea integrifolia &apos;Taiping Shan&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hydrangea integrifolia &apos;Taiping Shan&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Taiping Shan Evergreen Climbing Hydrangea&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Year-Round Interest&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Boxwood (Buxus); Bleeding Heart (Dicentra); Hosta (Hosta); Lily of the Valley (Pieris); Lenten Rose (Helleborus)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Vigorous grower to 30 to 40 ft. long.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide a rich well-drained soil and follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Prefers regular summer water. A sturdy support is recommended to allow aerial roots to cling and support a vigorous climbing habit. Prune annually to shape.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949351833&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Early Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This elegant climber will beautifully cover vertical surfaces with glossy evergreen leaves, the vigorous stems clinging by means of aerial roots. New foliage is tinted bronze, held by red petioles. Mature plants produce showy, white, lace-cap blooms. Perfect for a north facing wall or cloaking the bare trunks of tall evergreen trees.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full to partial shade&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Fast Growing,Shade Loving,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Wildlife Garden,Urban Garden,Green Wall&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;075632&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07563&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hydrangea integrifolia &apos;Taiping Shan&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hydrangea integrifolia &apos;Taiping Shan&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Taiping Shan Evergreen Climbing Hydrangea&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Year-Round Interest&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Boxwood (Buxus); Bleeding Heart (Dicentra); Hosta (Hosta); Lily of the Valley (Pieris); Lenten Rose (Helleborus)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Vigorous grower to 30 to 40 ft. long.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide a rich well-drained soil and follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Prefers regular summer water. A sturdy support is recommended to allow aerial roots to cling and support a vigorous climbing habit. Prune annually to shape.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949351840&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Early Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This elegant climber will beautifully cover vertical surfaces with glossy evergreen leaves, the vigorous stems clinging by means of aerial roots. New foliage is tinted bronze, held by red petioles. Mature plants produce showy, white, lace-cap blooms. Perfect for a north facing wall or cloaking the bare trunks of tall evergreen trees.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full to partial shade&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Fast Growing,Shade Loving,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Wildlife Garden,Urban Garden,Green Wall&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;075635&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07563&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hydrangea integrifolia &apos;Taiping Shan&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hydrangea integrifolia &apos;Taiping Shan&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Taiping Shan Evergreen Climbing Hydrangea&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Year-Round Interest&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Boxwood (Buxus); Bleeding Heart (Dicentra); Hosta (Hosta); Lily of the Valley (Pieris); Lenten Rose (Helleborus)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Vigorous grower to 30 to 40 ft. long.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide a rich well-drained soil and follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Prefers regular summer water. A sturdy support is recommended to allow aerial roots to cling and support a vigorous climbing habit. Prune annually to shape.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949368664&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Early Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This elegant climber will beautifully cover vertical surfaces with glossy evergreen leaves, the vigorous stems clinging by means of aerial roots. New foliage is tinted bronze, held by red petioles. Mature plants produce showy, white, lace-cap blooms. Perfect for a north facing wall or cloaking the bare trunks of tall evergreen trees.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full to partial shade&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Fast Growing,Shade Loving,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Wildlife Garden,Urban Garden,Green Wall&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Tue, 15 Mar 2016 23:33:42 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

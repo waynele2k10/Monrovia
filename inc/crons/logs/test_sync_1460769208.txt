@@ -1,0 +1,292 @@
+DATE/TIME: 2016-04-16 01:13:28
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-04-16 01:13:37
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 19350
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;403501&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40350&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hosta x &apos;Alakazaam&apos; P.P.A.F.&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hosta x &apos;Alakazaam&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Alakazaam Hosta&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Attractive Foliage&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower 5 inches tall to 10 inches wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Not particular to soil type; best with evenly moist, well drained soil. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949392003&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A flashy miniature with long rippled leaves. The green centers have creamy-white edges and late summer lavender flowers. It&apos;s petite habit makes it ideal for planting in mass or in a container of mixed perennials.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to partial sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Prefers moist soil.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;403501S&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40350&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1S&lt;/Size&gt;
+		&lt;SizeDescription&gt;SuperOne&amp;#8482;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hosta x &apos;Alakazaam&apos; P.P.A.F.&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hosta x &apos;Alakazaam&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Alakazaam Hosta&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Attractive Foliage&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower 5 inches tall to 10 inches wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Not particular to soil type; best with evenly moist, well drained soil. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 gal. (3.79 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949392027&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A flashy miniature with long rippled leaves. The green centers have creamy-white edges and late summer lavender flowers. It&apos;s petite habit makes it ideal for planting in mass or in a container of mixed perennials.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to partial sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Prefers moist soil.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;039471&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03947&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hosta x &apos;Rosedale Golden Goose&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hosta x &apos;Rosedale Golden Goose&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Rosedale Golden Goose Plantain Lily&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Shade Loving&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Coral Bells (Heuchera); Ligularia (Ligularia); Japanese Forest Grass (Hakonechloa); Lungwort (Pulmonaria); Bleeding Heart (Dicentra)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Foliage clumps reach up to 30 inches tall and 48 inches wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide rich, evenly moist, well-drained soil. Avoid harsh sunlight. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949267738&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Midsummer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Large, bright golden yellow, heart-shaped leaves provide a pop of color to any shady spot in the garden. Corrugation and deep veins add texture to this mounding hosta and accent summer lavender blooms. Slug resistant.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full to partial shade&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Requires regular moisture for best performance.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Shade Loving,Extreme Cold Hardiness,Easy Care,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Urban Garden,Mass Planting,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;039472&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03947&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hosta x &apos;Rosedale Golden Goose&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hosta x &apos;Rosedale Golden Goose&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Rosedale Golden Goose Plantain Lily&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Shade Loving&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Coral Bells (Heuchera); Ligularia (Ligularia); Japanese Forest Grass (Hakonechloa); Lungwort (Pulmonaria); Bleeding Heart (Dicentra)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Foliage clumps reach up to 30 inches tall and 48 inches wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide rich, evenly moist, well-drained soil. Avoid harsh sunlight. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949332795&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Midsummer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Large, bright golden yellow, heart-shaped leaves provide a pop of color to any shady spot in the garden. Corrugation and deep veins add texture to this mounding hosta and accent summer lavender blooms. Slug resistant.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full to partial shade&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Requires regular moisture for best performance.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Shade Loving,Extreme Cold Hardiness,Easy Care,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Urban Garden,Mass Planting,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;039475&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03947&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hosta x &apos;Rosedale Golden Goose&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hosta x &apos;Rosedale Golden Goose&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Rosedale Golden Goose Plantain Lily&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Shade Loving&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Coral Bells (Heuchera); Ligularia (Ligularia); Japanese Forest Grass (Hakonechloa); Lungwort (Pulmonaria); Bleeding Heart (Dicentra)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Foliage clumps reach up to 30 inches tall and 48 inches wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide rich, evenly moist, well-drained soil. Avoid harsh sunlight. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949267547&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Midsummer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Large, bright golden yellow, heart-shaped leaves provide a pop of color to any shady spot in the garden. Corrugation and deep veins add texture to this mounding hosta and accent summer lavender blooms. Slug resistant.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full to partial shade&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Requires regular moisture for best performance.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Shade Loving,Extreme Cold Hardiness,Easy Care,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Urban Garden,Mass Planting,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;03947UT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03947&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;UT&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hosta x &apos;Rosedale Golden Goose&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hosta x &apos;Rosedale Golden Goose&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Rosedale Golden Goose Plantain Lily&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Shade Loving&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Coral Bells (Heuchera); Ligularia (Ligularia); Japanese Forest Grass (Hakonechloa); Lungwort (Pulmonaria); Bleeding Heart (Dicentra)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Foliage clumps reach up to 30 inches tall and 48 inches wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide rich, evenly moist, well-drained soil. Avoid harsh sunlight. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;QT&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 qt. (946 mL)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949435069&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Midsummer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Large, bright golden yellow, heart-shaped leaves provide a pop of color to any shady spot in the garden. Corrugation and deep veins add texture to this mounding hosta and accent summer lavender blooms. Slug resistant.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full to partial shade&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Requires regular moisture for best performance.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Shade Loving,Extreme Cold Hardiness,Easy Care,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Urban Garden,Mass Planting,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;403631&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40363&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hosta x &apos;Seducer&apos; P.P.# 22,413&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hosta x &apos;Seducer&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Seducer Hosta&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Shade Loving&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Foliage mounds to 22-26 in. tall, 36 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949392201&lt;/UPC&gt;
+		&lt;FlowerTime&gt;White flowers in summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Beautiful, bold dark green foliage edged in gold are truly standouts. In the summer heat the center of the leaf is bordered with a cream outline where it meets the wavy leaf margin. White flowers appear in late summer. Prefers moist, well-drained, highly organic soils with a pH between 5.5 and 7.5. Herbaceous perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full to partial shade&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs consistently moist soil.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;High&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;30538&lt;/ItemSizeID&gt;
+		&lt;Item&gt;30538&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;LOWES&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hosta x &apos;Orange Star&apos; P.P.A.F.&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hosta x &apos;Orange Star&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Orange Star Plantain Lily&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Brilliantly variegated leaves&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;8-12&quot; H x 16-20&quot; W&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide enriched, slightly acidic, evenly moist soil. Thrives in dappled shade; avoid harsh afternoon sun. Mulch to maintain summer moisture, avoiding crowns. Shear spent flowers. Fertilize monthly. Cut back in fall or early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;&lt;/UPC&gt;
+		&lt;FlowerTime&gt;&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Sure to enliven the garden! Thick, green-edged leaves appear to glow from the center in all but the shadiest of spots. A superb landscape feature or container plant. Blooms with creamy white to pale lilac flowers in mid-summer. Resists slug damage. Herbaceous perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade to partial sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;30502&lt;/ItemSizeID&gt;
+		&lt;Item&gt;30502&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;LOWES&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hosta sieboldiana &apos;Northern Exposure&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hosta sieboldiana &apos;Northern Exposure&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Northern Exposure Plantain Lily&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic foliage for shade&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;36&quot; H x 48&quot; W&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide enriched, slightly acidic, evenly moist soil. Thrives in dappled shade; avoid harsh afternoon sun. Mulch to maintain summer moisture, avoiding crowns. Shear spent flowers. Fertilize monthly. Cut back in fall or early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;&lt;/UPC&gt;
+		&lt;FlowerTime&gt;&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Bold, dramatic foliage for shade. Blue-green leaves with light edges are highly textured and slug resistant. Tubular white flowers dance above foliage clumps on tall scapes in summer. Superb in landscape or container.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade to partial sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Sat, 16 Apr 2016 01:13:35 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

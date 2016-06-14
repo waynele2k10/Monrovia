@@ -1,0 +1,378 @@
+#column_left {
+	float:left;width:150px;margin-right:8px;height:100%;
+}
+#column_left .accordion_segment {
+	color:#000;
+	border-bottom:2px solid #fff;
+	padding-bottom:5px;
+}
+#column_left .accordion_segment .title {
+	font-size:8pt;
+	cursor:pointer;
+	padding:5px 0px 0px 11px;
+	margin-bottom:0px;
+	/*background:url(/img/accordion_segment_arrow_right.gif) 0px center no-repeat;*/
+}
+#column_left .accordion_segment.expanded .title {
+	background-image:url(/img/accordion_segment_arrow_down.gif);
+}
+#column_left .accordion_segments {
+	border-top:2px solid #fff;
+	margin-top:12px;
+	width:140px;
+}
+#column_left .accordion_segment .content {
+	padding-bottom:0px;
+	padding-left:8px;
+}
+
+#module_refine_search {
+	padding-left:5px;
+}
+
+#module_refine_search label {
+	color:#000;padding-left:0px;padding-bottom:3px;
+}
+
+.text_field {
+	font-size:8pt;
+	padding:2px;
+}
+
+#left_column .text_field {
+	width:126px;
+}
+
+#right_column .text_field {
+	width:180px;
+}
+
+
+.filter_section {
+	margin:6px 0px;
+}
+.filter_section .text_field {
+	width:125px;
+}
+#results_column {
+	float:left;
+	width:550px;
+	height:100%;
+	background:url(../wp-content/uploads/spacer.gif) center no-repeat;
+}
+#results_column label {
+	white-space:nowrap;
+	color:#fff;
+	padding-top:2px;
+	display:block;
+}
+#results_table td {
+	vertical-align:middle;
+	padding:2px 8px;
+}
+#results_table thead td {
+	vertical-align:top;
+}
+#results_table {
+	width:100%;
+	background-color:#F2F0D3;
+	visibility:hidden;
+}
+
+.action_group {
+	float:right;
+	padding:8px 0px;
+	visibility:hidden;
+}
+
+.action_group .btn_green {
+	float:left;
+	width:150px;
+}
+
+/*
+#btn_add, #btn_select_all, #btn_unselect_all {
+	display:none;
+	margin-top:8px;
+}
+*/
+.result {
+	opacity:.7;
+	border-bottom:1px solid #E5E2BF;
+	-webkit-transition:background-color .1s ease-in;
+	-moz-transition:background-color .1s ease-in;
+	-o-transition:background-color .1s ease-in;
+	-ms-transition:background-color .1s ease-in;
+	transition:background-color .1s ease-in;
+}
+.result.selected {
+	opacity:1;
+	background-color:#ffc;
+}
+
+.result .thumbnail {
+	background:url(../wp-content/uploads/icon_checkbox_unchecked.gif) 8px center no-repeat;
+}
+
+.result.selected .thumbnail {
+	background-image:url(../wp-content/uploads/icon_checkbox_checked.gif);
+}
+
+.result.added .thumbnail {
+	background-image:url(../wp-content/uploads/icon_checkbox_added.gif)!important;
+}
+
+.result td {
+}
+.thumbnail {
+	padding:4px!important;
+	cursor:pointer;
+}
+
+.result.added .thumbnail {
+	cursor:default;
+}
+
+.thumbnail img {
+	background-repeat:no-repeat;
+	background-position:center;
+	width:64px;
+	height:64px;
+}
+.thumbnail .padding {
+	padding:0px 0px 0px 25px!important;
+}
+#right_column {
+	float:left;width:204px;margin-left:8px;
+}
+#right_column label {
+	display:block;
+}
+div.hr {
+	background-color:#fff;
+	height:2px;
+	margin:6px 0px;
+}
+#right_column h3 {
+	font-size:8pt;
+	text-transform:uppercase;
+	color:#000;
+}
+
+#plant_list {
+	list-style-type:none
+}
+#plant_list_scroller {
+	background-color:#d5d2b1;
+	margin:4px 0px;
+	height:750px;
+	border:1px solid #D5D2B1;
+	overflow:hidden;
+	overflow-y:scroll;
+}
+#plant_list {
+	padding:0px;
+	margin:0px;
+}
+
+#plant_list li {
+	background-color:#fff;
+	border-bottom:1px solid #F2F0D3;
+	padding:2px;
+	-webkit-transition:background-color .15s ease-in;
+	-moz-transition:background-color .15s ease-in;
+	-o-transition:background-color .15s ease-in;
+	-ms-transition:background-color .15s ease-in;
+	transition:background-color .15s ease-in;
+	cursor:pointer;
+}
+
+#plant_list li.selected {
+	background-color:#ffc;
+}
+#plant_list li .common_name {
+	font-weight:bold;
+}
+.botanical_name {
+	font-style:italic;
+}
+.result.inactive .lnk_details {
+	color:#3E3B12!important;
+}
+#results_msg {
+	font-size:11pt;
+	text-align:center;
+	padding-top:40px;
+}
+
+.lnk_view_all {
+	display:none;
+}
+
+h1 {
+	margin-bottom:0px;
+}
+
+#unobtrusive_message {
+	position:fixed;
+	background-color:#ff9;
+	padding:8px;
+	font-size:9pt;
+	color:#000;
+	border:2px solid #ACA974;
+	top:15px;
+	left:15px;
+
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	
+	box-shadow:0px 0px 15px rgba(0,0,0,.5);
+	-webkit-box-shadow:0px 0px 15px rgba(0,0,0,.5);
+	-moz-box-shadow:0px 0px 15px rgba(0,0,0,.5);
+	
+	cursor:default;
+}
+#modal_directions .padding {
+	padding:8px 0px;
+}
+
+#covers .item {
+	float:left;
+	width:50%;
+	cursor:pointer;
+}
+#covers .item .thumbnail {
+	width:90px;
+	padding:0px!important;
+}
+#table_monrovia_locations .action img {
+	cursor:pointer;
+}
+
+#ctlTabsEditCovers {
+	width:700px;
+}
+#ctlTabsEditCovers .slimTab {
+	font-size:.9em;
+}
+
+#ctlTabsEditCovers .slimTabBlurb {
+	height:auto;
+}
+
+.field_group {
+	padding-bottom:1em;
+	text-align:left;
+}
+
+.field_group label {
+	display:block;
+	padding-bottom:.25em;
+}
+
+.field_group .text_field {
+	width:239px;
+}
+.text_field.error {
+	background-color:#fdd;
+}
+.field_groups {
+	float:left;
+	width:500px;
+}
+.cover_images {
+	float:left;
+	width:160px;
+	padding-left:6px;
+}
+.cover_images label {
+	padding-bottom:1em;
+	display:block;
+}
+.cover_image {
+	width:154px;
+	height:197px;
+	position:relative;
+	margin-bottom:2px;
+}
+.cover_image img.cover_thumbnail_front, .cover_image img.cover_thumbnail_back {
+	width:154px;
+	height:197px;
+}
+.cover_image .outline {
+	border:2px solid red;
+	position:absolute;
+	display:none;
+}
+.plant_image_field {
+	float:left;
+	border:2px solid #eee;
+	padding:8px;
+	width:225px;
+	margin-right:4px;
+	margin-bottom:4px;
+}
+.plant_image_field.error {
+	border-color:#b00;
+	background-color:#fdd;
+}
+.plant_image_field .thumbnail, .plant_image_field .image_thumbnail {
+	width:90px;
+	height:90px;
+}
+.plant_image_field .fields {
+
+}
+.field_group select {
+	font-size:1em;
+}
+.plant_image_field select {
+	width:225px;
+	margin-bottom:.25em;
+}
+.plant_image_field label {
+	margin-top:.25em;
+}
+
+#add_location {
+	border:2px solid #ccc;
+	width:229px;
+	margin-bottom:4px;
+	padding:6px;
+}
+#ctlTabsEditCovers h2 {
+	margin-top:0px;
+	text-align:left;
+}
+#table_monrovia_locations {
+	width:239px;
+}
+#table_monrovia_locations tr {
+	border-bottom:1px solid #ccc;
+}
+#table_monrovia_locations td {
+	padding:4px 0px;
+}
+#table_monrovia_locations td.action {
+	width:16px;
+	text-align:right;
+}
+#add_location.disabled {
+	opacity:.5;
+}
+.instructions {
+	padding-bottom:1em;
+	text-align:left;
+	font-weight:normal;
+}
+
+.example {
+	font-weight:normal;
+	font-size:.9em;
+	padding-top:.5em;
+}
+
+.cover_thumbnail_front, .cover_thumbnail_back {
+	background:url(/wp-content/uploads/loading_E5E2BF.gif) center no-repeat;
+}

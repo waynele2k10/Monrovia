@@ -1,0 +1,57 @@
+/* PROMOTIONAL MODULES */
+	.module_wrapper.promotional .side_left {
+		background-image:url(../img/module_corner_top_left.gif)!important;
+	}
+	.module_wrapper.home_module.promotional .content {
+		padding-right:0px;
+	}
+	.module_wrapper.promotional .side_right {
+		background-image:url(../img/module_corner_bottom_right.gif)!important;
+	}
+/* END PROMOTIONAL MODULES */
+
+/* INFORMATIONAL MODULES */
+	.module_wrapper.informational .side_left {
+		background-image:url(../img/module_corner_top_left.gif)!important;
+	}
+	.module_wrapper.informational .side_right {
+		background-image:url(../img/module_corner_top_right.gif)!important;
+	}
+/* END INFORMATIONAL MODULES */
+
+/* GLOBAL HEADER */
+	#user_bar .side_left {
+		background:url(/img/spacer.gif);
+		filter:progid:dximagetransform.microsoft.alphaimageloader(src='/img/user_bar_left.png');
+	}
+	#user_bar .content {
+		background-image:url(/img/user_bar_ie6.gif);
+	}
+/* END GLOBAL HEADER */
+
+.png {
+	behavior:url('iepngfix.htc');
+}
+
+/* WISH LIST */
+	.icon_wish_list_remove {
+		background-image:url(/img/spacer.gif)!important;
+		filter:progid:dximagetransform.microsoft.alphaimageloader(src='/img/icon_wish_list_remove.png');
+	}
+/* END WISH LIST */
+
+/* MODULES */
+
+	.module_wrapper.list .side_right {
+		background-image:url(/img/spacer.gif)!important;
+		filter:progid:dximagetransform.microsoft.alphaimageloader(src='/img/module_corner_top_right.png');
+	}
+	#plant_catalog_index .list_content {
+		background-color:#E5E2BF;
+	}
+	#plant_catalog_index .module_multiselect {
+		background-color:#F2F0D3;
+		margin-right:15px;
+	}
+
+/* END MODULES */

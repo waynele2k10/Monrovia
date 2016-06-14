@@ -1,0 +1,181 @@
+DATE/TIME: 2016-01-23 10:52:40
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-01-23 10:52:48
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 12678
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;046361&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04636&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Iris sibirica &apos;Bennerup Blue&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Iris sibirica &apos;Bennerup Blue&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Bennerup Blue Siberian Iris&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Spring Flowering&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Water Garden,Cutting Garden,Border,Cardinal Flower (Lobelia); Bee Balm (Monarda); Joe-Pye Weed (Eupatorium); Turtlehead (Chelone); Spiderwort (Tradescantia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Vigorous grower to 2 ft. tall, flower stalks taller. Clump forming.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Requires regular moisture during growing season. For a neat appearance, remove old foliage as new leaves emerge. Divide clumps every 4 to 5 years in early fall.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949463611&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Beardless Dutch Iris-like blooms rise above refined, slender sword-like foliage. Use in mass plantings for the best effect. Thrives in moist soils, where others will not. Herbaceous perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly- weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care,Clump Forming&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Very Wet Areas&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Water Garden,Cutting Garden,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;046365&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04636&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Iris sibirica &apos;Bennerup Blue&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Iris sibirica &apos;Bennerup Blue&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Bennerup Blue Siberian Iris&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Spring Flowering&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Water Garden,Cutting Garden,Border,Cardinal Flower (Lobelia); Bee Balm (Monarda); Joe-Pye Weed (Eupatorium); Turtlehead (Chelone); Spiderwort (Tradescantia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Vigorous grower to 2 ft. tall, flower stalks taller. Clump forming.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Requires regular moisture during growing season. For a neat appearance, remove old foliage as new leaves emerge. Divide clumps every 4 to 5 years in early fall.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949463659&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Beardless Dutch Iris-like blooms rise above refined, slender sword-like foliage. Use in mass plantings for the best effect. Thrives in moist soils, where others will not. Herbaceous perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly- weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care,Clump Forming&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Very Wet Areas&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Water Garden,Cutting Garden,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;047892&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04789&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Daphne odora &apos;Monstrik&apos; P.P.A.F.&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Daphne odora &apos;Monstrik&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Moonlight Parfait&amp;#174; Winter Daphne&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage Color&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Urban Garden,Specimen,Mass Planting,Cutting Garden,Container,Coastal Exposure,Border,Azalea (Azalea); Camellia (Camellia); Japanese Forest Grass (Hakonechloa); Rhododendron (Rhododendron); Astilbe (Astilbe)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 3 to 4 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. Prune only as needed to shape.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949425831&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late winter to early spring.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;An exceptional new selection with variegated foliage, each leaf having a double-wide, creamy yellow edge. Rose-pink flower buds open to white, sweetly fragrant flowers. A great foundation plant for dappled shade gardens. Situate near a walkway, patio or deck where its fragrance can be enjoyed. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade to partial sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Dramatic Foliage Color,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Deer Resistant&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Urban Garden,Specimen,Mass Planting,Cutting Garden,Container,Coastal Exposure,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;047893&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04789&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;3&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Daphne odora &apos;Monstrik&apos; P.P.A.F.&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Daphne odora &apos;Monstrik&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Moonlight Parfait&amp;#174; Winter Daphne&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage Color&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Urban Garden,Specimen,Mass Planting,Cutting Garden,Container,Coastal Exposure,Border,Azalea (Azalea); Camellia (Camellia); Japanese Forest Grass (Hakonechloa); Rhododendron (Rhododendron); Astilbe (Astilbe)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 3 to 4 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. Prune only as needed to shape.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;3&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.54 gal. (9.61 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949428764&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late winter to early spring.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;An exceptional new selection with variegated foliage, each leaf having a double-wide, creamy yellow edge. Rose-pink flower buds open to white, sweetly fragrant flowers. A great foundation plant for dappled shade gardens. Situate near a walkway, patio or deck where its fragrance can be enjoyed. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade to partial sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Dramatic Foliage Color,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Deer Resistant&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Urban Garden,Specimen,Mass Planting,Cutting Garden,Container,Coastal Exposure,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;047899&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04789&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;9&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Daphne odora &apos;Monstrik&apos; P.P.A.F.&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Daphne odora &apos;Monstrik&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Moonlight Parfait&amp;#174; Winter Daphne&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage Color&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Urban Garden,Specimen,Mass Planting,Cutting Garden,Container,Coastal Exposure,Border,Azalea (Azalea); Camellia (Camellia); Japanese Forest Grass (Hakonechloa); Rhododendron (Rhododendron); Astilbe (Astilbe)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 3 to 4 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. Prune only as needed to shape.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;15&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;12.07 gal. (45.69 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949436059&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late winter to early spring.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;An exceptional new selection with variegated foliage, each leaf having a double-wide, creamy yellow edge. Rose-pink flower buds open to white, sweetly fragrant flowers. A great foundation plant for dappled shade gardens. Situate near a walkway, patio or deck where its fragrance can be enjoyed. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade to partial sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Dramatic Foliage Color,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Deer Resistant&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Urban Garden,Specimen,Mass Planting,Cutting Garden,Container,Coastal Exposure,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Sat, 23 Jan 2016 10:52:47 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

@@ -1,0 +1,94 @@
+DATE/TIME: 2016-01-17 17:12:39
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-01-17 17:12:41
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 5615
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;31684&lt;/ItemSizeID&gt;
+		&lt;Item&gt;31684&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;LOWES&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Paeonia suffruticosa &apos;Taiyo&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Paeonia suffruticosa &apos;Taiyo&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Taiyo Japanese Tree Peony&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Spring Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Specimen,Cutting Garden,Container,Border,Boxwood (Buxus); Redbud (Cercis); Cranesbill (Geranium); Daylily (Hemerocallis); Sarcococca (Sarcococca)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 4-6 ft. tall, 3-4 ft. wide; smaller in very cold climates.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide enriched, well-drained soil with neutral pH. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Once established, water deeply and less frequently. May take 2-3 years to become settled and bloom heavily. Mulch to keep roots cool and conserve moisture. Clip spent flowers. Prune only as needed to shape.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring to early summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Huge semi-double flowers create a stunning show on this classic, long-lived shrub. Mature plants display up to 50 lightly fragrant blooms. The ruby-red petals have a silky, ruffled appearance against crisp green foliage. Ideal for foundation planting, mixed border, or woodland setting. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering- weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Extreme Cold Hardiness,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Erosion Control,Deer Resistant&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen,Cutting Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;31683&lt;/ItemSizeID&gt;
+		&lt;Item&gt;31683&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;LOWES&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Paeonia suffruticosa &apos;Shima-Nishiki&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Paeonia suffruticosa &apos;Shima-Nishiki&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Shima-Nishiki Japanese Tree Peony&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Spring Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Specimen,Hedge,Cutting Garden,Border,Boxwood (Buxus); Redbud (Cercis); Daylily (Hemerocallis); Cranesbill (Geranium); Sarcococca (Sarcococca)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 3-4 ft. tall, 3-4 ft. wide; smaller in very cold climates.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide enriched, well-drained soil with neutral pH. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Once established, water deeply and less frequently. May take 2-3 years to become settled and bloom heavily. Mulch to keep roots cool and conserve moisture. Clip spent flowers. Prune only as needed to shape.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring to early summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Stunning semi-double flowers create a stunning display against crisp green foliage. Mature plants can carry up to 50 exquisite blooms, with the red-purple and white striped petals accented by showy yellow center stamens. This long-lived deciduous shrub is ideal for foundation planting, mixed border, or woodland setting.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering- weekly, or more often in extreme heat&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Deer Resistant&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen,Hedge,Cutting Garden,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Sun, 17 Jan 2016 17:12:41 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

@@ -1,0 +1,181 @@
+DATE/TIME: 2016-02-26 01:33:43
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-02-26 01:33:51
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 12459
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;079382&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07938&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Rubus idaeus &apos;NR7&apos; P.P. #22,141&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Rubus idaeus &apos;NR7&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;BrazelBerries&amp;#174; Raspberry Shortcake&amp;#8482; Dwarf Thornless Raspberry&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Thornless Dwarf&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rosemary (Rosmarinus); Lavender (Lavandula); Russian Sage (Perovskia); Salvia (Salvia); Yarrow (Achillea)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Compact mound, to 2 to 3 ft. tall, cascading or spreading slightly wider.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide well-drained, neutral soil. Feed with a balanced fertilizer in early spring; repeat in summer. Fruit is produced on second year canes. Just after harvest, prune only the canes that have fruited. Leave all new canes that emerged during the growing season to overwinter and produce next year&apos;s fruit. In late spring, cut all dead canes with no new growth at ground level.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949357132&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring flowers followed by super sweet fruit.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This dwarf, thornless red raspberry has an endearing, rounded shape, and requires no staking! It nicely fills out a large container, or spreads slightly in the landscape. Self fertile, yielding large, nutritious, super sweet berries in mid-summer. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, when top 3 in. of soil is dry.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Showy Fruit,Edible,Dwarf Plant,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Kitchen Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;079389&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07938&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;9&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Rubus idaeus &apos;NR7&apos; P.P. #22,141&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Rubus idaeus &apos;NR7&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;BrazelBerries&amp;#174; Raspberry Shortcake&amp;#8482; Dwarf Thornless Raspberry&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Thornless Dwarf&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rosemary (Rosmarinus); Lavender (Lavandula); Russian Sage (Perovskia); Salvia (Salvia); Yarrow (Achillea)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Compact mound, to 2 to 3 ft. tall, cascading or spreading slightly wider.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide well-drained, neutral soil. Feed with a balanced fertilizer in early spring; repeat in summer. Fruit is produced on second year canes. Just after harvest, prune only the canes that have fruited. Leave all new canes that emerged during the growing season to overwinter and produce next year&apos;s fruit. In late spring, cut all dead canes with no new growth at ground level.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;15&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;12.07 gal. (45.69 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949434819&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring flowers followed by super sweet fruit.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This dwarf, thornless red raspberry has an endearing, rounded shape, and requires no staking! It nicely fills out a large container, or spreads slightly in the landscape. Self fertile, yielding large, nutritious, super sweet berries in mid-summer. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, when top 3 in. of soil is dry.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Showy Fruit,Edible,Dwarf Plant,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Kitchen Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;07938M&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07938&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;M&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Rubus idaeus &apos;NR7&apos; P.P. #22,141&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Rubus idaeus &apos;NR7&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;BrazelBerries&amp;#174; Raspberry Shortcake&amp;#8482; Dwarf Thornless Raspberry&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Thornless Dwarf&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rosemary (Rosmarinus); Lavender (Lavandula); Russian Sage (Perovskia); Salvia (Salvia); Yarrow (Achillea)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Compact mound, to 2 to 3 ft. tall, cascading or spreading slightly wider.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide well-drained, neutral soil. Feed with a balanced fertilizer in early spring; repeat in summer. Fruit is produced on second year canes. Just after harvest, prune only the canes that have fruited. Leave all new canes that emerged during the growing season to overwinter and produce next year&apos;s fruit. In late spring, cut all dead canes with no new growth at ground level.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;10&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;7.97 gal. (30.17 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949434826&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring flowers followed by super sweet fruit.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This dwarf, thornless red raspberry has an endearing, rounded shape, and requires no staking! It nicely fills out a large container, or spreads slightly in the landscape. Self fertile, yielding large, nutritious, super sweet berries in mid-summer. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, when top 3 in. of soil is dry.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Showy Fruit,Edible,Dwarf Plant,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Kitchen Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;097711&lt;/ItemSizeID&gt;
+		&lt;Item&gt;09771&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Microsorum scolopendria&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Microsorum scolopendria&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Kangaroo fern&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Groundcover&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Banana Shrub (Michelia figo); Giant Bird of Paradise (Strelitzia nicolai); Flowering Maple (Abutilon); Elephant Ear (Colocasia); Bush Lily (Clivia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;1 to 2 ft. tall, spreading indefinitely.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Not particular about soil; will spread on trees, walls, rocks, and in the garden. Takes morning sun; shelter from harsh afternoon sun in extremely hot areas. Can tolerate some drought, but looks best with regular watering; keep moist but not wet.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949381663&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spore-producing; does not flower.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Dark green leaves that spread from rhizomes make excellent ground cover in the tropical garden, and a lush houseplant for dappled shade to partial sun. An easy plant to grow in moist, well-drained soils.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly-weekly, or more often in extreme heat&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Naturalizes Well,Gift Plant,Easy Care,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Poolside,Mass Planting,Living Wall,Houseplant,Ground Cover,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;097712&lt;/ItemSizeID&gt;
+		&lt;Item&gt;09771&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Microsorum scolopendria&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Microsorum scolopendria&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Kangaroo fern&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Groundcover&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Banana Shrub (Michelia figo); Giant Bird of Paradise (Strelitzia nicolai); Flowering Maple (Abutilon); Elephant Ear (Colocasia); Bush Lily (Clivia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;1 to 2 ft. tall, spreading indefinitely.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Not particular about soil; will spread on trees, walls, rocks, and in the garden. Takes morning sun; shelter from harsh afternoon sun in extremely hot areas. Can tolerate some drought, but looks best with regular watering; keep moist but not wet.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949381670&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spore-producing; does not flower.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Dark green leaves that spread from rhizomes make excellent ground cover in the tropical garden, and a lush houseplant for dappled shade to partial sun. An easy plant to grow in moist, well-drained soils.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly-weekly, or more often in extreme heat&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Naturalizes Well,Gift Plant,Easy Care,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Poolside,Mass Planting,Living Wall,Houseplant,Ground Cover,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Fri, 26 Feb 2016 01:33:49 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

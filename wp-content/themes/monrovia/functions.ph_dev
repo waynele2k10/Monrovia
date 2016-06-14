@@ -1,0 +1,1223 @@
+<?php
+/*
+ *  Author: Todd Motto | @toddmotto
+ *  URL: monrovia.com | @monrovia
+ *  Custom functions, support, custom post types and more.
+ */
+define( 'MONROVIA_USE_CACHING', true );
+define( 'MONROVIA_TRANSIENT_EXPIRE', 60 ); 
+define( 'MONROVIA_PLANT_AVAILABILITY_EXPIRE', 60 );
+define( 'MONROVIA_WISHILST_TRANSIENT_EXPIRE', 60 );
+
+/*------------------------------------*\
+	External Modules/Files
+\*------------------------------------*/
+
+// Load any external files you have here
+include('includes/utility_functions.php');
+
+// Load the iContact library
+require_once('lib/iContactAPI.php');
+
+
+/*------------------------------------*\
+	Theme Support
+\*------------------------------------*/
+
+if (!isset($content_width))
+{
+    $content_width = 900;
+}
+
+if (function_exists('add_theme_support'))
+{
+    // Add Menu Support
+    add_theme_support('menus');
+
+    // Add Thumbnail Theme Support
+    add_theme_support('post-thumbnails');
+    add_image_size('large', 700, '', true); // Large Thumbnail
+    add_image_size('medium', 250, '', true); // Medium Thumbnail
+    add_image_size('small', 120, '', true); // Small Thumbnail
+    add_image_size('custom-size', 700, 200, true); // Custom Thumbnail Size call using the_post_thumbnail('custom-size');
+
+    // Add Support for Custom Backgrounds - Uncomment below if you're going to use
+    /*add_theme_support('custom-background', array(
+	'default-color' => 'FFF',
+	'default-image' => get_template_directory_uri() . '/img/bg.jpg'
+    ));*/
+
+    // Add Support for Custom Header - Uncomment below if you're going to use
+   /* add_theme_support('custom-header', array(
+	'default-image'			=> get_template_directory_uri() . '/img/headers/default.jpg',
+	'header-text'			=> false,
+	'default-text-color'		=> '000',
+	'width'				=> 1000,
+	'height'			=> 198,
+	'random-default'		=> false,
+	'wp-head-callback'		=> $wphead_cb,
+	'admin-head-callback'		=> $adminhead_cb,
+	'admin-preview-callback'	=> $adminpreview_cb
+    )); */
+
+    // Enables post and comment RSS feed links to head
+    add_theme_support('automatic-feed-links');
+
+    // Localisation Support
+    load_theme_textdomain('monrovia', get_template_directory() . '/languages');
+}
+
+/*------------------------------------*\
+	Functions
+\*------------------------------------*/
+
+// HTML5 Blank navigation
+function monrovia_nav()
+{
+	wp_nav_menu(
+	array(
+		'theme_location'  => 'header-menu',
+		'menu'            => '', 
+		'container'       => 'div', 
+		'container_class' => 'menu-{menu slug}-container', 
+		'container_id'    => '',
+		'menu_class'      => 'menu', 
+		'menu_id'         => '',
+		'echo'            => true,
+		'fallback_cb'     => 'wp_page_menu',
+		'before'          => '',
+		'after'           => '',
+		'link_before'     => '',
+		'link_after'      => '',
+		'items_wrap'      => '<ul>%3$s</ul>',
+		'depth'           => 0,
+		'walker'          => ''
+		)
+	);
+}
+
+// Load HTML5 Blank scripts (header.php)
+function monrovia_header_scripts()
+{
+    if (!is_admin()) {
+    
+    	//wp_deregister_script('jquery'); // Deregister WordPress jQuery
+    	//wp_register_script('jquery', 'http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js', array(), '1.9.1'); // Google CDN jQuery
+    	//wp_enqueue_script('jquery'); // Enqueue it!
+    	
+    	wp_register_script('conditionizr', 'http://cdnjs.cloudflare.com/ajax/libs/conditionizr.js/2.2.0/conditionizr.min.js', array(), '2.2.0'); // Conditionizr
+        wp_enqueue_script('conditionizr'); // Enqueue it!
+        
+        wp_register_script('modernizr', 'http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js', array(), '2.6.2'); // Modernizr
+        wp_enqueue_script('modernizr'); // Enqueue it!
+        
+        wp_register_script('monroviascripts', get_template_directory_uri() . '/js/scripts.js', array(), '1.0.0', true); // Custom scripts
+        wp_enqueue_script('monroviascripts'); // Enqueue it!
+		
+		wp_register_script('jcycle', get_template_directory_uri() . '/js/jcycle2.min.js', array(), '2.0.0', true); // Custom scripts
+        wp_enqueue_script('jcycle'); // Enqueue it!
+		
+		wp_register_script('jcyclecarousel', get_template_directory_uri() . '/js/jcycle.carousel.min.js', array(), '2.0.0', true); // Custom scripts
+        wp_enqueue_script('jcyclecarousel'); // Enqueue it!
+		
+    }
+}
+
+//Load jQuery UI to front end
+function add_wordpress_scripts() {
+    wp_enqueue_script( 'jquery-ui-tabs' );
+
+	if( is_page() ) { //Check if we are viewing a page
+		global $wp_query;
+
+		//Check which template is assigned to current page we are looking at
+		$template_name = get_post_meta( $wp_query->post->ID, '_wp_page_template', true );
+
+		if ( 'plant.php' == $template_name ) {
+			$plant_id = $wp_query->query_vars['pid'];
+			if ( $plant_id ) {
+				$record = monrovia_get_plant_record( $plant_id );
+
+				wp_register_script( 'plant', get_stylesheet_directory_uri() .'/js/plant.js', array( 'jquery' ) );
+				
+				// [todo] - create two hidden fields in the template and read values from there instead of localizing
+				wp_localize_script( 'plant', 
+					'monrovia_plant_record', 
+					array(
+						'plant_id'   => $record->info['id'],
+						'plant_item' => $record->info['item_number'] 
+					) 
+				);
+				wp_enqueue_script( 'plant' );
+			}
+		}
+	}	
+}
+
+add_action( 'wp_enqueue_scripts', 'add_wordpress_scripts' ); // wp_enqueue_scripts action hook to link only on the front-end
+
+function tml_title_filter( $title, $action ) {
+	if ( $action == 'login' || $action == 'register' )
+		return __( '' );
+	return $title;
+}
+add_filter( 'tml_title', 'tml_title_filter', 10, 2 );
+
+// Load HTML5 Blank conditional scripts
+function monrovia_conditional_scripts()
+{
+    if (is_page('plants')) {
+        wp_register_script('lightbox', get_template_directory_uri() . '/js/lightbox2.min.js', array('jquery'), '2.0.0'); // Conditional script(s)
+        wp_enqueue_script('lightbox'); // Enqueue it!
+    }
+}
+
+// Load HTML5 Blank styles
+function monrovia_styles()
+{
+    wp_register_style('normalize', get_template_directory_uri() . '/normalize.css', array(), '1.0', 'all');
+    wp_enqueue_style('normalize'); // Enqueue it!
+    
+	if(isset($_GET['screen']) && $_GET['screen']=='print'){
+	// Only attach print.css!
+	wp_register_style('print', get_template_directory_uri() . '/css/print.css', array(), '1.0', 'all');
+    wp_enqueue_style('print'); // Enqueue it!
+	} else {
+    wp_register_style('monrovia', get_template_directory_uri() . '/style.css', array(), '1.0', 'all');
+    wp_enqueue_style('monrovia'); // Enqueue it!
+	}
+}
+
+// Register HTML5 Blank Navigation
+function register_monrovia_menu()
+{
+    register_nav_menus(array( // Using array to specify more menus if needed
+        'header-menu' => __('Header Menu', 'monrovia'), // Main Navigation
+        'sidebar-menu' => __('Sidebar Menu', 'monrovia'), // Sidebar Navigation
+        'footer-menu' => __('Footer Menu', 'monrovia') // Extra Navigation if needed (duplicate as many as you need!)
+    ));
+}
+
+// Remove the <div> surrounding the dynamic navigation to cleanup markup
+function my_wp_nav_menu_args($args = '')
+{
+    $args['container'] = false;
+    return $args;
+}
+
+// Remove Injected classes, ID's and Page ID's from Navigation <li> items
+function my_css_attributes_filter($var)
+{
+    return is_array($var) ? array() : '';
+}
+
+// Remove HTML Filter on Category Descriptions so HTML is allowed
+foreach ( array( 'pre_term_description' ) as $filter ) {
+remove_filter( $filter, 'wp_filter_kses' );
+}
+foreach ( array( 'term_description' ) as $filter ) {
+remove_filter( $filter, 'wp_kses_data' );
+}
+
+// Remove invalid rel attribute values in the categorylist
+function remove_category_rel_from_category_list($thelist)
+{
+    return str_replace('rel="category tag"', 'rel="tag"', $thelist);
+}
+
+// Add page slug to body class, love this - Credit: Starkers Wordpress Theme
+function add_slug_to_body_class($classes)
+{
+    global $post;
+    if (is_home()) {
+        $key = array_search('blog', $classes);
+        if ($key > -1) {
+            unset($classes[$key]);
+        }
+    } elseif (is_page()) {
+        $classes[] = sanitize_html_class($post->post_name);
+    } elseif (is_singular()) {
+        $classes[] = sanitize_html_class($post->post_name);
+    }
+
+
+    return $classes;
+}
+
+// Add sidebar Classes to Body if sidebars are present */
+add_action('wp_head', create_function("",'ob_start();') );
+add_action('get_sidebar', 'my_sidebar_class');
+add_action('wp_footer', 'my_sidebar_class_replace');
+ 
+function my_sidebar_class($name=''){
+  static $class="sidebar";
+  if(!empty($name))$class.=" sidebar-{$name}";
+  my_sidebar_class_replace($class);
+}
+ 
+function my_sidebar_class_replace($c=''){
+  static $class='';
+  if(!empty($c)) $class=$c;
+  else {
+    echo str_replace('<body class="','<body class="'.$class.' ',ob_get_clean());
+    ob_start();
+  }
+}
+
+	// Register Regions
+	if (!function_exists('monrovia_register_sidebars')) {
+	function monrovia_register_sidebars() {
+		foreach (array(
+					__('Homepage', 'monrovia'),
+					__('Left Sidebar', 'monrovia'),
+					__('Right Sidebar', 'monrovia'),
+					__('Lower Right Sidebar', 'monrovia'),
+					__('Footer', 'monrovia')
+					) as $sidebartitle) {
+			register_sidebar(array(
+						'name'=> $sidebartitle,
+						'id' => 'sidebar-'.sanitize_title($sidebartitle),
+    					'before_widget' => '<div id="%1$s" class="widget %2$s">',
+    					'after_widget'  => '</div>',
+    					'before_title'  => '<h3>',
+    					'after_title'   => '</h3>'
+						));
+		}
+	}
+}
+add_action('widgets_init', 'monrovia_register_sidebars');
+
+// Remove wp_head() injected Recent Comment styles
+function my_remove_recent_comments_style()
+{
+    global $wp_widget_factory;
+    remove_action('wp_head', array(
+        $wp_widget_factory->widgets['WP_Widget_Recent_Comments'],
+        'recent_comments_style'
+    ));
+}
+
+// Get a post thumbnail attributes
+function wp_get_attachment( $attachment_id ) {
+
+	$attachment = get_post( $attachment_id );
+	return array(
+		'alt' => get_post_meta( $attachment->ID, '_wp_attachment_image_alt', true ),
+		'caption' => $attachment->post_excerpt,
+		'description' => $attachment->post_content,
+		'href' => get_permalink( $attachment->ID ),
+		'src' => $attachment->guid,
+		'title' => $attachment->post_title
+	);
+}
+
+// Custom Breadcrumb Function
+function the_breadcrumb($id = '', $calendar = '', $plant = ''){
+	
+		if(!is_front_page()) {
+			echo '<div class="breadcrumb"><a href="';
+			echo get_option('home');
+			echo '">Home</a>';
+		}
+		
+		if($calendar == 'calendar'){
+			echo " &gt; Calendar";
+		}
+		if($calendar == 'event'){
+			  echo " &gt; <a href='".get_bloginfo('url')."/event-calendar/' title='Calendar'>Calendar</a>";
+		}
+		
+			// If its single post 
+			if ((is_single() || is_archive()) && $calendar != 'event' ) {
+				if('youtube_video' == get_post_type()){
+					$parentID = 39;
+				} elseif('press_release' == get_post_type()){
+					$parentID = 24;
+				} elseif('design_style' == get_post_type()){
+					$parentID = 35;
+				} elseif('collection' == get_post_type()){
+					$parentID = 34;
+				}
+			$link = get_permalink($parentID);
+			$title = get_page($parentID)->post_title;
+			$step_parent = "  &gt; <a href='".$link."' title='".$title."'>".$title."</a>";
+			}
+
+			if($id != '' || $calendar == 'event'){
+				$parents = get_ancestors($id, 'page');
+				$parents  = array_reverse($parents);
+				// Loop through all parents 
+				foreach($parents as $parent){
+					$link = get_permalink($parent);
+					$title = get_page($parent)->post_title;
+					echo "  &gt; <a href='".$link."' title='".$title."'>".$title."</a>";
+				}
+				if(isset($step_parent)){ echo $step_parent; }
+			}
+			
+			if( is_page_template('plant.php')){
+				// Print Plant Title
+				echo  " &gt; ".$plant;
+			} else {
+				if($id != ''){
+					// Print the Page Title
+					echo  " &gt; ".get_page($id)->post_title;	
+				}
+			}
+			echo "</div>"; // End Bredcrumb div
+
+	} // End function
+
+add_filter( 'tribe-events-bar-should-show', '__return_true' );
+
+// Pagination for paged posts, Page 1, Page 2, Page 3, with Next and Previous Links, No plugin
+function html5wp_pagination()
+{
+    global $wp_query;
+    $big = 999999999;
+    echo paginate_links(array(
+        'base' => str_replace($big, '%#%', get_pagenum_link($big)),
+        'format' => '?paged=%#%',
+        'current' => max(1, get_query_var('paged')),
+        'total' => $wp_query->max_num_pages
+    ));
+}
+
+/**********   Query for the Facebook Contest Winner ************/
+function get_facebook_banner($home = ''){
+	global $wpdb;
+	$args = array('post_per_page' => 1, 'post_type' => 'facebook_contest');
+  	$query  = get_posts( $args );  
+	foreach ( $query as $post ) :
+  		setup_postdata( $post );
+		$credit = get('photo_credit',1,1,$post->ID);
+			echo "<div><h2>".get_the_title($post->ID)."</h2>";
+			if($home == 'true'){
+				echo get_the_content()."</div>";
+				echo get_the_post_thumbnail($post->ID, 'full');
+				if($credit) echo "<span>".$credit."</span>";
+			} else {
+				echo get_the_content();
+				if($credit) echo " <span>".$credit."</span>";
+				echo "</div>";
+				echo get_the_post_thumbnail($post->ID, 'full');
+			}
+	endforeach; 
+	wp_reset_postdata();
+}
+
+/**
+ * Checks if a particular user has a role. 
+ * Returns true if a match was found.
+ *
+ * @param string $role Role name.
+ * @param int $user_id (Optional) The ID of a user. Defaults to the current user.
+ * @return bool
+ */
+function check_user_role( $role, $user_id = null ) {
+ 
+    if ( is_numeric( $user_id ) )
+	$user = get_userdata( $user_id );
+    else
+        $user = wp_get_current_user();
+ 
+    if ( empty( $user ) )
+	return false;
+ 
+    return in_array( $role, (array) $user->roles );
+}
+
+
+/**********   Query for the Facebook Contest Winner ************/
+/**
+	@variable $home - Send Slightly different HTML markup if is_home()
+
+*/
+function getPromoBanner($home = ''){
+	$transient_name = ( $home == 'true' ) ? 'promo_banner_home' : 'promo_banner';
+	$promo_banner = monrovia_get_cache( $transient_name );
+	if ( false === $promo_banner ) :
+		ob_start();		
+	
+		global $wpdb;
+		global $post;
+		$args = array('post_per_page' => 1, 'post_type' => 'facebook_contest');
+		$query  = get_posts( $args );  
+		foreach ( $query as $post ) :
+			setup_postdata( $post );
+			$credit = get('photo_credit',1,1,$post->ID);
+				if($home == 'true'){
+					echo "<div><h2>".get_the_title($post->ID)."</h2>";
+					echo get_the_content()."</div>";
+					echo get_the_post_thumbnail($post->ID, 'full');
+					if($credit) echo "<span>".$credit."</span>";
+				} else {
+					echo '<div id="facebook_contest_banner">';
+					echo "<div><h2>".get_the_title($post->ID)."</h2>";
+					echo get_the_content($post->ID);
+					if($credit) echo " <span>".$credit."</span>";
+					echo "</div>";
+					echo get_the_post_thumbnail($post->ID, 'full');
+					echo "</div>";
+				}
+		endforeach; 
+		wp_reset_postdata();
+	
+		$promo_banner = ob_get_clean();
+		monrovia_set_cache( $transient_name, $promo_banner, MONROVIA_TRANSIENT_EXPIRE );
+	endif;
+	echo $promo_banner;		
+}
+
+/**********   Return Tooltip content for Cold Zone Box (?) icon ************/
+/**
+	Currently does not take any variables
+	Pulls the excerpt and Featured Image from the Cold Zone page
+	- Page ID-=
+*/
+function getZoneTip(){
+	global $wpdb;
+	global $post;
+	$args = array('p' => 238, 'post_type' => 'page');
+  	$query  = get_posts( $args );  
+	foreach ( $query as $post ) :
+  		setup_postdata( $post );
+			$img = wp_get_attachment(get_post_thumbnail_id( $post->ID ));
+			echo "<div class='tip-content'><span class='tip-close'><i class='fa fa-times-circle'></i></span>";
+			echo "<h4>".get_the_title($post->ID)."</h4>";
+			echo "<img src='".$img['src']."' class='alignleft' alt='".$img['alt']."' />";
+			echo get_the_excerpt();
+			echo "<br /><a href='".get_permalink($post->ID)."' title='Learn More'>Learn More ></a></div>";
+	endforeach; 
+	wp_reset_postdata();
+}
+
+/********* Add a view Counter for Videos ***********************/
+/**	
+	@variable $id -  the post ID where the Video Lives
+	@returns  - NULL
+*/
+
+function addVideoView($postID){
+		
+	//Get Video Count for post meta
+	$sql = "SELECT meta_value FROM wp_postmeta WHERE post_id = '$postID' AND meta_key = 'video-views-count'";
+	//If the count field already exists
+	if(mysql_num_rows(mysql_query($sql))> 0){
+		$count = mysql_fetch_array(mysql_query($sql));
+		$count = $count['meta_value'] + 1;
+		// Update the value
+		mysql_query("UPDATE wp_postmeta SET meta_value = '$count' WHERE post_id = '$postID' AND meta_key = 'video-views-count'");
+	} else {
+		// Create a new record in wp_postmeta
+		mysql_query("INSERT INTO wp_postmeta ( post_id, meta_key, meta_value ) VALUES ( '$postID', 'video-views-count', 1)");
+	}
+			
+}
+
+/*********  Get the Most Watched Videos ************************/
+/**
+	@variable $number - the number of videos to display
+*/
+function  most_watched_videos($number){
+	global $wpdb;
+	$args = array('post_per_page' => $number, 'post_type' => 'youtube_video', 'orderby' => 'meta_value_num', 'meta_key' => 'video-views-count', 'order' => 'DESC' );
+	$query = get_posts( $args );
+	foreach ( $query as $post ) :
+  		setup_postdata( $post );
+			echo "<a href='".get_permalink($post->ID)."' title='".get_the_title($post->ID)."'>".get_the_title($post->ID)."</a>";
+	endforeach; 
+	wp_reset_postdata();
+}
+
+/*********  Get the Most Recent Videos ************************/
+/**
+	@variable $number - the number of videos to display
+*/
+function  get_videos($number){
+	global $wpdb;
+	$args = array('post_per_page' => $number, 'post_type' => 'youtube_video', 'order' => 'DESC' );
+	$query = get_posts( $args );
+	foreach ( $query as $post ) :
+  		setup_postdata( $post );
+			$thumbnail = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID));
+			echo "<div class='video-listing clear'>";
+			echo "<a href='".get_permalink($post->ID)."' title='".get_the_title($post->ID)."' class='left'><img src='http://img.youtube.com/vi/".get('youtube_id',1,1,$post->ID)."/default.jpg' /></a>";
+			echo "<div class='video-info small left'><a href='".get_permalink($post->ID)."'>".get_the_title($post->ID)."</a>";
+			//echo monrovia_wp_excerpt('monrovia_short_excerpt', '...');
+			echo "</div></div>";
+	endforeach; 
+	wp_reset_postdata();
+}
+
+/******** Get the USDA Cold Zone based on varying Criteria from the user ******/
+/** 
+	@string -  returns Zone, and Zip Code as an Array()
+	@variable - $zipcode If non-logged in user updated zip code, use this
+*/
+function get_cold_zone(){
+			
+		//Set up an array to store the return values
+		$values = Array();
+		
+		// Check to see if zipcode is set
+		if(isset($_POST['zipcode']))$zipcode = $_POST['zipcode'];
+			
+		//Check to see if the User is logged in
+		if( is_user_logged_in() ){
+			// Use the Users saved zip code
+			$userID = get_current_user_id();
+			$values['zipcode'] = get_cimyFieldValue($userID, 'ZIP_CODE');
+		} elseif(isset($zipcode)){
+			$values['zipcode'] = $zipcode;
+		}
+		
+		$response = get_url('http://azlink.monrovia.com/tpg_cold_zone.php?zip='.$values['zipcode']);
+		$parts = explode('|',$response);
+		$values['cold_zone'] = $parts[0];
+		$values['cold_zone_description'] = $parts[1];
+		//setcookie('cold_zone_description',str_replace('&deg;','(DEG)',$cold_zone_description),0,'/');
+
+		echo json_encode($values);
+		exit();
+}
+
+add_action('wp_ajax_get_cold_zone', 'get_cold_zone');
+add_action('wp_ajax_nopriv_get_cold_zone', 'get_cold_zone');
+
+/******** Get Geo Coordinates from IP address ******/
+/** 
+	@string -  returns Zone, and Zip Code as an Array()
+	@variable - $zipcode If non-logged in user updated zip code, use this
+*/
+
+function getGeoCoordinates(){
+	$ip = $_SERVER['REMOTE_ADDR'];
+	
+	// [todo] - nonce
+	$transient_name = 'iploc_' . str_replace( '.', '_', $ip );
+	$location = monrovia_get_cache( $transient_name );
+
+	$coords = array(
+		'lat' => '',
+		'lon' => ''
+	);	
+	
+	if ( false === $location ) {		
+		$data = wp_remote_get( sprintf( "http://ipinfo.io/%s", esc_attr( $ip ) ) );
+
+		if ( ! is_wp_error( $data ) ) {
+			preg_match( '/"loc": "([^"]+)"/msU', $data['body'], $matches );
+			if ( ! empty( $matches[1] ) ) {
+				$location = $matches[1];
+				$coordinates = explode( ',', $location );
+				if ( count( $coordinates ) > 1 ) {
+					monrovia_set_cache( $transient_name, $location, 60 * 60 * 24 );
+
+					$coords = array(
+						'lat' => $coordinates[0],
+						'lon' => $coordinates[1]
+					);
+				}
+			}
+		}
+	}
+	else {
+		$coordinates = explode( ',', $location );
+		$coords = array(
+			'lat' => $coordinates[0],
+			'lon' => $coordinates[1]
+		);		
+	}
+	echo json_encode( $coords );
+	exit();
+}
+
+add_action('wp_ajax_getGeoCoordinates', 'getGeoCoordinates');
+add_action('wp_ajax_nopriv_getGeoCoordinates', 'getGeoCoordinates');
+
+add_action('wp_head','ajaxurl');
+function ajaxurl() {
+?>
+<script type="text/javascript">
+var ajaxurl = '<?php echo admin_url('admin-ajax.php'); ?>';
+</script>
+<?php
+}
+
+/******** Plant Availability - Magento API Call ******/
+/** 
+	@string -  Boolean, returns true or false
+	@variable - $plant Item Number
+*/
+
+function plantAvailibility( $plantID ) {
+	$is_available = monrovia_get_cache( 'plant_availability_' . $plantID );
+	if ( false === $is_available ) {
+		$proxy = new SoapClient('http://devshop.monrovia.com/api/soap/?wsdl', array('login' => "monrovia",'password' => "handpicked"));
+		$sessionId = $proxy->login('brett', 'primitivespark');
+
+		// Get stock info
+		$stock = $proxy->call($sessionId, 'product_stock.list', $plantID );
+		//Return true if product is in stock
+		if(isset($stock[0]['is_in_stock']) && $stock[0]['is_in_stock'] == 1){
+			$is_available = 1;
+		} else {
+			$is_available = 0;
+		}
+		monrovia_set_cache( 'plant_availability_' . $plantID, $is_available, MONROVIA_PLANT_AVAILABILITY_EXPIRE );
+	}
+	return (boolean) $is_available;
+}
+
+/*************** Get Plant Data from Plant ID ***************/
+/**
+	@variable $plantID - Set to Null if not availiable
+	@variable $plantItemNum - Fallback to Plant Item Number 
+	@return an Array of Plant Data - Image ID, Plant Title, Item Number, Primary Attribute
+*/
+
+function getPlantData($plantID='', $plantItemNum=''){
+	// Set the SQL statement
+	$sql = "SELECT plants.id, plants.common_name, plants.botanical_name, plants.item_number, plants.primary_attribute, plants.is_new, plants.cold_zone_high, plants.cold_zone_low, plants.flowering_time, plants.flower_color_id, list_flower_color.name
+			FROM plants
+			INNER JOIN list_flower_color
+			ON plants.flower_color_id=list_flower_color.id";
+			if($plantID != ''){
+				$sql .= " WHERE plants.id = '$plantID'";
+			} else {
+				$sql .= " WHERE plants.item_number = '$plantItemNum'";
+			}
+	//If the count field already exists
+	if(mysql_num_rows(mysql_query($sql))> 0){
+		$plant_data = mysql_fetch_array(mysql_query($sql));
+		$data['title'] = unescape_special_characters($plant_data['common_name']); // The Title
+		$data['botanical'] = unescape_special_characters($plant_data['botanical_name']); // Botanical Name
+		$data['item'] = $plant_data['item_number']; // Item #
+		$data['pid'] = $plant_data['id']; //ID
+		$data['attribute'] = $plant_data['primary_attribute']; // Primary Attribute
+		$data['seo'] = generate_plant_seo_name($data['title']); //Seo URL name
+		$data['new'] = $plant_data['is_new']; // Set to 1 if its new
+		$data['zone-high'] = $plant_data['cold_zone_high'];
+		$data['zone-low'] = $plant_data['cold_zone_low'];
+		$data['time'] = $plant_data['flowering_time'];
+		$data['color'] = $plant_data['name'];
+		
+	}
+	$id = $data['pid'];
+	
+	// Set the SQL statement
+	$sql = "SELECT id FROM plant_image_sets WHERE plant_id = '$id' AND is_active = '1' LIMIT 1";
+	//If the count field already exists
+	if(mysql_num_rows(mysql_query($sql))> 0){
+		$imageID = mysql_fetch_array(mysql_query($sql));
+		$data['image-id'] =  $imageID['id'];
+	} else{
+		$data['image-id'] = 'no-image';
+	}
+	
+	return $data;
+}
+
+/*************** Get and Display Plants in the Spotlight ******************/
+/**
+	Mainlt Used for the Sidebar Regions
+	@variable $number - Optional, number of plants to display
+	@return - Returns HTML formatted list of plants	
+*/
+
+function displaySpotlightPlants($number=''){
+	
+	// Query the meta table for All spot light plants
+	$sql = "SELECT meta_value FROM wp_postmeta WHERE meta_key = 'featured_plants_plant_id_number'";
+	$query = mysql_query($sql);
+	// Set the Limit
+	if($number == ''){ $count = mysql_num_rows($query); } else { $count = $number; }
+
+	$i=1;
+	while($plant = mysql_fetch_array($query)){
+		if($i <= $count){
+		//Get Plant Data
+		$data = getPlantData('',$plant['meta_value']); ?>
+        <div class="spot-plant clear">
+        <a href="<?php echo site_url().'/plant-catalog/plants/'.$plant['meta_value'].'/'.$data['seo']; ?>">
+        	<img src="<?php echo site_url().'/wp-content/uploads/plants/search_results/'.$data['image-id'].'.jpg'?>"  />
+        </a>
+        	<div class="left item-num">Item #<?php echo $data['item']; ?><br /><?php echo $data['attribute']; ?></div>
+        	<div class="clearfix">
+        	<a href="<?php echo site_url().'/plant-catalog/plants/'.$plant['meta_value'].'/'.$data['seo']; ?>" title="<?php echo $data['title']; ?>"><?php echo $data['title']; ?></a>
+           		<div class='botanical'><?php echo $data['botanical']; ?></div>
+        	</div>
+        </div>
+		<?php 
+		}
+	}
+}
+
+
+
+
+/*************** Check to see if user has Plant in Favorites ***************/
+/**
+	@variable $plantID
+	@return boolean
+	Leave plantID empty to return an Favorites Object for
+	The Favorites page
+	@return $plant - Array contain all plants in a Favorite List
+*/
+
+function getUserWishlist($plantID =''){
+	
+	// Plant array
+	$plant = array();
+	
+	//Onlt run if the user is logged in
+	if( ! is_user_logged_in() ) {
+		return false;
+	}
+	
+	// Get current user info
+	global $current_user;
+    get_currentuserinfo();
+	$wp_id = $current_user->ID;
+	
+	//Convert to legacy ID, temporary
+	$legacy = mysql_fetch_array(mysql_query("SELECT legacy_user_id FROM user_legacy_id WHERE wp_user_id = '$wp_id'"));
+	$legacyID = $legacy['legacy_user_id'];
+
+	//Get the wish list
+	$wishlist = mysql_fetch_array(mysql_query("SELECT id FROM wish_lists WHERE user_id = '$legacyID'"));
+	$wishID = $wishlist['id'];
+
+	// Just check to see if a plant is in the Wish List or not
+	if($plantID != ''){
+		// Set the SQL statement
+		$sql = "SELECT * FROM wish_list_items WHERE wish_list_id = '$wishID' AND plant_id = '$plantID'";
+		//If the count field already exists
+		if(mysql_num_rows(mysql_query($sql))> 0){
+			$ret = 1;
+		} else{
+			$ret = 0;
+		}
+	} else {
+		// Get all the Favorite Plants
+		// Set the SQL statement
+		$sql = "SELECT * FROM wish_list_items WHERE wish_list_id = '$wishID'";
+
+		$query = mysql_query($sql);
+		if(mysql_num_rows($query)> 0){
+			$i=0;
+			while($plants = mysql_fetch_array($query)){
+				$plant[$i]['pid'] = $plants['plant_id'];
+				$plant[$i]['notes'] = $plants['notes'];
+				$i++;
+			}
+		}
+
+		$ret = $plant; 	
+	}
+
+	return $ret;
+}
+
+/******** Add/Remove User Plants to Favorites ******/
+/** 
+	@variable $action -  action, either Delete, Add, or Update
+	@variable $plantID - ID of plant to add
+	@variable $plantItem - Item number of the plant
+	@variable- $notes The notes created, if present
+*/
+
+function updateFavorites(){
+	
+	//Get POST Variables
+	$action = $_POST['ax'];
+	$plantID = $_POST['pid'];
+	if(isset($_POST['itemNum'])) $plantItem = $_POST['itemNum'];
+	if(isset($_POST['note'])){ $notes = $_POST['note']; } else { $notes = ''; } 
+	
+	// Get current user info
+	global $current_user;
+    get_currentuserinfo();
+	$wp_id = $current_user->ID; 
+	//Convert to legacy ID, temporary
+	$legacy = mysql_fetch_array(mysql_query("SELECT legacy_user_id FROM user_legacy_id WHERE wp_user_id = '$wp_id'"));
+	$legacyID = $legacy['legacy_user_id'];
+	
+	// Add to Favorites
+	if($action == 'add'){
+		//Get the wish list ID, if present, or else create a new wish list
+		$wish = mysql_query("SELECT id FROM wish_lists WHERE user_id = '$legacyID'");
+		if(mysql_num_rows($wish)> 0){
+			//Get the Wish list ID
+			$wishlist = mysql_fetch_array($wish);
+			$wishID = $wishlist['id'];
+			mysql_query("INSERT INTO wish_list_items (legacy_id, plant_item_number, notes, wish_list_id, plant_id ) VALUES ( '0', '$plantItem', '$notes', '$wishID', '$plantID' )");
+		} else {
+			//Create new Wish list
+			mysql_query("INSERT INTO wish_lists ( id, wish_list_name, user_id, date_last_accessed ) VALUES ( NULL, NULL, '$legacyID', NULL )");
+			mysql_query("INSERT INTO wish_list_items (legacy_id, plant_item_number, notes, wish_list_id, plant_id ) VALUES ( '0', '$plantItem', '$notes',  LAST_INSERT_ID(), '$plantID' )");
+		}
+		$favorite['result'] = "Added";
+	}
+	//Update the Favorites (Only the notes field)
+	if($action == 'update'){
+		//Get the wish list ID, if present, or else create a new wish list
+		$wish = mysql_query("SELECT id FROM wish_lists WHERE user_id = '$legacyID'");
+		if(mysql_num_rows($wish)> 0){
+			//Get the Wish list ID
+			$wishlist = mysql_fetch_array($wish);
+			$wishID = $wishlist['id'];
+			mysql_query("UPDATE wish_list_items SET notes='$notes' WHERE wish_list_id = '$wishID' AND plant_id = '$plantID'");
+		}
+		$favorite['result'] = "Updated";
+		$favorite['wish'] = $wishID;
+		$favorite['pid'] = $plantID;
+		$favorite['note'] = $notes;
+	}
+	
+	if($action == "remove"){
+		// Delete Favorite from Table
+		$wishlist = mysql_fetch_array(mysql_query("SELECT id FROM wish_lists WHERE user_id = '$legacyID'"));
+		$wishID = $wishlist['id'];
+		mysql_query("DELETE FROM wish_list_items WHERE plant_id = '$plantID' AND wish_list_id = '$wishID'");
+		$favorite['result'] = "Removed";
+	}
+		
+	echo json_encode($favorite);
+	exit();
+}
+
+add_action('wp_ajax_updateFavorites', 'updateFavorites');
+add_action('wp_ajax_nopriv_updateFavorites', 'updateFavorites');
+
+/*************** iContact Update User Subscription ***************/
+/**
+	@variable $user_id
+	@returns no variable
+*/
+
+function checkSubscription( $user_id ){
+	
+	$prevValue = $_POST['cimy_uef_NEWSLETTER_1_prev_value']; // YES or NO
+	$currentValue = $_POST['cimy_uef_NEWSLETTER']; // 1 or none
+	$instance = $_REQUEST['instance'] ;
+	$email = $_POST['email'];
+	
+	// Give the API your information
+		iContactApi::getInstance()->setConfig(array(
+        'appId' => '7vXdoHq37vaIJNhT9Vsf7e6ZCEsqagpA',
+        'apiPassword' => 'Savvy123^',
+        'apiUsername' => 'pSpark'
+		));
+
+ 	// https://app.icontact.com/icp/a/589567/c/18663/
+
+		// Store the singleton
+		$oiContact = iContactApi::getInstance();
+	 
+	// Action is User Update
+	if(isset($_POST['cimy_uef_NEWSLETTER_1_prev_value'])){
+		if($_POST['cimy_uef_NEWSLETTER_1_prev_value'] == 'YES' && $_POST['cimy_uef_NEWSLETTER'] != '1'){
+			//User was Subscribed, but unsubscribed
+
+		}
+		
+		if($_POST['cimy_uef_NEWSLETTER_1_prev_value'] == 'NO' && $_POST['cimy_uef_NEWSLETTER'] == '1'){
+			//User was not subscribed, but Subscribed
+			
+		}
+	} else { // Action is User Register
+		if(isset($_POST['cimy_uef_NEWSLETTER']) && $_POST['cimy_uef_NEWSLETTER'] == '1'){
+			// If User Checked Subscribe on Register Page
+		}
+	}
+
+	//wp_mail('brettex25@gmail.com', 'Just a test of Prev'.$prevValue, 'Here is some text to prevent spam, current value: '. $currentValue.'User ID='.$user_id.'Instance'.$instance);
+}
+
+
+add_action('personal_options_update', 'checkSubscription', 1); // Fire if User updating Own profile
+add_action('edit_user_profile_update', 'checkSubscription', 1); // Fire if Admin is updating another Profile
+add_action('user_register', 'checkSubscription', 1); //Fire when new User is created
+
+
+/***************  Add Query Variable to the URL **************/
+
+function add_query_vars($aVars) {
+$aVars[] = "profile";
+$aVars[] = "pid";
+$aVars[] = "name";
+$aVars[] = "plantname";
+
+return $aVars;
+}
+ 
+// hook add_query_vars function into query_vars
+add_filter('init', 'add_query_vars');
+
+add_action('init', 'rewrite_urls');
+
+function rewrite_urls(){
+	
+//For Plant Detail Pages
+add_rewrite_tag('%pid%','([^&]+)');
+add_rewrite_tag('%plantname%','([^&]+)');
+//For Landscape Architect Profile Pages
+add_rewrite_tag('%profile%','([^&]+)');
+
+}
+
+function add_rewrite_rulers() {
+	
+add_rewrite_rule('^plant-catalog/plants/([^/]*)/([^/]*)/?','index.php?page_id=1149&pid=$matches[1]&plantname=$matches[2]','top');
+add_rewrite_rule('^landscape-architects/profiles/([^/]*)/?','index.php?page_id=1134&profile=$matches[1]','top');
+//Ensure the $wp_rewrite global is loaded
+//global $wp_rewrite;
+//Call flush_rules() as a method of the $wp_rewrite object
+//$wp_rewrite->flush_rules( true );
+
+}
+add_action('init', 'add_rewrite_rulers');
+
+
+ 
+
+// Custom Excerpts
+function monrovia_short_excerpt($length) // Create 10 Word Callback for Index page Excerpts, call using monrovia_wp_excerpt('monrovia_short_excerpt');
+{
+    return 10;
+}
+
+// Create 40 Word Callback for Custom Post Excerpts, call using monrovia_wp_excerpt('monrovia_long_excerpt');
+function monrovia_long_excerpt($length)
+{
+    return 20;
+}
+
+// Create the Custom Excerpts callback
+function monrovia_wp_excerpt($length_callback = '', $more_callback = '')
+{
+    global $post;
+    if (function_exists($length_callback)) {
+        add_filter('excerpt_length', $length_callback);
+    }
+    if (function_exists($more_callback)) {
+        add_filter('excerpt_more', $more_callback);
+    }
+    $output = get_the_excerpt();
+    $output = apply_filters('wptexturize', $output);
+    $output = apply_filters('convert_chars', $output);
+    echo $output;
+}
+
+
+add_filter( 'wp_page_menu', 'change_page_menu_classes', 0 );
+
+// Custom View Article link to Post
+function html5_blank_view_article($more)
+{
+    global $post;
+    //return '... <a class="view-article" href="' . get_permalink($post->ID) . '">' . __('View Article', 'monrovia') . '</a>';
+	return '...';
+}
+
+// Remove Admin bar
+function remove_admin_bar()
+{
+    return false;
+}
+
+// Remove 'text/css' from our enqueued stylesheet
+function html5_style_remove($tag)
+{
+    return preg_replace('~\s+type=["\'][^"\']++["\']~', '', $tag);
+}
+
+// Remove thumbnail width and height dimensions that prevent fluid images in the_thumbnail
+function remove_thumbnail_dimensions( $html )
+{
+    $html = preg_replace('/(width|height)=\"\d*\"\s/', "", $html);
+    return $html;
+}
+
+// Custom Gravatar in Settings > Discussion
+function monroviagravatar ($avatar_defaults)
+{
+    $myavatar = get_template_directory_uri() . '/img/gravatar.jpg';
+    $avatar_defaults[$myavatar] = "Custom Gravatar";
+    return $avatar_defaults;
+}
+
+// Threaded Comments
+function enable_threaded_comments()
+{
+    if (!is_admin()) {
+        if (is_singular() AND comments_open() AND (get_option('thread_comments') == 1)) {
+            wp_enqueue_script('comment-reply');
+        }
+    }
+}
+
+// Custom Comments Callback
+function monroviacomments($comment, $args, $depth)
+{
+	$GLOBALS['comment'] = $comment;
+	extract($args, EXTR_SKIP);
+	
+	if ( 'div' == $args['style'] ) {
+		$tag = 'div';
+		$add_below = 'comment';
+	} else {
+		$tag = 'li';
+		$add_below = 'div-comment';
+	}
+?>
+    <!-- heads up: starting < for the html tag (li or div) in the next line: -->
+    <<?php echo $tag ?> <?php comment_class(empty( $args['has_children'] ) ? '' : 'parent') ?> id="comment-<?php comment_ID() ?>">
+	<?php if ( 'div' != $args['style'] ) : ?>
+	<div id="div-comment-<?php comment_ID() ?>" class="comment-body">
+	<?php endif; ?>
+	<div class="comment-author vcard">
+	<?php if ($args['avatar_size'] != 0) echo get_avatar( $comment, $args['180'] ); ?>
+	<?php printf(__('<cite class="fn">%s</cite> <span class="says">says:</span>'), get_comment_author_link()) ?>
+	</div>
+<?php if ($comment->comment_approved == '0') : ?>
+	<em class="comment-awaiting-moderation"><?php _e('Your comment is awaiting moderation.') ?></em>
+	<br />
+<?php endif; ?>
+
+	<div class="comment-meta commentmetadata"><a href="<?php echo htmlspecialchars( get_comment_link( $comment->comment_ID ) ) ?>">
+		<?php
+			printf( __('%1$s at %2$s'), get_comment_date(),  get_comment_time()) ?></a><?php edit_comment_link(__('(Edit)'),'  ','' );
+		?>
+	</div>
+
+	<?php comment_text() ?>
+
+	<div class="reply">
+	<?php comment_reply_link(array_merge( $args, array('add_below' => $add_below, 'depth' => $depth, 'max_depth' => $args['max_depth']))) ?>
+	</div>
+	<?php if ( 'div' != $args['style'] ) : ?>
+	</div>
+	<?php endif; ?>
+<?php }
+
+/*------------------------------------*\
+	Actions + Filters + ShortCodes
+\*------------------------------------*/
+
+//Add Support for Excerpts on Pages
+add_post_type_support( 'page', 'excerpt' );
+
+// Add Actions
+add_action('init', 'monrovia_header_scripts'); // Add Custom Scripts to wp_head
+add_action('wp_print_scripts', 'monrovia_conditional_scripts'); // Add Conditional Page Scripts
+add_action('get_header', 'enable_threaded_comments'); // Enable Threaded Comments
+add_action('wp_enqueue_scripts', 'monrovia_styles'); // Add Theme Stylesheet
+add_action('init', 'register_monrovia_menu'); // Add HTML5 Blank Menu
+//add_action('init', 'create_post_type_html5'); // Add our HTML5 Blank Custom Post Type
+add_action('widgets_init', 'my_remove_recent_comments_style'); // Remove inline Recent Comment Styles from wp_head()
+add_action('init', 'html5wp_pagination'); // Add our HTML5 Pagination
+
+// Remove Actions
+remove_action('wp_head', 'feed_links_extra', 3); // Display the links to the extra feeds such as category feeds
+remove_action('wp_head', 'feed_links', 2); // Display the links to the general feeds: Post and Comment Feed
+remove_action('wp_head', 'rsd_link'); // Display the link to the Really Simple Discovery service endpoint, EditURI link
+remove_action('wp_head', 'wlwmanifest_link'); // Display the link to the Windows Live Writer manifest file.
+remove_action('wp_head', 'index_rel_link'); // Index link
+remove_action('wp_head', 'parent_post_rel_link', 10, 0); // Prev link
+remove_action('wp_head', 'start_post_rel_link', 10, 0); // Start link
+remove_action('wp_head', 'adjacent_posts_rel_link', 10, 0); // Display relational links for the posts adjacent to the current post.
+remove_action('wp_head', 'wp_generator'); // Display the XHTML generator that is generated on the wp_head hook, WP version
+remove_action('wp_head', 'start_post_rel_link', 10, 0);
+remove_action('wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0);
+remove_action('wp_head', 'rel_canonical');
+remove_action('wp_head', 'wp_shortlink_wp_head', 10, 0);
+
+// Add Filters
+
+add_filter('avatar_defaults', 'monroviagravatar'); // Custom Gravatar in Settings > Discussion
+add_filter('body_class', 'add_slug_to_body_class'); // Add slug to body class (Starkers build)
+add_filter('widget_text', 'do_shortcode'); // Allow shortcodes in Dynamic Sidebar
+add_filter('widget_text', 'shortcode_unautop'); // Remove <p> tags in Dynamic Sidebars (better!)
+add_filter('wp_nav_menu_args', 'my_wp_nav_menu_args'); // Remove surrounding <div> from WP Navigation
+// add_filter('nav_menu_css_class', 'my_css_attributes_filter', 100, 1); // Remove Navigation <li> injected classes (Commented out by default)
+// add_filter('nav_menu_item_id', 'my_css_attributes_filter', 100, 1); // Remove Navigation <li> injected ID (Commented out by default)
+// add_filter('page_css_class', 'my_css_attributes_filter', 100, 1); // Remove Navigation <li> Page ID's (Commented out by default)
+add_filter('the_category', 'remove_category_rel_from_category_list'); // Remove invalid rel attribute
+add_filter('the_excerpt', 'shortcode_unautop'); // Remove auto <p> tags in Excerpt (Manual Excerpts only)
+add_filter('the_excerpt', 'do_shortcode'); // Allows Shortcodes to be executed in Excerpt (Manual Excerpts only)
+add_filter('excerpt_more', 'html5_blank_view_article'); // Add 'View Article' button instead of [...] for Excerpts
+//add_filter('show_admin_bar', 'remove_admin_bar'); // Remove Admin bar
+add_filter('style_loader_tag', 'html5_style_remove'); // Remove 'text/css' from enqueued stylesheet
+add_filter('post_thumbnail_html', 'remove_thumbnail_dimensions', 10); // Remove width and height dynamic attributes to thumbnails
+add_filter('image_send_to_editor', 'remove_thumbnail_dimensions', 10); // Remove width and height dynamic attributes to post images
+
+// Remove Filters
+remove_filter('the_excerpt', 'wpautop'); // Remove <p> tags from Excerpt altogether
+
+// Shortcodes
+add_shortcode('html5_shortcode_demo', 'html5_shortcode_demo'); // You can place [html5_shortcode_demo] in Pages, Posts now.
+add_shortcode('html5_shortcode_demo_2', 'html5_shortcode_demo_2'); // Place [html5_shortcode_demo_2] in Pages, Posts now.
+
+// Shortcodes above would be nested like this -
+// [html5_shortcode_demo] [html5_shortcode_demo_2] Here's the page title! [/html5_shortcode_demo_2] [/html5_shortcode_demo]
+
+/*------------------------------------*\
+	ShortCode Functions
+\*------------------------------------*/
+
+// Shortcode Demo with Nested Capability
+function html5_shortcode_demo($atts, $content = null)
+{
+    return '<div class="shortcode-demo">' . do_shortcode($content) . '</div>'; // do_shortcode allows for nested Shortcodes
+}
+
+// Shortcode Demo with simple <h2> tag
+function html5_shortcode_demo_2($atts, $content = null) // Demo Heading H2 shortcode, allows for nesting within above element. Fully expandable.
+{
+    return '<h2>' . $content . '</h2>';
+}
+
+function get_collection_abbreviation($full_name){
+	$mappings = array(
+		'Dan Hinkley'=>'danhinkley',
+		'Distinctively Better'=>'distinctivelybetter',
+		'Distinctively Better Perennials'=>'distinctivelybetterperennials',
+		'Edibles'=>'edibles',
+		'Itoh Peonies'=>'itohpeonies',
+		'Proven Winners'=>'provenwinners',
+		'Succulents'=>'succulents'
+	);
+	return $mappings[$full_name];
+}
+
+function monrovia_get_plant_record( $plant_id ) {
+	$record = monrovia_get_cache( 'plant_record_' . $plant_id );
+	if ( false === $record ) :
+		$record = new plant($plant_id);
+		monrovia_set_cache( 'plant_record_' . $plant_id, $record, MONROVIA_TRANSIENT_EXPIRE );
+	endif;
+	return $record;
+}
+
+function monrovia_use_caching() {
+	return MONROVIA_USE_CACHING;
+}
+
+function monrovia_get_cache( $key ) {
+	if ( ! monrovia_use_caching() ) {
+		return false;
+	}
+	
+	return get_transient( $key );
+}
+
+function monrovia_set_cache( $key, $value, $expire_time_seconds ) {
+	if ( monrovia_use_caching() ) {
+		set_transient( $key, $value, $expire_time_seconds );
+	}
+}
+
+?>

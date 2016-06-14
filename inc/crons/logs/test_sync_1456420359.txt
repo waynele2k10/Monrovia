@@ -1,0 +1,239 @@
+DATE/TIME: 2016-02-25 17:12:39
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-02-25 17:12:51
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 16714
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;405463&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40546&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;3&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Prunus cerasus &apos;Romeo&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Prunus cerasus &apos;Romeo&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Romeo&amp;#8482; Sour Cherry&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Edible Fruit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Lilac (Syringa); Honeysuckle (Lonicera); Hydrangea (Hydrangea paniculata); Lavender (Lavandula); Rosemary (Rosmarinus)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 8 ft. tall and 4 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide a well-drained soil and water regularly during the first growing season to establish a deep, extensive root system. Once established, water deeply and infrequently during summer months. Prune in winter when dormant, as needed.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;3&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.54 gal. (9.61 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949396087&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring blooms produce summer fruit.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Beautiful clusters of fragrant, white, self-pollinating flowers in mid-spring. Abundant clusters of dark purplish-red fruit in midsummer. Glossy green foliage turns yellow in the fall. Excellent variety for cooking, baking, and canning. Wonderful flavor for jellies and jams. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Showy Fruit,Edible,Attracts Birds,Fast Growing&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Privacy Screen&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;405465&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40546&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Prunus cerasus &apos;Romeo&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Prunus cerasus &apos;Romeo&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Romeo&amp;#8482; Sour Cherry&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Edible Fruit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Lilac (Syringa); Honeysuckle (Lonicera); Hydrangea (Hydrangea paniculata); Lavender (Lavandula); Rosemary (Rosmarinus)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 8 ft. tall and 4 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide a well-drained soil and water regularly during the first growing season to establish a deep, extensive root system. Once established, water deeply and infrequently during summer months. Prune in winter when dormant, as needed.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949429549&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring blooms produce summer fruit.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Beautiful clusters of fragrant, white, self-pollinating flowers in mid-spring. Abundant clusters of dark purplish-red fruit in midsummer. Glossy green foliage turns yellow in the fall. Excellent variety for cooking, baking, and canning. Wonderful flavor for jellies and jams. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Showy Fruit,Edible,Attracts Birds,Fast Growing&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Privacy Screen&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;008831&lt;/ItemSizeID&gt;
+		&lt;Item&gt;00883&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Rhododendron x &apos;Black Satin&apos; (H-1)&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Rhododendron x &apos;Black Satin&apos; (H-1)&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Black Satin Rhododendron&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Spring Flowering&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Hydrangea (Hydrangea); Holly (Ilex); Astilbe (Astilbe); Bleeding Heart (Dicentra); Coral Bells (Heuchera)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Slow reaches 3 to 4 ft. high, 4 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Provide well-drained soil, rich in organic matter. Feed with an acid fertilizer after bloom. Keep roots cool with a thick layer of mulch. Prune after flowering.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949088319&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Light violet-purple flowers are borne in round trusses in early midseason. Plants are compact, upright, and wider than tall. Exceptional winter foliage is so deep purple, it appears to be black. A valued accent, foundation planting or hedge. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Acidic Soil,Easy Care,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Mass Planting,Hedge,Coastal Exposure,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;008833&lt;/ItemSizeID&gt;
+		&lt;Item&gt;00883&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;3&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Rhododendron x &apos;Black Satin&apos; (H-1)&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Rhododendron x &apos;Black Satin&apos; (H-1)&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Black Satin Rhododendron&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Spring Flowering&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Hydrangea (Hydrangea); Holly (Ilex); Astilbe (Astilbe); Bleeding Heart (Dicentra); Coral Bells (Heuchera)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Slow reaches 3 to 4 ft. high, 4 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Provide well-drained soil, rich in organic matter. Feed with an acid fertilizer after bloom. Keep roots cool with a thick layer of mulch. Prune after flowering.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;3&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.54 gal. (9.61 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949387290&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Light violet-purple flowers are borne in round trusses in early midseason. Plants are compact, upright, and wider than tall. Exceptional winter foliage is so deep purple, it appears to be black. A valued accent, foundation planting or hedge. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Acidic Soil,Easy Care,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Mass Planting,Hedge,Coastal Exposure,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;008835&lt;/ItemSizeID&gt;
+		&lt;Item&gt;00883&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Rhododendron x &apos;Black Satin&apos; (H-1)&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Rhododendron x &apos;Black Satin&apos; (H-1)&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Black Satin Rhododendron&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Spring Flowering&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Hydrangea (Hydrangea); Holly (Ilex); Astilbe (Astilbe); Bleeding Heart (Dicentra); Coral Bells (Heuchera)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Slow reaches 3 to 4 ft. high, 4 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Provide well-drained soil, rich in organic matter. Feed with an acid fertilizer after bloom. Keep roots cool with a thick layer of mulch. Prune after flowering.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949088357&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Light violet-purple flowers are borne in round trusses in early midseason. Plants are compact, upright, and wider than tall. Exceptional winter foliage is so deep purple, it appears to be black. A valued accent, foundation planting or hedge. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Acidic Soil,Easy Care,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Mass Planting,Hedge,Coastal Exposure,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;411761&lt;/ItemSizeID&gt;
+		&lt;Item&gt;41176&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Phlox paniculata &apos;DITOMFAV&apos; P.P. #21,369&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Phlox paniculata &apos;DITOMFAV&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Cotton Candy Garden Phlox&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Mildew Resistant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Coneflower (Echinacea); Shasta Daisy (Chrysanthemum); Delphinium (Delphinium); Russian Sage (Perovskia); Speedwell (Veronica)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 18 to 24 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Easily grown in average to organically rich, evenly moist, well-drained soil. Water regularly during first growing season to establish a deep, extensive root system. Requires less frequent watering when established. Apply summer mulch to keep root zone cool. Clip spent flowers to promote continued bloom.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949427132&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Early summer to early fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;The best mildew resistant phlox to date, this new hardy garden phlox will bring months of delectable color garden beds and borders. Clusters of deliciously scented, cotton candy pink flowers begin to bloom in early summer, filling the garden with a sweet fragrance until fall. Adored by hummingbirds and butterflies.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Performs best with regular water; avoid overhead watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Improved Disease Resistance,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Urban Garden,Wildlife Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;411761S&lt;/ItemSizeID&gt;
+		&lt;Item&gt;41176&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1S&lt;/Size&gt;
+		&lt;SizeDescription&gt;SuperOne&amp;#8482;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Phlox paniculata &apos;DITOMFAV&apos; P.P. #21,369&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Phlox paniculata &apos;DITOMFAV&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Cotton Candy Garden Phlox&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Mildew Resistant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Coneflower (Echinacea); Shasta Daisy (Chrysanthemum); Delphinium (Delphinium); Russian Sage (Perovskia); Speedwell (Veronica)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 18 to 24 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Easily grown in average to organically rich, evenly moist, well-drained soil. Water regularly during first growing season to establish a deep, extensive root system. Requires less frequent watering when established. Apply summer mulch to keep root zone cool. Clip spent flowers to promote continued bloom.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 gal. (3.79 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949434741&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Early summer to early fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;The best mildew resistant phlox to date, this new hardy garden phlox will bring months of delectable color garden beds and borders. Clusters of deliciously scented, cotton candy pink flowers begin to bloom in early summer, filling the garden with a sweet fragrance until fall. Adored by hummingbirds and butterflies.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Performs best with regular water; avoid overhead watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Improved Disease Resistance,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Urban Garden,Wildlife Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 25 Feb 2016 17:12:50 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

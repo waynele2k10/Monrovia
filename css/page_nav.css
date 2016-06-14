@@ -1,0 +1,105 @@
+.page_nav {
+	height:29px;
+	width:692px;
+}
+.page_nav .nav_item, .page_nav .nav_divider {
+	color:#F2F0D3;
+}
+
+.page_nav .nav_items {
+    background-color:#aca974;
+}
+.page_nav .nav_item {
+    
+	background-color:#aca974;
+    cursor: pointer;
+    display: inline;
+    float: left;
+	position:relative;
+	padding: 0 10px 0 0;
+	font-size: 0.9em;
+    height: 29px;
+	border-right:1px solid #F2F0D3;
+}
+
+.page_nav .nav_item.selected {
+   background: url("/img/page_nav_item_selected_backgr.gif") repeat-x scroll 0 0 transparent;
+	background-color:#77b500;
+    color: #FFFFFF;
+    cursor: default;
+}
+.nav_divider.selected {
+	background: url("/img/page_nav_selected_corner.gif") no-repeat left top transparent;
+	
+}
+
+.page_nav .nav_divider {
+    display: inline;
+    float: left;
+    font-weight: bold;
+    padding: 0;
+	width:10px;
+	height:29px;
+	
+}
+.page_nav .accordion_segment {
+	color:#000;
+	border-bottom:1px solid #ADA975;
+	display:none;
+}
+.page_nav .accordion_segment .title {
+	font-weight:bold;
+	cursor:pointer;
+	padding:5px 24px;
+}
+.page_nav .accordion_segment .title {
+	background:url(/img/accordion_segment_arrow_right.gif) 10px center no-repeat;
+}
+.page_nav .accordion_segment.expanded .title {
+	background-image:url(/img/accordion_segment_arrow_down.gif);
+}
+.page_nav .accordion_segments {
+	border-top:1px solid #ADA975;
+	margin-top:12px;
+}
+.page_nav .accordion_segment .content {
+	display:none;
+	padding:6px 0px 6px 24px;
+}
+.page_nav .accordion_segment.expanded .content {
+	display:block;
+}
+.page_nav .location_header {
+	padding-top:8px;
+	display:none;
+}
+.page_nav .nav_item_content {
+	display:none;
+	padding:8px;
+	background-image:none;
+}
+.page_nav .nav_item_content.selected {
+	display:block;
+}
+.nav_item.selected .triangle {
+	background: url("/img/page_nav_item_selected.gif") no-repeat center top transparent;
+	height:12px;
+	display:none;
+	
+}
+.nav_item.selected .triangle.selected {
+	display:block;
+	margin:0;
+	padding:0;
+	position:absolute;
+	top:29px;
+	left:-5px;
+	width:100%;
+}
+
+
+.page_nav .nav_item span {
+	position:relative;
+	top:8px;
+		
+}

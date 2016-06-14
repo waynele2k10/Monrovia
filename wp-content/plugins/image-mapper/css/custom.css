@@ -1,0 +1,88 @@
+.mark-feature {
+    background-image: url("../images/mark_icon.png");
+    background-repeat: no-repeat;
+    display: block;
+    width: 61px;
+    height: 61px;
+    z-index:auto;
+    cursor: pointer;
+}
+.info-img{
+    display:none;
+    padding:5px;
+    background-color:#ffffff;
+    height: 85px;
+    width: 265px;
+    z-index:1;
+}
+.info-img img{
+    width:75px;
+    height: 100%;
+    float:left;
+    padding-right: 5px;
+}
+.wrap-content{
+    float:none;
+}
+.wrap-content h4{
+    margin:auto;
+    font-size:15px;
+}
+.wrap-content p{
+    margin:auto;
+    font-size:12px;
+}
+.wrap-content a{
+    margin:auto;
+    font-size:12px;
+    position: absolute;
+    bottom: 0;
+    padding-bottom:5px;
+}
+.mark-feature:hover .info-img,
+.mark-feature:active .info-img,
+.mark-feature:focus .info-img{
+    display: block;
+}
+.floorplan_image{
+    width: 100%;
+    max-width:none;
+}
+.floor-plan-new-trash{
+    background:url("../images/trash.png") no-repeat
+}
+#post-formats-select label{
+    display: inline-block;
+}
+.modal-body label{
+    display:block;
+}
+.bootstrap-iso .modal-header .close{
+    right: 5px;
+    margin-top: 5px;
+}
+#myModal{
+    z-index:159999;
+    width: auto;
+    margin-left: 0;
+    background: transparent;
+    border: none;
+}
+.floor-plan-new-trash{
+    left:50%;
+    top:45px;
+}
+.modal-open {
+    overflow: hidden;
+}
+.modal {
+    display: none;
+    overflow: hidden;
+    position: fixed;
+    -webkit-overflow-scrolling: touch;
+}
+
+.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+}

@@ -1,0 +1,236 @@
+DATE/TIME: 2016-04-02 00:33:32
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-04-02 00:33:41
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 16363
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;408431&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40843&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Canna &apos;Orange Chocolate&apos; PP#22,423&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Canna &apos;Orange Chocolate&apos; PP#22,423&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Orange Chocolate Elite&amp;#8482; Canna&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage Color&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Foliage 2 to 4 ft. high at maturity; flowers 12 in. above the foliage.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule to establish a deep, extensive root system. Protect from severe cold. In mild winter areas leave in-ground for spring regrowth. In cold winter areas dig and store bulb in a cool dry place. As an indoor plant, locate near bright light.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949434567&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer to fall&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Rich, orange color flower clusters arise above large leaves with bicolor sides. Dusky green upper-most side is countered by deep purple-chocolate layer reverse. Bred for compact and quick growth with self-cleaning of wilting flowers, these are a joy to add to the showcase landscape. Herbaceous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Wet Soils,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Water Garden,Specimen,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;408432&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40843&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Canna &apos;Orange Chocolate&apos; PP#22,423&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Canna &apos;Orange Chocolate&apos; PP#22,423&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Orange Chocolate Elite&amp;#8482; Canna&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage Color&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Foliage 2 to 4 ft. high at maturity; flowers 12 in. above the foliage.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule to establish a deep, extensive root system. Protect from severe cold. In mild winter areas leave in-ground for spring regrowth. In cold winter areas dig and store bulb in a cool dry place. As an indoor plant, locate near bright light.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949413593&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer to fall&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Rich, orange color flower clusters arise above large leaves with bicolor sides. Dusky green upper-most side is countered by deep purple-chocolate layer reverse. Bred for compact and quick growth with self-cleaning of wilting flowers, these are a joy to add to the showcase landscape. Herbaceous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Wet Soils,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Water Garden,Specimen,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;408401&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40840&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Campanula carpatica &apos;Rapido White&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Campanula carpatica &apos;Rapido White&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Rapido White Bellflower&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Summer Flowering&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Daylily (Hemerocallis); Coneflower (Echinacea); Shasta Daisy (Chrysanthemum); Creeping Phlox (Phlox); Coral Bells (Heuchera)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast growing 5 to 7 in. tall, 6 to 8 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. As a ground cover, space plants 2 ft. to 3 ft. apart, (closer for faster coverage). Control weeds with mulch until the plants cover the area. Fertilize bi-monthly during growing season.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949413562&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Early spring to summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Creates a carpet of upturned, bell-shaped, white flowers that arrive earlier than most, and will last for several months in summer. A favorite perennial for rock gardens. Prefers moist, well-drained soils. A lovely fill for mixed container plantings.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering- weekly or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Wet Soils,Naturalizes Well,Fast Growing,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;40840UT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40840&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;UT&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Campanula carpatica &apos;Rapido White&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Campanula carpatica &apos;Rapido White&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Rapido White Bellflower&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Summer Flowering&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Daylily (Hemerocallis); Coneflower (Echinacea); Shasta Daisy (Chrysanthemum); Creeping Phlox (Phlox); Coral Bells (Heuchera)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast growing 5 to 7 in. tall, 6 to 8 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. As a ground cover, space plants 2 ft. to 3 ft. apart, (closer for faster coverage). Control weeds with mulch until the plants cover the area. Fertilize bi-monthly during growing season.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;QT&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 qt. (946 mL)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949427224&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Early spring to summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Creates a carpet of upturned, bell-shaped, white flowers that arrive earlier than most, and will last for several months in summer. A favorite perennial for rock gardens. Prefers moist, well-drained soils. A lovely fill for mixed container plantings.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering- weekly or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Wet Soils,Naturalizes Well,Fast Growing,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;412701&lt;/ItemSizeID&gt;
+		&lt;Item&gt;41270&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Verbena hybrida &apos;Dark Rose&apos; P.P.A.F.&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Verbena hybrida &apos;Dark Rose&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Enduro Dark Rose Verbena&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Prolific Flowering&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Spreading growth, up to 6 to 10 inches tall and 24 to 36 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Drought tolerant once established. Performs best in hot weather. Cut back mid to late summer to allow a new flush of flowers into fall. Treat as an annual outside of USDA hardiness zones 7 through 10.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949424780&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring through summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A deep rose-colored verbena that is hardy to the low teens and reblooms in spring. This striking landscape verbena is a sure summer performer - it loves the heat and blooms throughout summer! Bright, vivid colors that last, dense branching and excellent powdery mildew resistance.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Improved Disease Resistance,Fast Growing,Dense Habit,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Mass Planting,Ground Cover,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;412861&lt;/ItemSizeID&gt;
+		&lt;Item&gt;41286&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Veronica longifolia &apos;Vernique Blue&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Veronica longifolia &apos;Vernique Blue&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Vernique&amp;#8482; Blue Speedwell&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Long Bloom Season&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Blanket Flower (Gaillardia); Black-Eyed-Susan (Rudbeckia); Tickseed (Coreopsis); Coneflower (Echinacea); Shasta Daisy (Chrysanthemum)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Clumps reach 12 to 18 in. tall, 12 to 16 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Thrives in average, well drained soil. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. For a neat appearance, remove old foliage before new leaves emerge.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949425237&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring to summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Abundant, full spikes of blue-purple flowers continue through summer on a compact form that is perfect for border, cutting garden or container. Excellent mildew resistance makes this delightful perennial even easier to grow and appreciate.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care,Deer Resistant,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;412871&lt;/ItemSizeID&gt;
+		&lt;Item&gt;41287&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Veronica longifolia &apos;Vernique Rose&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Veronica longifolia &apos;Vernique Rose&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Vernique&amp;#174; Rose Speedwell&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Long Bloom Season&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Gaura (Gaura); Beard Tongue (Pennstemon);Salvia (Salvia); Coneflower (Echinacea); Shasta Daisy (Chrysanthemum)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Clumps reach 18 to 22 in. tall, 12 to 16 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Thrives in average, well drained soil with a full sun exposure. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. For a neat appearance, remove old foliage before new leaves emerge.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949425268&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring to summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Abundant, full spikes of rose-pink flowers continue through summer on a compact form that is perfect for border, cutting garden or container. Excellent mildew resistance makes this delightful perennial even easier to grow and appreciate.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Best with regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care,Deer Resistant,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Mass Planting,Cutting Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Sat, 02 Apr 2016 00:33:39 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

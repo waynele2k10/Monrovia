@@ -1,0 +1,239 @@
+DATE/TIME: 2016-02-17 18:13:06
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-02-17 18:13:20
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 16211
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;012411ST&lt;/ItemSizeID&gt;
+		&lt;Item&gt;01241&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1ST&lt;/Size&gt;
+		&lt;SizeDescription&gt;Staked&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Betula pendula &apos;Youngii&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Betula pendula &apos;Youngii&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Young&apos;s Weeping Birch&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Deer Resistant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Windbreak,Specimen,Firescaping/Fire Wise,Red Twig Dogwood (Cornus); Iris (Iris); Sweet Flag, (Acorus): Miniature Cattail (Typha); Turtle Head (Chelone)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate growth, reaches 8 to 10 ft. tall and 15 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. Prune semi-annually to maintain topiary form.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949125014&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Most unusual tree having very pendulous branches creating a graceful mound. Trained to best display weeping habit. Develops noticeable trunk with age. Superior specimen or accent. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;7&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;2&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Fall Color,Extreme Cold Hardiness,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Very Wet Areas&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Windbreak,Specimen,Firescaping/Fire Wise&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;012417ST&lt;/ItemSizeID&gt;
+		&lt;Item&gt;01241&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;7ST&lt;/Size&gt;
+		&lt;SizeDescription&gt;Staked&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Betula pendula &apos;Youngii&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Betula pendula &apos;Youngii&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Young&apos;s Weeping Birch&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Deer Resistant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Windbreak,Specimen,Firescaping/Fire Wise,Red Twig Dogwood (Cornus); Iris (Iris); Sweet Flag, (Acorus): Miniature Cattail (Typha); Turtle Head (Chelone)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate-growing into 8 to 10 ft. tall and 15 feet wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. Prune semi-annually to maintain topiary form.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;7&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;6.20 gal. (23.47 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949125076&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Most unusual tree having very pendulous branches creating a graceful mound. Trained to best display weeping habit. Develops noticeable trunk with age. Superior specimen or accent. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;7&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;2&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Fall Color,Extreme Cold Hardiness,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Very Wet Areas&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Windbreak,Specimen,Firescaping/Fire Wise&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;012415&lt;/ItemSizeID&gt;
+		&lt;Item&gt;01241&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Betula pendula &apos;Youngii&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Betula pendula &apos;Youngii&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Young&apos;s Weeping Birch&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Deer Resistant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Windbreak,Specimen,Firescaping/Fire Wise,Red Twig Dogwood (Cornus); Iris (Iris); Sweet Flag, (Acorus): Miniature Cattail (Typha); Turtle Head (Chelone)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate-growing into 8 to 10 ft. tall and 15 feet wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. Prune semi-annually to maintain topiary form.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949024768&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Most unusual tree having very pendulous branches creating a graceful mound. Trained to best display weeping habit. Develops noticeable trunk with age. Superior specimen or accent. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;7&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;2&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Fall Color,Extreme Cold Hardiness,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Very Wet Areas&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Windbreak,Specimen,Firescaping/Fire Wise&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;012415SE&lt;/ItemSizeID&gt;
+		&lt;Item&gt;01241&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5SE&lt;/Size&gt;
+		&lt;SizeDescription&gt;Serpentine&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Betula pendula &apos;Youngii&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Betula pendula &apos;Youngii&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Young&apos;s Weeping Birch&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Deer Resistant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Windbreak,Specimen,Firescaping/Fire Wise,Red Twig Dogwood (Cornus); Iris (Iris); Sweet Flag, (Acorus): Miniature Cattail (Typha); Turtle Head (Chelone)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate growth, reaches 8 to 10 ft. tall and 15 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. Prune semi-annually to maintain topiary form.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949124154&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Most unusual tree having very pendulous branches creating a graceful mound. Trained to best display weeping habit. Develops noticeable trunk with age. Superior specimen or accent. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;7&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;2&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Fall Color,Extreme Cold Hardiness,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Very Wet Areas&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Windbreak,Specimen,Firescaping/Fire Wise&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;012415ST&lt;/ItemSizeID&gt;
+		&lt;Item&gt;01241&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5ST&lt;/Size&gt;
+		&lt;SizeDescription&gt;Staked&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Betula pendula &apos;Youngii&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Betula pendula &apos;Youngii&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Young&apos;s Weeping Birch&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Deer Resistant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Windbreak,Specimen,Firescaping/Fire Wise,Red Twig Dogwood (Cornus); Iris (Iris); Sweet Flag, (Acorus): Miniature Cattail (Typha); Turtle Head (Chelone)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Maintain present size and topiary form with occasional pruning.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. Prune semi-annually to maintain topiary form.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949125052&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Most unusual tree having very pendulous branches creating a graceful mound. Trained to best display weeping habit. Develops noticeable trunk with age. Superior specimen or accent. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;7&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;2&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Fall Color,Extreme Cold Hardiness,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Very Wet Areas&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Windbreak,Specimen,Firescaping/Fire Wise&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;012417SE&lt;/ItemSizeID&gt;
+		&lt;Item&gt;01241&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;7SE&lt;/Size&gt;
+		&lt;SizeDescription&gt;Serpentine&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Betula pendula &apos;Youngii&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Betula pendula &apos;Youngii&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Young&apos;s Weeping Birch&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Deer Resistant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Windbreak,Specimen,Firescaping/Fire Wise,Red Twig Dogwood (Cornus); Iris (Iris); Sweet Flag, (Acorus): Miniature Cattail (Typha); Turtle Head (Chelone)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Maintain present size and topiary form with occasional pruning.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. Prune semi-annually to maintain topiary form.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;7&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;6.20 gal. (23.47 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949124178&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Most unusual tree having very pendulous branches creating a graceful mound. Trained to best display weeping habit. Develops noticeable trunk with age. Superior specimen or accent. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;7&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;2&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Fall Color,Extreme Cold Hardiness,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Very Wet Areas&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Windbreak,Specimen,Firescaping/Fire Wise&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;01241MSE&lt;/ItemSizeID&gt;
+		&lt;Item&gt;01241&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;MSE&lt;/Size&gt;
+		&lt;SizeDescription&gt;Serpentine&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Betula pendula &apos;Youngii&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Betula pendula &apos;Youngii&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Young&apos;s Weeping Birch&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Deer Resistant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Windbreak,Specimen,Firescaping/Fire Wise,Red Twig Dogwood (Cornus); Iris (Iris); Sweet Flag, (Acorus): Miniature Cattail (Typha); Turtle Head (Chelone)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate growth, reaches 8 to 10 ft. tall and 15 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. Prune semi-annually to maintain topiary form.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;10&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;7.97 gal. (30.17 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949345795&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Most unusual tree having very pendulous branches creating a graceful mound. Trained to best display weeping habit. Develops noticeable trunk with age. Superior specimen or accent. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;7&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;2&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Fall Color,Extreme Cold Hardiness,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Very Wet Areas&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Windbreak,Specimen,Firescaping/Fire Wise&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 17 Feb 2016 18:13:18 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

@@ -1,0 +1,210 @@
+DATE/TIME: 2016-02-24 17:53:26
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-02-24 17:53:39
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 15527
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;038745&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03874&lt;/Item&gt;
+		&lt;SpecialIcon&gt;Exclusive&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Picea pungens var. glauca &apos;MonWal&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Picea pungens var. glauca &apos;MonWal&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Sparkler&amp;#174; Colorado Blue Spruce&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Brilliant Seasonal Foliage&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Dwarf Ninebark (Physocarpus); Smoke Tree (Cotinus); Potentilla (Potentilla); Fountain Grass (Pennisetum); Salvia (Salvia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 10 to 12 ft. tall in 10 years; eventually 40 to 60 ft. tall, 10 to 20 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Prefers humus rich, well drained soil. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Apply a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949317983&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Conifer; prized for foliage.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This distinctive new conifer heralds spring with bright yellow-gold new growth in stunning contrast to the mature blue-green foliage. Discovered by a Monrovia craftsman in Oregon, its handsome pyramidal form with a dense, slower growing habit is ideal for accent, windbreak or tall screen. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;2&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Extreme Cold Hardiness,Easy Care,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Deer Resistant&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Rock Garden,Privacy Screen,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;038747&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03874&lt;/Item&gt;
+		&lt;SpecialIcon&gt;Exclusive&lt;/SpecialIcon&gt;
+		&lt;Size&gt;7&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Picea pungens var. glauca &apos;MonWal&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Picea pungens var. glauca &apos;MonWal&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Sparkler&amp;#174; Colorado Blue Spruce&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Brilliant Seasonal Foliage&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Dwarf Ninebark (Physocarpus); Smoke Tree (Cotinus); Potentilla (Potentilla); Fountain Grass (Pennisetum); Salvia (Salvia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 10 to 12 ft. tall in 10 years; eventually 40 to 60 ft. tall, 10 to 20 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Prefers humus rich, well drained soil. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Apply a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;7&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;6.20 gal. (23.47 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949267004&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Conifer; prized for foliage.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This distinctive new conifer heralds spring with bright yellow-gold new growth in stunning contrast to the mature blue-green foliage. Discovered by a Monrovia craftsman in Oregon, its handsome pyramidal form with a dense, slower growing habit is ideal for accent, windbreak or tall screen. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;2&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Extreme Cold Hardiness,Easy Care,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Deer Resistant&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Rock Garden,Privacy Screen,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;03874M&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03874&lt;/Item&gt;
+		&lt;SpecialIcon&gt;Exclusive&lt;/SpecialIcon&gt;
+		&lt;Size&gt;M&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Picea pungens var. glauca &apos;MonWal&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Picea pungens var. glauca &apos;MonWal&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Sparkler&amp;#174; Colorado Blue Spruce&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Brilliant Seasonal Foliage&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Dwarf Ninebark (Physocarpus); Smoke Tree (Cotinus); Potentilla (Potentilla); Fountain Grass (Pennisetum); Salvia (Salvia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 10 to 12 ft. tall in 10 years; eventually 40 to 60 ft. tall, 10 to 20 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Prefers humus rich, well drained soil. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Apply a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;10&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;7.97 gal. (30.17 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949317990&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Conifer; prized for foliage.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This distinctive new conifer heralds spring with bright yellow-gold new growth in stunning contrast to the mature blue-green foliage. Discovered by a Monrovia craftsman in Oregon, its handsome pyramidal form with a dense, slower growing habit is ideal for accent, windbreak or tall screen. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;2&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Extreme Cold Hardiness,Easy Care,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Deer Resistant&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Rock Garden,Privacy Screen,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;067761&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06776&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Lonicera reticulata x Lonicera prolifera&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Lonicera reticulata x Lonicera prolifera&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Kintzley&apos;s Ghost&amp;#174; Honeysuckle&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Butterfly Bush (Buddleja); Coneflower (Echinacea); Aster (Aster); Bee Balm (Monarda); Butterfly Weed (Asclepias)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast grower; twining woody stems reach 8 to 12 ft. tall or more, 2 to 4 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Tolerates a variety of soils, even very lean soils, but thrives in evenly moist, well-drained loam. Will not tolerate standing water. Somewhat drought tolerant once established. Best flowering in full sun. Provide support for twining stems. Prune as needed to control size.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949356869&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Flowers in early summer; showy bracts persist through fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Prolific, yellow, tubular, slightly fragrant flowers cover this vine in early summer, each surrounded by a large, perfectly circular, silvery-white bract on a background of large, pale blue-green leaves, as if the vine is covered with a galaxy of full moons. A stunning heirloom sure to brighten vertical spaces in the garden.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Improved Pest and Disease Resistance,Fast Growing,Extreme Cold Hardiness,Easy Care,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Privacy Screen,Espalier,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;067762&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06776&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Lonicera reticulata x Lonicera prolifera&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Lonicera reticulata x Lonicera prolifera&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Kintzley&apos;s Ghost&amp;#174; Honeysuckle&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Butterfly Bush (Buddleja); Coneflower (Echinacea); Aster (Aster); Bee Balm (Monarda); Butterfly Weed (Asclepias)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast grower; twining woody stems reach 8 to 12 ft. tall or more, 2 to 4 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Tolerates a variety of soils, even very lean soils, but thrives in evenly moist, well-drained loam. Will not tolerate standing water. Somewhat drought tolerant once established. Best flowering in full sun. Provide support for twining stems. Prune as needed to control size.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949356876&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Flowers in early summer; showy bracts persist through fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Prolific, yellow, tubular, slightly fragrant flowers cover this vine in early summer, each surrounded by a large, perfectly circular, silvery-white bract on a background of large, pale blue-green leaves, as if the vine is covered with a galaxy of full moons. A stunning heirloom sure to brighten vertical spaces in the garden.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Improved Pest and Disease Resistance,Fast Growing,Extreme Cold Hardiness,Easy Care,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Privacy Screen,Espalier,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;067765&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06776&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Lonicera reticulata x Lonicera prolifera&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Lonicera reticulata x Lonicera prolifera&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Kintzley&apos;s Ghost&amp;#174; Honeysuckle&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Butterfly Bush (Buddleja); Coneflower (Echinacea); Aster (Aster); Bee Balm (Monarda); Butterfly Weed (Asclepias)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast grower; twining woody stems reach 8 to 12 ft. tall or more, 2 to 4 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Tolerates a variety of soils, even very lean soils, but thrives in evenly moist, well-drained loam. Will not tolerate standing water. Somewhat drought tolerant once established. Best flowering in full sun. Provide support for twining stems. Prune as needed to control size.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949356883&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Flowers in early summer; showy bracts persist through fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Prolific, yellow, tubular, slightly fragrant flowers cover this vine in early summer, each surrounded by a large, perfectly circular, silvery-white bract on a background of large, pale blue-green leaves, as if the vine is covered with a galaxy of full moons. A stunning heirloom sure to brighten vertical spaces in the garden.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Improved Pest and Disease Resistance,Fast Growing,Extreme Cold Hardiness,Easy Care,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Privacy Screen,Espalier,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 24 Feb 2016 17:53:38 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

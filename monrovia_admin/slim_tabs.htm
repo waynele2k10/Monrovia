@@ -1,0 +1,26 @@
+<script src="js/prototype_1_6_0.js"></script>
+<script src="js/slim_tabs.js"></script>
+<link rel="stylesheet" type="text/css" href="css/slim_tabs.css" />
+
+	<div class="slimTabContainer" id="mrTabs">
+		<div>
+			<div class="slimTab spacer" style="width:4px">&nbsp;</div>
+
+			<div class="slimTab" tab="1">Tab 1</div>
+			<div class="slimTab selected" tab="2">Tab 2</div>
+
+			<div class="slimTab spacer" style="width:32px;">&nbsp;</div>
+		</div>
+		<div id="caseTab1" class="slimTabBlurb sel" tab="1">
+			Tab 1 content
+		</div>
+
+		<div id="caseTab2" class="slimTabBlurb" tab="2">
+			Tab 2 content
+		</div>
+	</div>
+
+<hr>
+
+<a href="javascript:slimTab_showTab('mrTabs','Tab 1');">Show tab 1 (using tab caption)</a><br />
+<a href="javascript:slimTab_showTab('mrTabs',2);">Show tab 2 (using tab number)</a><br />

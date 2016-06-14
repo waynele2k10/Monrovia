@@ -1,0 +1,181 @@
+DATE/TIME: 2016-02-15 23:12:39
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-02-15 23:12:45
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 12894
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;043395&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04339&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Prunus x &apos;Extrazam&apos; Weeping Extraordinaire&amp;#8482;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Prunus x &apos;Extrazam&apos; Weeping Extraordinaire&amp;#8482;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Weeping Extraordinaire&amp;#8482; Double Flowering Cherry&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Spring Flowering&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Wildlife Garden,Specimen,Eastern Snowball (Viburnum); Lilac (Syringa); Rose Of Sharon (Hibiscus syriacus); Butterfly Bush (Buddleja); Coneflower (Echinacea)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 15 to 20 ft. tall, with a canopy reaching equal width.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide humus-rich, well drained soil. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. Prune for shape and structure after flowering.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949334348&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring flowers; may produce a very small number of tiny black fruit.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A profusion of large, fluffy, double pink flowers that provides a fantastic early spring show. Shiny copper-colored spring foliage turns a glossy deep green in summer, and takes on a rich burgundy tone in the fall. Wonderful as a specimen, or in pairs along paths to frame formal entry ways. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Fall Color,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Wildlife Garden,Specimen&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;043397&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04339&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;7&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Prunus x &apos;Extrazam&apos; Weeping Extraordinaire&amp;#8482;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Prunus x &apos;Extrazam&apos; Weeping Extraordinaire&amp;#8482;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Weeping Extraordinaire&amp;#8482; Double Flowering Cherry&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Spring Flowering&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Wildlife Garden,Specimen,Eastern Snowball (Viburnum); Lilac (Syringa); Rose Of Sharon (Hibiscus syriacus); Butterfly Bush (Buddleja); Coneflower (Echinacea)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 15 to 20 ft. tall, with a canopy reaching equal width.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide humus-rich, well drained soil. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. Prune for shape and structure after flowering.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;7&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;6.20 gal. (23.47 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949407622&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring flowers; may produce a very small number of tiny black fruit.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A profusion of large, fluffy, double pink flowers that provides a fantastic early spring show. Shiny copper-colored spring foliage turns a glossy deep green in summer, and takes on a rich burgundy tone in the fall. Wonderful as a specimen, or in pairs along paths to frame formal entry ways. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Fall Color,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Wildlife Garden,Specimen&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;04339M&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04339&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;M&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Prunus x &apos;Extrazam&apos; Weeping Extraordinaire&amp;#8482;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Prunus x &apos;Extrazam&apos; Weeping Extraordinaire&amp;#8482;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Weeping Extraordinaire&amp;#8482; Double Flowering Cherry&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Spring Flowering&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Wildlife Garden,Specimen,Eastern Snowball (Viburnum); Lilac (Syringa); Rose Of Sharon (Hibiscus syriacus); Butterfly Bush (Buddleja); Coneflower (Echinacea)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 15 to 20 ft. tall, with a canopy reaching equal width.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide humus-rich, well drained soil. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. Prune for shape and structure after flowering.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;10&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;7.97 gal. (30.17 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949334362&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring flowers; may produce a very small number of tiny black fruit.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A profusion of large, fluffy, double pink flowers that provides a fantastic early spring show. Shiny copper-colored spring foliage turns a glossy deep green in summer, and takes on a rich burgundy tone in the fall. Wonderful as a specimen, or in pairs along paths to frame formal entry ways. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Fall Color,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Wildlife Garden,Specimen&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;084911&lt;/ItemSizeID&gt;
+		&lt;Item&gt;08491&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Polystichum munitum&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Polystichum munitum&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Western Sword Fern&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;North American Native&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Poolside,Mass Planting,Border,Coral Bells (Heuchera); Columbine (Aquilegia); Hosta (Hosta); Lungwort (Pulmonaria); Bleeding Heart (Dicentra)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 3 to 6 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide humus rich, well-drained soil. Follow a regular watering schedule to develop a deep extensive root system. Tolerates mild drought, once well established. Remove the oldest fronds when new growth resumes each spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949366943&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Does not bloom.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;One of the most robust and reliable, this hardy native male fern offers superb texture with glossy, leathery, toothed foliage. Vigorous clumps are formed of many long fronds; up to four feet long in cool, shady sites. Keeps up appearances even in warm, arid climates, though plants are more compact.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade to partial sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water weekly or more often during extreme heat; less often when established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Easy Care,Clump Forming,North American Native Selection&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Deer Resistant,Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Poolside,Mass Planting,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;084912&lt;/ItemSizeID&gt;
+		&lt;Item&gt;08491&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Polystichum munitum&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Polystichum munitum&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Western Sword Fern&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;North American Native&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Poolside,Mass Planting,Border,Coral Bells (Heuchera); Columbine (Aquilegia); Hosta (Hosta); Lungwort (Pulmonaria); Bleeding Heart (Dicentra)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 3 to 6 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide humus rich, well-drained soil. Follow a regular watering schedule to develop a deep extensive root system. Tolerates mild drought, once well established. Remove the oldest fronds when new growth resumes each spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949366950&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Does not bloom.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;One of the most robust and reliable, this hardy native male fern offers superb texture with glossy, leathery, toothed foliage. Vigorous clumps are formed of many long fronds; up to four feet long in cool, shady sites. Keeps up appearances even in warm, arid climates, though plants are more compact.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade to partial sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water weekly or more often during extreme heat; less often when established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Easy Care,Clump Forming,North American Native Selection&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Deer Resistant,Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Poolside,Mass Planting,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Mon, 15 Feb 2016 23:12:44 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

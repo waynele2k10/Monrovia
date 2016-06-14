@@ -1,0 +1,224 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+/* 
+    Created on : Apr 8, 2016, 10:47:33 AM
+    Author     : CMSHelplive
+*/
+
+
+/*---------Common Elements---------------*/
+* { box-sizing: border-box;}
+
+
+/*------------- rmagic Elements --------------*/
+
+
+
+.rmagic {
+    
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+.rmagic sup {color: #ff6c6c;}
+
+/*.rmagic input[type=text], .rmagic textarea, .rmagic select, .rmagic input[type=password] {
+    height: 35px;
+    font-size: 18px;
+    color: rgb(150,150,150);
+    width: 90%;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid rgb(225,225,225);
+}*/
+
+.rmagic input[type=text].warning, input[type=password].warning, textarea.warning, select.warning, .rmagic input[type=password].warning {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #e89d9d;
+    color: #ff6c6c;
+    
+}
+
+.rmagic .rmrow li { list-style:none;}
+
+#ui-datepicker-div .ui-datepicker-calendar td {    padding: 0px;    border-width: 0 0px 0px 0;}
+#ui-datepicker-div .ui-datepicker-calendar th {    padding: 0px;    border-width: 0 0px 0px 0;}
+
+#ui-datepicker-div.ui-widget-content {    width: 230px;}
+
+
+
+.rmagic .rmradio {
+    display: block;
+    float: left;
+    list-style: none;
+    width: 90%;
+}
+
+.rmagic .rmradio .rm-radio-option {
+    display: inline-block;
+    float: left;
+    padding-right: 10px;
+}
+
+.rmagic .rmradio .rm-radio-option::after {
+    content: " ";
+}
+
+
+.rmagic input[type=submit] {
+    display: inline-block;
+    float: left;
+}
+
+
+.rmagic textarea {
+    resize: vertical;
+}
+
+
+
+
+.rmagic form.rmagic-form {
+    width: 100%; 
+    float: left; 
+}
+
+
+.rmheader {
+    display: block;
+    font-size: 18px;
+    padding: 20px;
+   
+}
+
+.rmsubheader { 
+    display: block;
+    float: left;
+    padding: 5px 5px 5px 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 11px;
+}
+
+.rmrow {
+    display: block; 
+    float: left;
+    position: inherit;
+    padding: 5px 0px 5px 0px; 
+    min-height: 60px; 
+    width: 100%;
+}
+
+.rmfield {width:50%;}
+.rminput {width:50%; padding: 0px; margin: 0px;}
+
+.rmfield, .rminput {
+    display: inline-block; 
+    float: left;
+    vertical-align: middle;
+    min-height: inherit;
+    padding: 5px;
+}
+
+.rminput .errortext {
+    width: 100%;
+    display: block;
+    float: left;
+    text-transform: uppercase;
+    color: #ff6c6c;
+    font-size: 12px;
+}
+
+.rmfield {
+    padding-top: 10px;
+    
+}
+
+
+.rmagic .buttonarea {
+    width: 100%;
+    display: block;
+    float: left;
+    padding: 15px;
+}
+
+.rmagic .rmcontent .rminput input[type="text"], .rmagic .rmcontent .rminput input[type="password"], .rmagic .rmcontent .rminput input[type="email"],.rmagic .rmcontent .rminput input[type=number], textarea,  .rmagic .rmcontent .rminput select{  width:100%;}
+
+
+.rmagic ul.rmradio {margin: 0px;
+    padding: 0px;}
+
+.rmagic .rm_actions a {
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+}
+
+.rmagic .rm_actions a:hover {
+    cursor: pointer;
+}
+
+
+/*----rmagic Hover Effects----*/
+
+
+.rmagic input[type=text]:focus, .rmagic textarea:focus, .rmagic select:focus, .rmagic input[type=password]  {
+    outline: inherit;
+    
+}
+
+
+/*--------Dummy WP Elements. Delete Them----------*/
+.adminmenublock {
+    display: inline-block;
+    position:static;
+    float:left;
+    width:160px;
+    background-color: #23282d;
+    height: 1200px;
+}
+
+.wpadminbar {
+    display: inline-block;
+    height: 32px;
+    background-color: #23282d;
+    width: 100%;
+    
+}
+
+/*------------Adjustments for smaller screens-----------------*/
+
+@media screen and (max-width: 700px) {
+    .rmfield, .rminput {
+    display: block;
+    float: left;
+    width: 100%;
+    margin-top: 5px;
+    }
+    
+    .rmrow {
+        min-height: 30px;
+    }
+    
+    
+    
+    .rmagic .rmradio .rm-radio-option {
+        width: 50%;
+        padding: 0 0 5px 10px;
+    }
+    
+
+    .rmagic {
+        margin: auto;
+    }
+    
+}
+    
+

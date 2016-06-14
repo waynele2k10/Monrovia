@@ -1,0 +1,239 @@
+DATE/TIME: 2016-02-15 08:32:42
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-02-15 08:32:50
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 16868
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;067471&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06747&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Punica granatum &apos;Nochi Shibari&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Punica granatum &apos;Nochi Shibari&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Nochi Shibari Pomegranate&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Summer Flowering&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Specimen,Espalier,Container,Border,Olive (Olea); Bay Laurel (Laurus); Rosemary (Rosmarinus); Lavender (Lavandula); Meyer Lemon (Cirtrus)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 8 to 10 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Tolerates some drought, once established. Feed before new growth appears in spring. For a tidy, neat appearance, prune annually to shape.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949674710&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A beautiful landscape specimen with striking large, orange, double, carnation-like, white-tipped and striped blooms on upright, fountain like branches during summer. A compact to medium-sized variety that may produce little to no fruit. This heat and sun-loving shrub is versatile as a shrub, small tree or espalier. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Best with regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Poor Soils,Easy Care,Fall Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen,Espalier,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;067471PT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06747&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1PT&lt;/Size&gt;
+		&lt;SizeDescription&gt;Patio Tree&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Punica granatum &apos;Nochi Shibari&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Punica granatum &apos;Nochi Shibari&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Nochi Shibari Pomegranate&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Summer Flowering&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Specimen,Espalier,Container,Border,Olive (Olea); Bay Laurel (Laurus); Rosemary (Rosmarinus); Lavender (Lavandula); Meyer Lemon (Cirtrus)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 8 to 10 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Tolerates some drought, once established. Feed before new growth appears in spring. For a tidy, neat appearance, prune annually to shape.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949674819&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A beautiful landscape specimen with striking large, orange, double, carnation-like, white-tipped and striped blooms on upright, fountain like branches during summer. A compact to medium-sized variety that may produce little to no fruit. This heat and sun-loving shrub is versatile as a shrub, small tree or espalier. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Best with regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Poor Soils,Easy Care,Fall Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen,Espalier,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;067475&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06747&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Punica granatum &apos;Nochi Shibari&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Punica granatum &apos;Nochi Shibari&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Nochi Shibari Pomegranate&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Summer Flowering&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Specimen,Espalier,Container,Border,Olive (Olea); Bay Laurel (Laurus); Rosemary (Rosmarinus); Lavender (Lavandula); Meyer Lemon (Cirtrus)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 8 to 10 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Tolerates some drought, once established. Feed before new growth appears in spring. For a tidy, neat appearance, prune annually to shape.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949674758&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A beautiful landscape specimen with striking large, orange, double, carnation-like, white-tipped and striped blooms on upright, fountain like branches during summer. A compact to medium-sized variety that may produce little to no fruit. This heat and sun-loving shrub is versatile as a shrub, small tree or espalier. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Best with regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Poor Soils,Easy Care,Fall Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen,Espalier,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;067475PT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06747&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5PT&lt;/Size&gt;
+		&lt;SizeDescription&gt;Patio Tree&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Punica granatum &apos;Nochi Shibari&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Punica granatum &apos;Nochi Shibari&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Nochi Shibari Pomegranate&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Summer Flowering&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Specimen,Espalier,Container,Border,Olive (Olea); Bay Laurel (Laurus); Rosemary (Rosmarinus); Lavender (Lavandula); Meyer Lemon (Cirtrus)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 8 to 10 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Tolerates some drought, once established. Feed before new growth appears in spring. For a tidy, neat appearance, prune annually to shape.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949674857&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A beautiful landscape specimen with striking large, orange, double, carnation-like, white-tipped and striped blooms on upright, fountain like branches during summer. A compact to medium-sized variety that may produce little to no fruit. This heat and sun-loving shrub is versatile as a shrub, small tree or espalier. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Best with regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Poor Soils,Easy Care,Fall Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen,Espalier,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;067417&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06741&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;7&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Prunus armeniaca &apos;Harcot&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Prunus armeniaca &apos;Harcot&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Harcot Apricot&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Edible Fruit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Specimen,Mass Planting,Kitchen Garden,Hedge,Lilac (Syringa); Honeysuckle (Lonicera); Hydrangea (Hydrangea paniculata); Lavender (Lavandula); Rosemary (Rosmarinus)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 15 to 25 feet tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring. Pruning time: winter.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;7&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;6.20 gal. (23.47 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949908129&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;One of the best apricots, its large fruit has a sweet, juicy, rich flavor. Its skin is an attractive yellow-orange. Pretty pink flowers appear in spring. This variety is perfectly suited for colder areas with its frost-hardy late bloom. Harcots are good for canning, cooking, or freezing. Requires 700 hours chilling.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;7&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Edible,Fall Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen,Mass Planting,Kitchen Garden,Hedge&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;06741MT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06741&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;MT&lt;/Size&gt;
+		&lt;SizeDescription&gt;Tall&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Prunus armeniaca &apos;Harcot&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Prunus armeniaca &apos;Harcot&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Harcot Apricot&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Edible Fruit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Specimen,Mass Planting,Kitchen Garden,Hedge,Lilac (Syringa); Honeysuckle (Lonicera); Hydrangea (Hydrangea paniculata); Lavender (Lavandula); Rosemary (Rosmarinus)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 15 to 25 feet tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring. Pruning time: winter.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;10&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;7.97 gal. (30.17 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949323182&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;One of the best apricots, its large fruit has a sweet, juicy, rich flavor. Its skin is an attractive yellow-orange. Pretty pink flowers appear in spring. This variety is perfectly suited for colder areas with its frost-hardy late bloom. Harcots are good for canning, cooking, or freezing. Requires 700 hours chilling.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;7&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Edible,Fall Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen,Mass Planting,Kitchen Garden,Hedge&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;066485&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06648&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Ficus carica &apos;Celestial&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Ficus carica &apos;Celestial&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Celestial Fig Tree&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Edible Fruit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Specimen,Kitchen Garden,Espalier,Container,Rosemary (Rosmarinus); Lavender (Lavandula); Raspberry (Rubus); Grape (Vitis); Fragaria (Strawberry)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 5 to 10 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide enriched, well-drained soil. Thrives in moderate coastal climates; avoid heat and cold extremes. Water regularly during first growing season to establish a deep, extensive root system. Water deeply, less frequently when established, supplementing during fruiting cycle. Shelter young plants in colder winter areas.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949318768&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicuous&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This small to medium sized cultivar is prized for its vigorous growth, improved resistance to cold and bountiful harvest. It produces small, purplish-brown figs with sweet white flesh that mature and ripen in mid-June. Figs are often root hardy and prolific in cold winter zones if planted in a sheltered location. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Best with regular watering for fruit production.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Showy Fruit,Edible,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen,Kitchen Garden,Espalier,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Mon, 15 Feb 2016 08:32:49 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

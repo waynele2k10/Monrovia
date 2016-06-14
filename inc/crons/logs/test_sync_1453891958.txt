@@ -1,0 +1,181 @@
+DATE/TIME: 2016-01-27 10:52:38
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-01-27 10:52:45
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 12558
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;040631&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04063&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hemerocallis x &apos;Prairie Blue Eyes&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hemerocallis x &apos;Prairie Blue Eyes&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Prairie Blue Eyes Daylily&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Summer Flowering&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Poolside,Mass Planting,Firescaping/Fire Wise,Erosion Control,Container,Coastal Exposure,Border,Tickseed (Coreopsis); Coneflower (Echinacea); Evening Primrose (Oenothera); Shasta Daisy (Chrysanthemum); Speedwell (Veronica)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Vigorous grower to 2 1/2 ft. tall.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949406311&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Tolerant of heat and humidity, this is a favorite perennial for colorful summer blooms. Displays beautiful lavender flowers with yellow green throats on tall stems. A mid-season bloomer. Good for firescaping. Herbaceous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Tolerates Poor Soils,Improved Pest and Disease Resistance,Extreme Cold Hardiness,Easy Care,Clump Forming&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Poolside,Mass Planting,Firescaping/Fire Wise,Erosion Control,Container,Coastal Exposure,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;040631S&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04063&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1S&lt;/Size&gt;
+		&lt;SizeDescription&gt;SuperOne&amp;#8482;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hemerocallis x &apos;Prairie Blue Eyes&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hemerocallis x &apos;Prairie Blue Eyes&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Prairie Blue Eyes Daylily&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Summer Flowering&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Poolside,Mass Planting,Firescaping/Fire Wise,Erosion Control,Container,Coastal Exposure,Border,Tickseed (Coreopsis); Coneflower (Echinacea); Evening Primrose (Oenothera); Shasta Daisy (Chrysanthemum); Speedwell (Veronica)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Vigorous grower to 2 1/2 ft. tall.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 gal. (3.79 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949030134&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Tolerant of heat and humidity, this is a favorite perennial for colorful summer blooms. Displays beautiful lavender flowers with yellow green throats on tall stems. A mid-season bloomer. Good for firescaping. Herbaceous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Tolerates Poor Soils,Improved Pest and Disease Resistance,Extreme Cold Hardiness,Easy Care,Clump Forming&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Poolside,Mass Planting,Firescaping/Fire Wise,Erosion Control,Container,Coastal Exposure,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;040632&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04063&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hemerocallis x &apos;Prairie Blue Eyes&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hemerocallis x &apos;Prairie Blue Eyes&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Prairie Blue Eyes Daylily&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Summer Flowering&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Poolside,Mass Planting,Firescaping/Fire Wise,Erosion Control,Container,Coastal Exposure,Border,Tickseed (Coreopsis); Coneflower (Echinacea); Evening Primrose (Oenothera); Shasta Daisy (Chrysanthemum); Speedwell (Veronica)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Vigorous grower to 2 1/2 ft. tall.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949312353&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Tolerant of heat and humidity, this is a favorite perennial for colorful summer blooms. Displays beautiful lavender flowers with yellow green throats on tall stems. A mid-season bloomer. Good for firescaping. Herbaceous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Tolerates Poor Soils,Improved Pest and Disease Resistance,Extreme Cold Hardiness,Easy Care,Clump Forming&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Poolside,Mass Planting,Firescaping/Fire Wise,Erosion Control,Container,Coastal Exposure,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;040635&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04063&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hemerocallis x &apos;Prairie Blue Eyes&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hemerocallis x &apos;Prairie Blue Eyes&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Prairie Blue Eyes Daylily&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Summer Flowering&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Poolside,Mass Planting,Firescaping/Fire Wise,Erosion Control,Container,Coastal Exposure,Border,Tickseed (Coreopsis); Coneflower (Echinacea); Evening Primrose (Oenothera); Shasta Daisy (Chrysanthemum); Speedwell (Veronica)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Vigorous grower to 2 1/2 ft. tall.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949406359&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Tolerant of heat and humidity, this is a favorite perennial for colorful summer blooms. Displays beautiful lavender flowers with yellow green throats on tall stems. A mid-season bloomer. Good for firescaping. Herbaceous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Tolerates Poor Soils,Improved Pest and Disease Resistance,Extreme Cold Hardiness,Easy Care,Clump Forming&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Poolside,Mass Planting,Firescaping/Fire Wise,Erosion Control,Container,Coastal Exposure,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;043121&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04312&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Kniphofia hirsuta &apos;Fire Dance&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Kniphofia hirsuta &apos;Fire Dance&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Fire Dance Dwarf Poker&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rock Garden,Mass Planting,Firescaping/Fire Wise,Container,Border,Avens (Geum); Blanket Flower (Gaillardia); Aster (Aster); Coneflower (Echinacea); Salvia (Salvia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Forms clumps 18 in. tall, 15 to 18 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Requires well-drained soil. Water regularly during first growing season to establish a deep, extensive root system. Water deeply, less frequently, once established. Feed before new growth begins in spring. Remove spent blooms to encourage more blossoms.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949338421&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Native to South Africa, this is one of the shortest, prettiest and most reliably cold-hardy species in the genus. Coral red and yellow flower spikes grow atop a thick clump of narrow, arching, blue-green foliage. Well suited to small city gardens and containers.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water weekly or more often in extreme heat; less often once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Deer Resistant,Clump Forming,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Mass Planting,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 27 Jan 2016 10:52:44 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

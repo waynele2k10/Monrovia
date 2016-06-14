@@ -1,0 +1,152 @@
+DATE/TIME: 2016-02-04 06:32:38
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-02-04 06:32:44
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 10969
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;027601&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02760&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Clivia miniata &apos;Monya&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Clivia miniata &apos;Monya&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Flame&amp;#174; Bush Lily&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Shade Loving&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Dry Shade,Woodland Garden,Mass Planting,Houseplant,Container,Coastal Exposure,Border,Clivia can be grouped with other exquisite small warm climate plants such as Miniature Gardenia, (Gardenia jasminoides &apos;Radicans&apos;), Burgundy Glow Carpet Bugle, (Ajuga reptans &apos;Burgundy Glow&apos;), Silver Dragon Lilyturf, (Liriope spicata &apos;Silver Dragon&apos;) and Imperial Princess Azalea, (Azalea indica &apos;Moness&apos;).&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 2 to 3 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Great plant for dry shade settings. Divide clumps every 2 to 3 years after flowering in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949276013&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Early spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Intense, deep red-orange flower heads are huge! Beautiful, robust-looking evergreen perennial is terrific in shady borders adding accent color where other plants won&apos;t grow. Excellent in containers.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, allowing soil to dry slightly between watering intervals.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Tolerates Acidic Soil,Shade Loving,Easy Care,Clump Forming,Year-round Interest&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Dry Shade,Woodland Garden,Mass Planting,Houseplant,Container,Coastal Exposure,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;027602&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02760&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Clivia miniata &apos;Monya&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Clivia miniata &apos;Monya&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Flame&amp;#174; Bush Lily&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Shade Loving&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Dry Shade,Woodland Garden,Mass Planting,Houseplant,Container,Coastal Exposure,Border,Clivia can be grouped with other exquisite small warm climate plants such as Miniature Gardenia, (Gardenia jasminoides &apos;Radicans&apos;), Burgundy Glow Carpet Bugle, (Ajuga reptans &apos;Burgundy Glow&apos;), Silver Dragon Lilyturf, (Liriope spicata &apos;Silver Dragon&apos;) and Imperial Princess Azalea, (Azalea indica &apos;Moness&apos;).&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 2 to 3 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Great plant for dry shade settings. Divide clumps every 2 to 3 years after flowering in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949354902&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Early spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Intense, deep red-orange flower heads are huge! Beautiful, robust-looking evergreen perennial is terrific in shady borders adding accent color where other plants won&apos;t grow. Excellent in containers.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, allowing soil to dry slightly between watering intervals.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Tolerates Acidic Soil,Shade Loving,Easy Care,Clump Forming,Year-round Interest&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Dry Shade,Woodland Garden,Mass Planting,Houseplant,Container,Coastal Exposure,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;027605&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02760&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Clivia miniata &apos;Monya&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Clivia miniata &apos;Monya&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Flame&amp;#174; Bush Lily&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Shade Loving&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Dry Shade,Woodland Garden,Mass Planting,Houseplant,Container,Coastal Exposure,Border,Clivia can be grouped with other exquisite small warm climate plants such as Miniature Gardenia, (Gardenia jasminoides &apos;Radicans&apos;), Burgundy Glow Carpet Bugle, (Ajuga reptans &apos;Burgundy Glow&apos;), Silver Dragon Lilyturf, (Liriope spicata &apos;Silver Dragon&apos;) and Imperial Princess Azalea, (Azalea indica &apos;Moness&apos;).&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 2 to 3 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Great plant for dry shade settings. Divide clumps every 2 to 3 years after flowering in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949276051&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Early spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Intense, deep red-orange flower heads are huge! Beautiful, robust-looking evergreen perennial is terrific in shady borders adding accent color where other plants won&apos;t grow. Excellent in containers.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, allowing soil to dry slightly between watering intervals.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Tolerates Acidic Soil,Shade Loving,Easy Care,Clump Forming,Year-round Interest&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Dry Shade,Woodland Garden,Mass Planting,Houseplant,Container,Coastal Exposure,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;02760F&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02760&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;F&lt;/Size&gt;
+		&lt;SizeDescription&gt;Pot&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Clivia miniata &apos;Monya&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Clivia miniata &apos;Monya&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Flame&amp;#174; Bush Lily&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Shade Loving&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Dry Shade,Woodland Garden,Mass Planting,Houseplant,Container,Coastal Exposure,Border,Clivia can be grouped with other exquisite small warm climate plants such as Miniature Gardenia, (Gardenia jasminoides &apos;Radicans&apos;), Burgundy Glow Carpet Bugle, (Ajuga reptans &apos;Burgundy Glow&apos;), Silver Dragon Lilyturf, (Liriope spicata &apos;Silver Dragon&apos;) and Imperial Princess Azalea, (Azalea indica &apos;Moness&apos;).&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 2 to 3 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Great plant for dry shade. Divide clumps every 2 to 3 years after flowering in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;14&amp;quot;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;6.0 gal. (22.6 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949275955&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Early spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Intense, deep red-orange flower heads are huge! Beautiful, robust-looking evergreen perennial is terrific in shady borders adding accent color where other plants won&apos;t grow. Excellent in containers.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, allowing soil to dry slightly between watering intervals.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Tolerates Acidic Soil,Shade Loving,Easy Care,Clump Forming,Year-round Interest&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Dry Shade,Woodland Garden,Mass Planting,Houseplant,Container,Coastal Exposure,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 04 Feb 2016 06:32:43 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

@@ -1,0 +1,297 @@
+DATE/TIME: 2016-02-02 16:54:23
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-02-02 16:54:34
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 21301
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;023321&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02332&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Cedrus atlantica &apos;Horstmann&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Cedrus atlantica &apos;Horstmann&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Horstmann Blue Atlas Cedar&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Compact Habit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Windbreak,Specimen,Privacy Screen,Mass Planting,Hedge,Coastal Exposure,Camellia (Camellia); Fuchsia (Fuchsia); Azalea (Azalea); Magnolia (Magnolia); Japanese Maple (Acer)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 8 to 10 ft. tall, and 5 to 6 ft. wide in 10 years.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949233313&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicuous&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A semi-dwarf selection with densely-spaced icy-blue needles. The architectural, irregular outline gives this great interest in the garden year-round. Superb where space is limited. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;6&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Windbreak,Specimen,Privacy Screen,Mass Planting,Hedge,Coastal Exposure&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;023325&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02332&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Cedrus atlantica &apos;Horstmann&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Cedrus atlantica &apos;Horstmann&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Horstmann Blue Atlas Cedar&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Compact Habit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Windbreak,Specimen,Privacy Screen,Mass Planting,Hedge,Coastal Exposure,Camellia (Camellia); Fuchsia (Fuchsia); Azalea (Azalea); Magnolia (Magnolia); Japanese Maple (Acer)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Slow growing to 8 to 10 ft. tall, 5 to 6 ft. wide in 10 years - taller with age.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949233351&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicuous&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A semi-dwarf selection with densely-spaced icy-blue needles. The architectural, irregular outline gives this great interest in the garden year-round. Superb where space is limited. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;6&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Windbreak,Specimen,Privacy Screen,Mass Planting,Hedge,Coastal Exposure&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;023327&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02332&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;7&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Cedrus atlantica &apos;Horstmann&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Cedrus atlantica &apos;Horstmann&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Horstmann Blue Atlas Cedar&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Compact Habit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Windbreak,Specimen,Privacy Screen,Mass Planting,Hedge,Coastal Exposure,Camellia (Camellia); Fuchsia (Fuchsia); Azalea (Azalea); Magnolia (Magnolia); Japanese Maple (Acer)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 8 to 10 ft. tall, and 5 to 6 ft. wide in 10 years.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;7&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;6.20 gal. (23.47 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949233375&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicuous&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A semi-dwarf selection with densely-spaced icy-blue needles. The architectural, irregular outline gives this great interest in the garden year-round. Superb where space is limited. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;6&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Windbreak,Specimen,Privacy Screen,Mass Planting,Hedge,Coastal Exposure&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;023329&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02332&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;9&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Cedrus atlantica &apos;Horstmann&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Cedrus atlantica &apos;Horstmann&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Horstmann Blue Atlas Cedar&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Compact Habit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Windbreak,Specimen,Privacy Screen,Mass Planting,Hedge,Coastal Exposure,Camellia (Camellia); Fuchsia (Fuchsia); Azalea (Azalea); Magnolia (Magnolia); Japanese Maple (Acer)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 8 to 10 ft. tall, and 5 to 6 ft. wide in 10 years.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;15&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;12.07 gal. (45.69 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949372456&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicuous&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A semi-dwarf selection with densely-spaced icy-blue needles. The architectural, irregular outline gives this great interest in the garden year-round. Superb where space is limited. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;6&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Windbreak,Specimen,Privacy Screen,Mass Planting,Hedge,Coastal Exposure&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;02332M&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02332&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;M&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Cedrus atlantica &apos;Horstmann&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Cedrus atlantica &apos;Horstmann&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Horstmann Blue Atlas Cedar&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Compact Habit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Windbreak,Specimen,Privacy Screen,Mass Planting,Hedge,Coastal Exposure,Camellia (Camellia); Fuchsia (Fuchsia); Azalea (Azalea); Magnolia (Magnolia); Japanese Maple (Acer)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Slow growing to 8 to 10 ft. tall, 5 to 6 ft. wide in 10 years - taller with age.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;10&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;7.97 gal. (30.17 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949238615&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicuous&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A semi-dwarf selection with densely-spaced icy-blue needles. The architectural, irregular outline gives this great interest in the garden year-round. Superb where space is limited. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;6&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Windbreak,Specimen,Privacy Screen,Mass Planting,Hedge,Coastal Exposure&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;02332Z&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02332&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;Z&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Cedrus atlantica &apos;Horstmann&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Cedrus atlantica &apos;Horstmann&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Horstmann Blue Atlas Cedar&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Compact Habit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Windbreak,Specimen,Privacy Screen,Mass Planting,Hedge,Coastal Exposure,Camellia (Camellia); Fuchsia (Fuchsia); Azalea (Azalea); Magnolia (Magnolia); Japanese Maple (Acer)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 8 to 10 ft. tall, and 5 to 6 ft. wide in 10 years.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;25&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;27.6 gal. (104.50 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949070543&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicuous&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A semi-dwarf selection with densely-spaced icy-blue needles. The architectural, irregular outline gives this great interest in the garden year-round. Superb where space is limited. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;6&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Windbreak,Specimen,Privacy Screen,Mass Planting,Hedge,Coastal Exposure&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;055221&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05522&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Cedrus deodara &apos;Karl Fuchs&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Cedrus deodara &apos;Karl Fuchs&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Karl Fuchs Himalayan Cedar&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Year-Round Interest&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Specimen,Privacy Screen,Camellia (Camellia); Fuchsia (Fuchsia); Azalea (Azalea); Magnolia (Magnolia); Japanese Maple (Acer)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Grows to 12 to 15 ft. tall and 4 ft. wide in 10 years.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide well drained soil. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949285893&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicuous&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A striking evergreen with bright blue spring growth, that gradually matures to green, resulting in a unique shimmering effect throughout most of the year. Provides a striking vertical element in the landscape. Ideal as a specimen against a backdrop of darker green conifers or shrubs, or massed for a dramatic statement of color.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;6&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Privacy Screen&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;055225&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05522&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Cedrus deodara &apos;Karl Fuchs&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Cedrus deodara &apos;Karl Fuchs&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Karl Fuchs Himalayan Cedar&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Year-Round Interest&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Specimen,Privacy Screen,Camellia (Camellia); Fuchsia (Fuchsia); Azalea (Azalea); Magnolia (Magnolia); Japanese Maple (Acer)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Grows to 12 to 15 ft. tall and 4 ft. wide in 10 years.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide well drained soil. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949343357&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicuous&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A striking evergreen with bright blue spring growth, that gradually matures to green, resulting in a unique shimmering effect throughout most of the year. Provides a striking vertical element in the landscape. Ideal as a specimen against a backdrop of darker green conifers or shrubs, or massed for a dramatic statement of color.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;6&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Privacy Screen&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;055227&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05522&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;7&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Cedrus deodara &apos;Karl Fuchs&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Cedrus deodara &apos;Karl Fuchs&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Karl Fuchs Himalayan Cedar&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Year-Round Interest&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Specimen,Privacy Screen,Camellia (Camellia); Fuchsia (Fuchsia); Azalea (Azalea); Magnolia (Magnolia); Japanese Maple (Acer)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Grows to 12 to 15 ft. tall and 4 ft. wide in 10 years.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide well drained soil. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;7&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;6.20 gal. (23.47 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949372500&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicuous&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A striking evergreen with bright blue spring growth, that gradually matures to green, resulting in a unique shimmering effect throughout most of the year. Provides a striking vertical element in the landscape. Ideal as a specimen against a backdrop of darker green conifers or shrubs, or massed for a dramatic statement of color.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;6&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Privacy Screen&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Tue, 02 Feb 2016 16:54:33 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

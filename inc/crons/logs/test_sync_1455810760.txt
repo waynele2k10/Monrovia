@@ -1,0 +1,123 @@
+DATE/TIME: 2016-02-18 15:52:40
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-02-18 15:52:44
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 7479
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;412721&lt;/ItemSizeID&gt;
+		&lt;Item&gt;41272&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Sedum &apos;Firecracker&apos; P.P.A.F.&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Sedum &apos;Firecracker&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;SunSparkler&amp;#174; Firecracker Sedum&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Pathway Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rock Garden,Green Wall,Firescaping/Fire Wise,Container,Ground Cover,Basket of Gold (Alyssum); Yarrow (Achillea); Hens and Chicks (Sempervivum); Cranesbill (Geranium); Tickseed (Coreopsis)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 6-8 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide well-drained soil. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Reduce watering, once established. For a neat appearance, remove old foliage before new leaves emerge.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949424902&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late summer to early fall&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Brilliant burgundy-red sedum clusters all season long with soft pink flowers in late summer. Perfect in shallow containers or tucked into rockery or a green wall, where it will gently cascade. Excellent ground cover or accent for borders and rock gardens.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, requires only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Green Wall,Firescaping/Fire Wise,Container,Ground Cover&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;41272UT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;41272&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;UT&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Sedum &apos;Firecracker&apos; P.P.A.F.&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Sedum &apos;Firecracker&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;SunSparkler&amp;#174; Firecracker Sedum&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Pathway Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rock Garden,Green Wall,Firescaping/Fire Wise,Container,Ground Cover,Basket of Gold (Alyssum); Yarrow (Achillea); Hens and Chicks (Sempervivum); Cranesbill (Geranium); Tickseed (Coreopsis)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 6-8 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide well-drained soil. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Reduce watering, once established. For a neat appearance, remove old foliage before new leaves emerge.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;QT&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 qt. (946 mL)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949424919&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late summer to early fall&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Brilliant burgundy-red sedum clusters all season long with soft pink flowers in late summer. Perfect in shallow containers or tucked into rockery or a green wall, where it will gently cascade. Excellent ground cover or accent for borders and rock gardens.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, requires only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Green Wall,Firescaping/Fire Wise,Container,Ground Cover&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;40083UT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40083&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;UT&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Athyrium filix-femina &apos;Frizelliae&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Athyrium filix-femina &apos;Frizelliae&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Tatting Fern&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Shade Loving&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Very Wet Areas,Ground Cover,Border,&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Dwarf habit reaches 9-12 in. tall and 12-18 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide enriched, well-drained soil. Best in a sheltered location; sun tolerant in cool sites, if soil is kept evenly moist. Adapts to semi-dry conditions better than many ferns, if grown in full shade. Divide clumps in spring every few years; position crowns at soil level.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;QT&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 qt. (946 mL)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949390849&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Non-flowering.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Unique dwarf variety with narrow, long fronds that have ball-like pinnae along their midribs, resembling a string of beads. Easy to grow and perfect for shaded woodland gardens, border fronts or trough gardens. Highly effective along streams or ponds. Thrives in deep shade. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full to partial shade&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly to maintain consistently moist soil.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;High&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Acidic Soil,Shade Loving,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Very Wet Areas,Ground Cover,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 18 Feb 2016 15:52:42 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

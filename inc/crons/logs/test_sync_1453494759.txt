@@ -1,0 +1,239 @@
+DATE/TIME: 2016-01-22 20:32:39
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-01-22 20:32:48
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 18073
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;022711&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02271&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Campsis radicans &apos;Monbal&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Campsis radicans &apos;Monbal&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Balboa Sunset&amp;#174; Trumpet Creeper&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Waterwise Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Wildlife Garden,Privacy Screen,Mass Planting,Ground Cover,Firescaping/Fire Wise,Espalier,Coastal Exposure,Bee Balm (Monarda); Coneflower (Echinacea); Milkweed (Asclepias); Salvia (Salvia); Butterfly Bush (Buddleja)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Vigorous vine to 30 ft. or more.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule to establish a deep, extensive root system. To stimulate flowering, keep slightly dry and feed sparingly; avoid fertilizers with high nitrogen ratio. Provide support and prune in late winter to early spring to control size. Sap may irritate skin.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949227121&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring through fall,&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Large, tubular, deep reddish-orange flowers in clusters create a dramatic show and attract hummingbirds all season! Once established, this vigorous, clinging vine thrives and blooms profusely with near neglect. Quickly covers large areas as a groundcover, screening on lattice or cloaking an arbor. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Tolerates Urban Pollution,Tolerates Poor Soils,North American Native Selection,Easy Care,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Privacy Screen,Mass Planting,Ground Cover,Firescaping/Fire Wise,Espalier,Coastal Exposure&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;022712&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02271&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Campsis radicans &apos;Monbal&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Campsis radicans &apos;Monbal&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Balboa Sunset&amp;#174; Trumpet Creeper&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Waterwise Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Wildlife Garden,Privacy Screen,Mass Planting,Ground Cover,Firescaping/Fire Wise,Espalier,Coastal Exposure,Bee Balm (Monarda); Coneflower (Echinacea); Milkweed (Asclepias); Salvia (Salvia); Butterfly Bush (Buddleja)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Vigorous vine to 30 ft. or more.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer. Provide support such as a trellis or arbor. Prune annually to control size.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949055571&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring through fall,&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Large, tubular, deep reddish-orange flowers in clusters create a dramatic show and attract hummingbirds all season! Once established, this vigorous, clinging vine thrives and blooms profusely with near neglect. Quickly covers large areas as a groundcover, screening on lattice or cloaking an arbor. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Tolerates Urban Pollution,Tolerates Poor Soils,North American Native Selection,Easy Care,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Privacy Screen,Mass Planting,Ground Cover,Firescaping/Fire Wise,Espalier,Coastal Exposure&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;022712ST&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02271&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2ST&lt;/Size&gt;
+		&lt;SizeDescription&gt;Staked&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Campsis radicans &apos;Monbal&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Campsis radicans &apos;Monbal&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Balboa Sunset&amp;#174; Trumpet Creeper&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Waterwise Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Wildlife Garden,Privacy Screen,Mass Planting,Ground Cover,Firescaping/Fire Wise,Espalier,Coastal Exposure,Bee Balm (Monarda); Coneflower (Echinacea); Milkweed (Asclepias); Salvia (Salvia); Butterfly Bush (Buddleja)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Vigorous vine to 30 ft. or more.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule to establish a deep, extensive root system. To stimulate flowering, keep slightly dry and feed sparingly; avoid fertilizers with high nitrogen ratio. Provide support and prune in late winter to early spring to control size. Sap may irritate skin.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949211755&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring through fall,&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Large, tubular, deep reddish-orange flowers in clusters create a dramatic show and attract hummingbirds all season! Once established, this vigorous, clinging vine thrives and blooms profusely with near neglect. Quickly covers large areas as a groundcover, screening on lattice or cloaking an arbor. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Tolerates Urban Pollution,Tolerates Poor Soils,North American Native Selection,Easy Care,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Privacy Screen,Mass Planting,Ground Cover,Firescaping/Fire Wise,Espalier,Coastal Exposure&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;022715&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02271&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Campsis radicans &apos;Monbal&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Campsis radicans &apos;Monbal&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Balboa Sunset&amp;#174; Trumpet Creeper&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Waterwise Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Wildlife Garden,Privacy Screen,Mass Planting,Ground Cover,Firescaping/Fire Wise,Espalier,Coastal Exposure,Bee Balm (Monarda); Coneflower (Echinacea); Milkweed (Asclepias); Salvia (Salvia); Butterfly Bush (Buddleja)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Vigorous vine to 30 ft. or more.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer. Provide support such as a trellis or arbor. Prune annually to control size.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949227138&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring through fall,&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Large, tubular, deep reddish-orange flowers in clusters create a dramatic show and attract hummingbirds all season! Once established, this vigorous, clinging vine thrives and blooms profusely with near neglect. Quickly covers large areas as a groundcover, screening on lattice or cloaking an arbor. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Tolerates Urban Pollution,Tolerates Poor Soils,North American Native Selection,Easy Care,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Privacy Screen,Mass Planting,Ground Cover,Firescaping/Fire Wise,Espalier,Coastal Exposure&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;022715PT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02271&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5PT&lt;/Size&gt;
+		&lt;SizeDescription&gt;Patio Tree&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Campsis radicans &apos;Monbal&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Campsis radicans &apos;Monbal&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Balboa Sunset&amp;#174; Trumpet Creeper&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Waterwise Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Wildlife Garden,Privacy Screen,Mass Planting,Ground Cover,Firescaping/Fire Wise,Espalier,Coastal Exposure,Bee Balm (Monarda); Coneflower (Echinacea); Milkweed (Asclepias); Salvia (Salvia); Butterfly Bush (Buddleja)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Vigorous vine to 30 ft. or more.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule to establish a deep, extensive root system. To stimulate flowering, keep slightly dry and feed sparingly; avoid fertilizers with high nitrogen ratio. Provide support and prune in late winter to early spring to control size. Sap may irritate skin.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949426692&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring through fall,&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Large, tubular, deep reddish-orange flowers in clusters create a dramatic show and attract hummingbirds all season! Once established, this vigorous, clinging vine thrives and blooms profusely with near neglect. Quickly covers large areas as a groundcover, screening on lattice or cloaking an arbor. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Tolerates Urban Pollution,Tolerates Poor Soils,North American Native Selection,Easy Care,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Privacy Screen,Mass Planting,Ground Cover,Firescaping/Fire Wise,Espalier,Coastal Exposure&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;022715ST&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02271&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5ST&lt;/Size&gt;
+		&lt;SizeDescription&gt;Staked&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Campsis radicans &apos;Monbal&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Campsis radicans &apos;Monbal&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Balboa Sunset&amp;#174; Trumpet Creeper&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Waterwise Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Wildlife Garden,Privacy Screen,Mass Planting,Ground Cover,Firescaping/Fire Wise,Espalier,Coastal Exposure,Bee Balm (Monarda); Coneflower (Echinacea); Milkweed (Asclepias); Salvia (Salvia); Butterfly Bush (Buddleja)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Vigorous vine to 30 ft. or more.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule to establish a deep, extensive root system. To stimulate flowering, keep slightly dry and feed sparingly; avoid fertilizers with high nitrogen ratio. Provide support and prune in late winter to early spring to control size. Sap may irritate skin.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949024638&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring through fall,&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Large, tubular, deep reddish-orange flowers in clusters create a dramatic show and attract hummingbirds all season! Once established, this vigorous, clinging vine thrives and blooms profusely with near neglect. Quickly covers large areas as a groundcover, screening on lattice or cloaking an arbor. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Tolerates Urban Pollution,Tolerates Poor Soils,North American Native Selection,Easy Care,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Privacy Screen,Mass Planting,Ground Cover,Firescaping/Fire Wise,Espalier,Coastal Exposure&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;013471&lt;/ItemSizeID&gt;
+		&lt;Item&gt;01347&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Helleborus x hybridus &apos;Blue Diamond&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Helleborus x hybridus &apos;Blue Diamond&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Winter Jewels&amp;#174; Blue Diamond Lenten Rose&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Winter Flowering&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Border,Snakeroot (Actaea ); Coral Bells (Heuchera); Columbine (Aquilegia); Hosta (Hosta); Lungwort (Pulmonaria)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Foliage clumps 9 to 12 in. tall and 12 to 14 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Prefers moist well-drained soil. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system; requires less water when established. Remove old foliage in spring. Feed with an acid fertilizer after bloom. Mulch to maintain summer moisture.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949353967&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Early to late winter.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;From a hand-selected seed strain, the unique purple-blue flowers are simply breathtaking. Striking flowers and attractive, deep green, deer resistant foliage add interest to the winter garden. Handles mild drought, once established.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to partial sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water weekly, or more often in extreme heat, until established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Shade Loving,Easy Care,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Fri, 22 Jan 2016 20:32:47 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

@@ -1,0 +1,291 @@
+DATE/TIME: 2016-04-02 03:53:29
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-04-02 03:53:39
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 19559
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;058985&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05898&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Malus x &apos;MN 1711&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Malus x &apos;MN 1711&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Honeycrisp&amp;#8482; Apple&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Edible Fruit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rosemary (Rosmarinus); Lavender (Lavandula); Russian Sage (Perovskia); Salvia (Salvia); Yarrow (Achillea)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 20-25 ft. tall, 10-15 ft. wide. Maintain smaller size by pruning.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide enriched, well drained soil. Water regularly during the first growing season to establish a deep, extensive root system. Once established, best with infrequent, deep watering during the summer months.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949406267&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Charming pinkish-white flowers provide a showy spring display, then produce large, red fruit with exceptional flavor and crispness. Great for fresh eating, cooking or pressing for cider. Stores well in cool conditions. Plant another apple variety such as &apos;Red Delicious&apos; or &apos;Fuji&apos; for best fruit set. Recommended chill: 800 hours.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Fall Color,Extreme Cold Hardiness,Edible&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen,Mass Planting,Kitchen Garden&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;058987&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05898&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;7&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Malus x &apos;MN 1711&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Malus x &apos;MN 1711&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Honeycrisp&amp;#8482; Apple&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Edible Fruit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rosemary (Rosmarinus); Lavender (Lavandula); Russian Sage (Perovskia); Salvia (Salvia); Yarrow (Achillea)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 20-25 ft. tall, 10-15 ft. wide. Maintain smaller size by pruning.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide enriched, well drained soil. Water regularly during the first growing season to establish a deep, extensive root system. Once established, best with infrequent, deep watering during the summer months.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;7&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;6.20 gal. (23.47 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949431641&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Charming pinkish-white flowers provide a showy spring display, then produce large, red fruit with exceptional flavor and crispness. Great for fresh eating, cooking or pressing for cider. Stores well in cool conditions. Plant another apple variety such as &apos;Red Delicious&apos; or &apos;Fuji&apos; for best fruit set. Recommended chill: 800 hours.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Fall Color,Extreme Cold Hardiness,Edible&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen,Mass Planting,Kitchen Garden&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;05898MT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05898&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;MT&lt;/Size&gt;
+		&lt;SizeDescription&gt;Tall&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Malus x &apos;MN 1711&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Malus x &apos;MN 1711&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Honeycrisp&amp;#8482; Apple&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Edible Fruit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rosemary (Rosmarinus); Lavender (Lavandula); Russian Sage (Perovskia); Salvia (Salvia); Yarrow (Achillea)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 20-25 ft. tall, 10-15 ft. wide. Maintain smaller size by pruning.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide enriched, well drained soil. Water regularly during the first growing season to establish a deep, extensive root system. Once established, best with infrequent, deep watering during the summer months.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;10&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;7.97 gal. (30.17 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949312995&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Charming pinkish-white flowers provide a showy spring display, then produce large, red fruit with exceptional flavor and crispness. Great for fresh eating, cooking or pressing for cider. Stores well in cool conditions. Plant another apple variety such as &apos;Red Delicious&apos; or &apos;Fuji&apos; for best fruit set. Recommended chill: 800 hours.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Fall Color,Extreme Cold Hardiness,Edible&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen,Mass Planting,Kitchen Garden&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;058965&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05896&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Malus x domestica &apos;Red Delicious&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Malus x domestica &apos;Red Delicious&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Red Delicious Apple&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Edible Fruit&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 12 to 16 ft. tall, 10 to 14 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide a well drained soil and water regularly during the first growing season to establish a deep, extensive root system. Once established, water deeply and infrequently during summer months. Prune in winter when dormant, as needed.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949406298&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Blooms in spring.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This is America&apos;s favorite snacking Apple! Prepare yourself for an extra crunchy, mildly sweet, flavorful apple; home grown Red Delicious are much tastier than those you will find in the supermarket. Vigorous trees produce lots of juicy, sweet fruit that keeps well. Harvest in September and October. Recommended chilling: 900 hours. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Extreme Cold Hardiness,Edible,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;05896MT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05896&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;MT&lt;/Size&gt;
+		&lt;SizeDescription&gt;Tall&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Malus x domestica &apos;Red Delicious&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Malus x domestica &apos;Red Delicious&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Red Delicious Apple&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Edible Fruit&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 12 to 16 ft. tall, 10 to 14 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide a well drained soil and water regularly during the first growing season to establish a deep, extensive root system. Once established, water deeply and infrequently during summer months. Prune in winter when dormant, as needed.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;10&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;7.97 gal. (30.17 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949312971&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Blooms in spring.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This is America&apos;s favorite snacking Apple! Prepare yourself for an extra crunchy, mildly sweet, flavorful apple; home grown Red Delicious are much tastier than those you will find in the supermarket. Vigorous trees produce lots of juicy, sweet fruit that keeps well. Harvest in September and October. Recommended chilling: 900 hours. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Extreme Cold Hardiness,Edible,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;059861&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05986&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Helleborus orientalis &apos;White Spotted Lady&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Helleborus orientalis &apos;White Spotted Lady&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;White Spotted Lady Lenten Rose&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Winter Flowering&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 20 in. tall, 12 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Provide well drained soil, rich in organic matter. Feed with an acid fertilizer after bloom. Keep roots cool with a thick layer of mulch.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949307410&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Blooms early to midspring.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Beautiful, long-lasting nodding flowers complement leathery evergreen leaves. Highlights the woodland garden or landscape when planted with Hosta, Ferns, and early-season shrubs such as Serviceberries and red- or yellow-stemmed Dogwood. Long-lived plants. Perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Requires evenly moist soil. Water weekly or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Extreme Cold Hardiness&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;05986UT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05986&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;UT&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Helleborus orientalis &apos;White Spotted Lady&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Helleborus orientalis &apos;White Spotted Lady&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;White Spotted Lady Lenten Rose&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Winter Flowering&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Forms basal clumps to 12 to 18 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Provide well drained soil, rich in organic matter. Feed with an acid fertilizer after bloom. Keep roots cool with a thick layer of mulch.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;QT&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 qt. (946 mL)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949312773&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Blooms early to midspring.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Beautiful, long-lasting nodding flowers complement leathery evergreen leaves. Highlights the woodland garden or landscape when planted with Hosta, Ferns, and early-season shrubs such as Serviceberries and red- or yellow-stemmed Dogwood. Long-lived plants. Perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Requires evenly moist soil. Water weekly or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Extreme Cold Hardiness&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;059831&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05983&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Gaillardia x grandiflora &apos;Frenzy&apos; P.P.A.F.&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Gaillardia x grandiflora &apos;Frenzy&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Commotion&amp;#174; Frenzy Blanket Flower&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Long Bloom Season&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Fast grower to 18 to 24 in. tall, 24 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949310496&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Blooms early summer to early fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Red buds open to fluted, dark red ray flowers with bright yellow tips. Red and yellow center. Great in perennial or butterfly gardens, borders and pots, or as cut flowers. Herbaceous perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;059811&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05981&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Euphorbia &apos;Shorty&apos; P.P.A.F.&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Euphorbia &apos;Shorty&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Shorty Spurge&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Drought Tolerant&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 15 to 18 in. tall, 16 to 20 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Although drought tolerant when established, provide water during prolonged dry periods. Fertilize sparingly. Remove spent blooms. Avoid contact with the milky sap, which can be a skin irritant.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949308097&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Blooms early to late spring.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A striking, compact variety with blue-gray foliage that becomes tinged with red in cooler weather. Yellow-green flower heads appear in early spring. Outstanding in rock gardens, borders or mixed containers. Herbaceous perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Sat, 02 Apr 2016 03:53:37 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

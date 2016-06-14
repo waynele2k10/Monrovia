@@ -1,0 +1,97 @@
+#modal_container {
+	height:100%;
+	width:100%;
+	position:fixed;
+	top:0px;
+	left:0px;
+	opacity:0;
+	display:none;
+	#filter:alpha(opacity=0);
+	#zoom:0;
+	z-index:9999;
+	font-size:12px;
+}
+#modal_dark_screen {
+	background-color:#000;
+	opacity:.5;
+	#filter:alpha(opacity=50);
+	#zoom:1;
+	width:100%;
+	height:100%;
+	position:absolute;
+}
+.modal_dialog {
+	/* DO NOT APPLY MARGIN, PADDING, OR BORDER TO THIS CLASS */
+	position:fixed;
+	#position:absolute;
+	z-index:999;
+	display:none;
+	
+	top:50%;
+	left:50%;
+	
+	background-color:#fff;
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	
+	box-shadow:0px 0px 30px rgba(0,0,0,1);
+	-webkit-box-shadow:0px 0px 30px rgba(0,0,0,1);
+	-moz-box-shadow:0px 0px 30px rgba(0,0,0,1);
+	
+	#background-color:transparent;
+	
+}
+.modal_dialog_backing {
+	border-collapse:collapse;
+	position:relative;
+}
+.modal_dialog_backing td {
+	padding:0px;
+	margin:0px;
+}
+.modal_dialog_backing .corner {
+	height:12px;
+	width:12px;
+	#background-image:url(/img/modal_corners.gif);
+}
+.modal_dialog_backing .corner_topleft {
+	background-position:top left;
+}
+.modal_dialog_backing .corner_topright {
+	background-position:top right;
+}
+.modal_dialog_backing .corner_bottomleft {
+	background-position:bottom left;
+}
+.modal_dialog_backing .corner_bottomright {
+	background-position:bottom right;
+}
+.modal_dialog_backing .corner_top, .modal_dialog_backing .corner_bottom, .modal_dialog_backing .corner_left, .modal_dialog_backing .corner_right,.modal_dialog_backing .corner_middle {
+	background-color:#fff;
+	background-image:none;
+}
+.modal_dialog_backing .btn_close {
+	background:url(/img/modal_close.gif);
+	width:19px;
+	height:19px;
+	display:block;
+	position:absolute;
+	right:10px;
+	top:10px;
+}
+#modal_lightview {
+	opacity:0;
+	#filter:alpha(opacity=0);
+	#zoom:1;
+}
+#lightview_info {
+	color:#666;
+	font-size:8pt;
+	padding-top:6px;
+	cursor:default;
+	white-space:nowrap;
+}
+#lightview_title {
+	font-weight:bold;
+}

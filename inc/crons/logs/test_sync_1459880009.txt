@@ -1,0 +1,208 @@
+DATE/TIME: 2016-04-05 18:13:29
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-04-05 18:13:35
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 13964
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;093131&lt;/ItemSizeID&gt;
+		&lt;Item&gt;09313&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hosta &apos;Victory&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hosta &apos;Victory&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Victory Plantain Lily&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Shade Loving&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Coral Bells (Heuchera); Ligularia (Ligularia); Lungwort (Pulmonaria); Mukdenia (Mukdenia); Bleeding Heart (Dicentra)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 28-32 in. tall, 38-46 in. wide; flower spikes to 48 in. tall.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Water regularly during first growing season to establish a deep, extensive root system; requires less frequent watering once established. Shelter from harsh sun. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949277072&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Majestic and attention-grabbing specimen quality hosta will need room to reach its&apos; potential. This giant with develop the huge leaves and distinctive variegation that makes your landscape a triumph! Shiny green leaves with dramatic grooved texture. Lavender flowers in midsummer.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade to filtered sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water weekly for best performance; more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Shade Loving,Easy Care,Dramatic Foliage Color,Clump Forming&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;09313UT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;09313&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;UT&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hosta &apos;Victory&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hosta &apos;Victory&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Victory Plantain Lily&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Shade Loving&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Coral Bells (Heuchera); Ligularia (Ligularia); Lungwort (Pulmonaria); Mukdenia (Mukdenia); Bleeding Heart (Dicentra)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 28-32 in. tall, 38-46 in. wide; flower spikes to 48 in. tall.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Water regularly during first growing season to establish a deep, extensive root system; requires less frequent watering once established. Shelter from harsh sun. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;QT&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 qt. (946 mL)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949435199&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Majestic and attention-grabbing specimen quality hosta will need room to reach its&apos; potential. This giant with develop the huge leaves and distinctive variegation that makes your landscape a triumph! Shiny green leaves with dramatic grooved texture. Lavender flowers in midsummer.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade to filtered sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water weekly for best performance; more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Shade Loving,Easy Care,Dramatic Foliage Color,Clump Forming&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;412671&lt;/ItemSizeID&gt;
+		&lt;Item&gt;41267&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Heuchera x hybrida &apos;Grape Soda&apos; P.P.A.F.&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Heuchera x hybrida &apos;Grape Soda&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Grape Soda Coral Bells&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage Color&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Lenten Rose (Helleborus); Snakeroot (Actaea); Painted Fern (Athyrium); Astilbe (Astilbe); Hosta (Hosta)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Mounding foliage 10 in. tall, 18 to 20 in. wide; flowers 18 in. tall.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide a rich, well-drained soil and water and fertilize regularly throughout the growing season. Best kept slightly dry rather than wet, once established. For a neat appearance, remove old flower stalks. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949423592&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring to summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Grape Soda has the most darling rose pink spring foliage, and during warmer months the leaves go from light purple to deep silvery purple. Better flowering and clumps with more presence than similar varieties. Slender stems of long lasting pinkish purple flowers garnish this spring sensation with a frothy topping of dancing color.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Cutting Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;412831&lt;/ItemSizeID&gt;
+		&lt;Item&gt;41283&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Helenium &apos;Sahin&apos;s Early Flowerer&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Helenium &apos;Sahin&apos;s Early Flowerer&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Sahin&apos;s Early Flowerer Sneezeweed&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Summer Flowering&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Fast growing to 3-5 ft. tall, 3 ft.. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949425206&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Orange flowers from early summer to fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A tall, clump-forming perennial hybrid with exceptional early and long bloom period. Much longer than other Helenium. Vibrant, orange ray florets and yellow-brown centers really stand out. Sturdy too, does not require staking. Dead-head as blooms wilt, cut back in late summer. Herbaceous perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;412821&lt;/ItemSizeID&gt;
+		&lt;Item&gt;41282&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Helenium autumnale &apos;Can Can&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Helenium autumnale &apos;Can Can&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Can Can Sneezeweed&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Waterwise Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Blanket Flower (Gaillardia); Black-Eyed Susan (Rudbeckia); Coneflower (Echinacea); Blue Fescue (Festuca); Avens (Geum)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast growing to 3 to 5 ft.. tall, 3 ft.. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949425190&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Bronze-tinged yellow flowers summer to fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Brightly patterned flowers dance atop strong stems, with deep brown centers surrounded by a skirt of outward petals in a colorful array of gold, copper and orange. Perfect in a mixed perennial border or cutting garden. A Blooms of Bresshingham variety.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;412661&lt;/ItemSizeID&gt;
+		&lt;Item&gt;41266&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Gaura lindhemeri &apos;Little Janie&apos; P.P.A.F.&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Gaura lindhemeri &apos;Little Janie&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Little Janie Gaura&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Prolific Flowering&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 16-18 in. tall and 14-16 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Cut back hard and feed with a general purpose fertilizer before new growth begins in spring. Trim off dead flowers to encourage reblooming.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949423585&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring through fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Charming and popular perennial with dark green foliage and super abundant bicolor flowers. Great for beds and borders. Easy to grow , maintain and enjoy. Thrives in hot, dry areas. Works well in containers too.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;6&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,North American Native Selection&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Tue, 05 Apr 2016 18:13:31 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

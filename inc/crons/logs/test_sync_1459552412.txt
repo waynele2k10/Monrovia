@@ -1,0 +1,235 @@
+DATE/TIME: 2016-04-01 23:13:32
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-04-01 23:13:41
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 15638
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;06163MT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06163&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;MT&lt;/Size&gt;
+		&lt;SizeDescription&gt;Tall&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Pyrus pyrifolia &apos;Hosui&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Pyrus pyrifolia &apos;Hosui&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Hosui Asian Pear&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Edible Fruit&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 10 to 15 ft. tall and 8 to 12 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Fruit should be thinned to one per spur. Plant two varieties for best pollination. Harvest in second year. By pruning, keep tree to preferred size.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;10&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;7.97 gal. (30.17 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949314616&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;The best flavored of all Asian Pears, Hosui are very round, medium to large, and combining the flavor and sweetness of Pears with the crunchiness of crisp Apples. Their mild flavor is sweet and slightly tart. It needs other Pear trees to pollinate such as 20th Century or Bartlett. Cold hardy, drought resistant and heat tolerant, Hosui is a good choice for milder climates as it requires only 450 low chilling hours. Vigorous willowy growth habit.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Requires regular watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;6&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Edible&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen,Mass Planting&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;06152MT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06152&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;MT&lt;/Size&gt;
+		&lt;SizeDescription&gt;Tall&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Pyrus communis&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Pyrus communis&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Comice Pear&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Edible Fruit&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 30 to 40 ft. tall and 25 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Use as shade or street trees. Adaptable to most soils, including clay. Tolerant of air pollution, drought and wind. For optimum fruit crops, schedule regular fertilizing, pruning, and supplemental watering in arid climates. Prune in late winter or early spring to shape or to remove damaged or crowded branches.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;10&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;7.97 gal. (30.17 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949314524&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Introduced in France in 1849, this favorite is often found in fancy fruit gift packs, and considered the best tasting Pear variety. Its large, greenish-yellow fruit is blushed with red and has a sweet, juicy flavor. Lovely, white blooms appear early-to-mid spring. Fruit can be harvested beginning in late September. It is self-fertile in the arid West, but produces much better with a pollinator such as Bartlett in the more humid East. Requires 500 to 600 chilling hours.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Requires regular watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Edible&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen,Mass Planting&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;06128MT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06128&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;MT&lt;/Size&gt;
+		&lt;SizeDescription&gt;Tall&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Prunus avium &apos;Lapins&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Prunus avium &apos;Lapins&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Lapins Sweet Cherry&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Edible Fruit&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 15 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Prefers well drained loamy, sandy or clay soils with pH of 6.5 to 7.5. Water regularly during the first growing season to establish a deep, extensive root system. Once established, water deeply and infrequently during summer months. Prune in winter when dormant, as needed.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;10&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;7.97 gal. (30.17 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949314371&lt;/UPC&gt;
+		&lt;FlowerTime&gt;spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Frequently referred to as &quot;self-fertile Bing&quot;, Lapins produces large crops of delicious dark fruit nearly one inch in diameter, without the need for a pollenizer. Its purplish red flesh is firm and sweet. Showy pinkish-white flowers appear mid-spring followed by a prolific harvest from late June to early July. Good pollenizer for other sweet cherries. Intolerant of deep frost or intense heat. Recommended winter chill: 800 - 900 hours.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Requires regular watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;6&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Edible&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen,Mass Planting&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;06116MT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06116&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;MT&lt;/Size&gt;
+		&lt;SizeDescription&gt;Tall&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Prunus armeniaca &apos;Tropic Gold&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Prunus armeniaca &apos;Tropic Gold&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Tropic Gold&amp;#8482; Apricot&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Edible Fruit&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 15 ft. tall.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Performs well in a wide range of well-drained soils. Plant in a sunny area away from frost and standing water.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;10&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;7.97 gal. (30.17 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949314357&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Tropic Gold is an excellent choice for the mild winter areas of the South as it will easily fruit in hot dry climates. It has medium to large sized orange fruit with a speckled red cheek. Sweet and juicy when eaten fresh, and hold up well when canned or dried. Self-fertile and requires only 350 chilling hours to produce an abundant crop from June to July.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Requires regular watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Edible&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen,Mass Planting&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;069871&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06987&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Sedum tetractinum &apos;Coral Reef&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Sedum tetractinum &apos;Coral Reef&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Chinese Sedum&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Waterwise&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Aster (Aster); Yarrow (Achillea); Hens and Chicks (Sempervivum); Cranesbill (Geranium); Tickseed (Coreopsis)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 3 inches tall, spreading 12 inches wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Easily grown in average, well drained soil with dry to medium moisture. Tolerates light shade. Space plants 12 to 18 in. apart when grown as a ground cover. Control weeds until the plants have filled in. Feed with a general purpose fertilizer.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949328569&lt;/UPC&gt;
+		&lt;FlowerTime&gt;White to pale pink flowers in late summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This mat-forming Succulent turns a showy bronze and burgundy color in fall. Its trailing stems hold round leaves that form rosettes at the tips. Starry flowers dot the foliage in late summer, followed by russet seed capsules for year-round interest.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Fall Color,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Mass Planting,Houseplant,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;06987RND&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06987&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;RND&lt;/Size&gt;
+		&lt;SizeDescription&gt;Pint&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Sedum tetractinum &apos;Coral Reef&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Sedum tetractinum &apos;Coral Reef&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Chinese Sedum&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Waterwise&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Aster (Aster); Yarrow (Achillea); Hens and Chicks (Sempervivum); Cranesbill (Geranium); Tickseed (Coreopsis)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 3 inches tall, spreading 12 inches wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Easily grown in average, well drained soil with dry to medium moisture. Tolerates light shade. Space plants 12 to 18 in. apart when grown as a ground cover. Control weeds until the plants have filled in. Feed with a general purpose fertilizer.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;12.3 oz. (12.3 oz.)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949419885&lt;/UPC&gt;
+		&lt;FlowerTime&gt;White to pale pink flowers in late summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This mat-forming Succulent turns a showy bronze and burgundy color in fall. Its trailing stems hold round leaves that form rosettes at the tips. Starry flowers dot the foliage in late summer, followed by russet seed capsules for year-round interest.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Fall Color,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Mass Planting,Houseplant,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;06987UT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06987&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;UT&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Sedum tetractinum &apos;Coral Reef&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Sedum tetractinum &apos;Coral Reef&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Chinese Sedum&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Waterwise&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Aster (Aster); Yarrow (Achillea); Hens and Chicks (Sempervivum); Cranesbill (Geranium); Tickseed (Coreopsis)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 3 inches tall, spreading 12 inches wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Easily grown in average, well drained soil with dry to medium moisture. Tolerates light shade. Space plants 12 to 18 in. apart when grown as a ground cover. Control weeds until the plants have filled in. Feed with a general purpose fertilizer.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;QT&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 qt. (946 mL)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949354124&lt;/UPC&gt;
+		&lt;FlowerTime&gt;White to pale pink flowers in late summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This mat-forming Succulent turns a showy bronze and burgundy color in fall. Its trailing stems hold round leaves that form rosettes at the tips. Starry flowers dot the foliage in late summer, followed by russet seed capsules for year-round interest.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Fall Color,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Mass Planting,Houseplant,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Fri, 01 Apr 2016 23:13:39 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

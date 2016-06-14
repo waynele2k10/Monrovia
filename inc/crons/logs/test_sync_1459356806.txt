@@ -1,0 +1,326 @@
+DATE/TIME: 2016-03-30 16:53:26
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-03-30 16:53:41
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 24239
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;406432&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40643&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Rubus idaeus &apos;Jewel Black&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Rubus idaeus &apos;Jewel Black&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Jewel Black Raspberry&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Edible Fruit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rosemary (Rosmarinus); Lavender (Lavandula); Russian Sage (Perovskia); Salvia (Salvia); Yarrow (Achillea)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Quickly reaches 2 to 3 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide well-draining soil. Water regularly during first growing season to establish a deep, extensive root system. Train one-year-old canes on trellis. In the spring, feed with a commercial fertilizer before new growth begins in spring and prune to remove canes that have previously fruited.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949398210&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Firm, large black fruit full of rich flavor on vigorous, cold-hardy plants. Prolific white spring flowers herald delicious summer fruit. An ideal choice for canning and baking. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Showy Fruit,Improved Disease Resistance,Extreme Cold Hardiness,Edible,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Kitchen Garden,Espalier,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;036312&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03631&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Rosa x &apos;NOA83100B&apos; P.P. #17,373&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Rosa x &apos;NOA83100B&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Flower Carpet&amp;#174; Scarlet Groundcover Rose&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Easy care plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Boxwood (Buxus); Euonymus (Euonymus); Juniper (Juniperus); Phlox (Phlox); Daylily (Hemerocallis)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast growing to 2 to 3 ft. tall, 3 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Water regularly during the first growing season to establish a deep extensive root system. As a groundcover, space plants 3 ft. apart. Feed with a timed-release rose fertilizer. Prune to shape in late winter or early spring - no fancy pruning is necessary.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949211779&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring through fall&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This carefree groundcover shrub produces masses of brilliant, scarlet red flowers spring through fall, blooming for up to ten months in warm climates. Glossy, dark green foliage is resistant to mildew and black spot. Highly adaptable and tolerant of mild drought, once established. An excellent choice for borders, pots, and hanging baskets. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, when top 3 in. of soil is dry.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Road Salt,Improved Pest and Disease Resistance,Fast Growing,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Urban Garden,Mass Planting,Ground Cover,Container,Coastal Exposure,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;036312PT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03631&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2PT&lt;/Size&gt;
+		&lt;SizeDescription&gt;Patio Tree&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Rosa x &apos;NOA83100B&apos; P.P. #17,373&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Rosa x &apos;NOA83100B&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Flower Carpet&amp;#174; Scarlet Groundcover Rose&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Easy care plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Boxwood (Buxus); Euonymus (Euonymus); Juniper (Juniperus); Phlox (Phlox); Daylily (Hemerocallis)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast growing to 2 to 3 ft. tall, 3 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Water regularly during the first growing season to establish a deep extensive root system. As a groundcover, space plants 3 ft. apart. Feed with a timed-release rose fertilizer. Prune to shape in late winter or early spring - no fancy pruning is necessary.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949358436&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring through fall&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This carefree groundcover shrub produces masses of brilliant, scarlet red flowers spring through fall, blooming for up to ten months in warm climates. Glossy, dark green foliage is resistant to mildew and black spot. Highly adaptable and tolerant of mild drought, once established. An excellent choice for borders, pots, and hanging baskets. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, when top 3 in. of soil is dry.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Road Salt,Improved Pest and Disease Resistance,Fast Growing,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Urban Garden,Mass Planting,Ground Cover,Container,Coastal Exposure,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;036315&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03631&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Rosa x &apos;NOA83100B&apos; P.P. #17,373&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Rosa x &apos;NOA83100B&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Flower Carpet&amp;#174; Scarlet Groundcover Rose&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Easy care plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Boxwood (Buxus); Euonymus (Euonymus); Juniper (Juniperus); Phlox (Phlox); Daylily (Hemerocallis)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast growing 2 to 3 ft. tall, 3 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Water regularly to establish an extensive root system. Protect from extreme cold over first winter. As a ground cover, space plants 3 ft. apart. Feed with a timed-release rose food. Prune to shape in early spring - no fancy pruning is necessary.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949237021&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring through fall&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This carefree groundcover shrub produces masses of brilliant, scarlet red flowers spring through fall, blooming for up to ten months in warm climates. Glossy, dark green foliage is resistant to mildew and black spot. Highly adaptable and tolerant of mild drought, once established. An excellent choice for borders, pots, and hanging baskets. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, when top 3 in. of soil is dry.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Road Salt,Improved Pest and Disease Resistance,Fast Growing,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Urban Garden,Mass Planting,Ground Cover,Container,Coastal Exposure,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;036315PT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03631&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5PT&lt;/Size&gt;
+		&lt;SizeDescription&gt;Patio Tree&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Rosa x &apos;NOA83100B&apos; P.P. #17,373&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Rosa x &apos;NOA83100B&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Flower Carpet&amp;#174; Scarlet Groundcover Rose&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Easy care plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Boxwood (Buxus); Euonymus (Euonymus); Juniper (Juniperus); Phlox (Phlox); Daylily (Hemerocallis)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast growing to 2 to 3 ft. tall, 3 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Water regularly during the first growing season to establish a deep extensive root system. As a groundcover, space plants 3 ft. apart. Feed with a timed-release rose fertilizer. Prune to shape in late winter or early spring - no fancy pruning is necessary.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949313220&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring through fall&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This carefree groundcover shrub produces masses of brilliant, scarlet red flowers spring through fall, blooming for up to ten months in warm climates. Glossy, dark green foliage is resistant to mildew and black spot. Highly adaptable and tolerant of mild drought, once established. An excellent choice for borders, pots, and hanging baskets. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, when top 3 in. of soil is dry.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Road Salt,Improved Pest and Disease Resistance,Fast Growing,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Urban Garden,Mass Planting,Ground Cover,Container,Coastal Exposure,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;036319&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03631&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;9&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Rosa x &apos;NOA83100B&apos; P.P. #17,373&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Rosa x &apos;NOA83100B&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Flower Carpet&amp;#174; Scarlet Groundcover Rose&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Easy care plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Boxwood (Buxus); Euonymus (Euonymus); Juniper (Juniperus); Phlox (Phlox); Daylily (Hemerocallis)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast growing to 2 to 3 ft. tall, 3 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Water regularly during the first growing season to establish a deep extensive root system. As a groundcover, space plants 3 ft. apart. Feed with a timed-release rose fertilizer. Prune to shape in late winter or early spring - no fancy pruning is necessary.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;15&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;12.07 gal. (45.69 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949327098&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring through fall&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This carefree groundcover shrub produces masses of brilliant, scarlet red flowers spring through fall, blooming for up to ten months in warm climates. Glossy, dark green foliage is resistant to mildew and black spot. Highly adaptable and tolerant of mild drought, once established. An excellent choice for borders, pots, and hanging baskets. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, when top 3 in. of soil is dry.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Road Salt,Improved Pest and Disease Resistance,Fast Growing,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Urban Garden,Mass Planting,Ground Cover,Container,Coastal Exposure,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;03631M&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03631&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;M&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Rosa x &apos;NOA83100B&apos; P.P. #17,373&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Rosa x &apos;NOA83100B&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Flower Carpet&amp;#174; Scarlet Groundcover Rose&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Easy care plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Boxwood (Buxus); Euonymus (Euonymus); Juniper (Juniperus); Phlox (Phlox); Daylily (Hemerocallis)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast growing to 2 to 3 ft. tall, 3 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Water regularly during the first growing season to establish a deep extensive root system. As a groundcover, space plants 3 ft. apart. Feed with a timed-release rose fertilizer. Prune to shape in late winter or early spring - no fancy pruning is necessary.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;10&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;7.97 gal. (30.17 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949270677&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring through fall&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This carefree groundcover shrub produces masses of brilliant, scarlet red flowers spring through fall, blooming for up to ten months in warm climates. Glossy, dark green foliage is resistant to mildew and black spot. Highly adaptable and tolerant of mild drought, once established. An excellent choice for borders, pots, and hanging baskets. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, when top 3 in. of soil is dry.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Road Salt,Improved Pest and Disease Resistance,Fast Growing,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Urban Garden,Mass Planting,Ground Cover,Container,Coastal Exposure,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;098611ST&lt;/ItemSizeID&gt;
+		&lt;Item&gt;09861&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1ST&lt;/Size&gt;
+		&lt;SizeDescription&gt;Staked&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Abutilon &apos;Tiger Eye&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Abutilon &apos;Tiger Eye&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Tiger Eye Flowering Maple&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Attractive Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;White Bower Vine (Pandorea jasminoides); Japanese Aralia (Fatsia); Cordyline (Cordyline); Tree Fern (Dicksonia antarctica); Clematis (Clematis)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Quickly reaches 5 to 8 ft. tall, 3 to 4 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide well-drained soil. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. Prune annually to shape.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949383056&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring to summer; nearly year-round in frost-free areas.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A fast-growing tropical flowering shrub, named for its distinctive maple-shaped leaves. Exquisite red-veined yellow flowers hang beautifully from its upright form. A showy landscape accent shrub or espalier specimen for frost-free areas. Good container feature in bright patio or indoor locations.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Fast Growing&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Poolside,Espalier,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;098612ST&lt;/ItemSizeID&gt;
+		&lt;Item&gt;09861&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2ST&lt;/Size&gt;
+		&lt;SizeDescription&gt;Staked&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Abutilon &apos;Tiger Eye&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Abutilon &apos;Tiger Eye&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Tiger Eye Flowering Maple&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Attractive Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;White Bower Vine (Pandorea jasminoides); Japanese Aralia (Fatsia); Cordyline (Cordyline); Tree Fern (Dicksonia antarctica); Clematis (Clematis)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Quickly reaches 5 to 8 ft. tall, 3 to 4 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide well-drained soil. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. Prune annually to shape.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949424766&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring to summer; nearly year-round in frost-free areas.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A fast-growing tropical flowering shrub, named for its distinctive maple-shaped leaves. Exquisite red-veined yellow flowers hang beautifully from its upright form. A showy landscape accent shrub or espalier specimen for frost-free areas. Good container feature in bright patio or indoor locations.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Fast Growing&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Poolside,Espalier,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;098615ST&lt;/ItemSizeID&gt;
+		&lt;Item&gt;09861&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5ST&lt;/Size&gt;
+		&lt;SizeDescription&gt;Staked&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Abutilon &apos;Tiger Eye&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Abutilon &apos;Tiger Eye&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Tiger Eye Flowering Maple&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Attractive Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;White Bower Vine (Pandorea jasminoides); Japanese Aralia (Fatsia); Cordyline (Cordyline); Tree Fern (Dicksonia antarctica); Clematis (Clematis)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Quickly reaches 5 to 8 ft. tall, 3 to 4 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide well-drained soil. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. Prune annually to shape.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949383063&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring to summer; nearly year-round in frost-free areas.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A fast-growing tropical flowering shrub, named for its distinctive maple-shaped leaves. Exquisite red-veined yellow flowers hang beautifully from its upright form. A showy landscape accent shrub or espalier specimen for frost-free areas. Good container feature in bright patio or indoor locations.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Fast Growing&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Poolside,Espalier,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 30 Mar 2016 16:53:40 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

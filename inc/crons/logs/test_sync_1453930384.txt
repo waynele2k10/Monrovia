@@ -1,0 +1,210 @@
+DATE/TIME: 2016-01-27 21:33:04
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-01-27 21:33:15
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 14539
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;089282&lt;/ItemSizeID&gt;
+		&lt;Item&gt;08928&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Deschampsia caespitosa &apos;Schottland&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Deschampsia caespitosa &apos;Schottland&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Scottish Tufted Hair Grass&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Compact Habit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Mass Planting,Container,Border,Blanket Flower (Gaillardia); Shasta Daisy (Chrysanthemum); Tickseed (Coreopsis); Gayfeather (Liatris); Salvia (Salvia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Foliage clumps 2 to 3 ft. tall, 2 ft. wide; flower stems to 4 ft.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Best in evenly moist, slightly acidic soil. Follow a regular watering schedule during the first growing season to establish an extensive root system. In colder zones, apply a thick mulch around the root area to protect in winter. Leave foliage in place until spring, then shear, leaving 1/3 of the plant. Divide if needed in spring or early fall.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949372340&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Early to midsummer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A superb compact, ornamental, clumping grass highly useful for smaller areas, borders and containers. Delicate yellow inflorescence emerge in early summer; tall airy panicles dance above the fine, dark green foliage, adding graceful texture and color to the landscape. Seed heads age to a wonderful golden bronze. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade to partial sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Fall Color,Easy Care,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;081502&lt;/ItemSizeID&gt;
+		&lt;Item&gt;08150&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Rosa L. hybrid var. &apos;IntRos02&apos; P.P.A.F.&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Rosa L. hybrid var. &apos;IntRos02&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Sweet Spot&amp;#8482; Peach Rose&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Compact Habit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Wildlife Garden,Urban Garden,Mass Planting,Container,Border,Ninebark (Physocarpus); Weigela (Weigela); Maiden Grass (Miscanthus); Salvia (Salvia); Speedwell (Veronica)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Compact grower to 20 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Requires less frequent watering, once established. Feed with a slow release fertilizer before new growth begins in spring and again in midsummer.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949369838&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring through early fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Truly &quot;the decorator&apos;s rose&quot;, this new compact shrub rose is ideal for containers and borders. Good disease resistance and drought tolerance. Soft peach blooms with red/pink centers cover fresh green foliage from spring to fall. Plant in mass to add colorful impact.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly- weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Improved Disease Resistance,Easy Care,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Urban Garden,Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;074131&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07413&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Agave schidigera &apos;Durango&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Agave schidigera &apos;Durango&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Thread-leaf Agave&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Drought Tolerant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rock Garden,Mass Planting,Container,Aloe (Aloe); Red Yucca (Hesperaloe); Hens and Chicks (Sempervivum); Sedum (Sedum); Kalanchoe (Kalanchoe)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 2 ft. tall, 2 to 3 ft. wide; flower stalk 10 to 12 ft. tall.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Requires well-drained soil. Plant in full sun, except in hotter inland gardens where light shade or morning sun is best. Needs only occasional irrigation in late spring and summer.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949334249&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Blooms only once after about 10 to 15 years in the garden.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This slow-growing succulent features a handsome solitary rosette with a dense, symmetrical form. Dark green leaves edged with curly white hairs each have a sharp spine at the tip. Mature plants often produce a striking, 8 to 10 foot tall flower spike.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Occasional water in late spring and summer.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Sustainable,Easy Care,Dwarf Plant,Dense Habit,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Mass Planting,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;074131S&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07413&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1S&lt;/Size&gt;
+		&lt;SizeDescription&gt;SuperOne&amp;#8482;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Agave schidigera &apos;Durango&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Agave schidigera &apos;Durango&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Thread-leaf Agave&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Drought Tolerant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rock Garden,Mass Planting,Container,Aloe (Aloe); Red Yucca (Hesperaloe); Hens and Chicks (Sempervivum); Sedum (Sedum); Kalanchoe (Kalanchoe)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 2 ft. tall, 2 to 3 ft. wide; flower stalk 10 to 12 ft. tall.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Requires well-drained soil. Plant in full sun, except in hotter inland gardens where light shade or morning sun is best. Needs only occasional irrigation in late spring and summer.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 gal. (3.79 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949377529&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Blooms only once after about 10 to 15 years in the garden.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This slow-growing succulent features a handsome solitary rosette with a dense, symmetrical form. Dark green leaves edged with curly white hairs each have a sharp spine at the tip. Mature plants often produce a striking, 8 to 10 foot tall flower spike.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Occasional water in late spring and summer.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Sustainable,Easy Care,Dwarf Plant,Dense Habit,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Mass Planting,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;074132&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07413&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Agave schidigera &apos;Durango&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Agave schidigera &apos;Durango&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Thread-leaf Agave&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Drought Tolerant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rock Garden,Mass Planting,Container,Aloe (Aloe); Red Yucca (Hesperaloe); Hens and Chicks (Sempervivum); Sedum (Sedum); Kalanchoe (Kalanchoe)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 2 ft. tall, 2 to 3 ft. wide; flower stalk 10 to 12 ft. tall.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Requires well-drained soil. Plant in full sun, except in hotter inland gardens where light shade or morning sun is best. Needs only occasional irrigation in late spring and summer.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949335512&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Blooms only once after about 10 to 15 years in the garden.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This slow-growing succulent features a handsome solitary rosette with a dense, symmetrical form. Dark green leaves edged with curly white hairs each have a sharp spine at the tip. Mature plants often produce a striking, 8 to 10 foot tall flower spike.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Occasional water in late spring and summer.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Sustainable,Easy Care,Dwarf Plant,Dense Habit,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Mass Planting,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;074135&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07413&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Agave schidigera &apos;Durango&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Agave schidigera &apos;Durango&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Thread-leaf Agave&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Drought Tolerant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rock Garden,Mass Planting,Container,Aloe (Aloe); Red Yucca (Hesperaloe); Hens and Chicks (Sempervivum); Sedum (Sedum); Kalanchoe (Kalanchoe)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 2 ft. tall, 2 to 3 ft. wide; flower stalk 10 to 12 ft. tall.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Requires well-drained soil. Plant in full sun, except in hotter inland gardens where light shade or morning sun is best. Needs only occasional irrigation in late spring and summer.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949334287&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Blooms only once after about 10 to 15 years in the garden.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This slow-growing succulent features a handsome solitary rosette with a dense, symmetrical form. Dark green leaves edged with curly white hairs each have a sharp spine at the tip. Mature plants often produce a striking, 8 to 10 foot tall flower spike.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Occasional water in late spring and summer.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Sustainable,Easy Care,Dwarf Plant,Dense Habit,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Mass Planting,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 27 Jan 2016 21:33:14 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

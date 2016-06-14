@@ -1,0 +1,65 @@
+DATE/TIME: 2016-03-02 23:53:26
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-03-02 23:53:27
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 2878
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;41424MT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;41424&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;MT&lt;/Size&gt;
+		&lt;SizeDescription&gt;Tall&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Prunus sp. &apos;Shiro-Kaga&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Prunus sp. &apos;Shiro-Kaga&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Shiro-Kaga Ume Fruiting Japanese Apricot&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Late Winter Flowering&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Lavender (Lavandula); Rosemary (Rosmarinus); Honeysuckle (Lonicera); Hydrangea (Hydrangea paniculata); Lilac (Syringa)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Water regularly during first growing season to establish a deep, extensive root system. Fertilize before new growth begins in spring. Pruning time: winter. Recommended winter chill: 400 hours.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;10&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;7.97 gal. (30.17 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949197820&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late Winter&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Prolific white single flowers erupt along the branches in late winter for a thrilling show! A beautiful ornamental specimen that is well-suited to mild winter regions. Plant within view from a window to enjoy the winter show from indoors! An early-bearing apricot with small fruits used primarily in pickling, or for medicinal purposes.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Showy Fruit,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen,Mass Planting,Kitchen Garden&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 02 Mar 2016 23:53:24 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

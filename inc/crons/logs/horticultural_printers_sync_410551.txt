@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DataSync>
+	<Plant>
+		<ActionCode>UPDATE</ActionCode>
+		<ItemSizeID>410551</ItemSizeID>
+		<Item>41055</Item>
+		<SpecialIcon></SpecialIcon>
+		<Size>1</Size>
+		<SizeDescription></SizeDescription>
+		<Botanical>Westringia fruticosa 'WES06'</Botanical>
+		<BotanicalShort>Westringia fruticosa 'WES06'</BotanicalShort>
+		<CommonName>Low Horizon&#8482; Westringia</CommonName>
+		<PriAttribute>Easy care plant</PriAttribute>
+		<CompanionPlantDescription>Wildlife Garden,Mass Planting,Ground Cover,Erosion Control,Border,Aloe (Aloe); Red Yucca (Hesperaloe); Echeveria (Echeveria); Sedum (Sedum); Kalanchoe (Kalanchoe)</CompanionPlantDescription>
+		<AvgLandscapeSize>Reaches 10-12 in. tall, 24-27 in. wide.</AvgLandscapeSize>
+		<CareInstructions>Highly adaptable to sandy or well-drained clay soils. Follow a regular watering schedule the first growing season to develop a deep extensive root system. Benefits from a layer of coarse mulch to conserve moisture. Fertilize in spring with a slow release fertilizer.</CareInstructions>
+		<ContainerSize>1</ContainerSize>
+		<LegalVolume>2.60 qt. (2.46 L)</LegalVolume>
+		<UPC>014949424629</UPC>
+		<FlowerTime>Spring</FlowerTime>
+		<PlantBenefits>The lowest growing Westringia and practically maintenance free. A dense and ultra-compact ground cover shrub with a lower growing habit than Mundi&#8482;. Needs no pruning to maintain a neat form but takes well to shearing. Ideal for mass plantings or as a border plant. Highly drought tolerant when established.</PlantBenefits>
+		<SunExpose>Partial shade to full sun</SunExpose>
+		<WaterReq>Once established, needs only occasional watering.</WaterReq>
+		<Sun_exposure>Full sun,Partial sun</Sun_exposure>
+		<Water>Low</Water>
+		<CZoneHigh>11</CZoneHigh>
+		<CZoneLow>9</CZoneLow>
+		<SpecialFeatures>Year-round Interest,Waterwise,Tolerates Poor Soils,Easy Care</SpecialFeatures>
+		<ProblemSolutions></ProblemSolutions>
+		<LandscapeUses>Wildlife Garden,Mass Planting,Ground Cover,Erosion Control,Border</LandscapeUses>
+	</Plant>
+</DataSync>

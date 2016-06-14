@@ -1,0 +1,65 @@
+DATE/TIME: 2016-03-30 18:13:26
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-03-30 18:13:27
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 3121
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;416641&lt;/ItemSizeID&gt;
+		&lt;Item&gt;41664&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Kalanchoe rhombopilosa&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Kalanchoe rhombopilosa&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Pies from Heaven&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Waterwise&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Tickseed (Coreopsis); Creeping Phlox (Phlox); Hens &amp;amp; Chicks (Echeveria); Cranesbill (Geranium); Aloe (Aloe)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 10 to 20 in. tall and wide, slowly spreading.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide porous, well-drained soil. Once established provide supplemental water during warmer months; less water in cooler months, allowing soil surface to dry between waterings. Do not over water. Performs well with partial sun in extremely hot summer areas. Prune to remove wayward, dead, or top-heavy growth.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949433966&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Small clusters of greenish-yellow flowers appear intermittently.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A dainty, smaller kalanchoe with intriguing foliage. Fan-shaped succulent leaves have a silvery white cast and spectacular coppery-brown mottling, with lighter outer margins and widely toothed edges. Forms a small, mounded, shrub-like form. Ideal rock garden, patio container accent, or houseplant. Tender evergreen perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to partial sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established requires occasional waterings - more in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Tolerates Poor Soils,Easy Care,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Dry Shade,Container,Coastal Exposure&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 30 Mar 2016 18:13:27 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

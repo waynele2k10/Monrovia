@@ -1,0 +1,268 @@
+DATE/TIME: 2016-02-01 22:33:24
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-02-01 22:33:49
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 18810
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;037241&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03724&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Coleonema pulchrum &apos;Sunset Gold&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Coleonema pulchrum &apos;Sunset Gold&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Sunset Gold Breath of Heaven&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage Color&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Mass Planting,Container,Border,Yucca (Yucca); Agave (Agave); Aloe (Aloe); Sedum (Sedum); Red Yucca (Hesperaloe)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 2 to 3 ft. tall and 4 to 6 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. For a formal appearance, shear annually after flowering.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949216866&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Winter and spring.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Light, wispy shrub displays attractive, tiny pink blooms over long season. Golden heath-like leaves are very fragrant when crushed; use along walkways or paths where branches can be reached. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care,Dramatic Foliage Color,Year-round Interest&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;037242&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03724&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Coleonema pulchrum &apos;Sunset Gold&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Coleonema pulchrum &apos;Sunset Gold&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Sunset Gold Breath of Heaven&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage Color&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Mass Planting,Container,Border,Yucca (Yucca); Agave (Agave); Aloe (Aloe); Sedum (Sedum); Red Yucca (Hesperaloe)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 2 to 3 ft. tall and 4 to 6 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. For a formal appearance, shear annually after flowering.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949230381&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Winter and spring.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Light, wispy shrub displays attractive, tiny pink blooms over long season. Golden heath-like leaves are very fragrant when crushed; use along walkways or paths where branches can be reached. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care,Dramatic Foliage Color,Year-round Interest&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;039461&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03946&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hebe pinguifolia &apos;Sutherlandii&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hebe pinguifolia &apos;Sutherlandii&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Sutherland Hebe&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Summer Flowering&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Urban Garden,Edging,Container,Coastal Exposure,Border,Loropetalum (Loropetalum); Heavenly Bamboo (Nandina); Blue Oat Grass (Heliotrichon); Bottlebrush (Callistemon); Agapanthus (Agapanthus)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Dense, rounded shrub 10 to 16 in. tall, 36 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide well drained soil. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Once established, water deeply and less frequently. Feed with a general purpose fertilizer before new growth begins in spring. For a formal appearance, shear annually after flowering.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949394618&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Spikes of white flowers with blue anthers accent the whitish-green foliage. A dwarf, densely-branched shrub that is excellent for low edging or container plantings. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering- weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;6&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Tolerates Acidic Soil,Dwarf Plant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Urban Garden,Edging,Container,Coastal Exposure,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;039462&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03946&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hebe pinguifolia &apos;Sutherlandii&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hebe pinguifolia &apos;Sutherlandii&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Sutherland Hebe&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Summer Flowering&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Urban Garden,Edging,Container,Coastal Exposure,Border,Loropetalum (Loropetalum); Heavenly Bamboo (Nandina); Blue Oat Grass (Heliotrichon); Bottlebrush (Callistemon); Agapanthus (Agapanthus)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Dense, rounded shrub 10 to 16 in. tall, 36 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. For a formal appearance, shear annually after flowering.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949394625&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Spikes of white flowers with blue anthers accent the whitish-green foliage. A dwarf, densely-branched shrub that is excellent for low edging or container plantings. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering- weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;6&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Tolerates Acidic Soil,Dwarf Plant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Urban Garden,Edging,Container,Coastal Exposure,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;036322&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03632&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hibiscus moscheutos &apos;Stardust&apos; P.P. # 21,479&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hibiscus moscheutos &apos;Stardust&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Stardust Hardy Hibiscus&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Very Wet Areas,Firescaping/Fire Wise,Container,Border,Elderberry (Sambucus); Shasta Daisy (Chrysanthemum); Aster (Aster); Coneflower (Echinacea); Russian Sage (Perovskia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast grower to 3 to 4 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Provide a rich, well-drained soil. Water and fertilize regularly throughout the growing season. For a neat appearance, cut to the ground in winter.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949312384&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Lipstick pink blooms have a small red eye, exotic darker venation plus pale pink stamens and yellow anthers. Soft green, maple-like foliage is accented with purple. Perfect quick addition to the shrub or perennial border for instant makeover. Herbaceous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Keep soil surface moist, but not soggy.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;High&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Wet Soils,Fast Growing,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Very Wet Areas&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Very Wet Areas,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;036323&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03632&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;3&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hibiscus moscheutos &apos;Stardust&apos; P.P. # 21,479&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hibiscus moscheutos &apos;Stardust&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Stardust Hardy Hibiscus&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Very Wet Areas,Firescaping/Fire Wise,Container,Border,Elderberry (Sambucus); Shasta Daisy (Chrysanthemum); Aster (Aster); Coneflower (Echinacea); Russian Sage (Perovskia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Strong growing, woody, shrub like perennial with very fast growth 3 to 4 feet tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Provide a rich, well-drained soil and water and fertilize regularly throughout the growing season. For a neat appearance, cut to the ground in winter.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;3&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.54 gal. (9.61 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949263372&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Lipstick pink blooms have a small red eye, exotic darker venation plus pale pink stamens and yellow anthers. Soft green, maple-like foliage is accented with purple. Perfect quick addition to the shrub or perennial border for instant makeover. Herbaceous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Keep soil surface moist, but not soggy.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;High&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Wet Soils,Fast Growing,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Very Wet Areas&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Very Wet Areas,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;036325&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03632&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hibiscus moscheutos &apos;Stardust&apos; P.P. # 21,479&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hibiscus moscheutos &apos;Stardust&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Stardust Hardy Hibiscus&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Very Wet Areas,Firescaping/Fire Wise,Container,Border,Elderberry (Sambucus); Shasta Daisy (Chrysanthemum); Aster (Aster); Coneflower (Echinacea); Russian Sage (Perovskia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast grower to 3 to 4 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Provide a rich, well-drained soil. Water and fertilize regularly throughout the growing season. For a neat appearance, cut to the ground in winter.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949211809&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Lipstick pink blooms have a small red eye, exotic darker venation plus pale pink stamens and yellow anthers. Soft green, maple-like foliage is accented with purple. Perfect quick addition to the shrub or perennial border for instant makeover. Herbaceous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Keep soil surface moist, but not soggy.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;High&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Wet Soils,Fast Growing,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Very Wet Areas&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Very Wet Areas,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;036329&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03632&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;9&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hibiscus moscheutos &apos;Stardust&apos; P.P. # 21,479&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hibiscus moscheutos &apos;Stardust&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Stardust Hardy Hibiscus&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Very Wet Areas,Firescaping/Fire Wise,Container,Border,Elderberry (Sambucus); Shasta Daisy (Chrysanthemum); Aster (Aster); Coneflower (Echinacea); Russian Sage (Perovskia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Strong growing, woody, shrub like perennial with very fast growth 3 to 4 feet tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Provide a rich, well-drained soil and water and fertilize regularly throughout the growing season. For a neat appearance, cut to the ground in winter.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;15&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;12.07 gal. (45.69 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949261453&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Lipstick pink blooms have a small red eye, exotic darker venation plus pale pink stamens and yellow anthers. Soft green, maple-like foliage is accented with purple. Perfect quick addition to the shrub or perennial border for instant makeover. Herbaceous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Keep soil surface moist, but not soggy.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;High&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Wet Soils,Fast Growing,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Very Wet Areas&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Very Wet Areas,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Mon, 01 Feb 2016 22:33:48 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

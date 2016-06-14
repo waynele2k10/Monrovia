@@ -1,0 +1,486 @@
+/*
+ * This File contains the css for fornt end pages of the plugin like submissions
+ *
+ * NOTE: This File is not a theme/css file for Front End User Created Forms.
+ */
+
+
+
+
+/*---------Common Elements---------------*/
+* {
+    box-sizing: border-box;
+}
+
+
+
+/*----header----*/
+
+.rmagic .operationsbar {
+    display: block;
+    width: 100%;
+    float: right;
+    padding:10px;
+}
+
+.rmagic .rmtitle {
+    display: block;
+    float: left;
+    padding: 0px 0px 25px 5px;;
+    width:100%;
+    font-size:24px;
+    text-transform: uppercase;
+}
+
+.rmagic .rmsubtitle {
+    
+    display: block;
+    float: left;
+    padding: 0px 0px 25px 5px;;
+    width:100%;
+    font-size:18px;
+    text-transform: uppercase;
+    
+}
+
+
+
+.operationsbar .nav {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    background-color: rgb(50,50,50);
+}
+
+.operationsbar .nav ul {
+    font-size: 14px;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.operationsbar .nav ul li {margin-right: 10px;}
+
+.operationsbar .nav ul li, .operationsbar .nav ul li a {
+    display: inline-block;
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.operationsbar .nav ul li:hover {
+    background-color: rgb(100,100,100);
+}
+
+.rmagic ul li.rm-form-toggle {
+    display: inline-block;
+    padding: 20px;
+    float: right;
+    margin-right: 0px;
+}
+
+.rmagic li.rm-form-toggle select {
+    background-color: rgb(253,253,253);
+    border: 1px solid rgb(240,240,240);
+    color: rgb(150,150,150);
+    margin-left: 10px;
+}
+
+
+
+/*------------Adjustments for smaller screens-----------------*/
+
+@media screen and (max-width: 700px){
+    
+    
+    table {
+        display: block;
+        overflow: auto;
+        
+    }
+}
+
+
+/*table style*/
+
+.rmagic-table {
+    display: block;
+    width: 100%;
+    float: left;
+    padding: 10px;
+}
+
+.rmagic tr:nth-child(odd) {background-color: rgb(250,250,250);
+}
+
+.rmagic table.rm-table, td, th {
+    text-align: center;
+}
+
+.rmagic table.rm-table {
+    border-collapse: collapse;
+    font-size: 14px;
+    width: 100%;
+}
+
+.rmagic table.rm-table th {
+    text-transform: uppercase;
+    font-weight: normal;
+    padding: 8px;
+    background-color: rgb(240,240,240);
+}
+
+td {
+    padding: 8px;
+    border-bottom: 1px dotted silver;
+}
+
+tr {
+    transition: 0.3s;
+}
+
+.rmagic th.table-header {
+    font-size: 12px;
+    text-transform: uppercase;
+    background-color: rgb(253,253,253);
+}
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    font-family: Arial, sans-serif;
+    width: 220px;
+    font-size: 14px;
+    background-color: azure;
+    opacity: 1;
+    color: #5e7071;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    border-left: 1px solid #7adfe3;
+    border-top: 1px solid #7adfe3;
+    border-bottom: 3px solid #7adfe3;
+    border-right: 3px solid #7adfe3;
+    z-index: 1;
+}
+
+.tooltip a {
+    display: block;
+    text-align: center;
+}
+
+.tooltiptext a::before {
+    content: "»";
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+/* The animation code */
+@keyframes textfade {
+    from {color:transparent}
+    to {color: #6db5b6}
+    
+}
+
+.rmagic-table {
+    display: block;
+}
+
+
+
+.rmagic table.rm-table img {
+    width: 25px;
+    height:25px;
+    
+}
+
+/*------Paginations-------*/
+
+.rmagic ul.pagination {
+    font-size: 14px;
+    display: inline-block;
+    padding: 10px;;
+    margin: 0;
+    float: right;
+}
+
+.rmagic ul.pagination li {
+    display: inline;
+    
+}
+
+.rmagic ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 6px 14px;
+    text-decoration: none;
+    background-color: white;
+    margin-left: 5px;
+    transition: 0.3s;
+}
+
+.rmagic ul.pagination li a.active {
+    background-color: rgb(50,50,50);
+    color: white;
+    
+}
+
+/*----User Page----*/
+
+.rm-user-details-card {
+    display: block;
+    float: left;
+    padding: 20px;
+    background-color: rgb(245,245,245);
+    margin: 10px;
+    border: 2px solid rgb(225,225,225);
+    font-weight: 200;
+}
+
+.rm-user-image-container {
+    display: inline-block;
+    float: left;
+    width: 30%;
+}
+
+.rm-user-fields-container {
+    display: inline-block;
+    float: right;
+    width: 70%;
+    padding: 50px 10px 20px 20px;
+}
+
+.rm-user-field-row {display: block; width: 100%; float: left; padding: 10px; border-bottom: 2px solid rgb(225,225,225);}
+.rm-user-field-label, .rm-user-field-value {display: inline-block; width: 50%; float: left;}
+.rm-user-field-label {text-transform: uppercase;}
+
+.rm-user-name, .rm-user-image {
+    font-size: 120%;
+    width: 100%;
+    display: block;
+    float: left;
+    padding: 5px;
+    color: #333333;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+img.rm-user {
+    max-width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 15px;
+    border: 1px solid rgb(225,225,225);
+}
+
+/*----Submission Page----*/
+
+.rmagic .rm-submission {margin-top: 25px;}
+.rm-submission-field-row {border-bottom: 1px dotted rgb(240,240,240);}
+
+.rmagic .rm-submission, .rm-submission-field-row {
+    display: block;
+    background-color: #fffffe;
+    float: left;
+    width: 100%;
+    padding: 25px;
+}
+
+.rmagic .rm-submission-label, .rm-submission-value {
+    display: inline-block;
+    float: left;
+}
+
+.rmagic .rm-submission-label {font-weight: bold; width: 20%; text-transform: uppercase; font-size: 12px;}
+.rmagic .rm-submission-value {width: 80%;}
+
+.rmagic .rm-submission-field-row .rm-submission-attachment {
+    display: inline-block;
+    float: left;
+    padding: 10px;
+    background-color: rgb(250,250,250);
+    border: 2px dashed rgb(240,240,240);
+    width: 120px;
+    margin:0 10px 10px 0;
+}
+
+.rmagic .rm-submission-field-row .rm-submission-attachment img {
+    float: left;
+    display: block;
+    width: 100px;
+    max-height: 100px;
+    height: auto;
+}
+
+.rmagic .rm-submission-attachment-field {
+    display: block;
+    float: left;
+    font-size: 12px;
+    width: 100px;
+    text-align: center;
+    padding: 5px 0 0 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    
+}
+
+.rmagic .rm-submission-note {
+    border-left: 4px solid red;
+    padding: 10px;
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    float: left;
+    background: #fffffe;
+}
+
+.rmagic .rm-submission-note-text {
+    background-image: url(rm-submission-note.png);
+    background-repeat: no-repeat;
+    padding-left: 25px;
+    display: block;
+    width: 100%;
+    float: left;
+    font-style: italic;
+}
+
+.rmagic .rm-submission-note-attribute {
+    font-size: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+    display: block;
+    width: 100%;
+    float: left;
+    text-align: right;
+    color: rgb(175,175,175);
+}
+
+.rmagic .rm-submission-note-attribute a {
+    padding-right: 10px;
+    font-size: 14px;
+}
+
+.rm_user_exists_alert {    background-color: #f2dede;
+    border-color: #eed3d7;
+    color: #b94a48;
+    padding: 8px 35px 8px 14px;
+    margin-bottom: 20px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px; width:100%;}
+
+.rmagic .rmcontent form fieldset { border:0px solid #000; margin:0px; padding:0px;}
+
+.rmagic .rmcontent .rm_input_fields_container {
+    width: 100%;
+    float: left;
+    padding-top: 20px;}
+
+/*------------Adjustments for smaller screens-----------------*/
+
+@media screen and (max-width: 700px) {
+    
+    .rmagic .rm-submission-label, .rmagic .rm-submission-value {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+        font-size: 120%;
+        
+    }
+    
+    .operationsbar .nav ul li, .operationsbar .nav ul li a {
+        display: block;
+        width: 100%;
+        text-transform: uppercase;
+    }
+}
+
+.rmagic .childfieldsrow {
+    width: 94%;
+    display: block;
+    float: left;
+    padding: 20px 0 0 0;
+    border-width: 0px 0px 0px 0px;
+    border-style: solid;
+    border-color: #94cdc9;
+    margin: 0 4% 2% 4%;
+    background-color: rgb(240,240,240);
+    border-radius: 10px;
+}
+
+
+
+
+.rmagic.rm_tabbing_container .rm-submission  {    padding: 0px; margin-top:0px;}
+
+
+.rmagic.rm_tabbing_container .rm-submission .rm-user-image img.avatar { border-radius:0px;}
+
+.rmagic.rm_tabbing_container ul.ui-tabs-nav li a { box-shadow: 0 0px 0 0 currentColor;}
+
+
+.rm_forgot_pass {
+    margin-top: 3px;
+    float: left;
+    
+}
+
+.rmagic .rm_expiry_stat_container {padding: 10px;
+    width: 100%;
+    font-size: 150%;
+    text-align: center;}
+
+.rmagic .rm_expiry_stat_container .rm-formcard-expired .rm_pb_container {    display: block;
+    border: 2px solid #FFAE00;
+    float: left;
+    height: 20px;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 5px;}
+
+.rmagic .rm_expiry_stat_container .rm-formcard-expired { width:100%;    display: inline-block;    font-size: 15px;    text-transform: uppercase;}
+
+.rmagic .rm_expiry_stat_container .rm-formcard-expired .rm_pb_container .rm_progress_bar {    display: block;
+    float: left;
+    
+    background-color: #FFDD00;
+    height: 16px;
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #FFDD00),color-stop(1, #FFAE00));
+    background-image: -o-linear-gradient(bottom, #FFDD00 10%, #FFAE00 60%);
+    background-image: -moz-linear-gradient(bottom, #FFDD00 10%, #FFAE00 60%);
+    background-image: -webkit-linear-gradient(bottom, #FFDD00 10%, #FFAE00 60%);
+    background-image: -ms-linear-gradient(bottom, #FFDD00 10%, #FFAE00 60%) \9;
+    background-image: linear-gradient(to bottom, #FFDD00 10%, #FFAE00 60%);}
+
+
+.rmagic.rm_tabbing_container .rmagic-table table.rm-table { border:0px;}
+
+.rmagic.rm_tabbing_container .rmagic-table table.rm-table th, .rmagic.rm_tabbing_container .rmagic-table table.rm-table td { border:0px;    text-align: center;    padding: 10px;}
+
+.rmagic.rm_tabbing_container .rmagic-table table.rm-table td {    border-bottom: 1px dotted silver;}
+
+.search-submit {    width: 20px;}
+
+
+.operationsbar .nav ul li.ui-state-active {    background-color: rgb(100,100,100);}
+
+.rmagic.rm_tabbing_container ul.ui-tabs-nav li a {    border-bottom: 0px solid #333;    outline: 0px;}
+
+
+.rmagic .rm_expiry_stat_container .rm-formcard-expired .rm_sandclock {    }
+
+
+

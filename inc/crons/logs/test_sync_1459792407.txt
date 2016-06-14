@@ -1,0 +1,289 @@
+DATE/TIME: 2016-04-04 17:53:27
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-04-04 17:53:37
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 19988
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;070381&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07038&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Agapanthus africanus &apos;Rancho White&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Agapanthus africanus &apos;Rancho White&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Rancho White Agapanthus&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Easy Care Plant&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Foliage clumps to 12 in. tall and 10 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Root hardy to zone 8b. For a neat appearance, remove old or damaged foliage as new growth begins in spring. Feed with a general purpose fertilizer or bulb food during growing season.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949329054&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A delightful dwarf variety with clusters of pure white, bell-shaped flowers on stalks above neat, clumps of grassy-textured foliage. Makes a great warm season patio container plant in colder areas or perennial color accent in outdoor beds where winters are more mild.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular water - weekly, or more often in extreme heat. Low water needs, once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Urban Pollution,Easy Care,Dwarf Plant,Clump Forming,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Urban Garden,Poolside,Mass Planting,Firescaping/Fire Wise,Container,Coastal Exposure,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;070382&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07038&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Agapanthus africanus &apos;Rancho White&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Agapanthus africanus &apos;Rancho White&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Rancho White Agapanthus&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Easy Care Plant&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Foliage clumps to 12 in. tall and 10 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Root hardy to zone 8b. For a neat appearance, remove old or damaged foliage as new growth begins in spring. Feed with a general purpose fertilizer or bulb food during growing season.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949329061&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A delightful dwarf variety with clusters of pure white, bell-shaped flowers on stalks above neat, clumps of grassy-textured foliage. Makes a great warm season patio container plant in colder areas or perennial color accent in outdoor beds where winters are more mild.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular water - weekly, or more often in extreme heat. Low water needs, once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Urban Pollution,Easy Care,Dwarf Plant,Clump Forming,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Urban Garden,Poolside,Mass Planting,Firescaping/Fire Wise,Container,Coastal Exposure,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;070385&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07038&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Agapanthus africanus &apos;Rancho White&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Agapanthus africanus &apos;Rancho White&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Rancho White Agapanthus&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Easy Care Plant&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Foliage clumps to 12 in. tall and 10 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Root hardy to zone 8b. For a neat appearance, remove old or damaged foliage as new growth begins in spring. Feed with a general purpose fertilizer or bulb food during growing season.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949331866&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A delightful dwarf variety with clusters of pure white, bell-shaped flowers on stalks above neat, clumps of grassy-textured foliage. Makes a great warm season patio container plant in colder areas or perennial color accent in outdoor beds where winters are more mild.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular water - weekly, or more often in extreme heat. Low water needs, once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Urban Pollution,Easy Care,Dwarf Plant,Clump Forming,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Urban Garden,Poolside,Mass Planting,Firescaping/Fire Wise,Container,Coastal Exposure,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;097701&lt;/ItemSizeID&gt;
+		&lt;Item&gt;09770&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Blechnum gibbum &apos;Silver Lady&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Blechnum gibbum &apos;Silver Lady&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Silver Lady Fern&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Shade Loving&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 36-48 in. tall, 24-36 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed frequently during growing season with a general purpose fertilizer. Cut back old fronds after new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949381632&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Grown for foliage&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Silver Lady is a native to New Zealand native and is often referred to as a dwarf tree fern. This fern will thrive indoors as well as outdoors. It has an upright growth habit and develops a short trunk when mature. Prefers a warm, shady area and requires adequate moisture to thrive. Tuck into shady spots to add strong texture to any woodland garden.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full to partial shade&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, to maintain consistently moist soil.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;High&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;10&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Wet Soils,Shade Loving,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Very Wet Areas&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Mass Planting,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;097702&lt;/ItemSizeID&gt;
+		&lt;Item&gt;09770&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Blechnum gibbum &apos;Silver Lady&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Blechnum gibbum &apos;Silver Lady&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Silver Lady Fern&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Shade Loving&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 36-48 in. tall, 24-36 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed frequently during growing season with a general purpose fertilizer. Cut back old fronds after new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949381649&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Grown for foliage&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Silver Lady is a native to New Zealand native and is often referred to as a dwarf tree fern. This fern will thrive indoors as well as outdoors. It has an upright growth habit and develops a short trunk when mature. Prefers a warm, shady area and requires adequate moisture to thrive. Tuck into shady spots to add strong texture to any woodland garden.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full to partial shade&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, to maintain consistently moist soil.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;High&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;10&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Wet Soils,Shade Loving,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Very Wet Areas&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Mass Planting,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;097705&lt;/ItemSizeID&gt;
+		&lt;Item&gt;09770&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Blechnum gibbum &apos;Silver Lady&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Blechnum gibbum &apos;Silver Lady&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Silver Lady Fern&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Shade Loving&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 36-48 in. tall, 24-36 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed frequently during growing season with a general purpose fertilizer. Cut back old fronds after new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949381632&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Grown for foliage&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Silver Lady is a native to New Zealand native and is often referred to as a dwarf tree fern. This fern will thrive indoors as well as outdoors. It has an upright growth habit and develops a short trunk when mature. Prefers a warm, shady area and requires adequate moisture to thrive. Tuck into shady spots to add strong texture to any woodland garden.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full to partial shade&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, to maintain consistently moist soil.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;High&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;10&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Wet Soils,Shade Loving,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Very Wet Areas&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Mass Planting,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;097171&lt;/ItemSizeID&gt;
+		&lt;Item&gt;09717&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Heuchera x hybrida &apos;Carnival Rose Granita&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Heuchera x hybrida &apos;Carnival Rose Granita&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Carnival Rose Granita Coral Bells&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage Color&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Astilbe (Astilbe); Hosta (Hosta); Lenten Rose (Helleborus); Daylily (Hemerocallis); Painted Fern (Athyrium)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Clumps to 10 to 12 in. tall, 12 to 14 in. wide; flower stalks 2 ft. tall.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide a rich, well-drained soil and water and fertilize regularly throughout the growing season. For a neat appearance, remove old flower stalks. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949383933&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Eye-catching, herbaceous perennial with high-impact colors of rich purple laced with inter-veins of silver background. This Carnival selection sports a tidy mounding habit and exceptional heat and humidity tolerance.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Best with regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;North American Native Selection,Easy Care,Dramatic Foliage Color,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;087432&lt;/ItemSizeID&gt;
+		&lt;Item&gt;08743&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Alocasia Serengeti&apos; PPAF&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Alocasia Serengeti&apos; PPAF&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Serengeti Elephant Ear&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage Color&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 3-4 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Keep soil moist and add a controlled release fertilizer to the potting mix or garden soil. Remove dead or damaged leaves as required. In cooler climates, can be enjoyed outdoors, but move indoors before the threat of frost.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949378670&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Prized for foliage&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Distinctive arrow shaped green leaves have a silvery hue highlighted with light green veins, held by brown-streaked light pink petioles. Provides a lush, tropical effect indoors or outdoors near a pond or in a container on a patio or deck. Deer and rabbit resistant.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to filtered sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly - keep soil surface evenly moist.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;High&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Wet Soils,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Water Garden,Very Wet Areas,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;087462&lt;/ItemSizeID&gt;
+		&lt;Item&gt;08746&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Alocasia &apos;Morocco&apos; PPAF&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Alocasia &apos;Morocco&apos; PPAF&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Morocco Elephant Ear&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage Color&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 4 6 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Keep soil moist and add a controlled release fertilizer to the potting mix or garden soil. Remove dead or damaged leaves as required. In cooler climates, can be enjoyed outdoors, but move indoors before the threat of frost.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949378700&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Prized for foliage&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Easy to grow and well suited for container growing. Brings instant tropical effect to patio or poll side. Dramatic green and white foliage perched on top of rosy-pink and very long leaf stems.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to filtered sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly - keep soil surface evenly moist but not soggy.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;High&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Wet Soils,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Very Wet Areas,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Mon, 04 Apr 2016 17:53:33 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

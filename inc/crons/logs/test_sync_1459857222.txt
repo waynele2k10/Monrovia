@@ -1,0 +1,348 @@
+DATE/TIME: 2016-04-05 11:53:42
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-04-05 11:53:53
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 24854
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;018631&lt;/ItemSizeID&gt;
+		&lt;Item&gt;01863&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Rudbeckia &apos;Little Goldstar&apos; P.P.# 22,397&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Rudbeckia &apos;Little Goldstar&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Little Goldstar Black Eyed Susan&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Long bloom season&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Coneflower (Echinacea); Avens (Geum); Switch Grass (Panicum); Russian Sage (Perovskia); Sedum (Sedum)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast growing, 3 to 4 ft. tall, 1 1/2 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949379134&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Blooms midsummer to early fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This performer is a must-have in the landscape! Offers waves of bright, daisy-like, golden yellow flowers on a compact plant. An easy-to-grow perennial for a sunny border, rock garden or container. Clip spent flowers throughout the season to promote continued bloom. Heat and humidity tolerant.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;North American Native Selection,Easy Care,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Wildlife Garden,Mass Planting,Cutting Garden,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;018632&lt;/ItemSizeID&gt;
+		&lt;Item&gt;01863&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Rudbeckia &apos;Little Goldstar&apos; P.P.# 22,397&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Rudbeckia &apos;Little Goldstar&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Little Goldstar Black Eyed Susan&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Long bloom season&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Coneflower (Echinacea); Avens (Geum); Switch Grass (Panicum); Russian Sage (Perovskia); Sedum (Sedum)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast growing, 3 to 4 ft. tall, 1 1/2 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949420010&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Blooms midsummer to early fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This performer is a must-have in the landscape! Offers waves of bright, daisy-like, golden yellow flowers on a compact plant. An easy-to-grow perennial for a sunny border, rock garden or container. Clip spent flowers throughout the season to promote continued bloom. Heat and humidity tolerant.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;North American Native Selection,Easy Care,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Wildlife Garden,Mass Planting,Cutting Garden,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;028181&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02818&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Pellaea rotundifolia&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Pellaea rotundifolia&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Button Fern&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Shade Loving&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Clumping 12-18 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Best in evenly moist, well drained soil, acidic and rich in organic matter. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Avoid overly wet soils in winter. Feed with an an acid fertilizer. Cut back old fronds when new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949062418&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Does not flower&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;An eye-catching New Zealand native that will grow well indoors with little care. A great houseplant for a table accent or in a hanging basket to show off it&apos;s cascading, leathery, button-shaped leaflets. Unlike most ferns, this plant will tolerate fairly dry conditions. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade to filtered sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, weekly or more often in extreme heat. Tolerates dry shade conditions, when established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Acidic Soil,Shade Loving,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Houseplant,Ground Cover,Dry Shade,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;028181E&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02818&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1E&lt;/Size&gt;
+		&lt;SizeDescription&gt;Terra Cotta&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Pellaea rotundifolia&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Pellaea rotundifolia&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Button Fern&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Shade Loving&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Clumping 12-18 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Best in evenly moist, well drained soil, acidic and rich in organic matter. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Avoid overly wet soils in winter. Feed with an an acid fertilizer. Cut back old fronds when new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949301180&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Does not flower&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;An eye-catching New Zealand native that will grow well indoors with little care. A great houseplant for a table accent or in a hanging basket to show off it&apos;s cascading, leathery, button-shaped leaflets. Unlike most ferns, this plant will tolerate fairly dry conditions. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade to filtered sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, weekly or more often in extreme heat. Tolerates dry shade conditions, when established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Acidic Soil,Shade Loving,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Houseplant,Ground Cover,Dry Shade,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;028182&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02818&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Pellaea rotundifolia&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Pellaea rotundifolia&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Button Fern&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Shade Loving&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Clumping 12-18 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Best in evenly moist, well drained soil, acidic and rich in organic matter. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Avoid overly wet soils in winter. Feed with an an acid fertilizer. Cut back old fronds when new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949381472&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Does not flower&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;An eye-catching New Zealand native that will grow well indoors with little care. A great houseplant for a table accent or in a hanging basket to show off it&apos;s cascading, leathery, button-shaped leaflets. Unlike most ferns, this plant will tolerate fairly dry conditions. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade to filtered sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, weekly or more often in extreme heat. Tolerates dry shade conditions, when established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Acidic Soil,Shade Loving,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Houseplant,Ground Cover,Dry Shade,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;014412&lt;/ItemSizeID&gt;
+		&lt;Item&gt;01441&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Chamaecyparis pisifera &apos;Vintage Gold&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Chamaecyparis pisifera &apos;Vintage Gold&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Vintage Gold False Cypress&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Year-Round Interest&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Ninebark (Physocarpus); Juniper (Juniperus); Potentilla (Potentilla); Cranesbill (Geranium); Catmint (Nepeta)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Slow growing to under 4 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide enriched, well-drained soil. Avoid poorly drained sites. Follow a regular watering schedule during the first growing season to develop a deep, extensive root system. Best with regular moisture; tolerates brief dry spells when established. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949002391&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Conifer; prized for foliage.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A dwarf, slow growing mounded shrub with superb year-round interest. Bright gold, feathery textured foliage holds its color without fading in summer or winter. Provides great contrast to shrubs or conifers with dark green foliage. Takes humidity. Easy-care foundation plant or landscape accent. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly- weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Easy Care,Dwarf Plant,Dramatic Foliage Color,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Hedge,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;014415&lt;/ItemSizeID&gt;
+		&lt;Item&gt;01441&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Chamaecyparis pisifera &apos;Vintage Gold&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Chamaecyparis pisifera &apos;Vintage Gold&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Vintage Gold False Cypress&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Year-Round Interest&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Ninebark (Physocarpus); Juniper (Juniperus); Potentilla (Potentilla); Cranesbill (Geranium); Catmint (Nepeta)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Slow growing to under 4 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide enriched, well-drained soil. Avoid poorly drained sites. Follow a regular watering schedule during the first growing season to develop a deep, extensive root system. Best with regular moisture; tolerates brief dry spells when established. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949386934&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Conifer; prized for foliage.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A dwarf, slow growing mounded shrub with superb year-round interest. Bright gold, feathery textured foliage holds its color without fading in summer or winter. Provides great contrast to shrubs or conifers with dark green foliage. Takes humidity. Easy-care foundation plant or landscape accent. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly- weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Easy Care,Dwarf Plant,Dramatic Foliage Color,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Hedge,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;056191&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05619&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Clematis armandii &apos;Apple Blossom&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Clematis armandii &apos;Apple Blossom&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Apple Blossom Clematis&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Year-Round Interest&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Fast growing stems to 20-25 ft. long.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer. Provide support such as a trellis or arbor. Prune annually to control size.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949331248&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Pale pink flowers in spring.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Superb evergreen foliage. Leathery green leaves and an abundance of fragrant, pale pink, apple blossom-like blooms in brilliant clusters create interest all year a long. Large sprays of pale pink, vanilla-scented flowers, deeper pink in bud, in early and mid-spring. Perfect quick cover for patios, trellises, arbors and great privacy screen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Privacy Screen,Espalier,Cutting Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;056195&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05619&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Clematis armandii &apos;Apple Blossom&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Clematis armandii &apos;Apple Blossom&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Apple Blossom Clematis&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Year-Round Interest&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Fast growing stems to 20-25 ft. long.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer. Provide support such as a trellis or arbor. Prune annually to control size.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949287743&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Pale pink flowers in spring.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Superb evergreen foliage. Leathery green leaves and an abundance of fragrant, pale pink, apple blossom-like blooms in brilliant clusters create interest all year a long. Large sprays of pale pink, vanilla-scented flowers, deeper pink in bud, in early and mid-spring. Perfect quick cover for patios, trellises, arbors and great privacy screen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Privacy Screen,Espalier,Cutting Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;097641&lt;/ItemSizeID&gt;
+		&lt;Item&gt;09764&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Microlepia strigosa&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Microlepia strigosa&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Lace Fern&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Shade Loving&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 2-3 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Thrives in enriched, evenly moist soil, but highly adaptable once established. Follow a regular watering schedule to establish a deep, extensive root system. Feed monthly during growing season. Cut back old fronds when new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949381502&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Does not flower&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Delicate downy textured triangular fronds. Prefers consistent moisture with partial to full shade. Makes a great addition to any woodland or shade garden. Can be used as a groundcover or as a background to spring bloomers. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade to filtered sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering- weekly or more often in extreme heat, to maintain consistently moist soil.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;High&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;10&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Wet Soils,Shade Loving,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Very Wet Areas,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;097642&lt;/ItemSizeID&gt;
+		&lt;Item&gt;09764&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Microlepia strigosa&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Microlepia strigosa&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Lace Fern&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Shade Loving&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 2-3 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Thrives in enriched, evenly moist soil, but highly adaptable once established. Follow a regular watering schedule to establish a deep, extensive root system. Feed monthly during growing season. Cut back old fronds when new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949381519&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Does not flower&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Delicate downy textured triangular fronds. Prefers consistent moisture with partial to full shade. Makes a great addition to any woodland or shade garden. Can be used as a groundcover or as a background to spring bloomers. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade to filtered sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering- weekly or more often in extreme heat, to maintain consistently moist soil.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;High&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;10&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Wet Soils,Shade Loving,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Very Wet Areas,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Tue, 05 Apr 2016 11:53:49 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

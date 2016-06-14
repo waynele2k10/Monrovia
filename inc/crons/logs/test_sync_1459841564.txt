@@ -1,0 +1,291 @@
+DATE/TIME: 2016-04-05 07:32:44
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-04-05 07:32:55
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 19862
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;077531&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07753&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Arctotis hybrid &apos;ARC406&apos; P.P. #19,170&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Arctotis hybrid &apos;ARC406&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;The Ravers&amp;#174; Bumblebee&amp;#8482;&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 8 to 10 in. and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide well-drained soil in full sun. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Shear spent blooms to promote re-blooming.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949356104&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Yellow blooms spring through summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A profuse bloomer, Bumblebee&amp;#8482; has bright lemon yellow flowers which are striking against the silver foliage. Smaller, compact habit is neat and attractive in borders, spilling over a retaining wall or tucked into containers and hanging baskets. Makes a wonderful perennial ground cover for milder climates.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional water; more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Erosion Control,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;015251&lt;/ItemSizeID&gt;
+		&lt;Item&gt;01525&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Camellia x &apos;Winter&apos;s Star&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Camellia x &apos;Winter&apos;s Star&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Winter&apos;s Star Camellia&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Fall Bloomer&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Azalea (Azalea); Forsythia (Forsythia); Fern (Athyrium); Lily of the Valley (Pieris); Winter Daphne (Daphne)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 10 ft tall and nearly as wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Prefers moist, well-drained, acid soils with high organic matter content. Mulch should be applied and maintained year round. Camellias benefit from light shade in summer and protection from winter wind. Fertilize minimally to prevent leggy, unattractive growth.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949028377&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Fall&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A tough and cold hardy fall blooming camellia from the U.S. National Arboretum Collection. Single, violet-pink blossoms over a period of four to six weeks in autumn. Petals are shed individually when bloom is completed, eliminating the task of dead-heading. Attractive dark glossy green foliage. Lovely as a specimen plant, in foundations or naturalistic plantings at the edge of a woodland.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade to partial sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;6&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Tolerates Acidic Soil,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Mass Planting,Hedge,Espalier&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;015255&lt;/ItemSizeID&gt;
+		&lt;Item&gt;01525&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Camellia x &apos;Winter&apos;s Star&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Camellia x &apos;Winter&apos;s Star&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Winter&apos;s Star Camellia&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Fall Bloomer&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Azalea (Azalea); Forsythia (Forsythia); Fern (Athyrium); Lily of the Valley (Pieris); Winter Daphne (Daphne)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 10 ft tall and nearly as wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Prefers moist, well-drained, acid soils with high organic matter content. Mulch should be applied and maintained year round. Camellias benefit from light shade in summer and protection from winter wind. Fertilize minimally to prevent leggy, unattractive growth.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949345191&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Fall&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A tough and cold hardy fall blooming camellia from the U.S. National Arboretum Collection. Single, violet-pink blossoms over a period of four to six weeks in autumn. Petals are shed individually when bloom is completed, eliminating the task of dead-heading. Attractive dark glossy green foliage. Lovely as a specimen plant, in foundations or naturalistic plantings at the edge of a woodland.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade to partial sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;6&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Tolerates Acidic Soil,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Mass Planting,Hedge,Espalier&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;070071&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07007&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Sempervivum tectorum ssp greenii&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Sempervivum tectorum ssp greenii&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Greenii Hens and Chicks&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Rock Garden Plant&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Slow spreader to 4 in. tall, 12 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide loose, well-drained soil. Water infrequently during the hot season. For a neat appearance, remove old foliage before new leaves emerge. As an indoor plant locate near a source of bright light.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949328682&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Pink blooms in mid-summer to fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Eye-catching, mounding evergreen perennial boasts tight, fleshy leaves that form multiples of green rosettes, tinged pink with dark red tips. In summer, older rosettes produce thick stalks topped with clusters of small pink blooms, then die after flowering while the younger rosettes continue to multiply. Adds rich texture and color to rock gardens. Ideal in containers.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional water.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Tolerates Poor Soils,Easy Care,Clump Forming&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Mass Planting,Green Wall,Green Roof,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;07007UT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07007&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;UT&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Sempervivum tectorum ssp greenii&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Sempervivum tectorum ssp greenii&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Greenii Hens and Chicks&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Rock Garden Plant&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Slow spreader to 4 in. tall, 12 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide loose, well-drained soil. Water infrequently during the hot season. For a neat appearance, remove old foliage before new leaves emerge. As an indoor plant locate near a source of bright light.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;QT&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 qt. (946 mL)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949354131&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Pink blooms in mid-summer to fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Eye-catching, mounding evergreen perennial boasts tight, fleshy leaves that form multiples of green rosettes, tinged pink with dark red tips. In summer, older rosettes produce thick stalks topped with clusters of small pink blooms, then die after flowering while the younger rosettes continue to multiply. Adds rich texture and color to rock gardens. Ideal in containers.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional water.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Tolerates Poor Soils,Easy Care,Clump Forming&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Mass Planting,Green Wall,Green Roof,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;034091&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03409&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Tsuga canadensis &apos;Gracilis&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Tsuga canadensis &apos;Gracilis&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Gracilis Hemlock&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dwarf Habit&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Reaches six feet tall and eight feet wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949273173&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicious&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This slow growing dwarf evergreen shrub has an irregular habit, reaching six feet tall and eight feet wide at maturity. May be used as a specimen, small screen or group planting of small trees.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Easy Care,Dwarf Plant,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen,Mass Planting,Hedge&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;034092&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03409&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Tsuga canadensis &apos;Gracilis&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Tsuga canadensis &apos;Gracilis&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Gracilis Hemlock&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dwarf Habit&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Reaches six feet tall and eight feet wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949268520&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicious&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This slow growing dwarf evergreen shrub has an irregular habit, reaching six feet tall and eight feet wide at maturity. May be used as a specimen, small screen or group planting of small trees.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Easy Care,Dwarf Plant,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen,Mass Planting,Hedge&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;034095&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03409&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Tsuga canadensis &apos;Gracilis&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Tsuga canadensis &apos;Gracilis&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Gracilis Hemlock&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dwarf Habit&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Reaches six feet tall and eight feet wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949342534&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicious&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This slow growing dwarf evergreen shrub has an irregular habit, reaching six feet tall and eight feet wide at maturity. May be used as a specimen, small screen or group planting of small trees.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Easy Care,Dwarf Plant,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen,Mass Planting,Hedge&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;075185&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07518&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Camellia japonica &apos;April Blush&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Camellia japonica &apos;April Blush&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;April Blush Camellia&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Year -Round Interest&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Azalea (Azalea); Forsythia (Forsythia); Fern (Athyrium); Lily of the Valley (Pieris); Winter Daphne (Daphne)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Slow growing to 10 ft tall and 4 to 7 ft wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Prefers evenly moist, fertile acidic soil. Foliage and flower buds may suffer from sunscald and wind desiccation in winter, so avoid planting in highly exposed areas.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949345061&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Winter through early spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This evergreen shrub has an upright, to rounded form. Asian in origin, April Blush provides year-round interest due to its glossy dark green leaves and smooth gray bark. From late winter to spring, its rounded buds open to present many large, semi-double, shell pink flowers. Use in hedges, foundations, mixed borders or as a specimen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Drought tolerant once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Tolerates Acidic Soil,Shade Loving,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Mass Planting,Hedge,Espalier&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Tue, 05 Apr 2016 07:32:51 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

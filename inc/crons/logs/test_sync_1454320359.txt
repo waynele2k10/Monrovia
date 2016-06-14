@@ -1,0 +1,326 @@
+DATE/TIME: 2016-02-01 09:52:39
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-02-01 09:52:54
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 24025
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;054531&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05453&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Heuchera x &apos;Midnight Bayou&apos; P.P.#21,858&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Heuchera x &apos;Midnight Bayou&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Midnight Bayou Coral Bells&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage Color&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Container,Border,Soloman&apos;S Seal (Polygonatum); Columbine (Aquilegia); Hosta (Hosta); Lungwort (Pulmonaria); Bleeding Heart (Dicentra)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Foliage clumps 12 in. tall, 20 in. wide. Flower stems to 28 in. tall.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949355053&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Great for edging and adding color and vivid contrast with green foliage plants. The brilliantly colored foliage creates spectacular background for the sprays of tiny white flowers. Well adapted to hot and humid Southern climates, with excellent resistance to powdery mildew. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Dramatic Foliage Color,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Deer Resistant&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;046741&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04674&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Dietes x &apos;Nola Alba&apos; P.P. #21,460&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Dietes x &apos;Nola Alba&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;KATRINA&amp;#174; African Iris&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Easy Care Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Firescaping/Fire Wise,Border,Mass Planting,Coastal Exposure,Cardinal Flower (Lobelia); Bee Balm (Monarda); Joe-Pye Weed (Eupatorium); Turtlehead (Chelone); Spiderwort (Tradescantia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate growing to 2-3 ft. tall, 3-4 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. For a neat appearance, remove old flower stalks. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949248850&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Continuously, spring through late fall&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This refined variety tolerates poorly draining soils, resists disease better than others, and thrives in heat and humidity. Exotic white flowers with gold accents appear over an extended season. Seldom sets unsightly seedpods. A portion of the proceeds benefits the America&apos;s Wetlands Foundation, helping to restore wetlands in Louisiana.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Tolerates Poor Soils,Tolerates Alkaline Soil,Easy Care,Clump Forming&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Firescaping/Fire Wise,Border,Mass Planting,Coastal Exposure&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;046741S&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04674&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1S&lt;/Size&gt;
+		&lt;SizeDescription&gt;SuperOne&amp;#8482;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Dietes x &apos;Nola Alba&apos; P.P. #21,460&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Dietes x &apos;Nola Alba&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;KATRINA&amp;#174; African Iris&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Easy Care Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Firescaping/Fire Wise,Border,Mass Planting,Coastal Exposure,Cardinal Flower (Lobelia); Bee Balm (Monarda); Joe-Pye Weed (Eupatorium); Turtlehead (Chelone); Spiderwort (Tradescantia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate growing to 2 to 3 ft. tall, 3 to 4 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. For a neat appearance, remove old flower stalks. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 gal. (3.79 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949260685&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Continuously, spring through late fall&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This refined variety tolerates poorly draining soils, resists disease better than others, and thrives in heat and humidity. Exotic white flowers with gold accents appear over an extended season. Seldom sets unsightly seedpods. A portion of the proceeds benefits the America&apos;s Wetlands Foundation, helping to restore wetlands in Louisiana.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Tolerates Poor Soils,Tolerates Alkaline Soil,Easy Care,Clump Forming&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Firescaping/Fire Wise,Border,Mass Planting,Coastal Exposure&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;046742&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04674&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Dietes x &apos;Nola Alba&apos; P.P. #21,460&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Dietes x &apos;Nola Alba&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;KATRINA&amp;#174; African Iris&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Easy Care Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Firescaping/Fire Wise,Border,Mass Planting,Coastal Exposure,Cardinal Flower (Lobelia); Bee Balm (Monarda); Joe-Pye Weed (Eupatorium); Turtlehead (Chelone); Spiderwort (Tradescantia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate growing to 2-3 ft. tall, 3-4 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. For a neat appearance, remove old flower stalks. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949350904&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Continuously, spring through late fall&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This refined variety tolerates poorly draining soils, resists disease better than others, and thrives in heat and humidity. Exotic white flowers with gold accents appear over an extended season. Seldom sets unsightly seedpods. A portion of the proceeds benefits the America&apos;s Wetlands Foundation, helping to restore wetlands in Louisiana.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Tolerates Poor Soils,Tolerates Alkaline Soil,Easy Care,Clump Forming&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Firescaping/Fire Wise,Border,Mass Planting,Coastal Exposure&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;046745&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04674&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Dietes x &apos;Nola Alba&apos; P.P. #21,460&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Dietes x &apos;Nola Alba&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;KATRINA&amp;#174; African Iris&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Easy Care Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Firescaping/Fire Wise,Border,Mass Planting,Coastal Exposure,Cardinal Flower (Lobelia); Bee Balm (Monarda); Joe-Pye Weed (Eupatorium); Turtlehead (Chelone); Spiderwort (Tradescantia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate growing to 2-3 ft. tall, 3-4 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. For a neat appearance, remove old flower stalks. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949248867&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Continuously, spring through late fall&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This refined variety tolerates poorly draining soils, resists disease better than others, and thrives in heat and humidity. Exotic white flowers with gold accents appear over an extended season. Seldom sets unsightly seedpods. A portion of the proceeds benefits the America&apos;s Wetlands Foundation, helping to restore wetlands in Louisiana.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Tolerates Poor Soils,Tolerates Alkaline Soil,Easy Care,Clump Forming&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Firescaping/Fire Wise,Border,Mass Planting,Coastal Exposure&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;045201&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04520&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Ilex x meserveae &apos;Mesdob&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Ilex x meserveae &apos;Mesdob&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;China Boy&amp;#174; Holly&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Pollenizer&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Privacy Screen,Border,Barrier,Lily of the Valley Shrub (Pieris); Mountain Laurel (Kalmia); Rhododendron (Rhododendron); Hydrangea (Hydrangea); Magnolia (Magnolia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 8 to 10 ft. tall, 6 to 8 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. For a tidy, neat appearance, shear annually to shape.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949452011&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Vigorous grower makes an ideal hedge or low screen. Its dense branching habit takes shearing well, displays deep green lustrous foliage. This male variety does not produce berries; it will provide pollen to enable berry set on nearby female hollies. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Pollenizer,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Privacy Screen,Border,Barrier&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;045202&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04520&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Ilex x meserveae &apos;Mesdob&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Ilex x meserveae &apos;Mesdob&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;China Boy&amp;#174; Holly&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Pollenizer&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Privacy Screen,Border,Barrier,Lily of the Valley Shrub (Pieris); Mountain Laurel (Kalmia); Rhododendron (Rhododendron); Hydrangea (Hydrangea); Magnolia (Magnolia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 8 to 10 ft. tall, 6 to 8 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. For a tidy, neat appearance, shear annually to shape.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949452028&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Vigorous grower makes an ideal hedge or low screen. Its dense branching habit takes shearing well, displays deep green lustrous foliage. This male variety does not produce berries; it will provide pollen to enable berry set on nearby female hollies. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Pollenizer,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Privacy Screen,Border,Barrier&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;045203&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04520&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;3&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Ilex x meserveae &apos;Mesdob&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Ilex x meserveae &apos;Mesdob&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;China Boy&amp;#174; Holly&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Pollenizer&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Privacy Screen,Border,Barrier,Lily of the Valley Shrub (Pieris); Mountain Laurel (Kalmia); Rhododendron (Rhododendron); Hydrangea (Hydrangea); Magnolia (Magnolia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 8 to 10 ft. tall, 6 to 8 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. For a tidy, neat appearance, shear annually to shape.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;3&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.54 gal. (9.61 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949039229&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Vigorous grower makes an ideal hedge or low screen. Its dense branching habit takes shearing well, displays deep green lustrous foliage. This male variety does not produce berries; it will provide pollen to enable berry set on nearby female hollies. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Pollenizer,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Privacy Screen,Border,Barrier&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;045205&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04520&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Ilex x meserveae &apos;Mesdob&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Ilex x meserveae &apos;Mesdob&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;China Boy&amp;#174; Holly&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Pollenizer&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Privacy Screen,Border,Barrier,Lily of the Valley Shrub (Pieris); Mountain Laurel (Kalmia); Rhododendron (Rhododendron); Hydrangea (Hydrangea); Magnolia (Magnolia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 8 to 10 ft. tall, 6 to 8 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. For a tidy, neat appearance, shear annually to shape.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949452059&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Vigorous grower makes an ideal hedge or low screen. Its dense branching habit takes shearing well, displays deep green lustrous foliage. This male variety does not produce berries; it will provide pollen to enable berry set on nearby female hollies. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Pollenizer,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Privacy Screen,Border,Barrier&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;045207&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04520&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;7&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Ilex x meserveae &apos;Mesdob&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Ilex x meserveae &apos;Mesdob&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;China Boy&amp;#174; Holly&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Pollenizer&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Privacy Screen,Border,Barrier,Lily of the Valley Shrub (Pieris); Mountain Laurel (Kalmia); Rhododendron (Rhododendron); Hydrangea (Hydrangea); Magnolia (Magnolia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 8 to 10 ft. tall, 6 to 8 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. For a tidy, neat appearance, shear annually to shape.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;7&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;6.20 gal. (23.47 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949452073&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Vigorous grower makes an ideal hedge or low screen. Its dense branching habit takes shearing well, displays deep green lustrous foliage. This male variety does not produce berries; it will provide pollen to enable berry set on nearby female hollies. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Pollenizer,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Privacy Screen,Border,Barrier&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Mon, 01 Feb 2016 09:52:53 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

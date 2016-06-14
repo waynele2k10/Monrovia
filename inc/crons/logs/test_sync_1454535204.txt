@@ -1,0 +1,181 @@
+DATE/TIME: 2016-02-03 21:33:24
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-02-03 21:33:30
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 12856
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;067781&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06778&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Penstemon x mexicali Pikes Peak Purple&amp;#174;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Penstemon x mexicali Pikes Peak Purple&amp;#174;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Pikes Peak Purple&amp;#174; Penstemon&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Attracts Hummingbirds&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Wildlife Garden,Firescaping/Fire Wise,Container,Border,Blanket Flower (Gaillardia); Black-Eyed Susan (Rudbeckia); Coneflower (Echinacea); Avens (Geum); Shasta Daisy (Chrysanthemum)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Clumps reach 1 to 3 ft. tall and 2 to 3 ft. wide; flower spikes to 3 ft. tall.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Thrives in moderately fertile, well-drained soil, with part afternoon shade. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Shear mid- to late summer to allow a new flush of flowers.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949358047&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer through fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Hummingbirds are attracted to tall spikes of grape colored, nectar-rich flowers throughout summer. This versatile Plant Select&amp;#174; winner is adaptable to a wide range of soils and conditions. Blooms most vigorously in fertile soil with regular watering. Slightly cascading growth habit makes it perfect for use in borders, meadows and naturalized landscapes.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, when top 3 in. of soil is dry. Tolerates dry conditions when established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,North American Native Selection,Extreme Cold Hardiness,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;081741&lt;/ItemSizeID&gt;
+		&lt;Item&gt;08174&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Nepeta nervosa &apos;Pink Cat&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Nepeta nervosa &apos;Pink Cat&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Pink Cat Catmint&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Summer Flowering&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rock Garden,Container,Border,Blanket Flower (Gaillardia); Black-Eyed Susan (Rudbeckia); Coneflower (Echinacea); Blue Fescue (Festuca); Shasta Daisy (Chrysanthemum)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Foliage mounds 6 in. tall, 12 in. wide; flowers reach 10 to 12 in. tall.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Requires well drained soil. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Cut back and feed before new growth begins in spring. Shear spent flowers to encourage prolific repeat blooming.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949371947&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Prolific pink blooms adored by butterflies and hummingbirds. Compact foliage is resistant to rabbit and deer grazing. Heat and drought tolerant when established. Perfect at the front of perennial borders and in mixed container plantings.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat. Drought tolerant once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;412551&lt;/ItemSizeID&gt;
+		&lt;Item&gt;41255&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Baptisia &apos;Midnight&apos; P.P.# 20432&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Baptisia &apos;Midnight&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Midnight Prairieblues&amp;#8482; Indigo&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Waterwise&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Water Garden,Firescaping/Fire Wise,Border,Blanket Flower (Gaillardia); Black-Eyed Susan (Rudbeckia); Coneflower (Echinacea); Blue Fescue (Festuca); Shasta Daisy (Chrysanthemum)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower, 3 to 5 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. Prune old flower heads to encourage more blossoms.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949423448&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring to early summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Abundant, light-green foliage is topped by elegant spikes of deep blue-violet flowers that cover this long-lived, bushy perennial. Attractive seed pods in early summer follow the flowers. Excellent for back of the border. Blends well with most American native species and grasses for meadow gardens. Great as a cut flower.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering; weekly, or more often in extreme heat. Drought tolerant when established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Tolerates Poor Soils,North American Native Selection&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Water Garden,Firescaping/Fire Wise,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;407332&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40733&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Weigela &apos;Kolmagira&apos; PP #20,384&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Weigela &apos;Kolmagira&apos; PP #20,384&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;First Editions&amp;#174; Rainbow Sensation&amp;#8482; Weigela&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage Color&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Wildlife Garden,Urban Garden,Mass Planting,Hedge,Firescaping/Fire Wise,Container,Border,Barberry (Berberis); Summersweet(Clethra); Spirea (Spiraea); Salvia (Salvia); Coneflower (Echinacea)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 3 to 4 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Prefers well-drained soils but highly adaptable to other soil types. Thrives in full sun in northern areas to part shade in hot summer climates. Fertilize in early spring with a slow release fertilizer specialized for trees &amp;amp; shrubs.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949399927&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring to early Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This tough little shrub is a powerhouse of color! A profusion of soft-pink trumpet shaped flowers blanket eye-catching variegated foliage. Hummingbirds will flock to harvest the sweet nectar. The arching stems add grace and elegance and can be cut for floral arrangements. Perfect in mid-border. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Urban Pollution,Easy Care,Dramatic Foliage Color,Deer Resistant,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Urban Garden,Mass Planting,Hedge,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;407333&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40733&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;3&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Weigela &apos;Kolmagira&apos; PP #20,384&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Weigela &apos;Kolmagira&apos; PP #20,384&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;First Editions&amp;#174; Rainbow Sensation&amp;#8482; Weigela&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage Color&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Wildlife Garden,Urban Garden,Mass Planting,Hedge,Firescaping/Fire Wise,Container,Border,Barberry (Berberis); Summersweet(Clethra); Spirea (Spiraea); Salvia (Salvia); Coneflower (Echinacea)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 3 to 4 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Prefers well-drained soils but highly adaptable to other soil types. Thrives in full sun in northern areas to part shade in hot summer climates. Fertilize in early spring with a slow release fertilizer specialized for trees &amp;amp; shrubs.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;3&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.54 gal. (9.61 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949399941&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring to early Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This tough little shrub is a powerhouse of color! A profusion of soft-pink trumpet shaped flowers blanket eye-catching variegated foliage. Hummingbirds will flock to harvest the sweet nectar. The arching stems add grace and elegance and can be cut for floral arrangements. Perfect in mid-border. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Urban Pollution,Easy Care,Dramatic Foliage Color,Deer Resistant,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Urban Garden,Mass Planting,Hedge,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 03 Feb 2016 21:33:30 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

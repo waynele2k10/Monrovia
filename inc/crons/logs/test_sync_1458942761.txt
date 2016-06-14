@@ -1,0 +1,297 @@
+DATE/TIME: 2016-03-25 21:52:41
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-03-25 21:52:53
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 21060
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;408471&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40847&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Carex oshimensis &apos;Carfit01&apos; P.P. 20,955&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Carex oshimensis &apos;Carfit01&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;EverColor&amp;#174; Everest Variegated Sedge&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Year-Round Interest&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Sweetspire (Itea); Fothergilla (Fothergilla); Iris (Iris); Cardinal Flower (Lobelia); Foam Flower (Tiarella)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 12 to 15 in. tall, 18 to 24 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Easily grown in average to rich, evenly moist, well-drained soil. Feed sparingly to avoid leaf burn. Shelter from harsh afternoon sun in hot, dry climates. Mulch to protect in cold winter areas. Prune to remove old foliage in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949413647&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicuous; prized for foliage.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A mounding fountain of ribbon-like white-striped green foliage adds wonderful texture to any dappled sun to shade garden. Forms a neat mound of foliage that arches up from the crown and weeps gracefully. Excellent container or landscape specimen in beds and borders. Plant in mass for stunning effect. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade to partial sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Easy Care,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Ground Cover,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;046171&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04617&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Phlox paniculata &apos;Barfourteen&apos; P.P. #12,605&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Phlox paniculata &apos;Barfourteen&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Purple Flame&amp;#174; Garden Phlox&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Coneflower (Echinacea); Shasta Daisy (Chrysanthemum); Speedwell (Veronica); Delphinium (Delphinium); Russian Sage (Perovskia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949262030&lt;/UPC&gt;
+		&lt;FlowerTime&gt;&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;&lt;/Sun_exposure&gt;
+		&lt;Water&gt;&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Extreme Cold Hardiness&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;085891&lt;/ItemSizeID&gt;
+		&lt;Item&gt;08589&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Helleborus x hybridus &apos;Ashwood Single Pink Picotee Shades&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Helleborus x hybridus &apos;Ashwood Single Pink Picotee Shades&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Ashwood Single Pink Picotee Shades Lenten Rose&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Shade Loving&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Coral Bells (Heuchera); Lungwort (Pulmonaria); Hosta (Hosta); Bleeding Heart (Dicentra); Columbine (Aquilegia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 10 to 12 in. tall, 12 to 24 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide humus-rich, evenly moist, well-drained soil. Mulch to conserve moisture, avoiding crowns. Winter protection advised in cold winter areas. Remove spent blooms if seedlings are unwanted and to maintain color integrity of the original clump. Prune to remove old foliage in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949374825&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late winter to early spring.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Alluring blossoms in shades of pink that bleed out to a deep pink picotee edge, bringing beautiful color to winter gardens. A prolific cool-season bloomer for beds, borders and woodland gardens.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade to partial sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly in extreme heat; requires less once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Shade Loving,Easy Care,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Mass Planting,Container,Border,Ground Cover&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;036771&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03677&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Picea pungens &apos;Procumbens&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Picea pungens &apos;Procumbens&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Procumbens Colorado Blue Spruce&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Dwarf Ninebark (Physocarpus); Butterfly Bush (Buddleja); Rose (Rosa); Spirea (Spiraea); Weigela (Weigela)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Grows 6 to 12 in. per year; reaches 1 to 2 ft. tall, 5 to 8 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide enriched, well-drained, neutral to acidic soil. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Withstands drought when established. Apply a general purpose fertilizer in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949215487&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Conifer; prized for foliage.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A highly adaptable evergreen shrub with handsome silvery-blue foliage on a low undulating form. A perfect accent or ground cover to use among rockery or to spill over a wall. Tolerates harsh weather and needs little care or pruning to maintain shape.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;2&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Tolerates Road Salt,Tolerates Acidic Soil,Extreme Cold Hardiness,Easy Care,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Rock Garden,Mass Planting,Container,Coastal Exposure,Ground Cover&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;036775&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03677&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Picea pungens &apos;Procumbens&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Picea pungens &apos;Procumbens&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Procumbens Colorado Blue Spruce&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Dwarf Ninebark (Physocarpus); Butterfly Bush (Buddleja); Rose (Rosa); Spirea (Spiraea); Weigela (Weigela)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Grows 6 to 12 in. per year; reaches 1 to 2 ft. tall, 5 to 8 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide enriched, well-drained, neutral to acidic soil. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Withstands drought when established. Apply a general purpose fertilizer in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949215494&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Conifer; prized for foliage.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A highly adaptable evergreen shrub with handsome silvery-blue foliage on a low undulating form. A perfect accent or ground cover to use among rockery or to spill over a wall. Tolerates harsh weather and needs little care or pruning to maintain shape.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;2&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Tolerates Road Salt,Tolerates Acidic Soil,Extreme Cold Hardiness,Easy Care,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Rock Garden,Mass Planting,Container,Coastal Exposure,Ground Cover&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;036775PT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03677&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5PT&lt;/Size&gt;
+		&lt;SizeDescription&gt;Patio Tree&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Picea pungens &apos;Procumbens&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Picea pungens &apos;Procumbens&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Procumbens Colorado Blue Spruce&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Dwarf Ninebark (Physocarpus); Butterfly Bush (Buddleja); Rose (Rosa); Spirea (Spiraea); Weigela (Weigela)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Grows 6 to 12 in. per year; reaches 1 to 2 ft. tall, 5 to 8 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide enriched, well-drained, neutral to acidic soil. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Withstands drought when established. Apply a general purpose fertilizer in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949429532&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Conifer; prized for foliage.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A highly adaptable evergreen shrub with handsome silvery-blue foliage on a low undulating form. A perfect accent or ground cover to use among rockery or to spill over a wall. Tolerates harsh weather and needs little care or pruning to maintain shape.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;2&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Tolerates Road Salt,Tolerates Acidic Soil,Extreme Cold Hardiness,Easy Care,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Rock Garden,Mass Planting,Container,Coastal Exposure,Ground Cover&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;054132&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05413&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Buxus sempervirens &apos;Unraveled&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Buxus sempervirens &apos;Unraveled&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Unraveled Weeping Boxwood&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Year-Round Interest&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Cotoneaster (Cotoneaster); Barberry (Berberis); Foxglove (Digitalis); Daylily (Hemerocalis); Rose (Rosa)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 18 to 24 in. tall, 24 to 36 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. Prune only to remove dead wood or to maintain desired shape.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949326657&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicuous&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This unique, arching shrub with exceptional texture drapes beautifully or weeps if trained upright. Shiny dark green foliage maintains good winter color. An outstanding four season specimen for an entryway, or plant in mass to cascade on a hillside or over a wall. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Tolerates Acidic Soil,Easy Care,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Rock Garden,Ground Cover,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;054132PT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05413&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2PT&lt;/Size&gt;
+		&lt;SizeDescription&gt;Patio Tree&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Buxus sempervirens &apos;Unraveled&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Buxus sempervirens &apos;Unraveled&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Unraveled Weeping Boxwood&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Year-Round Interest&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Cotoneaster (Cotoneaster); Barberry (Berberis); Foxglove (Digitalis); Daylily (Hemerocalis); Rose (Rosa)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 18 to 24 in. tall, 24 to 36 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. Prune only to remove dead wood or to maintain desired shape.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949326664&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicuous&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This unique, arching shrub with exceptional texture drapes beautifully or weeps if trained upright. Shiny dark green foliage maintains good winter color. An outstanding four season specimen for an entryway, or plant in mass to cascade on a hillside or over a wall. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Tolerates Acidic Soil,Easy Care,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Rock Garden,Ground Cover,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;054132ST&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05413&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2ST&lt;/Size&gt;
+		&lt;SizeDescription&gt;Staked&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Buxus sempervirens &apos;Unraveled&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Buxus sempervirens &apos;Unraveled&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Unraveled Weeping Boxwood&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Year-Round Interest&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Cotoneaster (Cotoneaster); Barberry (Berberis); Foxglove (Digitalis); Daylily (Hemerocalis); Rose (Rosa)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 18 to 24 in. tall, 24 to 36 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. Prune only to remove dead wood or to maintain desired shape.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949378793&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicuous&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This unique, arching shrub with exceptional texture drapes beautifully or weeps if trained upright. Shiny dark green foliage maintains good winter color. An outstanding four season specimen for an entryway, or plant in mass to cascade on a hillside or over a wall. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Tolerates Acidic Soil,Easy Care,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Rock Garden,Ground Cover,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Fri, 25 Mar 2016 21:52:51 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

@@ -1,0 +1,323 @@
+DATE/TIME: 2016-04-02 04:13:30
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-04-02 04:13:42
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 22700
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;059791&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05979&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Euphorbia characias &apos;Glacier Blue&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Euphorbia characias &apos;Glacier Blue&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Glacier Blue Spurge&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage Color&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 12 to 18 in. tall, 18 to 24 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Although drought tolerant when established, provide water during prolonged dry periods. Fertilize sparingly. Remove spent blooms. Avoid contact with the milky sap, which can be a skin irritant.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949308073&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Blooms early to late spring.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This outstanding variety has distinctive blue-gray evergreen foliage edged in cream. Clusters of creamy flowers appear early in the season. Striking specimen plant in beds or containers. Heat and drought tolerant. Herbaceous perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;059792&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05979&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Euphorbia characias &apos;Glacier Blue&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Euphorbia characias &apos;Glacier Blue&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Glacier Blue Spurge&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage Color&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 12 to 18 in. tall, 18 to 24 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Although drought tolerant when established, provide water during prolonged dry periods. Fertilize sparingly. Remove spent blooms. Avoid contact with the milky sap, which can be a skin irritant.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949322932&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Blooms early to late spring.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This outstanding variety has distinctive blue-gray evergreen foliage edged in cream. Clusters of creamy flowers appear early in the season. Striking specimen plant in beds or containers. Heat and drought tolerant. Herbaceous perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;059741&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05974&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Echinacea purpurea &apos;Hot Papaya&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Echinacea purpurea &apos;Hot Papaya&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Hot Papaya Coneflower&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Long Bloom Season&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Catmint (Nepeta); Shasta Daisy (Chrysanthemum); Russian Sage (Perovskia); Sedum (Sedum); Salvia (Salvia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast grower to 34 in. tall, 18 to 24 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949308561&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Blooms early to late summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;These magnificent blooms are the first ever orange-red double coneflowers. The color stays true and doesn&apos;t fade. The fragrant flowers are borne on strong stems and are excellent for cutting. Attracts butterflies to a wide range of landscape settings. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Requires only occasional water once established - more in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,North American Native Selection,Easy Care,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;059741S&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05974&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1S&lt;/Size&gt;
+		&lt;SizeDescription&gt;SuperOne&amp;#8482;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Echinacea purpurea &apos;Hot Papaya&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Echinacea purpurea &apos;Hot Papaya&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Hot Papaya Coneflower&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Long Bloom Season&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Catmint (Nepeta); Shasta Daisy (Chrysanthemum); Russian Sage (Perovskia); Sedum (Sedum); Salvia (Salvia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast grower to 34 in. tall, 18 to 24 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 gal. (3.79 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949402795&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Blooms early to late summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;These magnificent blooms are the first ever orange-red double coneflowers. The color stays true and doesn&apos;t fade. The fragrant flowers are borne on strong stems and are excellent for cutting. Attracts butterflies to a wide range of landscape settings. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Requires only occasional water once established - more in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,North American Native Selection,Easy Care,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;059711&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05971&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Echinacea purpurea &apos;Coconut Lime&apos; P.P.# 18617&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Echinacea purpurea &apos;Coconut Lime&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Coconut Lime Coneflower&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Attractive Flowers&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Fast grower 2 to 3 ft. tall and 2 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949308523&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Blooms in summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Abundant white double flowers, with pale green at the center of the cone, attract butterflies to a wide range of landscape settings. Vigorous and compact. Will tolerate periods of drought. Hybrid of native plants. Herbaceous perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;North American Native Selection&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;059461&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05946&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Delosperma &apos;Kelaidis&apos; P.P.# 13876&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Delosperma &apos;Kelaidis&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Mesa Verde&amp;#174; Ice Plant&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Easy Care Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Sedum (Sedum); Hens and Chicks (Sempervivum); Creeping Phlox (Phlox); Basket of Gold (Aurinia); Blue Fescue (Festuca)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast growing 3 to 6 in. tall, 2 ft. or more wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep extensive root system. Watering can be reduced after establishment. Prefers rocky, unimproved soils. Do not over fertilize.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949306963&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Pink flowers late spring until frost.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Stunning salmon-pink flowers make an impressive display against succulent, gray-green foliage. This award winning, vigorous, compact selection is hardy to 7,000 ft. An exceptional plant for poor, dry soils. Useful in rock gardens, as a groundcover or at the edge of borders. Spreads quickly but not aggressively.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Extreme Cold Hardiness,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Rock Garden,Mass Planting,Ground Cover,Firescaping/Fire Wise&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;05946UT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05946&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;UT&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Delosperma &apos;Kelaidis&apos; P.P.# 13876&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Delosperma &apos;Kelaidis&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Mesa Verde&amp;#174; Ice Plant&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Easy Care Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Sedum (Sedum); Hens and Chicks (Sempervivum); Creeping Phlox (Phlox); Basket of Gold (Aurinia); Blue Fescue (Festuca)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast growing 3 to 6 in. tall, 2 ft. or more wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Prefers rocky, unimproved soils. Do not over fertilize.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;QT&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 qt. (946 mL)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949309612&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Pink flowers late spring until frost.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Stunning salmon-pink flowers make an impressive display against succulent, gray-green foliage. This award winning, vigorous, compact selection is hardy to 7,000 ft. An exceptional plant for poor, dry soils. Useful in rock gardens, as a groundcover or at the edge of borders. Spreads quickly but not aggressively.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Extreme Cold Hardiness,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Rock Garden,Mass Planting,Ground Cover,Firescaping/Fire Wise&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;031645&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03164&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Cupressus leylandii &apos;Gold Rider&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Cupressus leylandii &apos;Gold Rider&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Gold Rider Leyland Cypress&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Specimen&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Magnolia (Magnolia); Rose (Rosa); Maiden Grass (Miscanthus); Spirea (Spiraea); Potentilla (Potentilla)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Upright grower to 35 ft. tall, 15 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Best in well-drained soil. Water regularly during first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring. Sheer annually for a more formal appearance.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949221181&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Conifer; prized for foliage.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Considered one of the best golden conifers, this selection was found as a sport in the Netherlands. Open, horizontal branching covered with dense, bright gold-tipped needle-like sprays, contrasting with lime green interior foliage. A single plant makes a bright focal point in the garden, or plant en masse as an eye-catching hedge.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Sustainable,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Wildlife Garden,Specimen,Privacy Screen&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;031647&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03164&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;7&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Cupressus leylandii &apos;Gold Rider&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Cupressus leylandii &apos;Gold Rider&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Gold Rider Leyland Cypress&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Specimen&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Magnolia (Magnolia); Rose (Rosa); Maiden Grass (Miscanthus); Spirea (Spiraea); Potentilla (Potentilla)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Upright grower to 35 ft. tall, 15 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Best in well-drained soil. Water regularly during first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring. Sheer annually for a more formal appearance.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;7&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;6.20 gal. (23.47 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949383094&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Conifer; prized for foliage.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Considered one of the best golden conifers, this selection was found as a sport in the Netherlands. Open, horizontal branching covered with dense, bright gold-tipped needle-like sprays, contrasting with lime green interior foliage. A single plant makes a bright focal point in the garden, or plant en masse as an eye-catching hedge.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Sustainable,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Wildlife Garden,Specimen,Privacy Screen&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;031649&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03164&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;9&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Cupressus leylandii &apos;Gold Rider&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Cupressus leylandii &apos;Gold Rider&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Gold Rider Leyland Cypress&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Specimen&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Magnolia (Magnolia); Rose (Rosa); Maiden Grass (Miscanthus); Spirea (Spiraea); Potentilla (Potentilla)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Upright grower to 35 ft. tall, 15 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Best in well-drained soil. Water regularly during first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring. Sheer annually for a more formal appearance.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;15&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;12.07 gal. (45.69 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949221198&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Conifer; prized for foliage.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Considered one of the best golden conifers, this selection was found as a sport in the Netherlands. Open, horizontal branching covered with dense, bright gold-tipped needle-like sprays, contrasting with lime green interior foliage. A single plant makes a bright focal point in the garden, or plant en masse as an eye-catching hedge.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Sustainable,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Wildlife Garden,Specimen,Privacy Screen&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Sat, 02 Apr 2016 04:13:40 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

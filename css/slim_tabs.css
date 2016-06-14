@@ -1,0 +1,6 @@
+div.slimTabContainer { width:1200px; position:relative;font-size:100%;margin-top:16px;}
+div.slimTab { padding:3px 16px 3px 16px; float:left;font-size:.75em;cursor:pointer;border-bottom:1px solid #ccc;color:#999}
+div.spacer { cursor:normal; overflow:hidden;padding-right:0px;padding-left:0px;}
+div.selected { border:1px solid #ccc;border-bottom:0px;color:#000;background-color:#fff;z-index:99}
+div.slimTabBlurb { padding:16px 6px 6px 10px;color:#717171;font-size:1em;height:140px;clear:both;display:none; }
+div.sel { display:block; }

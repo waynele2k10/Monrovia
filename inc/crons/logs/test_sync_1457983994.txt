@@ -1,0 +1,152 @@
+DATE/TIME: 2016-03-14 19:33:14
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-03-14 19:33:19
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 9691
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;31218&lt;/ItemSizeID&gt;
+		&lt;Item&gt;31218&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;LOWES&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Myrica pusilla&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Myrica pusilla&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Dwarf Wax Myrtle&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Aromatic Foliage&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Dogwood (Cornus); Sedge (Carex); Bee Balm (Monarda); Forsythia (Forsythia); Turtlehead (Chelone)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Shrub or small tree 5 to 6 ft. tall and wide, slowly spreading.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Thrives in sandy, well-drained soil. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. For a tidy, neat appearance, prune annually to shape.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicuous&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This highly adaptable, low spreading shrub features soft, fine textured, aromatic leaves with a scent reminiscent of bayberry candles. Smaller in stature than the larger Waxmyrtle, it also produces profuse dark silvery blue-gray berries on female plants. An excellent pruned hedge, screen or specimen. Provides good erosion control. Evergreen in mild climates.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Wet Soils,North American Native Selection,Easy Care,Dwarf Plant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Very Wet Areas,Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Very Wet Areas,Privacy Screen,Erosion Control,Coastal Exposure&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;31012&lt;/ItemSizeID&gt;
+		&lt;Item&gt;31012&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;LOWES&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Posoqueria latifolia&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Posoqueria latifolia&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Belize Needle-Flower Tree&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Fragrant Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Lilyturf (Liriope); Lily of the Nile (Agapanthus); Daylily (Hemerocallis); Coral Bells (Heuchera); Hosta (Hosta)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 10 to 20 ft. tall, 10 to 12 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Easily grown in enriched, evenly moist, well drained soil. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Apply a balanced fertilizer in spring, summer and fall.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring to summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A rare and beautiful small evergreen tree with exotic, highly fragrant flowers. Produces unique yellow-green fruit with sweet flesh. This tropical species grows quickly in mild winter areas, thriving in humidity. A stunning accent for smaller gardens.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Filtered to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Requires regular watering- weekly or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;10&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Fast Growing,Edible&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;31050&lt;/ItemSizeID&gt;
+		&lt;Item&gt;31050&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;LOWES&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Clematis x patens x lanuginosa) &apos;Rosa Konigskind&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Clematis x patens x lanuginosa) &apos;Rosa Konigskind&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Pink Climador Clematis&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Long Bloom Season&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Japanese Maple (Acer); Maiden Grass (Miscanthus); Daylily (Hemerocallis); Hydrangea (Hydrangea); Butterfly Bush (Buddleja)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Spreads to 3 to 6 ft. tall, 3 to 4 ft. wide, with support.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Roots prefer a cool, shaded area, tops in the sun. Follow a regular watering schedule during the first growing season to establish a deep extensive root system. Feed with a general purpose fertilizer. Provide the support of a trellis or arbor. Mulch to conserve moisture.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring through early fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This prolific, large-flowered climber is perfect for patio containers or front and center in the garden. Large, lilac-pink flowers appear nearly continuously over a long season. May be kept indoors through the blooming period for a superb display. An offspring of the popular Climador Clematis. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Espalier,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;30041&lt;/ItemSizeID&gt;
+		&lt;Item&gt;30041&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;LOWES&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Clematis &apos;UNAI 008&apos; PP#22902&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Clematis &apos;UNAI 008&apos; PP#22902&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Ilka&amp;#8482;Clematis&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Long Bloom Season&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Japanese Maple (Acer); Maiden Grass (Miscanthus); Daylily (Hemerocallis); Hydrangea (Hydrangea); Butterfly Bush (Buddleja)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Spreads to 4 to 6 ft. tall, 2 to 3 ft. wide, with support.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep extensive root system. Feed with a general purpose fertilizer. Provide the support of a trellis or arbor. Roots prefer a cool, shaded area, tops in the sun.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring and fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This prolific, compact climber offers large, lavender-blue flowers over a long season. Supplies beautiful vertical interest to any garden fence or trellis. A great choice for a container or left to meander through shrub beds. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Mon, 14 Mar 2016 19:33:14 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

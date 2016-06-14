@@ -1,0 +1,176 @@
+DATE/TIME: 2016-04-04 23:52:42
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-04-04 23:52:47
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 10507
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;31680&lt;/ItemSizeID&gt;
+		&lt;Item&gt;31680&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;LOWES&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Paeonia lactiflora &apos;Coral Sunset&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Paeonia lactiflora &apos;Coral Sunset&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Coral Sunset Peony&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Flowers for Cutting&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 24 to 28 inches tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Prefers moist, fertile, well-drained soil. Add compost as needed before planting. Remove spent flowers after bloom. Cut foliage to the ground in fall after frost. Plants are long-lived, do not need to be divided and can be left undisturbed for years.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Brilliant and lightly fragrant coral-red, semi-double flowers arrive early in peony season on this highly prized perennial. The deep green foliage covers a well-rounded plant, remaining attractive throughout summer and fall. Lovely massed in borders. Excellent cut flower. Herbaceous perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly- weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Fast Growing,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Deer Resistant&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Cutting Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;31412&lt;/ItemSizeID&gt;
+		&lt;Item&gt;31412&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;LOWES&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Loropetalum chinense &apos;Peack&apos; P.P.# 18,441&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Loropetalum chinense &apos;Peack&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Purple Pixie&amp;#174; Fringe Flower&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Year-round Interest&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 1-2 ft. tall and 4-5 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Provide well drained soil, rich in organic matter. Feed with an acid fertilizer after bloom. Keep roots cool with a thick layer of mulch.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Heaviest in spring, repeating throughout the year&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Compact, weeping habit of rich purple foliage is the perfect backdrop for clusters of hot pink, fringe-like flowers that repeat throughout the year. A superb colorful accent in borders and containers. At home in Asian and contemporary gardens. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Tolerates Acidic Soil,Easy Care,Dwarf Plant,Dramatic Foliage Color,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Erosion Control,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;31208&lt;/ItemSizeID&gt;
+		&lt;Item&gt;31208&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;LOWES&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Zinnia marylandica Zahara&amp;#8482; Series Patented&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Zinnia marylandica Zahara&amp;#8482; Series Patented&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Zahara&amp;#8482; Zinnia&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Waterwise&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;12-18&quot; H x 12-18&quot; W.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Easily grown in average, well drained soil. Space plants 8-10 inches apart. Faded flowers may be clipped to promote continuous bloom. Feed monthly during growing season. Warm season annual.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring through Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Big flowers, superior disease resistance and drought tolerance assure a carefree, season-long show. Performs in sunny, hot and dry conditions. Colorful Zahara is perfect for brightening garden beds and borders. Attracts butterflies!&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;10&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;31207&lt;/ItemSizeID&gt;
+		&lt;Item&gt;31207&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;LOWES&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Zinnia marylandica Zahara&amp;#8482; Double Series Patented&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Zinnia marylandica Zahara&amp;#8482; Double Series Patented&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Double Zahara&amp;#8482; Zinnia&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Double Flowers&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;16-20&quot; H x 16-20&quot; W.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Easily grown in average, well drained soil. Faded flowers may be clipped to promote continuous bloom. Feed monthly during growing season. Warm season annual.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;&lt;/UPC&gt;
+		&lt;FlowerTime&gt;&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;The only true double zinnia on the market! Big, fully double flowers on this carefree summer-long bloomer in high impact colors. Performs in hot, sunny and dry conditions. Perfect for borders, beds and planters.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;0&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;31205&lt;/ItemSizeID&gt;
+		&lt;Item&gt;31205&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;LOWES&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Thunbergia alata&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Thunbergia alata&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Sunny Series Black-Eyed Susan Vine&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;60 - 96&quot; H x 16 - 24&quot; W.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed twice monthly during growing season. Climbs if given support of a trellis or arbor. Tender perennial in mild winter areas; treat as an annual elsewhere.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring through Fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This trailing, twining climber offers masses of bright flowers with dark centers against green arrow-shaped leaves. It cascades beautifully from hanging baskets, will climb a trellis, or scramble over archways. Its showy flowers and long bloom season make it a standout in the garden.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Can lose moisture on hot, windy days so check water needs often.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;10&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Mon, 04 Apr 2016 23:52:44 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

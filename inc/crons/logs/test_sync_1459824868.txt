@@ -1,0 +1,318 @@
+DATE/TIME: 2016-04-05 02:54:28
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-04-05 02:54:41
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 20564
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;07579UT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07579&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;UT&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Ocimum basilicum &apos;Fino Verde&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Ocimum basilicum &apos;Fino Verde&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Fino Verde Basil&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Edible&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;6 to 12 inches tall, up to 9 inches wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Control weeds until the plants have filled in. Feed with a general purpose fertilizer.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;QT&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 qt. (946 mL)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949350683&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Grown for foliage&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Attractive, small-leaved bush basil. Great in the garden and the kitchen: the taste is pure sweet basil; excellent in salads.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Edible,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Houseplant,Green Roof,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;068732&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06873&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Aeonium decorum &apos;Sunburst&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Aeonium decorum &apos;Sunburst&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Sunburst Aeonium&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Waterwise&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Moderate growing to 18 inches tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide well drained soil.Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Drought tolerant once established.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949327326&lt;/UPC&gt;
+		&lt;FlowerTime&gt;mid winter&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Large rosettes of variegated green and white leaves are held on long bare stems. In full sun, the tips of the leaves show a coppery red. Pale yellow flowers bloom in mid-winter to early spring on mature plants.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen,Firescaping/Fire Wise,Container,Coastal Exposure,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;071781&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07178&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Jasminum sambac&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Jasminum sambac&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Arabian Jasmine&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Fragrant Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Clematis (Clematis); Lantana (Lantana); New Zealand Flax (Phormium); Plumbago (Plumbago); Rose (Rosa)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Quickly reaches 6 to 8 ft. tall, 3 to 4 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Perform best in well-drained, enriched soil. Feed with a balanced fertilizer in spring. Tie the stems to supports and keep the soil evenly moist through the growing season. Prune after flowering to keep the plants thinned and shaped.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949329689&lt;/UPC&gt;
+		&lt;FlowerTime&gt;June through September&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This bushy vine or scrambling shrub has intensely fragrant little white flowers that open at night and close in the morning, fading to pink as they age. Widely grown throughout the tropics as an ornamental plant and for its strongly scented flowers. Blooms year-round in warmer climates. Wonderful container plant.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly- weekly or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Tolerates Acidic Soil,Fast Growing,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Urban Garden,Mass Planting,Espalier,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;071782&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07178&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Jasminum sambac&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Jasminum sambac&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Arabian Jasmine&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Fragrant Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Clematis (Clematis); Lantana (Lantana); New Zealand Flax (Phormium); Plumbago (Plumbago); Rose (Rosa)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Quickly reaches 6 to 8 ft. tall, 3 to 4 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Perform best in well-drained, enriched soil. Feed with a balanced fertilizer in spring. Tie the stems to supports and keep the soil evenly moist through the growing season. Prune after flowering to keep the plants thinned and shaped.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949329696&lt;/UPC&gt;
+		&lt;FlowerTime&gt;June through September&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This bushy vine or scrambling shrub has intensely fragrant little white flowers that open at night and close in the morning, fading to pink as they age. Widely grown throughout the tropics as an ornamental plant and for its strongly scented flowers. Blooms year-round in warmer climates. Wonderful container plant.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly- weekly or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Tolerates Acidic Soil,Fast Growing,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Urban Garden,Mass Planting,Espalier,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;074491S&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07449&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1S&lt;/Size&gt;
+		&lt;SizeDescription&gt;SuperOne&amp;#8482;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hibiscus syriacus &apos;Antong Two&apos; P.P. #19,547, C.B.R.A.F.&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hibiscus syriacus &apos;Antong Two&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Lil&apos; Kim&amp;#8482; Rose of Sharon&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dwarf Habit&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 3 to 4 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Prefers well drained soil. Prune in fall/winter. Apply fertilizer in early spring for the best show of flowers.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 gal. (3.79 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949335918&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A unique dwarf variety of hardy hibiscus with dainty little white flowers punctuated with a showy red eye. Late summer flowers last for up to three days instead of tone day that is typical of most Rose of Sharon. Lovely in containers or as a hedge or specimen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Requires regular watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Road Salt,Fast Growing,Dwarf Plant,Deer Resistant,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Hedge,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;074492&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07449&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hibiscus syriacus &apos;Antong Two&apos; P.P. #19,547, C.B.R.A.F.&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hibiscus syriacus &apos;Antong Two&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Lil&apos; Kim&amp;#8482; Rose of Sharon&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dwarf Habit&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 3 to 4 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Prefers well drained soil. Prune in fall/winter. Apply fertilizer in early spring for the best show of flowers.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949403990&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A unique dwarf variety of hardy hibiscus with dainty little white flowers punctuated with a showy red eye. Late summer flowers last for up to three days instead of tone day that is typical of most Rose of Sharon. Lovely in containers or as a hedge or specimen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Requires regular watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Road Salt,Fast Growing,Dwarf Plant,Deer Resistant,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Hedge,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;074492S&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07449&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2S&lt;/Size&gt;
+		&lt;SizeDescription&gt;Super&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hibiscus syriacus &apos;Antong Two&apos; P.P. #19,547, C.B.R.A.F.&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hibiscus syriacus &apos;Antong Two&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Lil&apos; Kim&amp;#8482; Rose of Sharon&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dwarf Habit&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 3 to 4 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Prefers well drained soil. Prune in fall/winter. Apply fertilizer in early spring for the best show of flowers.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.00 gal. (7.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949335925&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A unique dwarf variety of hardy hibiscus with dainty little white flowers punctuated with a showy red eye. Late summer flowers last for up to three days instead of tone day that is typical of most Rose of Sharon. Lovely in containers or as a hedge or specimen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Requires regular watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Road Salt,Fast Growing,Dwarf Plant,Deer Resistant,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Hedge,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;074493&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07449&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;3&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hibiscus syriacus &apos;Antong Two&apos; P.P. #19,547, C.B.R.A.F.&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hibiscus syriacus &apos;Antong Two&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Lil&apos; Kim&amp;#8482; Rose of Sharon&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dwarf Habit&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 3 to 4 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Prefers well drained soil. Prune in fall/winter. Apply fertilizer in early spring for the best show of flowers.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;3&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.54 gal. (9.61 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949404003&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A unique dwarf variety of hardy hibiscus with dainty little white flowers punctuated with a showy red eye. Late summer flowers last for up to three days instead of tone day that is typical of most Rose of Sharon. Lovely in containers or as a hedge or specimen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Requires regular watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Road Salt,Fast Growing,Dwarf Plant,Deer Resistant,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Hedge,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;075292&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07529&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Rosa floribunda &apos;Wekvossutono&apos; P.P. #18473&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Rosa floribunda &apos;Wekvossutono&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Julia Child&amp;#8482; Rose&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Up to 3 ft. tall and wide&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish an extensive root system. Feed regularly during the growing season with a general purpose fertilizer. Prune annually in late winter to promote vigorous new growth.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949346945&lt;/UPC&gt;
+		&lt;FlowerTime&gt;June through September&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This 2006 All-American Rose Selections winner produces full buttery yellow blooms from June through September. Its prolific blooming and pleasant licorice-clove fragrance make this plant a must have in gardens and containers!&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Container,Border,Barrier&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;075293&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07529&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;3&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Rosa floribunda &apos;Wekvossutono&apos; P.P. #18473&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Rosa floribunda &apos;Wekvossutono&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Julia Child&amp;#8482; Rose&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Up to 3 ft. tall and wide&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish an extensive root system. Feed regularly during the growing season with a general purpose fertilizer. Prune annually in late winter to promote vigorous new growth.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;3&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.54 gal. (9.61 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949369326&lt;/UPC&gt;
+		&lt;FlowerTime&gt;June through September&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This 2006 All-American Rose Selections winner produces full buttery yellow blooms from June through September. Its prolific blooming and pleasant licorice-clove fragrance make this plant a must have in gardens and containers!&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Container,Border,Barrier&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Tue, 05 Apr 2016 02:54:37 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

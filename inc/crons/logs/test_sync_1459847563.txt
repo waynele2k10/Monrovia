@@ -1,0 +1,235 @@
+DATE/TIME: 2016-04-05 09:12:43
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-04-05 09:12:50
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 15425
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;015521&lt;/ItemSizeID&gt;
+		&lt;Item&gt;01552&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Heuchera x &apos;Apple Crisp&apos; P.P.A.F.&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Heuchera x &apos;Apple Crisp&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Apple Crisp Coral Bells&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Woodland Garden&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Clumping foliage 8 to 10 in. tall, 12 to 16 in. wide&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949370650&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring to summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Perfect for highlighting the front of the shady border, this selection has an excellent tight habit and ruffled bright green leaves with a silvery overlay. Small white bell-shaped flowers in late spring. Foliage holds well throughout the season.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to partial sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, when top 3 in. of soil is dry.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;08714UT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;08714&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;UT&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Fragaria x ananassa &apos;Herriot&apos; P.P.A.F.&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Fragaria x ananassa &apos;Herriot&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Herriot Strawberry&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Edible Fruit&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 12 to 14 inches tall, spreading by runners.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Plant the crown at soil level in fertile, moist, well-drained soil. Feed with a general purpose fertilizer before new growth begins in spring and again mid-season. After harvesting, shear old foliage, leaving the crown to develop new leaves.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;QT&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 qt. (946 mL)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949370636&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring, followed by early to mid summer berries.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Herriot produces exceptionally large, heart-shaped, shiny red berries. Sweet flavor is reminiscent of historic varieties with a slight pineapple overtone. Developed by Cornell University, this variety shows good resistance to common leaf diseases.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Edible&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;03048UT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03048&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;UT&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Ophiopogon planiscapus &apos;Variegata&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Ophiopogon planiscapus &apos;Variegata&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Variegated Mondo Grass&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Easy Care Plant&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Grows slowly to 5 to 6 inches tall and spreading.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Best grown in humus-rich, well-drained soils with consistent moisture. Provide sheltered location in Zone 6. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;QT&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 qt. (946 mL)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949368473&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Vibrant, easy to grow perennial plant with eye-catching, variegated grass-like foliage. Makes an excellent edging plant and adds great color contrast to mass plantings, mixed borders and containers.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;6&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Poolside,Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;00659UT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;00659&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;UT&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Coreopsis grandiflora &apos;Heliot&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Coreopsis grandiflora &apos;Heliot&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Heliot Largeflower Tickseed&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Attracts Butterflies&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Compact mound to 10 to 14 in. tall, 18 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Tolerates dry conditions once established. Shear old foliage before new growth emerges in spring. For continuous flowering, clip spent blooms regularly.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;QT&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 qt. (946 mL)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949370407&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring through summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Easy to grow, prolific blooming, sun-loving perennial provides dazzling color from late spring to summer. Daisy-like flowers are splashed with burgundy-red at the base of each fringed petal, covering compact clumps of dense green foliage. A 2004 Fleuroselect Award winner.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly in extreme heat for best performance. Requires less water once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,North American Native Selection&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;004231&lt;/ItemSizeID&gt;
+		&lt;Item&gt;00423&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Chrysanthemum x superbum &apos;Snow Lady&apos; (Leucanthemum)&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Chrysanthemum x superbum &apos;Snow Lady&apos; (Leucanthemum)&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Snow Lady Shasta Daisy&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Compact Habit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Group this rugged yet elegant beauty with Purple Coneflower, Orange Coneflower, Black Eyed Susan and Bee Balm.&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast growing to 1 ft. tall and wide, to 2 ft. in bloom.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Tolerates dry conditions when established. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949001301&lt;/UPC&gt;
+		&lt;FlowerTime&gt;White flowers summer to fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Classic Shasta daisies on an exceptional, compact, dwarf plant. Large flowers are supported on strong stems that do not require staking. Great in containers and borders. Excellent, long lasting fresh cut flower. An 1991 All-America award winner.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;004232&lt;/ItemSizeID&gt;
+		&lt;Item&gt;00423&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Chrysanthemum x superbum &apos;Snow Lady&apos; (Leucanthemum)&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Chrysanthemum x superbum &apos;Snow Lady&apos; (Leucanthemum)&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Snow Lady Shasta Daisy&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Compact Habit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Group this rugged yet elegant beauty with Purple Coneflower, Orange Coneflower, Black Eyed Susan and Bee Balm.&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast growing to 1 ft. tall and wide, to 2 ft. in bloom.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Tolerates dry conditions when established. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949013700&lt;/UPC&gt;
+		&lt;FlowerTime&gt;White flowers summer to fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Classic Shasta daisies on an exceptional, compact, dwarf plant. Large flowers are supported on strong stems that do not require staking. Great in containers and borders. Excellent, long lasting fresh cut flower. An 1991 All-America award winner.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;00423UT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;00423&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;UT&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Chrysanthemum x superbum &apos;Snow Lady&apos; (Leucanthemum)&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Chrysanthemum x superbum &apos;Snow Lady&apos; (Leucanthemum)&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Snow Lady Shasta Daisy&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Compact Habit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Group this rugged yet elegant beauty with Purple Coneflower, Orange Coneflower, Black Eyed Susan and Bee Balm.&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast growing to 1 ft. tall and wide, to 2 ft. in bloom.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Tolerates dry conditions when established. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;QT&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 qt. (946 mL)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949375167&lt;/UPC&gt;
+		&lt;FlowerTime&gt;White flowers summer to fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Classic Shasta daisies on an exceptional, compact, dwarf plant. Large flowers are supported on strong stems that do not require staking. Great in containers and borders. Excellent, long lasting fresh cut flower. An 1991 All-America award winner.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Tue, 05 Apr 2016 09:12:46 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

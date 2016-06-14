@@ -1,0 +1,88 @@
+<?xml version="1.0" standalone="yes" ?>
+<covers>
+	<front_cover>
+		<elements>
+			<!-- TOP AND BOTTOM BANDS -->
+				<element type="rect" x_pct="0" y_pct="0" width_pct="1" height_pct="0.44" fill_color="#354528" />
+				<element type="rect" x_pct="0" y_pct="0.6915" width_pct="1" height_pct="0.3085" fill_color="#86BE41" />
+			<!-- /TOP AND BOTTOM BANDS -->
+			<element type="img" src="/pdfcatalogs/assets/grow_beautifully_logo.png" x_pct="0.087794" y_pct="0.15" width_pct="0.501071" format="PNG" />
+			<!-- TITLE -->
+				<element type="p" x_pct="0.082" y_pct="0.27" width_pct="0.8" height_pct="0.04">
+					<element type="field" id="front_cover_title" font_face="GillSansMT" font_size="1.25" font_color="#fff">{{title}}</element>
+				</element>
+			<!-- /TITLE -->
+			<element type="p" x_pct="0.082" _x_pct="0.605996" y_pct="0.816225" width_pct=".9"  _width_pct="0.394004" height_pct="0.100993">
+				<element type="field" id="front_cover_customer" font_face="GillSansMT" font_size="1.65" font_color="#fff" line_height="1">{{customer}}</element>
+				<element type="field" id="front_cover_customer_contact" font_face="GillSansMT" font_size="1.65" font_color="#fff">{{customer_contact}}</element>
+			</element>
+			<!-- PLANT IMAGES -->
+				<element type="img" x_pct="0" y_pct="0.445" width_pct=".333" height_pct="0.241722" id="front_cover_plant_1" format="JPG" />
+				<element type="img" x_pct="0.333" y_pct="0.445" width_pct="0.333" height_pct="0.241722" id="front_cover_plant_2" format="JPG" />
+				<element type="img" x_pct="0.666" y_pct="0.445" width_pct="0.333" height_pct="0.241722" id="front_cover_plant_3" format="JPG" />
+			<!-- /PLANT IMAGES -->
+			<element type="rect" x_pct="0.333" y_pct="0.445" width_pct=".0045" height_pct="0.241722" fill_color="#fff" />
+			<element type="rect" x_pct="0.666" y_pct="0.445" width_pct=".0045" height_pct="0.241722" fill_color="#fff" />
+		</elements>	
+	</front_cover>
+	<back_cover>
+		<elements>
+			<element type="rect" x_pct="0" y_pct="0" width_pct="1" height_pct=".6" fill_color="#354528" />
+			<element type="rect" x_pct="0" y_pct=".605" width_pct="1" height_pct=".395" fill_color="#86BE41" />
+			<element type="img" src="/pdfcatalogs/assets/grow_beautifully_logo.png" x_pct="0.065794" y_pct="0.42" width_pct="0.501071" format="PNG" />
+			<!-- SALES REP INFO -->
+				<element type="p" x_pct="0.06" y_pct="0.3" width_pct="0.75" height_pct="0.100993">
+					<element type="field" id="back_cover_sales_rep" font_face="GillSansMTBold" font_size="1" font_color="#fff">{{sales_rep_name}}</element>
+					<element type="field" id="back_cover_additional_info_1" font_face="GillSansLight" font_size="1" font_color="#fff">{{additional_info_1}}</element>
+					<element type="field" id="back_cover_additional_info_2" font_face="GillSansLight" font_size="1" font_color="#fff">{{additional_info_2}}</element>
+					<element type="field" id="back_cover_additional_info_3" font_face="GillSansLight" font_size="1" font_color="#fff">{{additional_info_3}}</element>
+				</element>
+			<!-- /SALES REP INFO -->
+			<!-- TITLE -->
+				<element type="p" x_pct="0.06" y_pct="0.54" width_pct="0.9" height_pct="0.04">
+					<element type="field" id="back_cover_title" font_face="GillSansMT" font_size="1.5" font_color="#fff">{{title}}</element>
+				</element>
+			<!-- /TITLE -->
+			<!-- LOCATIONS -->
+				<element type="p" x_pct="0.06" y_pct="0.62" width_pct="0.9" height_pct="0.04">
+					<element type="field" id="back_cover_location_1_title" font_face="GillSansMTBold" font_size=".9" font_color="#fff" line_height="1.15">(FPO)</element>
+					<element type="field" id="back_cover_location_1_phone" font_face="GillSansLight" font_size=".9" font_color="#000">(FPO)</element>
+					<element type="field" id="back_cover_location_1_address_1" font_face="GillSansLight" font_size=".9" font_color="#000">(FPO)</element>
+					<element type="field" id="back_cover_location_1_address_2" font_face="GillSansLight" font_size=".9" font_color="#000">(FPO)</element>
+					<element type="field" id="back_cover_location_1_fax" font_face="GillSansLight" font_size=".9" font_color="#000">(FPO)</element>
+				</element>
+				<element type="p" x_pct="0.06" y_pct="0.72" width_pct="0.9" height_pct="0.04">
+					<element type="field" id="back_cover_location_2_title" font_face="GillSansMTBold" font_size=".9" font_color="#fff" line_height="1.15">(FPO)</element>
+					<element type="field" id="back_cover_location_2_phone" font_face="GillSansLight" font_size=".9" font_color="#000">(FPO)</element>
+					<element type="field" id="back_cover_location_2_address_1" font_face="GillSansLight" font_size=".9" font_color="#000">(FPO)</element>
+					<element type="field" id="back_cover_location_2_address_2" font_face="GillSansLight" font_size=".9" font_color="#000">(FPO)</element>
+					<element type="field" id="back_cover_location_2_fax" font_face="GillSansLight" font_size=".9" font_color="#000">(FPO)</element>
+				</element>
+				<element type="p" x_pct="0.06" y_pct="0.82" width_pct="0.9" height_pct="0.04">
+					<element type="field" id="back_cover_location_3_title" font_face="GillSansMTBold" font_size=".9" font_color="#fff" line_height="1.15">(FPO)</element>
+					<element type="field" id="back_cover_location_3_phone" font_face="GillSansLight" font_size=".9" font_color="#000">(FPO)</element>
+					<element type="field" id="back_cover_location_3_address_1" font_face="GillSansLight" font_size=".9" font_color="#000">(FPO)</element>
+					<element type="field" id="back_cover_location_3_address_2" font_face="GillSansLight" font_size=".9" font_color="#000">(FPO)</element>
+					<element type="field" id="back_cover_location_3_fax" font_face="GillSansLight" font_size=".9" font_color="#000">(FPO)</element>
+				</element>
+				<element type="p" x_pct="0.375" y_pct="0.72" width_pct="0.9" height_pct="0.04">
+					<element type="field" id="back_cover_location_4_title" font_face="GillSansMTBold" font_size=".9" font_color="#fff" line_height="1.15">(FPO)</element>
+					<element type="field" id="back_cover_location_4_phone" font_face="GillSansLight" font_size=".9" font_color="#000">(FPO)</element>
+					<element type="field" id="back_cover_location_4_address_1" font_face="GillSansLight" font_size=".9" font_color="#000">(FPO)</element>
+					<element type="field" id="back_cover_location_4_address_2" font_face="GillSansLight" font_size=".9" font_color="#000">(FPO)</element>
+					<element type="field" id="back_cover_location_4_fax" font_face="GillSansLight" font_size=".9" font_color="#000">(FPO)</element>
+				</element>
+				<element type="p" x_pct="0.375" y_pct="0.82" width_pct="0.9" height_pct="0.04">
+					<element type="field" id="back_cover_location_5_title" font_face="GillSansMTBold" font_size=".9" font_color="#fff" line_height="1.15">(FPO)</element>
+					<element type="field" id="back_cover_location_5_phone" font_face="GillSansLight" font_size=".9" font_color="#000">(FPO)</element>
+					<element type="field" id="back_cover_location_5_address_1" font_face="GillSansLight" font_size=".9" font_color="#000">(FPO)</element>
+					<element type="field" id="back_cover_location_5_address_2" font_face="GillSansLight" font_size=".9" font_color="#000">(FPO)</element>
+					<element type="field" id="back_cover_location_5_fax" font_face="GillSansLight" font_size=".9" font_color="#000">(FPO)</element>
+				</element>
+			<!-- /LOCATIONS -->
+			<element type="p" x_pct="0.06" y_pct="0.942" width_pct="0.9" height_pct="0.02">
+				<element type="field" id="back_cover_url" font_face="GillSansMTBold" font_size="1.25" font_color="#fff">www.monrovia.com</element>
+			</element>
+		</elements>
+	</back_cover>
+</covers>

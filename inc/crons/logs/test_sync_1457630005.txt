@@ -1,0 +1,65 @@
+DATE/TIME: 2016-03-10 17:13:25
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-03-10 17:13:31
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 3026
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;30944&lt;/ItemSizeID&gt;
+		&lt;Item&gt;30944&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;LOWES&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Philodendron &apos;McColley&apos;s Finale&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Philodendron &apos;McColley&apos;s Finale&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Philodendron &apos;McColley&apos;s Finale&apos;&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic foliage color&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Canna (Canna); Gardenia (Gardenia); Bush Lily (Clivia); Bird of Paradise (Strelitzia); Passion Vine (Passiflora)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;1-3&apos; H x 1-3&apos; W&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Easily grown in evenly moist, well drained soil. Best foliage color in bright light. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Apply a slow release fertilizer as new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicuous&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This tropical hybrid has striking orange to red new leaves that become dark glossy green with age. Its exotic, upright, clumping form is stunning in sheltered garden beds or patio containers in mild-winter areas. A beautiful, easy to grow atrium or indoor specimen in all climates.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Filtered to partial sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering, weekly or more often in extreme heat. As a houseplant, water when top 1 in. of soil is dry.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;10&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Fast Growing,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen,Poolside,Houseplant,Container,Coastal Exposure,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 10 Mar 2016 17:13:28 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

@@ -1,0 +1,176 @@
+DATE/TIME: 2016-04-04 23:14:28
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-04-04 23:14:37
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 11106
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;31194&lt;/ItemSizeID&gt;
+		&lt;Item&gt;31194&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;LOWES&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Impatiens x &apos;Balfusimglo&apos; P.P.#18,862&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Impatiens x &apos;Balfusimglo&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Fusion Glow Yellow Exotic Impatiens&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Long Bloom Season&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;10-16&quot; H x 10-16&quot; W.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Easily grown in enriched, evenly moist, well drained soil. Space plants 10-12&quot; apart. Best in shade or morning sun with protection from harsh afternoon sun. Feed monthly during growing season. Hardy to 32&amp;#176;F; most often planted as an annual.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring through Summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A Simply Beautiful&amp;#174; selection with mounds of exotic blooms that shine in the shade. Heat tolerant plants keep their rounded shape and color all season without pruning. Withstands cool temperatures. Perfect for containers and mixed baskets or borders. Combines beautifully with the Fiesta series double impatiens.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full to partial shade&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering- twice weekly or more often in extreme heat, to keep soil moist but not soggy.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;High&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;10&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;31193&lt;/ItemSizeID&gt;
+		&lt;Item&gt;31193&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;LOWES&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Impatiens walleriana Fiesta Series Patented&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Impatiens walleriana Fiesta Series Patented&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Fiesta Series Double Impatiens&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Double Flowers&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;10-16&quot; H x 10-16&quot; W.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Easily grown in enriched, evenly moist, well drained soil. Best in shade or morning sun with protection from harsh afternoon sun. Feed monthly during growing season. Often perennial in frost-free climates; plant as an annual elsewhere.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring through Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This elegant shade selection has very large, fully double rose-like blooms. Easy, carefree and colorful, Fiesta produces an abundance of flowers without deadheading. The newest varieties have improved genetics, surpassing others with larger blooms that stand out above the foliage canopy. A true performer in shade baskets, mixed containers and borders.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade to filtered sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering- twice weekly or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;10&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Shade Loving,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;31192&lt;/ItemSizeID&gt;
+		&lt;Item&gt;31192&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;LOWES&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hibiscus acetosella &apos;Mahogany Splendor&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hibiscus acetosella &apos;Mahogany Splendor&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Mahogany Splendor Maple-Leaf Hibiscus&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage Color&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;3-5&apos; H x 2-3 ft. W.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Easily grown in enriched, evenly moist, well-drained soil but highly adaptable. Best foliage color in full sun. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed monthly during growing season. Prune old foliage in early spring to rejuvenate.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Prized for foliage. Intermittent flowers in summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Fantastic foliage with deep burgundy, maple-shaped leaves. Well-suited to the landscape, this colorful, drought and heat-resistant selection also combines well in containers with other sun-loving plants. Thrives in moist soils or even at pond&apos;s edge, yet is also tolerant of mild drought once established in the garden. Herbaceous perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Best with regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Very Wet Areas,Deer Resistant&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Water Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;31191&lt;/ItemSizeID&gt;
+		&lt;Item&gt;31191&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;LOWES&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hibiscus moscheutos&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hibiscus moscheutos&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Luna Series Hardy Hibiscus&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;24-26&quot; H x 24-36&quot; W.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Easily grown in enriched, well-drained soil. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Thrives in moist soils but adapts to mild drought when established. Feed monthly during growing season. Prune to the ground in winter.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Mid to late summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Dramatic and impressive, with big, eye-catching summer blooms, Luna is ideal for large containers, or can be planted in the ground as a perennial and enjoyed for great garden performance year after year. Compact, heat-loving plants thrive in moist soils, yet can tolerate drought once established. Hummingbird friendly!&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Best with regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;31190&lt;/ItemSizeID&gt;
+		&lt;Item&gt;31190&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;LOWES&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Pelargonium x hortorum&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Pelargonium x hortorum&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Dynamo Series Zonal Geranium&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Long Bloom Season&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;12-14&quot; H x 12-14&quot; W.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Easily grown in average to enriched, well drained soil. Clip faded flower stems to promote continued bloom. May be sheared lightly mid-season to shape. Feed monthly during growing season. Tender perennial to 32&amp;#176;F; grow as an annual elsewhere.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring, Summer, Fall&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;The ultimate Geranium for garden beds and large containers. Big, bright flowers and crisp, medium green foliage on full, vigorous plants with an upright mounded habit. Blooms reliably from spring to fall if spent flowers are removed.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, allowing soil to dry slightly between intervals. Low water needs once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;10&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Mon, 04 Apr 2016 23:14:32 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

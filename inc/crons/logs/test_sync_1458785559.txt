@@ -1,0 +1,176 @@
+DATE/TIME: 2016-03-24 02:12:39
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-03-24 02:12:44
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 9292
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;30548&lt;/ItemSizeID&gt;
+		&lt;Item&gt;30548&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;LOWES&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Begonia Solenia&amp;#174; Series Patented&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Begonia Solenia&amp;#174; Series Patented&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Solenia&amp;#174; Begonia&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Long lasting blooms&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;10-12&quot; H x 18- 24&quot; W&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Easily grown in enriched, evenly moist well drained soil. May be lightly sheared mid-season to neaten and encourage repeat bloom. Feed monthly.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring through fall&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A vigorous, sun tolerant bloomer! Each stem carries multiple blooms making this an excellent choice for a hanging basket or container. This beautiful, versatile begonia stands up to wind, fights the heat and resists mildew.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly to maintain evenly moist soil.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;11&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;30414&lt;/ItemSizeID&gt;
+		&lt;Item&gt;30414&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;LOWES&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Dianthus Amazon Series&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Dianthus Amazon Series&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Amazon Dianthus&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Breathtaking color&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;18-24&quot; H x 18-24&quot; W&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Easily grown in enriched, well drained soil. Shear faded flowers for continued bloom. Feed in spring and summer.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;&lt;/UPC&gt;
+		&lt;FlowerTime&gt;&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Versatile landscape and bedding plant with outstanding heat tolerance. Combine with lower growing annuals for a beautiful effect. Vibrant flowers on strong stems are perfect for bouquets. Attracts butterflies.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Low, once established&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;10&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;30458&lt;/ItemSizeID&gt;
+		&lt;Item&gt;30458&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;LOWES&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Plectranthus &apos;Plepalila&apos; PP13,858&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Plectranthus &apos;Plepalila&apos; PP13,858&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Mona Lavender Plectranthus&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy lavender flowers&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;12-16&quot; H x 24-36&quot; W&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Easily grown in enriched, well drained soil. Best in filtered or light shade; more sun tolerant in cool summer areas. Pinch back regularly to retain compact shape. Clip spent flower spikes after bloom. Feed twice monthly. Shelter from frost.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring, Summer, Fall&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Showy bloom sprays atop rich dark green leaves with purple undersides. Free-flowering with excellent heat and drought tolerance. Performs in baskets, borders, patio containers or as a houseplant. An excellent accent from spring to fall, often perennial in frost-free areas.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade to partial sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Semi-moist&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;10&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;30422&lt;/ItemSizeID&gt;
+		&lt;Item&gt;30422&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;LOWES&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Impatiens Sun Harmony Series&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Impatiens Sun Harmony Series&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Sun Harmony New Guinea Impatiens&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Bright array of large flowers&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;16-20&quot; H x 16-20&quot; W&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Easily grown in enriched, evenly moist, well drained soil. Feed monthly.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;&lt;/UPC&gt;
+		&lt;FlowerTime&gt;&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Sun Harmony plants take the sun and heat like no other! Blooms early and consistently from spring into fall in a melody of bright, bold colors. Superb for containers and patio planting.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Moist&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;High&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;0&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;30424&lt;/ItemSizeID&gt;
+		&lt;Item&gt;30424&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;LOWES&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Impatiens x hawkeri Magnum Series&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Impatiens x hawkeri Magnum Series&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Magnum New Guinea Impatiens&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Large, brilliant blooms&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;12-18&quot; H x 12-24&quot; W&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Easily grown in enriched, evenly moist, well drained soil. Shelter from harsh afternoon sun. Feed monthly.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;&lt;/UPC&gt;
+		&lt;FlowerTime&gt;&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Enormous flowers just above the foliage virtually cover the plant. Bright color for shade to dappled sun. Nearly perfect rounded canopy form is great for hanging baskets or landscape.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade to partial sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Moist&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;High&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;0&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 24 Mar 2016 02:12:43 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

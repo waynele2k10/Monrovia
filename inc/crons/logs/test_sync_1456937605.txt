@@ -1,0 +1,210 @@
+DATE/TIME: 2016-03-02 16:53:25
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-03-02 16:53:34
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 14443
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;407395&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40739&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Wisteria brachybotrys &apos;Okayama&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Wisteria brachybotrys &apos;Okayama&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rose (Rosa); Daylily (Hemerocallis); Shasta Daisy (Chrysanthemum); Phlox (Phlox); Salvia (Salvia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast grower with stems 16 ft. long or more.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Water regularly during first growing season to establish a deep, extensive root system. Once established, water deeply and less frequently. Take care not to overwater. Feed with a general purpose fertilizer. Provide support such as a trellis or arbor. Prune annually to control size.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949430675&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring to early summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Beautiful 4 to 6-inch long racemes heavily adorned with rich violet buds that open early to highly scented, softly-colored violet-lavender blooms all at one time. Profuse bloomer, especially it ages. Blooms fade out to give way to lush, green, silky-haired foliage. An excellent vine for trellis and espalier.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Privacy Screen,Espalier,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;407395ES&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40739&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5ES&lt;/Size&gt;
+		&lt;SizeDescription&gt;Espalier&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Wisteria brachybotrys &apos;Okayama&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Wisteria brachybotrys &apos;Okayama&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rose (Rosa); Daylily (Hemerocallis); Shasta Daisy (Chrysanthemum); Phlox (Phlox); Salvia (Salvia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast grower with stems 16 ft. long or more.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Water regularly during first growing season to establish a deep, extensive root system. Once established, water deeply and less frequently. Take care not to overwater. Feed with a general purpose fertilizer. Provide support such as a trellis or arbor. Prune annually to control size.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949430675&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring to early summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Beautiful 4 to 6-inch long racemes heavily adorned with rich violet buds that open early to highly scented, softly-colored violet-lavender blooms all at one time. Profuse bloomer, especially it ages. Blooms fade out to give way to lush, green, silky-haired foliage. An excellent vine for trellis and espalier.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Privacy Screen,Espalier,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;407397PT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40739&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;7PT&lt;/Size&gt;
+		&lt;SizeDescription&gt;Patio Tree&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Wisteria brachybotrys &apos;Okayama&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Wisteria brachybotrys &apos;Okayama&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rose (Rosa); Daylily (Hemerocallis); Shasta Daisy (Chrysanthemum); Phlox (Phlox); Salvia (Salvia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast grower with stems 16 ft. long or more.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Water regularly during first growing season to establish a deep, extensive root system. Once established, water deeply and less frequently. Take care not to overwater. Feed with a general purpose fertilizer. Provide support such as a trellis or arbor. Prune annually to control size.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;7&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;6.20 gal. (23.47 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949399996&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring to early summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Beautiful 4 to 6-inch long racemes heavily adorned with rich violet buds that open early to highly scented, softly-colored violet-lavender blooms all at one time. Profuse bloomer, especially it ages. Blooms fade out to give way to lush, green, silky-haired foliage. An excellent vine for trellis and espalier.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Privacy Screen,Espalier,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;412791&lt;/ItemSizeID&gt;
+		&lt;Item&gt;41279&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Wisteria brachybotrys &apos;Shiro-Beni&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Wisteria brachybotrys &apos;Shiro-Beni&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rose (Rosa); Daylily (Hemerocallis); Shasta Daisy (Chrysanthemum); Phlox (Phlox); Salvia (Salvia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast grower with stems 16 ft. long or more.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Water regularly during first growing season to establish a deep, extensive root system. Once established, water deeply and less frequently. Take care not to overwater. Feed with a general purpose fertilizer. Provide support such as a trellis or arbor. Prune annually to control size.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949426005&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring to early summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Lovely raecemes, 4 to 60-inches long, thickly covered with dark pink buds that open to highly scented soft pink blooms all at once. A profuse spring bloomer, especially as it ages. An excellent vine for trellis and espalier. Works well in containers and is a wise choice for smaller gardens.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Privacy Screen,Espalier,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;412795&lt;/ItemSizeID&gt;
+		&lt;Item&gt;41279&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Wisteria brachybotrys &apos;Shiro-Beni&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Wisteria brachybotrys &apos;Shiro-Beni&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rose (Rosa); Daylily (Hemerocallis); Shasta Daisy (Chrysanthemum); Phlox (Phlox); Salvia (Salvia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast grower with stems 16 ft. long or more.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Water regularly during first growing season to establish a deep, extensive root system. Once established, water deeply and less frequently. Take care not to overwater. Feed with a general purpose fertilizer. Provide support such as a trellis or arbor. Prune annually to control size.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949426029&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring to early summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Lovely raecemes, 4 to 60-inches long, thickly covered with dark pink buds that open to highly scented soft pink blooms all at once. A profuse spring bloomer, especially as it ages. An excellent vine for trellis and espalier. Works well in containers and is a wise choice for smaller gardens.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Privacy Screen,Espalier,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;412795ES&lt;/ItemSizeID&gt;
+		&lt;Item&gt;41279&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5ES&lt;/Size&gt;
+		&lt;SizeDescription&gt;Espalier&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Wisteria brachybotrys &apos;Shiro-Beni&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Wisteria brachybotrys &apos;Shiro-Beni&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rose (Rosa); Daylily (Hemerocallis); Shasta Daisy (Chrysanthemum); Phlox (Phlox); Salvia (Salvia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast grower with stems 16 ft. long or more.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Water regularly during first growing season to establish a deep, extensive root system. Once established, water deeply and less frequently. Take care not to overwater. Feed with a general purpose fertilizer. Provide support such as a trellis or arbor. Prune annually to control size.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949436585&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring to early summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Lovely raecemes, 4 to 60-inches long, thickly covered with dark pink buds that open to highly scented soft pink blooms all at once. A profuse spring bloomer, especially as it ages. An excellent vine for trellis and espalier. Works well in containers and is a wise choice for smaller gardens.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Privacy Screen,Espalier,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 02 Mar 2016 16:53:33 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

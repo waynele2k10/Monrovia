@@ -1,0 +1,210 @@
+DATE/TIME: 2016-04-05 23:52:38
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-04-05 23:52:47
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 13863
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;037941&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03794&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Gardenia jasminoides &apos;White Gem&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Gardenia jasminoides &apos;White Gem&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;White Gem Gardenia&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Fragrant Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Agapanthus (Agapanthus); Azalea (Azalea); Camellia (Camellia); Fuchsia (Fuchsia); Coral Bells (Heuchera)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Slow growing to only 1 to 2 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Provide well drained soil, rich in organic matter. Feed with an acid fertilizer after bloom. Keep roots cool with a thick layer of mulch.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949379417&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring into summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;The sweet fragrance of Gardenias in a versatile, dwarf size. Great in containers, raised beds and in the foreground of borders. Flowers are star-like with six petals. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Easy Care,Dwarf Plant,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Urban Garden,Topiary,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;037941PT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03794&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1PT&lt;/Size&gt;
+		&lt;SizeDescription&gt;Patio Tree&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Gardenia jasminoides &apos;White Gem&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Gardenia jasminoides &apos;White Gem&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;White Gem Gardenia&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Fragrant Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Agapanthus (Agapanthus); Azalea (Azalea); Camellia (Camellia); Fuchsia (Fuchsia); Coral Bells (Heuchera)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Maintain present size and topiary form with occasional pruning.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. Prune semi-annually to maintain topiary form.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949036310&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring into summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;The sweet fragrance of Gardenias in a versatile, dwarf size. Great in containers, raised beds and in the foreground of borders. Flowers are star-like with six petals. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Easy Care,Dwarf Plant,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Urban Garden,Topiary,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;037942&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03794&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Gardenia jasminoides &apos;White Gem&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Gardenia jasminoides &apos;White Gem&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;White Gem Gardenia&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Fragrant Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Agapanthus (Agapanthus); Azalea (Azalea); Camellia (Camellia); Fuchsia (Fuchsia); Coral Bells (Heuchera)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Slow growing to only 1 to 2 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Provide well drained soil, rich in organic matter. Feed with an acid fertilizer after bloom. Keep roots cool with a thick layer of mulch.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949379424&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring into summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;The sweet fragrance of Gardenias in a versatile, dwarf size. Great in containers, raised beds and in the foreground of borders. Flowers are star-like with six petals. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Easy Care,Dwarf Plant,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Urban Garden,Topiary,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;037943&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03794&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;3&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Gardenia jasminoides &apos;White Gem&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Gardenia jasminoides &apos;White Gem&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;White Gem Gardenia&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Fragrant Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Agapanthus (Agapanthus); Azalea (Azalea); Camellia (Camellia); Fuchsia (Fuchsia); Coral Bells (Heuchera)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Slow-growing to only 1 to 2 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Provide well drained soil, rich in organic matter. Feed with an acid fertilizer after bloom. Keep roots cool with a thick layer of mulch.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;3&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.54 gal. (9.61 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949036327&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring into summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;The sweet fragrance of Gardenias in a versatile, dwarf size. Great in containers, raised beds and in the foreground of borders. Flowers are star-like with six petals. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Easy Care,Dwarf Plant,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Urban Garden,Topiary,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;037945GP&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03794&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5GP&lt;/Size&gt;
+		&lt;SizeDescription&gt;Patio Tree&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Gardenia jasminoides &apos;White Gem&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Gardenia jasminoides &apos;White Gem&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;White Gem Gardenia&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Fragrant Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Agapanthus (Agapanthus); Azalea (Azalea); Camellia (Camellia); Fuchsia (Fuchsia); Coral Bells (Heuchera)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Slow growing to only 1 to 2 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Provide well drained soil, rich in organic matter. Feed with an acid fertilizer after bloom. Keep roots cool with a thick layer of mulch.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949056547&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring into summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;The sweet fragrance of Gardenias in a versatile, dwarf size. Great in containers, raised beds and in the foreground of borders. Flowers are star-like with six petals. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Easy Care,Dwarf Plant,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Urban Garden,Topiary,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;03794E&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03794&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;E&lt;/Size&gt;
+		&lt;SizeDescription&gt;Pot&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Gardenia jasminoides &apos;White Gem&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Gardenia jasminoides &apos;White Gem&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;White Gem Gardenia&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Fragrant Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Agapanthus (Agapanthus); Azalea (Azalea); Camellia (Camellia); Fuchsia (Fuchsia); Coral Bells (Heuchera)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Slow-growing to only 1 to 2 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Provide well drained soil, rich in organic matter. Feed with an acid fertilizer after bloom. Keep roots cool with a thick layer of mulch.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;7&amp;quot;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.6 qt. (2.50 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949908044&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring into summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;The sweet fragrance of Gardenias in a versatile, dwarf size. Great in containers, raised beds and in the foreground of borders. Flowers are star-like with six petals. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Easy Care,Dwarf Plant,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Urban Garden,Topiary,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Tue, 05 Apr 2016 23:52:42 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

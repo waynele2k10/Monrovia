@@ -1,0 +1,168 @@
+* {
+	font-family:tahoma;
+}
+ul {
+	padding:0px;
+	margin:0px;
+	list-style-position:inside;
+	list-style-type:none;
+}
+li {
+	margin-left:1em;
+	font-size:9pt;
+}
+body {
+	margin:4px;
+}
+.checkbox {
+	border:0px;
+	margin:0px 4px 0px 0px;
+	position:relative;
+	top:3px;
+}
+img {
+	border:0px;
+}
+#nav_ribbon {
+	font-size:11pt;
+	background-color:#666;
+	padding:2px;
+	margin:4px 0px 4px 0px;
+}
+#nav_ribbon a {
+	color:#fff;
+	text-decoration:none;
+	padding-left:4px;
+}h2 {
+	margin:0px 0px 2px 0px;
+	font-size:24px;
+}
+#main_content {
+	padding:0px 16px 16px 16px;
+}
+#user_ribbon {
+	text-align:right;
+}
+.listitem {
+	padding:2px 0px 2px 16px;
+}
+.admin_module {
+	margin-bottom:16px;
+}
+td {
+	vertical-align:top;
+	padding-left:4px;
+}
+.text_field {
+	width:200px;
+	font-size:9pt;
+	border:1px solid #ADAC95;
+}
+td.text_field {
+	border:0px;
+	vertical-align:middle;
+}
+.small {
+	font-size:7pt;
+}
+input {
+	font-size:9pt;
+}
+.field_label {
+	text-align:right;
+	font-size:9pt;
+	vertical-align:middle;
+}
+.field_group {
+	border:1px solid #ddd;
+	padding:6px;
+	width:625px;
+	margin:8px 0px;
+	background-color:#f6f6f6;
+	font-size:9pt;
+}
+div.auto_complete {
+  width: 350px;
+  background: #fff;
+}
+div.auto_complete ul {
+  border:1px solid #888;
+  margin:0;
+  padding:0;
+  width:100%;
+  list-style-type:none;
+}
+div.auto_complete ul li {
+  margin:0;
+  padding:3px;
+  font-size:7.5pt;
+  color:#000;
+}
+div.auto_complete ul li.selected {
+  background-color: #ffb;
+}
+div.auto_complete ul strong.highlight {
+  color: #800;
+  margin:0;
+  padding:0;
+}
+textarea {
+	height:100px;
+}
+.full_width {
+	width:100%!important;
+}
+#page_notice {
+	display:none;
+	border:2px dashed #ccc;
+	width:400px;
+	background-color:#eee;
+	font-size:10pt;
+	font-weight:bold;
+	padding:12px;
+	text-align:center;
+	margin-bottom:10px;
+}
+#error_notice {
+	display:none;
+	border:2px dashed #944;
+	width:400px;
+	background-color:#fbb;
+	font-size:10pt;
+	font-weight:bold;
+	padding:12px;
+	text-align:center;
+	margin-bottom:10px;
+}
+.row_even {
+	background-color:#eee;
+}
+input.error_validation, textarea.error_validation, select.error_validation {
+	background-color:#fdd;
+	color:#900;
+}
+#field_error_message {
+	position:absolute;
+	display:none;
+	padding-left:8px;
+	padding-top:2px;
+	top:-1000px;
+}
+#field_error_message #message {
+	padding:2px 4px 2px 5px;
+	font-size:8pt;
+	background-color:#ff0073;
+	color:#fff;
+	float:left;
+	cursor:default;
+}
+#field_error_message #tip {
+	background:url(/img/field_error_tip.gif) no-repeat;
+	width:13px;
+	height:13px;
+	float:left;
+	display:inline;
+}
+.bold {
+	font-weight:bold;
+}

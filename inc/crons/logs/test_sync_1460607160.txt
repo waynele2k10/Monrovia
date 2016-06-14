@@ -1,0 +1,181 @@
+DATE/TIME: 2016-04-14 04:12:40
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-04-14 04:12:47
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 12167
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;096492&lt;/ItemSizeID&gt;
+		&lt;Item&gt;09649&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Alstroemeria x &apos;Tessunlight&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Alstroemeria x &apos;Tessunlight&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Inticancha&amp;#174; Sunlight Peruvian Lily&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Gaura (Gaura); Montbretia (Crocosmia); Canna (Canna); Society Garlic (Tulbaghia); Aster (Aster)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Dense mounding habit, 12 to 14 in. tall, 12 to 18 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Blooms best when old stems are plucked. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949380369&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring to early fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Large, stunning blooms for garden or patio from a great new series bred for compact, tidy growth with long and profuse flowering. Sturdy stems support clusters of large flowers that have an exceptional vase life. Ideal in cutting gardens, borders or containers. Herbaceous perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, when top 3 in. of soil is dry.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Gift Plant,Fast Growing,Easy Care,Clump Forming,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Cutting Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;096482&lt;/ItemSizeID&gt;
+		&lt;Item&gt;09648&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Alstroemeria x &apos;Tesdarklin&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Alstroemeria x &apos;Tesdarklin&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Inticancha&amp;#174; Dark Purple Peruvian Lily&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Gaura (Gaura); Montbretia (Crocosmia); Canna (Canna); Society Garlic (Tulbaghia); Aster (Aster)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Dense mounding habit, 12 to 14 in. tall, 12 to 18 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Blooms best when old stems are plucked. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949380352&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring to early fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Large, stunning blooms for garden or patio from a great new series bred for compact, tidy growth with long and profuse flowering. Sturdy stems support clusters of large flowers that have an exceptional vase life. Ideal in cutting gardens, borders or containers. Herbaceous perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, when top 3 in. of soil is dry.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Gift Plant,Fast Growing,Easy Care,Clump Forming,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Cutting Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;096522&lt;/ItemSizeID&gt;
+		&lt;Item&gt;09652&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Alstroemeria x &apos;Tesnavayo&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Alstroemeria x &apos;Tesnavayo&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Inticancha&amp;#174; Navayo Peruvian Lily&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Gaura (Gaura); Montbretia (Crocosmia); Canna (Canna); Society Garlic (Tulbaghia); Aster (Aster)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Dense mounding habit, 12 to 14 in. tall, 12 to 18 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Blooms best when old stems are plucked. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949380185&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring to early fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Large, stunning blooms for garden or patio from a great new series bred for compact, tidy growth with long and profuse flowering. Sturdy stems support clusters of large flowers that have an exceptional vase life. Ideal in cutting gardens, borders or containers. Herbaceous perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, when top 3 in. of soil is dry.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Gift Plant,Fast Growing,Easy Care,Clump Forming,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Cutting Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;096532&lt;/ItemSizeID&gt;
+		&lt;Item&gt;09653&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Alstroemeria x &apos;Tesbryce&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Alstroemeria x &apos;Tesbryce&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Inticancha&amp;#174; Bryce Peruvian Lily&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Gaura (Gaura); Montbretia (Crocosmia); Canna (Canna); Society Garlic (Tulbaghia); Aster (Aster)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Dense mounding habit, 12 to 14 in. wide, 10 to 14 in. tall.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Blooms best when old stems are plucked. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949380192&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring to early fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Large, stunning blooms for garden or patio from a great new series bred for compact, tidy growth with long and profuse flowering. Sturdy stems support clusters of large flowers that have an exceptional vase life. Ideal in cutting gardens, borders or containers. Herbaceous perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, when top 3 in. of soil is dry.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Fast Growing,Easy Care,Clump Forming,Attracts Birds,Gift Plant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Cutting Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;096502&lt;/ItemSizeID&gt;
+		&lt;Item&gt;09650&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Alstroemeria x &apos;Tesmach&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Alstroemeria x &apos;Tesmach&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Inticancha&amp;#174; Machu Peruvian Lily&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Gaura (Gaura); Montbretia (Crocosmia); Canna (Canna); Society Garlic (Tulbaghia); Aster (Aster)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Dense mounding habit, 12 in. tall, 12 to 18 in. wide&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Blooms best when old stems are plucked. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949380161&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring to early fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Large, stunning blooms for garden or patio from a great new series bred for compact, tidy growth with long and profuse flowering. Sturdy stems support clusters of large pink flowers that have an exceptional vase life. Idea in cutting gardens, borders or containers. Herbaceous perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, when top 3 in. of soil is dry.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Fast Growing,Easy Care,Clump Forming,Attracts Birds,Gift Plant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Cutting Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 14 Apr 2016 04:12:46 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

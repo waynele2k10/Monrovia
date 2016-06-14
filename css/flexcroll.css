@@ -1,0 +1,40 @@
+/* Scroll Bar Master Styling Starts Here */
+
+.flexcroll .scrollgeneric
+{
+	line-height: 1px;
+	font-size: 1px;
+	position: absolute;
+}
+
+.flexcroll .vscrollerbase, .flexcroll .vscrollerbar {
+	width: 16px;
+	top: 0px;
+}
+.flexcroll .vscrollerbar {
+	left: 0px;
+	padding: 3px;
+	z-index: 2;
+}
+
+.flexcroll .vscrollerbarbeg {
+	background: url(/img/vscroller.gif) 0px -10px;
+	width: 16px;
+	height: auto;
+	top: 0px;
+}
+
+.flexcroll .vscrollerbarend {
+	background: url(/img/vscroller.gif);
+	width: 16px;
+	height: 10px;
+}
+.flexcroll .vscrollerbase {
+	background-color: #DAD8B2;
+}
+
+.flexcroll .vscrollerbasebeg, .flexcroll .vscrollerbaseend {
+	display:none;
+}
+
+/* Scroll Bar Master Styling Ends Here */

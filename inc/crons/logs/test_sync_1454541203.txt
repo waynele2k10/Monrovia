@@ -1,0 +1,123 @@
+DATE/TIME: 2016-02-03 23:13:23
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-02-03 23:13:26
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 7426
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;016631&lt;/ItemSizeID&gt;
+		&lt;Item&gt;01663&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Andromeda polifolia &apos;Blue Ice&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Andromeda polifolia &apos;Blue Ice&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Blue Ice Bog Rosemary&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage Color&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Rock Garden,Border,Turtlehead (Chelone); Joe-Pye Weed (Eupatorium); Spiderwort (Tradescantia); Bee Balm (Monarda); Cardinal Flower (Lobelia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower under 1 ft. tall, 3 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. As a groundcover, space plants 2 ft. to 3 ft. apart, (closer for faster coverage). Control weeds with mulch until the plants cover the area.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949000212&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Early Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Icy-blue leaves combine with masses of small pink bell-shaped flowers for dramatic effect. Mounding groundcover that is perfect plant for rock garden. Spreading habit well-suited for low borders, in moist situations. Acid-soil loving evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs wet or constantly moist soil.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;High&lt;/Water&gt;
+		&lt;CZoneHigh&gt;6&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;2&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Dwarf Plant,Dramatic Foliage Color,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Rock Garden,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;016632&lt;/ItemSizeID&gt;
+		&lt;Item&gt;01663&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Andromeda polifolia &apos;Blue Ice&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Andromeda polifolia &apos;Blue Ice&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Blue Ice Bog Rosemary&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage Color&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Rock Garden,Border,Turtlehead (Chelone); Joe-Pye Weed (Eupatorium); Spiderwort (Tradescantia); Bee Balm (Monarda); Cardinal Flower (Lobelia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower under 1 ft. tall, 3 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. As a ground cover, space plants 2&apos; to 3&apos; apart, (closer for faster coverage). Control weeds with mulch until the plants cover the area.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949000311&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Early Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Icy-blue leaves combine with masses of small pink bell-shaped flowers for dramatic effect. Mounding groundcover that is perfect plant for rock garden. Spreading habit well-suited for low borders, in moist situations. Acid-soil loving evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs wet or constantly moist soil.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;High&lt;/Water&gt;
+		&lt;CZoneHigh&gt;6&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;2&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Dwarf Plant,Dramatic Foliage Color,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Rock Garden,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;01663UT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;01663&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;UT&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Andromeda polifolia &apos;Blue Ice&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Andromeda polifolia &apos;Blue Ice&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Blue Ice Bog Rosemary&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage Color&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Rock Garden,Border,Turtlehead (Chelone); Joe-Pye Weed (Eupatorium); Spiderwort (Tradescantia); Bee Balm (Monarda); Cardinal Flower (Lobelia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower under 1 ft. tall, 3 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. As a groundcover, space plants 2 ft. to 3 ft. apart, (closer for faster coverage). Control weeds with mulch until the plants cover the area.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;QT&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 qt. (946 mL)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949068939&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Early Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Icy-blue leaves combine with masses of small pink bell-shaped flowers for dramatic effect. Mounding groundcover that is perfect plant for rock garden. Spreading habit well-suited for low borders, in moist situations. Acid-soil loving evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs wet or constantly moist soil.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;High&lt;/Water&gt;
+		&lt;CZoneHigh&gt;6&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;2&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Dwarf Plant,Dramatic Foliage Color,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Rock Garden,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 03 Feb 2016 23:13:26 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

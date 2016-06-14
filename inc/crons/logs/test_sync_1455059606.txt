@@ -1,0 +1,297 @@
+DATE/TIME: 2016-02-09 23:13:26
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-02-09 23:13:37
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 22258
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;049601&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04960&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Pinus strobus &apos;Tiny Kurls&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Pinus strobus &apos;Tiny Kurls&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Tiny Kurls Eastern White Pine&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Year-Round Interest&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Specimen,Japanese Maple (Acer); Winterberry (Ilex); Switch Grass (Panicum); Dogwood (Cornus); Barberry (Berberis)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate growing, 3 to 6 ft. tall, 4 ft. wide in 10 years; slightly larger with age.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring. Pruning time: spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949375433&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Conifer; prized for foliage.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Short curly needles give this mounded conifer a unique look. Its dwarf, oval globe has dark blue-green, twisted foliage, similar to that of Pinus strobus &apos;Torulosa&apos;, on a slower growing, more compact plant. A good specimen for smaller gardens, or planted en masse for unique texture in larger landscapes. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;North American Native Selection,Extreme Cold Hardiness,Easy Care,Dwarf Plant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;049605&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04960&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Pinus strobus &apos;Tiny Kurls&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Pinus strobus &apos;Tiny Kurls&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Tiny Kurls Eastern White Pine&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Year-Round Interest&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Specimen,Japanese Maple (Acer); Winterberry (Ilex); Switch Grass (Panicum); Dogwood (Cornus); Barberry (Berberis)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate growing, 3 to 6 ft. tall, 4 ft. wide in 10 years; slightly larger with age.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring. Pruning time: spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949342800&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Conifer; prized for foliage.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Short curly needles give this mounded conifer a unique look. Its dwarf, oval globe has dark blue-green, twisted foliage, similar to that of Pinus strobus &apos;Torulosa&apos;, on a slower growing, more compact plant. A good specimen for smaller gardens, or planted en masse for unique texture in larger landscapes. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;North American Native Selection,Extreme Cold Hardiness,Easy Care,Dwarf Plant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;049585&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04958&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Acer pseudoplatanus &apos;Esk Sunset&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Acer pseudoplatanus &apos;Esk Sunset&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Eskimo Sunset Sycamore Maple&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage Color&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Specimen,Redbud (Cercis); Mugo Pine (Pinus); Snowberry (Symphoricarpos); Beautyberry (Callicarpa); Sweetspire (Itea)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 12 ft. tall, 10 ft. wide in 10 years; 25 ft. tall with age.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide evenly moist, well-drained soil. Protect from intense afternoon sun in hot summer areas. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949317662&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicuous flowers in spring.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;One of the showiest of maples, this striking tree is sure to catch attention. New spring leaves emerge orange-pink, maturing to shades of deep green, splashed with cream, tan and pink, with rich purple undersides. Excellent fall foliage. Foliage color varies with sun exposure.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Fall Color,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;406982&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40698&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Thuja occidentalis &apos;Starkie&apos;s Gold&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Thuja occidentalis &apos;Starkie&apos;s Gold&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Starkie&apos;s Gold Arborvitae&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Waterwise&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Windbreak,Privacy Screen,Border,Smoke Tree (Cotinus); Rose (Rosa); Spirea (Spiraea); Weigela (Weigela); Daylily (Hemerocallis)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Quickly reaches 10 to 15 ft. tall and 4 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949399231&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Conifer; prized for foliage.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Handsome bright golden, aromatic foliage on a tall narrow pyramidal form creates a handsome vertical accent in the landscape. Thrives in full sun. Tolerant of limestone soils. Excellent specimen or planted in groupings to create an evergreen tapestry hedge.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly in extreme heat. Requires less water once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;7&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Fast Growing,Extreme Cold Hardiness,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Windbreak,Privacy Screen,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;048692&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04869&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Pinus mugo &apos;Carsten&apos;s Wintergold&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Pinus mugo &apos;Carsten&apos;s Wintergold&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Carsten&apos;s Wintergold Mugo Pine&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage Color&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Wildlife Garden,Specimen,Rock Garden,Mass Planting,Border,Japanese Maple (Acer); Winterberry (Ilex); Switch Grass (Panicum); Dogwood (Cornus); Barberry (Berberis)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Slow growing, 12 to 24 in. tall and slightly wider in ten years.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Prefers well-drained soil. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. May be watered deeply, less frequently, once established. Prune only new growth of the current season as needed.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949271193&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Conifer; prized for foliage.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;One of the finest of the gold-hued pines, on a dwarf form! Short, densely arranged needles are an attractive green in spring and summer, turning to a rich gold tone as cold weather arrives. Color is most intense in colder climates. Outstanding specimen in smaller gardens, or plant in groupings to make a bold statement in larger landscapes.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional deep watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;7&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;2&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care,Dramatic Foliage Color,Deer Resistant,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Specimen,Rock Garden,Mass Planting,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;048695&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04869&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Pinus mugo &apos;Carsten&apos;s Wintergold&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Pinus mugo &apos;Carsten&apos;s Wintergold&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Carsten&apos;s Wintergold Mugo Pine&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage Color&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Wildlife Garden,Specimen,Rock Garden,Mass Planting,Border,Japanese Maple (Acer); Winterberry (Ilex); Switch Grass (Panicum); Dogwood (Cornus); Barberry (Berberis)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Slow growing, 12 to 24 in. tall and slightly wider in ten years.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Prefers well-drained soil. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. May be watered deeply, less frequently, once established. Prune only new growth of the current season as needed.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949342732&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Conifer; prized for foliage.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;One of the finest of the gold-hued pines, on a dwarf form! Short, densely arranged needles are an attractive green in spring and summer, turning to a rich gold tone as cold weather arrives. Color is most intense in colder climates. Outstanding specimen in smaller gardens, or plant in groupings to make a bold statement in larger landscapes.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional deep watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;7&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;2&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care,Dramatic Foliage Color,Deer Resistant,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Specimen,Rock Garden,Mass Planting,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;048695PT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04869&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5PT&lt;/Size&gt;
+		&lt;SizeDescription&gt;Patio Tree&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Pinus mugo &apos;Carsten&apos;s Wintergold&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Pinus mugo &apos;Carsten&apos;s Wintergold&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Carsten&apos;s Wintergold Mugo Pine&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage Color&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Wildlife Garden,Specimen,Rock Garden,Mass Planting,Border,Japanese Maple (Acer); Winterberry (Ilex); Switch Grass (Panicum); Dogwood (Cornus); Barberry (Berberis)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Slow growing, 12 to 24 in. tall and slightly wider in ten years.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Prefers well-drained soil. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. May be watered deeply, less frequently, once established. Prune only new growth of the current season as needed.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949384565&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Conifer; prized for foliage.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;One of the finest of the gold-hued pines, on a dwarf form! Short, densely arranged needles are an attractive green in spring and summer, turning to a rich gold tone as cold weather arrives. Color is most intense in colder climates. Outstanding specimen in smaller gardens, or plant in groupings to make a bold statement in larger landscapes.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional deep watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;7&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;2&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care,Dramatic Foliage Color,Deer Resistant,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Specimen,Rock Garden,Mass Planting,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;047541&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04754&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Heuchera x &apos;Peach Flambe&apos; P.P.# 17195&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Heuchera x &apos;Peach Flambe&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Peach Flambe Coral Bells&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage Color&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Firescaping/Fire Wise,Border,Mass Planting,Ligularia (Ligularia); Hosta (Hosta); Astilbe (Astilbe); Snakeroot (Actaea); Painted Fern (Athyrium)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Clumping foliage to 7 in. tall, 14 in. wide; flower spikes to 16 in. tall.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide a rich, well-drained soil and water and fertilize regularly throughout the growing season. Sun tolerant in cooler northern climates and with consistent moisture; best with dappled sun elsewhere. For a neat appearance, remove old flower stalks. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949272862&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Expect multi-season interest with glowing bright peach-colored leaves infused with flaming red from spring to fall, turning to plum-purple as the weather cools. A superb companion with seasonal garden color. Provides bold texture and color contrast in mixed containers or borders in bright or dappled shade. Evergreen in mild winter climates.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, when top 3 in. of soil is dry.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Dramatic Foliage Color,Clump Forming,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Firescaping/Fire Wise,Border,Mass Planting&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;047541S&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04754&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1S&lt;/Size&gt;
+		&lt;SizeDescription&gt;SuperOne&amp;#8482;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Heuchera x &apos;Peach Flambe&apos; P.P.# 17195&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Heuchera x &apos;Peach Flambe&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Peach Flambe Coral Bells&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage Color&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Firescaping/Fire Wise,Border,Mass Planting,Ligularia (Ligularia); Hosta (Hosta); Astilbe (Astilbe); Snakeroot (Actaea); Painted Fern (Athyrium)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Forms a mounded foliage clump 7 in. tall, 14 in. wide; flower spikes to 16 in. tall.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide a rich, well-drained soil and water and fertilize regularly throughout the growing season. For a neat appearance, remove old flower stalks. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 gal. (3.79 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949255971&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Expect multi-season interest with glowing bright peach-colored leaves infused with flaming red from spring to fall, turning to plum-purple as the weather cools. A superb companion with seasonal garden color. Provides bold texture and color contrast in mixed containers or borders in bright or dappled shade. Evergreen in mild winter climates.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, when top 3 in. of soil is dry.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Dramatic Foliage Color,Clump Forming,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Firescaping/Fire Wise,Border,Mass Planting&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Tue, 09 Feb 2016 23:13:35 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

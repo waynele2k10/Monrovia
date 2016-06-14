@@ -1,0 +1,16 @@
+<form enctype="multipart/form-data" action="uploader.php" method="POST" target="upload">
+<input type="hidden" name="MAX_FILE_SIZE" value="1000000" />
+Choose a file to upload: <input name="file_path" type="file" id="file_path" /><br />
+<input type="hidden" name="base_name" value="1234_rose" />
+<input type="submit" value="Upload File" />
+</form>
+<iframe name="upload"></iframe>
+<script>
+	function upload_complete(success){
+		if(success){
+			alert('Done');
+		}else{
+			alert('An error occurred and your file was not uploaded.');
+		}
+	}
+</script>

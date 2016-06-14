@@ -1,0 +1,326 @@
+DATE/TIME: 2016-02-09 05:13:25
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-02-09 05:13:37
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 23832
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;058955&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05895&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Malus domestica Fuji&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Malus domestica Fuji&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Fuji Apple&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Edible Fruit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Specimen,Mass Planting,Kitchen Garden,Rosemary (Rosmarinus); Lavender (Lavandula); Russian Sage (Perovskia); Salvia (Salvia); Yarrow (Achillea)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 10 to 30 ft. tall and 10 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide enriched, well drained soil. Follow a regular watering schedule to develop a deep extensive root system. Once established, water deeply at regular intervals during the growing season. Feed before new growth begins in spring with an all purpose fertilizer. Prune as needed to remove dead wood and to maintain desired size.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949406199&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;One of the best home-grown apples, Fuji offers super crisp, sweet, and juicy fruit with skin that ranges from yellow-green with red highlights to mostly red. Exceptional for fresh eating. Stores well; great for baking. Ripens iin October. Plant a pollenizer such as Granny Smith, Honeycrisp&amp;#8482; or Red Delicious. Recommended chill: 350 - 400 hours.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly- weekly, or more often in extreme heat, until established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Extreme Cold Hardiness,Edible&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen,Mass Planting,Kitchen Garden&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;058955TR&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05895&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5TR&lt;/Size&gt;
+		&lt;SizeDescription&gt;Tree&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Malus domestica Fuji&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Malus domestica Fuji&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Fuji Apple&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Edible Fruit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Specimen,Mass Planting,Kitchen Garden,Rosemary (Rosmarinus); Lavender (Lavandula); Russian Sage (Perovskia); Salvia (Salvia); Yarrow (Achillea)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 10 to 30 ft. tall and 10 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide enriched, well drained soil. Follow a regular watering schedule to develop a deep extensive root system. Once established, water deeply at regular intervals during the growing season. Feed before new growth begins in spring with an all purpose fertilizer. Prune as needed to remove dead wood and to maintain desired size.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949312933&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;One of the best home-grown apples, Fuji offers super crisp, sweet, and juicy fruit with skin that ranges from yellow-green with red highlights to mostly red. Exceptional for fresh eating. Stores well; great for baking. Ripens iin October. Plant a pollenizer such as Granny Smith, Honeycrisp&amp;#8482; or Red Delicious. Recommended chill: 350 - 400 hours.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly- weekly, or more often in extreme heat, until established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Extreme Cold Hardiness,Edible&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen,Mass Planting,Kitchen Garden&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;058957&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05895&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;7&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Malus domestica Fuji&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Malus domestica Fuji&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Fuji Apple&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Edible Fruit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Specimen,Mass Planting,Kitchen Garden,Rosemary (Rosmarinus); Lavender (Lavandula); Russian Sage (Perovskia); Salvia (Salvia); Yarrow (Achillea)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 10 to 30 ft. tall and 10 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide enriched, well drained soil. Follow a regular watering schedule to develop a deep extensive root system. Once established, water deeply at regular intervals during the growing season. Feed before new growth begins in spring with an all purpose fertilizer. Prune as needed to remove dead wood and to maintain desired size.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;7&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;6.20 gal. (23.47 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949411216&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;One of the best home-grown apples, Fuji offers super crisp, sweet, and juicy fruit with skin that ranges from yellow-green with red highlights to mostly red. Exceptional for fresh eating. Stores well; great for baking. Ripens iin October. Plant a pollenizer such as Granny Smith, Honeycrisp&amp;#8482; or Red Delicious. Recommended chill: 350 - 400 hours.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly- weekly, or more often in extreme heat, until established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Extreme Cold Hardiness,Edible&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen,Mass Planting,Kitchen Garden&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;058957ES&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05895&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;7ES&lt;/Size&gt;
+		&lt;SizeDescription&gt;Espalier&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Malus domestica Fuji&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Malus domestica Fuji&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Fuji Apple&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Edible Fruit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Specimen,Mass Planting,Kitchen Garden,Rosemary (Rosmarinus); Lavender (Lavandula); Russian Sage (Perovskia); Salvia (Salvia); Yarrow (Achillea)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 10 to 30 ft. tall and 10 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide enriched, well drained soil. Follow a regular watering schedule to develop a deep extensive root system. Once established, water deeply at regular intervals during the growing season. Feed before new growth begins in spring with an all purpose fertilizer. Prune as needed to remove dead wood and to maintain desired size.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;7&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;6.20 gal. (23.47 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949406205&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;One of the best home-grown apples, Fuji offers super crisp, sweet, and juicy fruit with skin that ranges from yellow-green with red highlights to mostly red. Exceptional for fresh eating. Stores well; great for baking. Ripens iin October. Plant a pollenizer such as Granny Smith, Honeycrisp&amp;#8482; or Red Delicious. Recommended chill: 350 - 400 hours.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly- weekly, or more often in extreme heat, until established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Extreme Cold Hardiness,Edible&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen,Mass Planting,Kitchen Garden&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;05895MT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05895&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;MT&lt;/Size&gt;
+		&lt;SizeDescription&gt;Tall&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Malus domestica Fuji&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Malus domestica Fuji&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Fuji Apple&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Edible Fruit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Specimen,Mass Planting,Kitchen Garden,Rosemary (Rosmarinus); Lavender (Lavandula); Russian Sage (Perovskia); Salvia (Salvia); Yarrow (Achillea)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 10 to 30 ft. tall and 10 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide enriched, well drained soil. Follow a regular watering schedule to develop a deep extensive root system. Once established, water deeply at regular intervals during the growing season. Feed before new growth begins in spring with an all purpose fertilizer. Prune as needed to remove dead wood and to maintain desired size.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;10&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;7.97 gal. (30.17 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949312957&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;One of the best home-grown apples, Fuji offers super crisp, sweet, and juicy fruit with skin that ranges from yellow-green with red highlights to mostly red. Exceptional for fresh eating. Stores well; great for baking. Ripens iin October. Plant a pollenizer such as Granny Smith, Honeycrisp&amp;#8482; or Red Delicious. Recommended chill: 350 - 400 hours.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly- weekly, or more often in extreme heat, until established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Extreme Cold Hardiness,Edible&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen,Mass Planting,Kitchen Garden&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;090471&lt;/ItemSizeID&gt;
+		&lt;Item&gt;09047&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Salvia x &apos;Amistad&apos; P.P.#23,578&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Salvia x &apos;Amistad&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Friendship Sage&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Long Bloom Season&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rock Garden,Container,Border,Avens (Geum); Shasta Daisy (Chrysanthemum); Tickseed (Coreopsis); Beardtongue (Penstemon); Bee Balm (Monarda)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Quickly reaches 3 to 4 ft. tall and 3 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Easily grown in average, well drained soil. Apply a balanced slow release fertilizer in spring. Clip spent flowers to promote continued bloom. May be root hardy to Zone 7, if given winter protection. Prune to 3-4 inches above ground before new growth appears in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949381359&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring to first frost&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This exciting new hybrid is a true garden gem, blooming non-stop from early spring until frost. Large, deep royal purple flowers with dark bracts, on dense, vigorous plants. A fine garden or container accent, but stunning when massed in a border. Adored by butterflies and hummingbirds.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Best with regular watering- weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;090471S&lt;/ItemSizeID&gt;
+		&lt;Item&gt;09047&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1S&lt;/Size&gt;
+		&lt;SizeDescription&gt;SuperOne&amp;#8482;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Salvia x &apos;Amistad&apos; P.P.#23,578&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Salvia x &apos;Amistad&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Friendship Sage&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Long Bloom Season&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rock Garden,Container,Border,Avens (Geum); Shasta Daisy (Chrysanthemum); Tickseed (Coreopsis); Beardtongue (Penstemon); Bee Balm (Monarda)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Quickly reaches 3 to 4 ft. tall and 3 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Easily grown in average, well drained soil. Apply a balanced slow release fertilizer in spring. Clip spent flowers to promote continued bloom. May be root hardy to Zone 7, if given winter protection. Prune to 3-4 inches above ground before new growth appears in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 gal. (3.79 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949379103&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring to first frost&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This exciting new hybrid is a true garden gem, blooming non-stop from early spring until frost. Large, deep royal purple flowers with dark bracts, on dense, vigorous plants. A fine garden or container accent, but stunning when massed in a border. Adored by butterflies and hummingbirds.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Best with regular watering- weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;090472&lt;/ItemSizeID&gt;
+		&lt;Item&gt;09047&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Salvia x &apos;Amistad&apos; P.P.#23,578&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Salvia x &apos;Amistad&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Friendship Sage&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Long Bloom Season&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rock Garden,Container,Border,Avens (Geum); Shasta Daisy (Chrysanthemum); Tickseed (Coreopsis); Beardtongue (Penstemon); Bee Balm (Monarda)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Quickly reaches 3 to 4 ft. tall and 3 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Easily grown in average, well drained soil. Apply a balanced slow release fertilizer in spring. Clip spent flowers to promote continued bloom. May be root hardy to Zone 7, if given winter protection. Prune to 3-4 inches above ground before new growth appears in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949377741&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring to first frost&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This exciting new hybrid is a true garden gem, blooming non-stop from early spring until frost. Large, deep royal purple flowers with dark bracts, on dense, vigorous plants. A fine garden or container accent, but stunning when massed in a border. Adored by butterflies and hummingbirds.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Best with regular watering- weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;076951&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07695&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Xylosma congestum&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Xylosma congestum&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Shiny Xylosma&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Hedge Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Windbreak,Privacy Screen,Espalier,Container,Shrub Rose (Rosa); Passion Vine (Passiflora); Purple Hopseed Bush (Dodonaea); Lantana (Lantana); Crape Myrtle (Lagerstroemia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 10 to 12 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Water deeply, less frequently, once established. Feed with a general purpose fertilizer before new growth begins in spring. For a tidy, neat appearance, shear annually to shape.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949769515&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicuous&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Versatile hedge or screening plant displays bronzy young foliage on spreading, gracefully arching branches. Takes shearing well, easily trained as espalier. Tolerates heat. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly- weekly, or more often in extreme heat; less often, once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Tolerates Poor Soils,Ornamental Berries,Easy Care,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Windbreak,Privacy Screen,Espalier,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;076955&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07695&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Xylosma congestum&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Xylosma congestum&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Shiny Xylosma&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Hedge Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Windbreak,Privacy Screen,Espalier,Container,Shrub Rose (Rosa); Passion Vine (Passiflora); Purple Hopseed Bush (Dodonaea); Lantana (Lantana); Crape Myrtle (Lagerstroemia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 10 to 12 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. For a tidy, neat appearance, shear annually to shape.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949769553&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicuous&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Versatile hedge or screening plant displays bronzy young foliage on spreading, gracefully arching branches. Takes shearing well, easily trained as espalier. Tolerates heat. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly- weekly, or more often in extreme heat; less often, once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Tolerates Poor Soils,Ornamental Berries,Easy Care,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Windbreak,Privacy Screen,Espalier,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Tue, 09 Feb 2016 05:13:36 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

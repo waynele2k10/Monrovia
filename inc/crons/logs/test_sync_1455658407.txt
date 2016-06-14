@@ -1,0 +1,181 @@
+DATE/TIME: 2016-02-16 21:33:27
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-02-16 21:33:34
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 12535
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;049781&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04978&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Azara microphylla &apos;Variegata&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Azara microphylla &apos;Variegata&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Variegated Box-Leaf Azara&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Specimen,Mass Planting,Hedge,Espalier,Container,Hydrangea (Hydrangea); Sarcococca (Sweet Box); Spikenard (Aralia); Fuchsia (Fuchsia); Agapanthus (Agapanthus)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 15 to 25 ft. tall and 8 to 10 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Best in cooler coastal gardens as it suffers in inland hot locations. Responds well to pruning and can be shaped as needed. Site in a sheltered location in cool sun or part shade.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949339985&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring blooms produce orange berries for late summer and fall interest.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Tiny evergreen leaves, broadly variegated with creamy white, accentuate the graceful form of this choice selection. Arching branches bear clusters of tiny, intensely scented flowers, exuding a white chocolate-like fragrance. An outstanding choice as a small tree, effortless espalier, or container specimen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Ornamental Berries,Fall Color,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Mass Planting,Hedge,Espalier,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;049782&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04978&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Azara microphylla &apos;Variegata&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Azara microphylla &apos;Variegata&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Variegated Box-Leaf Azara&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Specimen,Mass Planting,Hedge,Espalier,Container,Hydrangea (Hydrangea); Sarcococca (Sweet Box); Spikenard (Aralia); Fuchsia (Fuchsia); Agapanthus (Agapanthus)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 15 to 25 ft. tall and 8 to 10 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Best in cooler coastal gardens as it suffers in inland hot locations. Responds well to pruning and can be shaped as needed. Site in a sheltered location in cool sun or part shade.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949282526&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring blooms produce orange berries for late summer and fall interest.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Tiny evergreen leaves, broadly variegated with creamy white, accentuate the graceful form of this choice selection. Arching branches bear clusters of tiny, intensely scented flowers, exuding a white chocolate-like fragrance. An outstanding choice as a small tree, effortless espalier, or container specimen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Ornamental Berries,Fall Color,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Mass Planting,Hedge,Espalier,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;049785&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04978&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Azara microphylla &apos;Variegata&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Azara microphylla &apos;Variegata&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Variegated Box-Leaf Azara&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Specimen,Mass Planting,Hedge,Espalier,Container,Hydrangea (Hydrangea); Sarcococca (Sweet Box); Spikenard (Aralia); Fuchsia (Fuchsia); Agapanthus (Agapanthus)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 15 to 25 ft. tall and 8 to 10 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Best in cooler coastal gardens as it suffers in inland hot locations. Responds well to pruning and can be shaped as needed. Site in a sheltered location in cool sun or part shade.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949282533&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring blooms produce orange berries for late summer and fall interest.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Tiny evergreen leaves, broadly variegated with creamy white, accentuate the graceful form of this choice selection. Arching branches bear clusters of tiny, intensely scented flowers, exuding a white chocolate-like fragrance. An outstanding choice as a small tree, effortless espalier, or container specimen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Ornamental Berries,Fall Color,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Mass Planting,Hedge,Espalier,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;049772&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04977&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Azara microphylla&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Azara microphylla&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Box-Leaf Azara&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Hedge Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Urban Garden,Specimen,Privacy Screen,Mass Planting,Hedge,Espalier,Container,Hydrangea (Hydrangea); Sarcococca (Sweet Box); Spikenard (Aralia); Fuchsia (Fuchsia); Agapanthus (Agapanthus)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast growing, 18 to 25 ft. tall and 12 ft. wide in 10 years.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Prefers well-drained, humus-rich soil but adaptable to varied soil conditions. Best when sheltered from cold, drying winds. Responds well to pruning. Prune in late winter or early spring after flowering.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949375273&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Mid- to late winter.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;White-chocolate fragrance fills the late winter garden from the tiny yellow flower clusters on this graceful, shade tolerant shrub. Ideal between structures or under trees, or as a privacy screen or an informal hedge. Artistically layered branching with evergreen foliage is often accented with shiny berries after flowering.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Filtered to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Ornamental Berries,Fast Growing,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Urban Garden,Specimen,Privacy Screen,Mass Planting,Hedge,Espalier,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;049775&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04977&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Azara microphylla&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Azara microphylla&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Box-Leaf Azara&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Hedge Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Urban Garden,Specimen,Privacy Screen,Mass Planting,Hedge,Espalier,Container,Hydrangea (Hydrangea); Sarcococca (Sweet Box); Spikenard (Aralia); Fuchsia (Fuchsia); Agapanthus (Agapanthus)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast growing, 18 to 25 ft. tall and 12 ft. wide in 10 years.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Prefers well-drained, humus-rich soil but adaptable to varied soil conditions. Best when sheltered from cold, drying winds. Responds well to pruning. Prune in late winter or early spring after flowering.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949288542&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Mid- to late winter.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;White-chocolate fragrance fills the late winter garden from the tiny yellow flower clusters on this graceful, shade tolerant shrub. Ideal between structures or under trees, or as a privacy screen or an informal hedge. Artistically layered branching with evergreen foliage is often accented with shiny berries after flowering.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Filtered to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Ornamental Berries,Fast Growing,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Urban Garden,Specimen,Privacy Screen,Mass Planting,Hedge,Espalier,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Tue, 16 Feb 2016 21:33:32 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

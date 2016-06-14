@@ -1,0 +1,152 @@
+DATE/TIME: 2016-02-04 12:52:39
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-02-04 12:52:45
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 9891
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;084121&lt;/ItemSizeID&gt;
+		&lt;Item&gt;08412&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Cuphea micropetala&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Cuphea micropetala&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Candy Corn Plant&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Rock Garden Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rock Garden,Mass Planting,Container,Border,Lantana (Lantana); Hibiscus (Hibiscus); Princess Flower (Tibouchina); Plumbago (Plumbago); Purple Fountain Grass (Pennisetum)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 1 to 3 ft. tall and 1 to 2 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Cut to the ground in late winter to early spring to keep plant tidy. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949379523&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer to fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Small evergreen shrub that grows with narrow foliage surrounding the red central stem. From late summer into late fall, tubular flowers emerge yellow and age to orange from the base outward, giving a two-toned effect. Spreads by clumping habit. Often grown and enjoyed as an annual.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care,Dense Habit&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;082571&lt;/ItemSizeID&gt;
+		&lt;Item&gt;08257&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Gazania krebsiana&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Gazania krebsiana&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Tanager&amp;#174; Terracotta Gazania&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Groundcover&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Wildlife Garden,Mass Planting,Ground Cover,Container,Border,Blanket Flower (Gaillardia); Carpet Bugle (Ajuga); Tickseed (Coreopsis); Sedum (Sedum); Salvia (Salvia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Low spreading growth to 4 in. high and 10 in.wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Adapts to varied soil types, and moderate to low moisture. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. As a ground cover, space plants 6 to 10 inches apart. Control weeds until the plants have filled in. Feed with a general purpose fertilizer when new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949368046&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Blooms spring through fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This tough and hardy selection features brilliant florescent-orange daisy-like blooms from earliest spring to late autumn. Glossy, dark green leaves develop a deep purple tinge in the winter months. Forms a low, spreading mat.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;6&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Tolerates Poor Soils,Fast Growing,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Mass Planting,Ground Cover,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;077911&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07791&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Senecio vitalis &apos;Serpents&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Senecio vitalis &apos;Serpents&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Serpents Blue Chalk Fingers&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Easy Care Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rock Garden,Mass Planting,Green Wall,Green Roof,Border,Sedum (Sedum); Red Yucca (Hesperaloe); Hens &amp;amp; Chicks (Sempervivum); Creeping Phlox (Phlox); Kalanchoe (Kalanchoe)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 18 in. tall, spreading 2 to 3 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide a well drained soil and water regularly during the first growing season to establish a deep, extensive root system. Do not over-water. Once established, water infrequently during the hot summer months.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949356791&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Insignificant flowers.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Densely packed narrow blue-green succulent leaves grow in a symmetrical fashion from sprawling fleshy stems. Striking texture and color, perfect for massing in a sunny, low-water garden. Carefree, drought tolerant, and highly adaptable. Great container accent. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional water.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;10&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care,Tolerates Poor Soils,Fast Growing&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Mass Planting,Green Wall,Green Roof,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;07791UT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07791&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;UT&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Senecio vitalis &apos;Serpents&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Senecio vitalis &apos;Serpents&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Serpents Blue Chalk Fingers&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Easy Care Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rock Garden,Mass Planting,Green Wall,Green Roof,Border,Sedum (Sedum); Red Yucca (Hesperaloe); Hens &amp;amp; Chicks (Sempervivum); Creeping Phlox (Phlox); Kalanchoe (Kalanchoe)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 18 in. tall, spreading 2 to 3 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide a well drained soil and water regularly during the first growing season to establish a deep, extensive root system. Do not over-water. Once established, water infrequently during the hot summer months.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;QT&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 qt. (946 mL)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949356807&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Insignificant flowers.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Densely packed narrow blue-green succulent leaves grow in a symmetrical fashion from sprawling fleshy stems. Striking texture and color, perfect for massing in a sunny, low-water garden. Carefree, drought tolerant, and highly adaptable. Great container accent. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional water.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;10&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care,Tolerates Poor Soils,Fast Growing&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Mass Planting,Green Wall,Green Roof,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 04 Feb 2016 12:52:45 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

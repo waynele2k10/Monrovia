@@ -1,0 +1,181 @@
+DATE/TIME: 2016-01-31 17:33:28
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-01-31 17:33:34
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 11836
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;077801&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07780&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Aloe hybrid&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Aloe hybrid&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Retro Succulents&amp;#174; Carmine&amp;#8482; Aloe&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Waterwise&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rock Garden,Houseplant,Green Roof,Container,Border,Agave (Agave); Red Yucca (Hesperaloe); Hens &amp;amp; Chicks (Sempervivum); Sedum (Sedum); Kalanchoe (Kalanchoe)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Slow growing to 8 to 10 inches tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide a well-drained soil in full sun to partial shade. Once established, needs only occasional water during the warm season. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949356623&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Rarely blooms.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Striking succulent with orange-stippled, pale green foliage and bright orange-red fringed leaf edges. This handsome, clumping, heat and drought tolerant hybrid makes a colorful addition to rock gardens, and xeriscapes. Performs well indoors and or out. A must-have for the succulent collector!&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional water.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Tolerates Poor Soils,Easy Care,Dramatic Foliage Color,Clump Forming&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Houseplant,Green Roof,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;069691&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06969&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Russelia equisetiformis&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Russelia equisetiformis&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Firecracker Plant&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Attracts Hummingbirds&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Mass Planting,Container,Border,Lantana (Lantana); Hibiscus (Hibiscus); Princess Flower (Tibouchina); Cordyline (Cordyline); Purple Fountain Grass (Pennisetum)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 3 to 5 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide rich, well drained soil in full sun. Best with part shade in hot inland areas. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Fertilize regularly. Prune in late winter or early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949377734&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring through fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Clusters of scarlet tubular flowers resembling small firecrackers provide reliable color from spring through fall. Slender, rush-like stems start out erect, then fall over into long, showy cascades. A must-have for tropical butterfly gardens. Great for border, trained to trellis, or spilling out of containers. Loved by hummingbirds.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, when top 3 in. of soil is dry.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;069691S&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06969&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1S&lt;/Size&gt;
+		&lt;SizeDescription&gt;SuperOne&amp;#8482;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Russelia equisetiformis&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Russelia equisetiformis&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Firecracker Plant&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Attracts Hummingbirds&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Mass Planting,Container,Border,Lantana (Lantana); Hibiscus (Hibiscus); Princess Flower (Tibouchina); Cordyline (Cordyline); Purple Fountain Grass (Pennisetum)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 3 to 5 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide rich, well drained soil in full sun. Best with part shade in hot inland areas. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Fertilize regularly. Prune in late winter or early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 gal. (3.79 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949353288&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring through fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Clusters of scarlet tubular flowers resembling small firecrackers provide reliable color from spring through fall. Slender, rush-like stems start out erect, then fall over into long, showy cascades. A must-have for tropical butterfly gardens. Great for border, trained to trellis, or spilling out of containers. Loved by hummingbirds.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, when top 3 in. of soil is dry.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;069501&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06950&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Opuntia basilaris hyb. &apos;Baby Rita&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Opuntia basilaris hyb. &apos;Baby Rita&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Baby Rita Prickly Pear&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Waterwise&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rock Garden,Firescaping/Fire Wise,Container,Aloe (Aloe); Red Yucca (Hesperaloe); Hens &amp;amp; Chicks (Sempervivum); Sedum (Sedum); Kalanchoe (Kalanchoe)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Slow grower to 8 in. tall, spreading to 24 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949338735&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Exceptional heat-loving dwarf hybrid with brilliant carmine colored flowers in a small padded, purple skinned prickly pear. Thrives from the coast to inland deserts, and even into high altitude mountain areas! Loaded with spring blooms, the purple foliage intensifies in winter.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Firescaping/Fire Wise,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;069502&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06950&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Opuntia basilaris hyb. &apos;Baby Rita&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Opuntia basilaris hyb. &apos;Baby Rita&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Baby Rita Prickly Pear&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Waterwise&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rock Garden,Firescaping/Fire Wise,Container,Aloe (Aloe); Red Yucca (Hesperaloe); Hens &amp;amp; Chicks (Sempervivum); Sedum (Sedum); Kalanchoe (Kalanchoe)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Slow grower to 8 in. tall, spreading to 24 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949328385&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Exceptional heat-loving dwarf hybrid with brilliant carmine colored flowers in a small padded, purple skinned prickly pear. Thrives from the coast to inland deserts, and even into high altitude mountain areas! Loaded with spring blooms, the purple foliage intensifies in winter.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Firescaping/Fire Wise,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Sun, 31 Jan 2016 17:33:34 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

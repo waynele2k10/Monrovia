@@ -1,0 +1,181 @@
+DATE/TIME: 2016-02-09 22:53:12
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-02-09 22:53:18
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 12898
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;056011&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05601&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Zauschneria californica &apos;Ghostly Red&apos; (syn. Epilobium canum)&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Zauschneria californica &apos;Ghostly Red&apos; (syn. Epilobium canum)&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Ghostly Red California Fuchsia&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;North American Native&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Wildlife Garden,Rock Garden,Mass Planting,Firescaping/Fire Wise,Erosion Control,Coastal Exposure,Border,Salvia (Salvia); Agave (Agave); Coneflower (Echinacea); Russian Sage (Perovskia); Catmint (Nepeta)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 1 to 2 ft. tall, spreading 3 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Tolerant of most soil types. Water regularly during the first growing season to establish a deep, extensive root system. Requires less water when established and will even tolerate some drought. Best with part shade in hot summer inland areas; full sun with little summer water in cooler coastal areas. Prune lightly in early spring to encourage dense growth and heavier bloom.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949287200&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late summer through fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;The most vivid red of the California fuchias! This highly adaptable shrub-like perennial with fuzzy, grey green foliage makes a wonderful ground cover for slopes and natural gardens, offering valuable nectar to hummingbird and butterflies while resisting grazing by deer. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,North American Native Selection,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Deer Resistant&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Rock Garden,Mass Planting,Firescaping/Fire Wise,Erosion Control,Coastal Exposure,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;033261&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03326&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Picea engelmannii &apos;Bush&apos;s Lace&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Picea engelmannii &apos;Bush&apos;s Lace&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Bush&apos;s Lace Engleman Spruce&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Year-Round Interest&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Specimen,Privacy Screen,Spirea (Spiraea); Weigela (Weigela); Carpet Rose (Rosa); Sedge (Carex); Salvia (Salvia); Shasta Daisy (Chrysanthemum)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Slow growing, to 6 ft. tall and 4 ft. wide in 10 years; to 15 ft. tall with age.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide enriched, well-drained soil. Thrives in cool, moist, acidic sites west of the Cascades Mountain range. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Avoid very dry soils.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949274590&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Conifer; prized for foliage.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A superb conifer for smaller gardens. Upright growing, with pendulous branches that create a gray-blue skirt around the base of the tree as it ages. Blue foliage and habit provide a handsome presence in the landscape. Better tolerance to spruce spider mites than other spruce species. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly- weekly or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Extreme Cold Hardiness,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Privacy Screen&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;033265&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03326&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Picea engelmannii &apos;Bush&apos;s Lace&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Picea engelmannii &apos;Bush&apos;s Lace&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Bush&apos;s Lace Engleman Spruce&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Year-Round Interest&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Specimen,Privacy Screen,Spirea (Spiraea); Weigela (Weigela); Carpet Rose (Rosa); Sedge (Carex); Salvia (Salvia); Shasta Daisy (Chrysanthemum)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Slow growing, to 6 ft. tall and 4 ft. wide in 10 years; to 15 ft. tall with age.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide enriched, well-drained soil. Thrives in cool, moist, acidic sites west of the Cascades Mountain range. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Avoid very dry soils.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949274606&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Conifer; prized for foliage.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A superb conifer for smaller gardens. Upright growing, with pendulous branches that create a gray-blue skirt around the base of the tree as it ages. Blue foliage and habit provide a handsome presence in the landscape. Better tolerance to spruce spider mites than other spruce species. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly- weekly or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Extreme Cold Hardiness,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Privacy Screen&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;033267&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03326&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;7&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Picea engelmannii &apos;Bush&apos;s Lace&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Picea engelmannii &apos;Bush&apos;s Lace&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Bush&apos;s Lace Engleman Spruce&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Year-Round Interest&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Specimen,Privacy Screen,Spirea (Spiraea); Weigela (Weigela); Carpet Rose (Rosa); Sedge (Carex); Salvia (Salvia); Shasta Daisy (Chrysanthemum)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Slow growing, to 6 ft. tall and 4 ft. wide in 10 years; to 15 ft. tall with age.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide enriched, well-drained soil. Thrives in cool, moist, acidic sites west of the Cascades Mountain range. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Avoid very dry soils.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;7&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;6.20 gal. (23.47 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949266991&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Conifer; prized for foliage.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A superb conifer for smaller gardens. Upright growing, with pendulous branches that create a gray-blue skirt around the base of the tree as it ages. Blue foliage and habit provide a handsome presence in the landscape. Better tolerance to spruce spider mites than other spruce species. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly- weekly or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Extreme Cold Hardiness,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Privacy Screen&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;03326M&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03326&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;M&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Picea engelmannii &apos;Bush&apos;s Lace&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Picea engelmannii &apos;Bush&apos;s Lace&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Bush&apos;s Lace Engleman Spruce&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Year-Round Interest&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Woodland Garden,Specimen,Privacy Screen,Spirea (Spiraea); Weigela (Weigela); Carpet Rose (Rosa); Sedge (Carex); Salvia (Salvia); Shasta Daisy (Chrysanthemum)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Slow growing, to 6 ft. tall and 4 ft. wide in 10 years; to 15 ft. tall with age.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide enriched, well-drained soil. Thrives in cool, moist, acidic sites west of the Cascades Mountain range. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Avoid very dry soils.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;10&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;7.97 gal. (30.17 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949270592&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Conifer; prized for foliage.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A superb conifer for smaller gardens. Upright growing, with pendulous branches that create a gray-blue skirt around the base of the tree as it ages. Blue foliage and habit provide a handsome presence in the landscape. Better tolerance to spruce spider mites than other spruce species. Evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly- weekly or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Extreme Cold Hardiness,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Privacy Screen&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Tue, 09 Feb 2016 22:53:17 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

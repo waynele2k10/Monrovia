@@ -1,0 +1,207 @@
+DATE/TIME: 2016-04-06 16:53:40
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-04-06 16:53:51
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 14108
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;401812&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40181&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Chamaecyparis pisifera &apos;Paul&apos;s Gold&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Chamaecyparis pisifera &apos;Paul&apos;s Gold&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Paul&apos;s Gold Mop Cypress&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Year-Round Interest&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Slow grower to 5 ft. tall and 6 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. For a tidy, neat appearance, shear annually to shape.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949389751&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Conifer; prized for foliage.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Grown for its year round golden foliage and its tight compact growing habit. Periodic pruning of the top leader will help the plant maintain a mounding habit. Drought resistant, will not tolerate wet feet. This variety will add instant color to any landscape.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Easy Care,Dramatic Foliage Color,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen,Rock Garden,Border,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;401813&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40181&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;3&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Chamaecyparis pisifera &apos;Paul&apos;s Gold&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Chamaecyparis pisifera &apos;Paul&apos;s Gold&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Paul&apos;s Gold Mop Cypress&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Year-Round Interest&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Slow grower to 5 ft. tall and 6 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. For a tidy, neat appearance, shear annually to shape.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;3&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.54 gal. (9.61 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949389768&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Conifer; prized for foliage.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Grown for its year round golden foliage and its tight compact growing habit. Periodic pruning of the top leader will help the plant maintain a mounding habit. Drought resistant, will not tolerate wet feet. This variety will add instant color to any landscape.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Easy Care,Dramatic Foliage Color,Deer Resistant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen,Rock Garden,Border,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;034161&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03416&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Carex testacea&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Carex testacea&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Orange New Zealand Sedge&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Year-Round Interest&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Astilbe (Astilbe); Ligularia (Ligularia); Foam Flower (Tiarella); Bugbane (Cimicifuga); Iris (Iris)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Mounding form 18 to 24 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide well-drained, evenly moist soil. Water regularly during the first growing season to establish a deep, extensive root system. Benefits from some shade in hot summer areas. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949314678&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Insignificant; prized for foliage.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Finely textured, bronze-green leaves age to electric orange in the cool season. The elegant, arching, mounding form is a beautiful garden accent, ideal for containers, massing in borders or spilling over rocks. Deer and rabbit resistant.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;6&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Tolerates Wet Soils,Dramatic Foliage Color,Deer Resistant,Fall Color,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Very Wet Areas,Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Water Garden,Very Wet Areas,Mass Planting,Ground Cover,Green Roof,Container,Border,Erosion Control&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;034162&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03416&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Carex testacea&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Carex testacea&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Orange New Zealand Sedge&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Year-Round Interest&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Astilbe (Astilbe); Ligularia (Ligularia); Foam Flower (Tiarella); Bugbane (Cimicifuga); Iris (Iris)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Mounding form 18 to 24 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide well-drained, evenly moist soil. Water regularly during the first growing season to establish a deep, extensive root system. Benefits from some shade in hot summer areas. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949314685&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Insignificant; prized for foliage.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Finely textured, bronze-green leaves age to electric orange in the cool season. The elegant, arching, mounding form is a beautiful garden accent, ideal for containers, massing in borders or spilling over rocks. Deer and rabbit resistant.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;6&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Tolerates Wet Soils,Dramatic Foliage Color,Deer Resistant,Fall Color,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Very Wet Areas,Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Water Garden,Very Wet Areas,Mass Planting,Ground Cover,Green Roof,Container,Border,Erosion Control&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;03416UT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03416&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;UT&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Carex testacea&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Carex testacea&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Orange New Zealand Sedge&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Year-Round Interest&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Astilbe (Astilbe); Ligularia (Ligularia); Foam Flower (Tiarella); Bugbane (Cimicifuga); Iris (Iris)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Mounding form 15 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;QT&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 qt. (946 mL)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949201107&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Insignificant; prized for foliage.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Finely textured, bronze-green leaves age to electric orange in the cool season. The elegant, arching, mounding form is a beautiful garden accent, ideal for containers, massing in borders or spilling over rocks. Deer and rabbit resistant.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;6&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Tolerates Wet Soils,Dramatic Foliage Color,Deer Resistant,Fall Color,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Very Wet Areas,Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Water Garden,Very Wet Areas,Mass Planting,Ground Cover,Green Roof,Container,Border,Erosion Control&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;30031&lt;/ItemSizeID&gt;
+		&lt;Item&gt;30031&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;LOWES&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Carex testacea&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Carex testacea&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Orange New Zealand Sedge&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Year-Round Interest&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Mounding form 18 to 24 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide well-drained, evenly moist soil. Water regularly during the first growing season to establish a deep, extensive root system. Benefits from some shade in hot summer areas. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Insignificant; prized for foliage.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Finely textured, bronze-green leaves age to electric orange in the cool season. The elegant, arching, mounding form is a beautiful garden accent, ideal for containers, massing in borders or spilling over rocks. Deer and rabbit resistant.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;6&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Tolerates Wet Soils,Fall Color,Easy Care,Dramatic Foliage Color,Deer Resistant,Year-round Interest&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Very Wet Areas,Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Ground Cover,Erosion Control,Container,Border,Green Roof,Very Wet Areas,Water Garden&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 06 Apr 2016 16:53:51 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

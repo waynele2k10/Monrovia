@@ -1,0 +1,181 @@
+DATE/TIME: 2016-02-04 10:33:35
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-02-04 10:33:45
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 12868
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;054851&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05485&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Zauschneria californica &apos;Catalina&apos; (syn. Epilobium canum)&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Zauschneria californica &apos;Catalina&apos; (syn. Epilobium canum)&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Catalina California Fuchsia&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Waterwise&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rock Garden,Poolside,Mass Planting,Firescaping/Fire Wise,Erosion Control,Border,Lantana (Lantana); Hibiscus (Hibiscus); Princess Flower (Tibouchina); Plumbago (Plumbago); Purple Fountain Grass (Pennisetum)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 3 to 5 ft. tall, 3 to 4 ft. wide&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide average, well drained soil. Drought tolerant when established; best with occasional to infrequent summer irrigation. In heavy or clay soils, take care not to over water. Feed with a general purpose fertilizer. Prune lightly in early spring to encourage dense, full growth and heavier bloom.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949348796&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer to fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This showy native perennial provides brilliant summer color with large, orange-red tubular flowers held on red tinged branches above soft, grey-green foliage. A must for attracting hummingbirds! Very adaptable to average garden conditions yet quite drought tolerant when established.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Tolerates Poor Soils,Naturalizes Well,Easy Care,Deer Resistant,North American Native Selection&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Poolside,Mass Planting,Firescaping/Fire Wise,Erosion Control,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;054781&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05478&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Cordyline x &apos;Seipin&apos; P.P.# 19,927&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Cordyline x &apos;Seipin&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Pink Passion Dracaena Palm&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage Color&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Container,Mass Planting,Border,Coastal Exposure,Mandevilla (Mandevilla); Mexican Heather (Cuphea); Verbena (Verbena); Lantana (Lantana); Canna (Canna)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 2 to 4 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide enriched, well-drained soil. Follow a regular watering schedule the first growing season to establish a deep, extensive root system. Tolerates brief drought when established. Remove old or damaged leaves as needed. In cooler climates, can be enjoyed outdoors, but move indoors before the threat of frost.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949319024&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Incredible, bold neon pink leaf margins and gray-purple centers make this a show-stopping specimen. Dramatic year-round foliage color makes this ideal for containers. Pairs sensationally with chartreuse or silver-hued Heucheras. Use as summer annual or overwinter indoors in cold climates. Evergreen perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water weekly, or more often in extreme heat; less often once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care,Dramatic Foliage Color,Year-round Interest&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Container,Mass Planting,Border,Coastal Exposure&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;054782&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05478&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Cordyline x &apos;Seipin&apos; P.P.# 19,927&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Cordyline x &apos;Seipin&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Pink Passion Dracaena Palm&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage Color&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Container,Mass Planting,Border,Coastal Exposure,Mandevilla (Mandevilla); Mexican Heather (Cuphea); Verbena (Verbena); Lantana (Lantana); Canna (Canna)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 2 to 4 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide enriched, well-drained soil. Follow a regular watering schedule the first growing season to establish a deep, extensive root system. Tolerates brief drought when established. Remove old or damaged leaves as needed. In cooler climates, can be enjoyed outdoors, but move indoors before the threat of frost.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949319031&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Incredible, bold neon pink leaf margins and gray-purple centers make this a show-stopping specimen. Dramatic year-round foliage color makes this ideal for containers. Pairs sensationally with chartreuse or silver-hued Heucheras. Use as summer annual or overwinter indoors in cold climates. Evergreen perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water weekly, or more often in extreme heat; less often once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care,Dramatic Foliage Color,Year-round Interest&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Container,Mass Planting,Border,Coastal Exposure&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;054785&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05478&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Cordyline x &apos;Seipin&apos; P.P.# 19,927&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Cordyline x &apos;Seipin&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Pink Passion Dracaena Palm&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage Color&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Container,Mass Planting,Border,Coastal Exposure,Mandevilla (Mandevilla); Mexican Heather (Cuphea); Verbena (Verbena); Lantana (Lantana); Canna (Canna)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 2 to 4 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide enriched, well-drained soil. Follow a regular watering schedule the first growing season to establish a deep, extensive root system. Tolerates brief drought when established. Remove old or damaged leaves as needed. In cooler climates, can be enjoyed outdoors, but move indoors before the threat of frost.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949319048&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Incredible, bold neon pink leaf margins and gray-purple centers make this a show-stopping specimen. Dramatic year-round foliage color makes this ideal for containers. Pairs sensationally with chartreuse or silver-hued Heucheras. Use as summer annual or overwinter indoors in cold climates. Evergreen perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water weekly, or more often in extreme heat; less often once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care,Dramatic Foliage Color,Year-round Interest&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Container,Mass Planting,Border,Coastal Exposure&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;05478UT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05478&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;UT&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Cordyline x &apos;Seipin&apos; P.P.# 19,927&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Cordyline x &apos;Seipin&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Pink Passion Dracaena Palm&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage Color&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Container,Mass Planting,Border,Coastal Exposure,Mandevilla (Mandevilla); Mexican Heather (Cuphea); Verbena (Verbena); Lantana (Lantana); Canna (Canna)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 2 to 4 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide enriched, well-drained soil. Follow a regular watering schedule the first growing season to establish a deep, extensive root system. Tolerates brief drought when established. Remove old or damaged leaves as needed. In cooler climates, can be enjoyed outdoors, but move indoors before the threat of frost.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;QT&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 qt. (946 mL)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949328903&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Incredible, bold neon pink leaf margins and gray-purple centers make this a show-stopping specimen. Dramatic year-round foliage color makes this ideal for containers. Pairs sensationally with chartreuse or silver-hued Heucheras. Use as summer annual or overwinter indoors in cold climates. Evergreen perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water weekly, or more often in extreme heat; less often once established.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care,Dramatic Foliage Color,Year-round Interest&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Container,Mass Planting,Border,Coastal Exposure&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 04 Feb 2016 10:33:44 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

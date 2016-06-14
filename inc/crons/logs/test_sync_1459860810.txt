@@ -1,0 +1,179 @@
+DATE/TIME: 2016-04-05 12:53:30
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-04-05 12:53:36
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 11926
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;018411&lt;/ItemSizeID&gt;
+		&lt;Item&gt;01841&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Coreopsis verticillata &apos;Main Street&apos; P.P.#24,562&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Coreopsis verticillata &apos;Main Street&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Main Street Tickseed (Cruizin&apos; Series)&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Waterwise Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Blanket Flower (Gaillardia); Salvia (Salvia); Aster (Aster); Black-Eyed-Susan (Rudbeckia); Sedum (Sedum)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 1 to 1&amp;#189; ft. tall, 2 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949384596&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer to fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;An superb selection with bright, ruby red flowers on a refined, airy form. Thrives in hot, sunny gardens, perfect for pots or perennial borders. A compact mound of thread-leaf foliage supports the profusion of blooms, providing a showy display from early summer until frost. Resists grazing from deer and rabbits.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,North American Native Selection,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Deer Resistant&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;018401&lt;/ItemSizeID&gt;
+		&lt;Item&gt;01840&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Coreopsis verticillata &apos;Broad Street&apos; P.P. #24,598&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Coreopsis verticillata &apos;Broad Street&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Broad Street Tickseed (Cruizin&apos; Series)&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Waterwise Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Blanket Flower (Gaillardia); Salvia (Salvia); Aster (Aster); Black-Eyed-Susan (Rudbeckia); Sedum (Sedum)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 1 to 1&amp;#189; ft. tall, 2 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949384589&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Thrives in hot, sunny gardens! A profusion of crimson red flowers with orange undertones on a refined, airy form makes a bold statement in pots or perennial borders. The rich, warm colors of the flowers are complemented by compact, thread-leaf foliage, providing a showy display from late spring until frost.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,North American Native Selection,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Mass Planting,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;01840UT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;01840&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;UT&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Coreopsis verticillata &apos;Broad Street&apos; P.P. #24,598&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Coreopsis verticillata &apos;Broad Street&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Broad Street Tickseed (Cruizin&apos; Series)&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Waterwise Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Blanket Flower (Gaillardia); Salvia (Salvia); Aster (Aster); Black-Eyed-Susan (Rudbeckia); Sedum (Sedum)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 1 to 1&amp;#189; ft. tall, 2 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;QT&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 qt. (946 mL)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949384572&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Thrives in hot, sunny gardens! A profusion of crimson red flowers with orange undertones on a refined, airy form makes a bold statement in pots or perennial borders. The rich, warm colors of the flowers are complemented by compact, thread-leaf foliage, providing a showy display from late spring until frost.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,North American Native Selection,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Mass Planting,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;087422&lt;/ItemSizeID&gt;
+		&lt;Item&gt;08742&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Alocasia &apos;Ivory Coast&apos; P.P.A.F.&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Alocasia &apos;Ivory Coast&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Ivory Coast Elephant Ears&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Tropical Foliage&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Upright growth to 3-4 ft. tall and 2-3 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Thrives in bright indirect light. Keep soil moist and add a controlled release fertilizer to the potting mix or garden soil. Remove dead or damaged leaves as required. Evergreen in frost-free areas. In cooler climates climates, enjoy outside during the summer months but move indoors before the threat of frost.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949378663&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Inconspicuous spadix-type flowers. Prized for foliage.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Distinctive arrow shaped green leaves have a silvery hue highlighted with light green veins, held by brown-streaked light pink petioles. Provides a lush, tropical effect indoors or outdoors near a pond or in a container on a patio or deck. Deer and rabbit resistant.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade to filtered sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly to keep soil surface moist, but not soggy.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;High&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Dramatic Foliage Color,Clump Forming&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Deer Resistant&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Houseplant,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;40157UT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40157&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;UT&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hosta x &apos;Mighty Mouse&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hosta x &apos;Mighty Mouse&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Mighty Mouse Hosta&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dramatic Foliage for Shade&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Compact clumping growth to 8 in. tall, 12 in. wide. Flower scapes reach 12 in. tall.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;QT&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 qt. (946 mL)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949385333&lt;/UPC&gt;
+		&lt;FlowerTime&gt;&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This small but mighty Hosta has superb, rounded blue-green leaves with a bright creamy-yellow margin. Foliage takes on more subtle tones by mid-summer, accented by lavender flowers. Excellent color and texture for containers or borders. Tolerant of exhaust and pollution, making it ideal for shady urban gardens.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full to partial shade&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Requires regular watering- weekly or more often in extreme heat, to maintain consistently moist soil.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;3&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Shade Loving,Dramatic Foliage Color&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Mass Planting,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Tue, 05 Apr 2016 12:53:32 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

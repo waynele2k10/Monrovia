@@ -1,0 +1,239 @@
+DATE/TIME: 2016-02-01 09:32:58
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-02-01 09:33:08
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 17369
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;029471&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02947&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Penstemon x mexicali Red Rocks&amp;#174;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Penstemon x mexicali Red Rocks&amp;#174;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Red Rocks&amp;#174; Penstemon&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Wildlife Garden,Mass Planting,Firescaping/Fire Wise,Container,Border,Russian Sage (Perovskia); Shasta Daisy (Chrysanthemum); Catmint (Nepeta); Sedum (Sedum); Salvia (Salvia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Foliage 1 to 2 ft. tall and 3 ft. wide; flower spikes to 3 ft. tall.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Performs best in moderately fertile, but well-drained soil. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Very drought tolerant once established. Shear mid- to late summer to allow a new flush of flowers into fall.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949265482&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Pink flowers summer through fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Tall, showy spikes of bright rose-red flowers rise above mounded foliage throughout summer. This adaptable native hybrid thrives in a wide range of soils and conditions. Makes a colorful impact in borders, meadows and naturalized gardens, where hummingbirds will flock to its nectar-rich flowers. A Plant Select&amp;#174; winner.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly in extreme heat for best performance.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Tolerates Poor Soils,North American Native Selection,Easy Care,Clump Forming,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Mass Planting,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;029471S&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02947&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1S&lt;/Size&gt;
+		&lt;SizeDescription&gt;SuperOne&amp;#8482;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Penstemon x mexicali Red Rocks&amp;#174;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Penstemon x mexicali Red Rocks&amp;#174;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Red Rocks&amp;#174; Penstemon&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Wildlife Garden,Mass Planting,Firescaping/Fire Wise,Container,Border,Russian Sage (Perovskia); Shasta Daisy (Chrysanthemum); Catmint (Nepeta); Sedum (Sedum); Salvia (Salvia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Clumps with flower spikes 12 to 36 in. tall and 3 ft. wide. &lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Drought tolerant once established. Shear mid- to late summer to allow a new flush of flowers into fall. Divide spring or fall when needed&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 gal. (3.79 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949089934&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Pink flowers summer through fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Tall, showy spikes of bright rose-red flowers rise above mounded foliage throughout summer. This adaptable native hybrid thrives in a wide range of soils and conditions. Makes a colorful impact in borders, meadows and naturalized gardens, where hummingbirds will flock to its nectar-rich flowers. A Plant Select&amp;#174; winner.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly in extreme heat for best performance.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Tolerates Poor Soils,North American Native Selection,Easy Care,Clump Forming,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Mass Planting,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;02947UT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02947&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;UT&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Penstemon x mexicali Red Rocks&amp;#174;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Penstemon x mexicali Red Rocks&amp;#174;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Red Rocks&amp;#174; Penstemon&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Wildlife Garden,Mass Planting,Firescaping/Fire Wise,Container,Border,Russian Sage (Perovskia); Shasta Daisy (Chrysanthemum); Catmint (Nepeta); Sedum (Sedum); Salvia (Salvia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Foliage 1 to 2 ft. tall and 3 ft. wide; flower spikes to 3 ft. tall.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Performs best in moderately fertile, but well-drained soil. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Very drought tolerant once established. Shear mid- to late summer to allow a new flush of flowers into fall.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;QT&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 qt. (946 mL)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949309605&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Pink flowers summer through fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Tall, showy spikes of bright rose-red flowers rise above mounded foliage throughout summer. This adaptable native hybrid thrives in a wide range of soils and conditions. Makes a colorful impact in borders, meadows and naturalized gardens, where hummingbirds will flock to its nectar-rich flowers. A Plant Select&amp;#174; winner.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly in extreme heat for best performance.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Tolerates Poor Soils,North American Native Selection,Easy Care,Clump Forming,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Mass Planting,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;081625&lt;/ItemSizeID&gt;
+		&lt;Item&gt;08162&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Nandina domestica &apos;Emerald Sea&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Nandina domestica &apos;Emerald Sea&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Emerald Sea Heavenly Bamboo&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Year-Round Interest&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Mass Planting,Container,Border,Abelia (Abelia); Rose (Rosa); Smoke Tree (Cotinus); Cryptomeria (Cryptomeria); Kohuhu (Pittosporum)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 4 to 5 ft. tall, 3 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949359556&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring to summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A new selection with stunning emerald green foliage! Soft and lacy leaves take on an occasional purplish cast. Strong upright habit, with foliage full to the base. Versatile and durable, effective as specimen plant, border or massed for intense color. Evergreen to semi-evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;6&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Fall Color,Easy Care,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;081627&lt;/ItemSizeID&gt;
+		&lt;Item&gt;08162&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;7&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Nandina domestica &apos;Emerald Sea&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Nandina domestica &apos;Emerald Sea&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Emerald Sea Heavenly Bamboo&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Year-Round Interest&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Mass Planting,Container,Border,Abelia (Abelia); Rose (Rosa); Smoke Tree (Cotinus); Cryptomeria (Cryptomeria); Kohuhu (Pittosporum)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 4 to 5 ft. tall, 3 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;7&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;6.20 gal. (23.47 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949359563&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring to summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A new selection with stunning emerald green foliage! Soft and lacy leaves take on an occasional purplish cast. Strong upright habit, with foliage full to the base. Versatile and durable, effective as specimen plant, border or massed for intense color. Evergreen to semi-evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;6&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Fall Color,Easy Care,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;081629&lt;/ItemSizeID&gt;
+		&lt;Item&gt;08162&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;9&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Nandina domestica &apos;Emerald Sea&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Nandina domestica &apos;Emerald Sea&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Emerald Sea Heavenly Bamboo&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Year-Round Interest&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Mass Planting,Container,Border,Abelia (Abelia); Rose (Rosa); Smoke Tree (Cotinus); Cryptomeria (Cryptomeria); Kohuhu (Pittosporum)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 4 to 5 ft. tall, 3 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;15&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;12.07 gal. (45.69 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949359570&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring to summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A new selection with stunning emerald green foliage! Soft and lacy leaves take on an occasional purplish cast. Strong upright habit, with foliage full to the base. Versatile and durable, effective as specimen plant, border or massed for intense color. Evergreen to semi-evergreen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;6&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Fall Color,Easy Care,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;412621&lt;/ItemSizeID&gt;
+		&lt;Item&gt;41262&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Echinacea purpurea &apos;Flamingo&apos; P.P. 24,898&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Echinacea purpurea &apos;Flamingo&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Supreme&amp;#8482; Flamingo Echinacea&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Long Bloom Season&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Cutting Garden,Container,Border,Wildlife Garden,Speedwell (Veronica); Shasta Daisy (Chrysanthemum); Tickseed (Coreopsis); Sedum (Sedum); Salvia (Salvia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 24-30 in. tall and 12-15 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide average, evenly moist, well drained soil. Clip spent flowers for a neat appearance and to promote repeat bloom. Cut back in fall after hard frost or leave dried seed heads through winter. Cut back old foliage and fertilize in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949423530&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Mid summer through fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Double, rich coral blooms with a shrimp-pink center on sturdy, upright stems.. Flowers are non-fading and long blooming from summer into fall. A perfect size plant for use in front or mid borders, urban gardens, and containers, Leave some of the showy seed heads on to attract birds.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Requires only occasional watering, once established in the landscape. Container plants require regular watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Cutting Garden,Container,Border,Wildlife Garden&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Mon, 01 Feb 2016 09:33:08 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

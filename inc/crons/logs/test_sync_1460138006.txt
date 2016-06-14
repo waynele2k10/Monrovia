@@ -1,0 +1,121 @@
+DATE/TIME: 2016-04-08 17:53:26
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-04-08 17:53:30
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 7112
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;044271&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04427&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Clematis viticella &apos;Evipo 008&apos; P.P.# 15,745&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Clematis viticella &apos;Evipo 008&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Franziska Maria&amp;#8482; Clematis&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Repeat Blooming&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 5-6 ft. tall, 2-3 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep extensive root system. Roots prefer a cool, shaded area, tops in the sun. Provide support such as trellis or arbor for vine-like stems to climb. Feed with a general purpose fertilizer.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949232392&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring through summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This exceptional free flowering, compact clematis produces beautifully shaped, double blue-purple flowers throughout summer to early autumn. Perfect for growing in containers in a smaller garden; and equally outstanding in the larger landscape, climbing a wall or mingled with taller variegated shrubs.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Espalier,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;044272&lt;/ItemSizeID&gt;
+		&lt;Item&gt;04427&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Clematis viticella &apos;Evipo 008&apos; P.P.# 15,745&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Clematis viticella &apos;Evipo 008&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Franziska Maria&amp;#8482; Clematis&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Repeat Blooming&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 5-6 ft. tall, 2-3 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep extensive root system. Roots prefer a cool, shaded area, tops in the sun. Provide support such as trellis or arbor for vine-like stems to climb. Feed with a general purpose fertilizer.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949232590&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring through summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This exceptional free flowering, compact clematis produces beautifully shaped, double blue-purple flowers throughout summer to early autumn. Perfect for growing in containers in a smaller garden; and equally outstanding in the larger landscape, climbing a wall or mingled with taller variegated shrubs.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Espalier,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;30038&lt;/ItemSizeID&gt;
+		&lt;Item&gt;30038&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;LOWES&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Clematis &apos;Evipo042&apos; P.P.# 24,172&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Clematis &apos;Evipo042&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Boulevard&amp;#174; Fleuri&amp;#8482; Clematis&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Japanese Maple (Acer); Climbing Rose (Rosa); Daylily (Hemerocallis); Hydrangea (Hydrangea); Butterfly Bush (Buddleja)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Climbing vine spreads to 3 to 4 ft. tall and 2 to 3 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep extensive root system. Feed with a general purpose fertilizer. Provide the support of a trellis or arbor. Roots prefer a cool, shaded area, tops in the sun.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring, early summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This prolific, compact climber offers large, purple flowers over a long season. Supplies beautiful vertical interest to any garden fence or trellis. A great choice for a container or left to meander through shrub beds. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Extreme Cold Hardiness,Easy Care,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Specimen,Espalier,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Fri, 08 Apr 2016 17:53:28 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

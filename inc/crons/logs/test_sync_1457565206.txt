@@ -1,0 +1,123 @@
+DATE/TIME: 2016-03-09 23:13:26
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-03-09 23:13:28
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 7173
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;30922&lt;/ItemSizeID&gt;
+		&lt;Item&gt;30922&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;LOWES&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Heliconia stricta &apos;Sharonii&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Heliconia stricta &apos;Sharonii&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Sharonii Heliconia&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Tropical Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Gardenia (Gardenia); Elephant Ear (Colocasia); Canna (Canna); Bird of Paradise (Strelitzia); Passion Vine (Passiflora)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;3-5&apos;H x 2-3&apos;W&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Requires enriched, evenly moist, well drained soil. Once established, will benefit from occasional feeding with an all purpose fertilizer.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Multiple seasons&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Beautiful tropical plant with showy orange and yellow flowers that resemble lobster claws. Large lustrous leaves have maroon undersides and midrib. Long lasting cut flowers. An excellent choice for mass planting, containers, or interiorscape.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full shade to partial sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Best with evenly moist soil. Do not let soil dry out.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;High&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Poolside,Mass Planting,Houseplant,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;022312&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02231&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Farfugium japonicum &apos;Gigantea&apos; (Ligularia tussilaginea&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Farfugium japonicum &apos;Gigantea&apos; (Ligularia tussilaginea&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Giant Leopard Plant&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Woodland Garden&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Fuchsia (Fuchsia); Astilbe (Astilbe); Hosta (Hosta); Lungwort (Pulmonaria); Columbine (Aquilegia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;3 to 4 ft. tall, up to 3 ft. wide&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. Clip spent flowers to promote continued bloom.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949361634&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late summer into fall&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Large, rounded, shiny leaves show individually on 3 to 4 foot stalks. Daisy-like yellow flowers bloom on tall branched stems. Leaves reach up to 18 inches across and provide an interesting display when massed under trees, in a shady border or patio container. Herbaceous perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full to partial shade&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly- needs consistently moist soil.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;022315&lt;/ItemSizeID&gt;
+		&lt;Item&gt;02231&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Farfugium japonicum &apos;Gigantea&apos; (Ligularia tussilaginea&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Farfugium japonicum &apos;Gigantea&apos; (Ligularia tussilaginea&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Giant Leopard Plant&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Woodland Garden&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Fuchsia (Fuchsia); Astilbe (Astilbe); Hosta (Hosta); Lungwort (Pulmonaria); Columbine (Aquilegia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;3 to 4 ft. tall, up to 3 ft. wide&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. Clip spent flowers to promote continued bloom.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949361641&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late summer into fall&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Large, rounded, shiny leaves show individually on 3 to 4 foot stalks. Daisy-like yellow flowers bloom on tall branched stems. Leaves reach up to 18 inches across and provide an interesting display when massed under trees, in a shady border or patio container. Herbaceous perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full to partial shade&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly- needs consistently moist soil.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;7&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 09 Mar 2016 23:13:26 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

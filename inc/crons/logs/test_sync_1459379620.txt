@@ -1,0 +1,297 @@
+DATE/TIME: 2016-03-30 23:13:40
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-03-30 23:13:52
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 22290
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;414811&lt;/ItemSizeID&gt;
+		&lt;Item&gt;41481&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hemerocallis &apos;VER00204&apos; P.P.A.F.&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hemerocallis &apos;VER00204&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;EveryDayLily&amp;#8482; Yellow Punch Daylily&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dwarf Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Avens (Geum); Coneflower (Echinacea); Butterfly Weed (Asclepias); Salvia (Salvia); Butterfly Bush (Buddleja)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Clumps reach 12 to 15 in. tall and wide; flower stalks rise slightly above foliage.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Water regularly first growing season to establish a deep, extensive root system. Tolerates mild drought, although performs best with regular water. Remove old foliage and spent blooms for a neat appearance and to promote continued bloom. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949431757&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer to fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A new, hardy, dwarf repeat-blooming daylily with exotic bi-color violet-rose and ivory flowers. EveryDayLily varieties are offspring of popular Stella d&apos;Oro, yet even hardier. Early flowering and prolific from summer until fall. Perfect for borders or patio containers. Plant in mass for superb effect.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Best with regular water - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Extreme Cold Hardiness,Easy Care,Dense Habit,Clump Forming,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Urban Garden,Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;414812&lt;/ItemSizeID&gt;
+		&lt;Item&gt;41481&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hemerocallis &apos;VER00204&apos; P.P.A.F.&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hemerocallis &apos;VER00204&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;EveryDayLily&amp;#8482; Yellow Punch Daylily&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dwarf Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Avens (Geum); Coneflower (Echinacea); Butterfly Weed (Asclepias); Salvia (Salvia); Butterfly Bush (Buddleja)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Clumps reach 12 to 15 in. tall and wide; flower stalks rise slightly above foliage.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Water regularly first growing season to establish a deep, extensive root system. Tolerates mild drought, although performs best with regular water. Remove old foliage and spent blooms for a neat appearance and to promote continued bloom. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949431757&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer to fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A new, hardy, dwarf repeat-blooming daylily with exotic bi-color violet-rose and ivory flowers. EveryDayLily varieties are offspring of popular Stella d&apos;Oro, yet even hardier. Early flowering and prolific from summer until fall. Perfect for borders or patio containers. Plant in mass for superb effect.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Best with regular water - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Extreme Cold Hardiness,Easy Care,Dense Habit,Clump Forming,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Urban Garden,Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;414791&lt;/ItemSizeID&gt;
+		&lt;Item&gt;41479&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hemerocallis x &apos;VER0021&apos; P.P.A.F.&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hemerocallis x &apos;VER0021&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;EveryDayLily&amp;#8482; Pink Wing Daylily&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dwarf Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Avens (Geum); Coneflower (Echinacea); Butterfly Weed (Asclepias); Salvia (Salvia); Butterfly Bush (Buddleja)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Clumps reach 12 to 15 in. tall and wide; flower stalks rise slightly above foliage.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Water regularly first growing season to establish a deep, extensive root system. Tolerates mild drought, although performs best with regular water. Remove old foliage and spent blooms for a neat appearance and to promote continued bloom. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949431740&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring to fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Dwarf, colorful and re-blooming. this fantastic new daylily is destined to be the star of the garden. Delightful pink and cream flowers have a dark pink halo and yellow throat. An offspring of the popular Stella d&apos;Oro, yet even hardier. Blooms early and steadily season-long. Perfect for borders or patio containers.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Best with regular water - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Extreme Cold Hardiness,Easy Care,Dwarf Plant,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Urban Garden,Mass Planting,Ground Cover,Container,Coastal Exposure,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;414792&lt;/ItemSizeID&gt;
+		&lt;Item&gt;41479&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hemerocallis x &apos;VER0021&apos; P.P.A.F.&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hemerocallis x &apos;VER0021&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;EveryDayLily&amp;#8482; Pink Wing Daylily&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dwarf Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Avens (Geum); Coneflower (Echinacea); Butterfly Weed (Asclepias); Salvia (Salvia); Butterfly Bush (Buddleja)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Clumps reach 12 to 15 in. tall and wide; flower stalks rise slightly above foliage.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Water regularly first growing season to establish a deep, extensive root system. Tolerates mild drought, although performs best with regular water. Remove old foliage and spent blooms for a neat appearance and to promote continued bloom. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949431740&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring to fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Dwarf, colorful and re-blooming. this fantastic new daylily is destined to be the star of the garden. Delightful pink and cream flowers have a dark pink halo and yellow throat. An offspring of the popular Stella d&apos;Oro, yet even hardier. Blooms early and steadily season-long. Perfect for borders or patio containers.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Best with regular water - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Extreme Cold Hardiness,Easy Care,Dwarf Plant,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Urban Garden,Mass Planting,Ground Cover,Container,Coastal Exposure,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;414781&lt;/ItemSizeID&gt;
+		&lt;Item&gt;41478&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hemerocallis x &apos;VER00112&apos; P.P.A.F.&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hemerocallis x &apos;VER00112&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;EveryDayLily&amp;#8482; Cream Daylily&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dwarf Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Coneflower (Echinacea); Salvia (Salvia); Butterfly Bush (Buddleja); Avens (Geum); Butterfly Weed (Asclepias)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Clumps reach 12 to 15 in. tall and wide; flower stalks rise above foliage.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Water regularly first growing season to establish a deep, extensive root system. Tolerates mild drought, although performs best with regular water. Remove old foliage and spent blooms for a neat appearance and to promote continued bloom. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949431764&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer to fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Dwarf, colorful, hardy and re-blooming, and destined to be the star of the garden! Creamy yellow flowers with ruffled edges arrive steadily from summer until fall. EveryDayLily varieties are offspring of popular Stella d&apos;Oro, and even hardier. Perfect in perennial beds, massed to create a swale of color, or in patio containers.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Best with regular water - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Extreme Cold Hardiness,Easy Care,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Urban Garden,Mass Planting,Ground Cover,Container,Coastal Exposure,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;414782&lt;/ItemSizeID&gt;
+		&lt;Item&gt;41478&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Hemerocallis x &apos;VER00112&apos; P.P.A.F.&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Hemerocallis x &apos;VER00112&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;EveryDayLily&amp;#8482; Cream Daylily&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Dwarf Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Coneflower (Echinacea); Salvia (Salvia); Butterfly Bush (Buddleja); Avens (Geum); Butterfly Weed (Asclepias)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Clumps reach 12 to 15 in. tall and wide; flower stalks rise above foliage.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Water regularly first growing season to establish a deep, extensive root system. Tolerates mild drought, although performs best with regular water. Remove old foliage and spent blooms for a neat appearance and to promote continued bloom. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949431764&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer to fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Dwarf, colorful, hardy and re-blooming, and destined to be the star of the garden! Creamy yellow flowers with ruffled edges arrive steadily from summer until fall. EveryDayLily varieties are offspring of popular Stella d&apos;Oro, and even hardier. Perfect in perennial beds, massed to create a swale of color, or in patio containers.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Best with regular water - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;10&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Extreme Cold Hardiness,Easy Care,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Urban Garden,Mass Planting,Ground Cover,Container,Coastal Exposure,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;094351&lt;/ItemSizeID&gt;
+		&lt;Item&gt;09435&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Lomandra confertifolia ssp. rubigino &apos;Seascape&apos; P.P. #20,010&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Lomandra confertifolia ssp. rubigino &apos;Seascape&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Seascape Mat Rush&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Compact Habit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Heavenly Bamboo (Nandina); Lilyturf (Liriope); New Zealand Flax (Phormium); Russian Sage (Perovskia); Salvia (Salvia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Upright, clumping foliage 18 to 24 in. tall, 24 to 30 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide a well drained soil. Water regularly during the first growing season to establish a deep, extensive root system. Watering may be reduced once established. For a neat appearance, rake out or shear old foliage before new foliage emerges in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949281598&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Versatile evergreen selected for compact habit and fine textured grey-green foliage. A tough, easy-care choice for containers, mass plantings and dry borders. Excellent drought tolerance with good resistance to root rot. Adds textural interest to the landscape with minimal care.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Poolside,Mass Planting,Coastal Exposure&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;094352&lt;/ItemSizeID&gt;
+		&lt;Item&gt;09435&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Lomandra confertifolia ssp. rubigino &apos;Seascape&apos; P.P. #20,010&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Lomandra confertifolia ssp. rubigino &apos;Seascape&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Seascape Mat Rush&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Compact Habit&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Heavenly Bamboo (Nandina); Lilyturf (Liriope); New Zealand Flax (Phormium); Russian Sage (Perovskia); Salvia (Salvia)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Upright, clumping foliage 18 to 24 in. tall, 24 to 30 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide a well drained soil. Water regularly during the first growing season to establish a deep, extensive root system. Watering may be reduced once established. For a neat appearance, rake out or shear old foliage before new foliage emerges in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949416303&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Versatile evergreen selected for compact habit and fine textured grey-green foliage. A tough, easy-care choice for containers, mass plantings and dry borders. Excellent drought tolerance with good resistance to root rot. Adds textural interest to the landscape with minimal care.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial shade to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;8&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Poolside,Mass Planting,Coastal Exposure&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;414602TE&lt;/ItemSizeID&gt;
+		&lt;Item&gt;41460&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2TE&lt;/Size&gt;
+		&lt;SizeDescription&gt;Trellis&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Clematis viticella &apos;Evipo039&apos; P.P.# 20,638&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Clematis viticella &apos;Evipo039&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Regal&amp;#174; Diamantina&amp;#8482; Clematis&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Showy Flowers&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Japanese Maple (Acer); Hosta (Hosta); Cranesbill (Geranium); Hydrangea (Hydrangea); Butterfly Bush (Buddleja)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Climbing vine spread to 6 to 8 ft. tall and 2 to 3 ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide enriched, well-drained soil. Mulch to keep roots cool and shaded; tops need sun. Pruning: In early spring remove dead stems and trim back 6 to 8 inches to a pair of strong buds. Feed monthly.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949429686&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Spring and fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;This award-winning, early-flowering Clematis produces double flowers up to 6 inches wide. Blooms prolifically early in the season, repeating modestly in summer and fall. Excellent compact form for container or garden. Train on arbor, fence or trellis, or allow to climb through shrubbery. Deciduous.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Extreme Cold Hardiness,Easy Care,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Specimen,Privacy Screen,Espalier,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 30 Mar 2016 23:13:51 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

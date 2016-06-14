@@ -1,0 +1,65 @@
+DATE/TIME: 2016-03-09 20:13:23
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-03-09 20:13:24
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 2821
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;31010&lt;/ItemSizeID&gt;
+		&lt;Item&gt;31010&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;LOWES&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Medinilla myriantha&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Medinilla myriantha&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Malaysian Orchid&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Tropical&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Bromeliad (Neoregelia); Philodendron (Philodendron); Elephant Ears (Colocasia); Canna (Canna)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;2-4&apos; H x 2-3&apos; W&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Easily grown in an enriched, well-drained potting soil that is slightly acidic. Prefers high humidity. Keep container soils consistently moist but not soggy. Reduce watering in winter. Overwinter in a warm sun room or greenhouse.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Intermittently, year-round&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;An exotic yet easy to grow tropical plant with large, cascading clusters of showy flowers. Large dark green leaves have distinctive light green veins. A beautiful landscape plant for frost free areas. This rainforest native thrives on humidity, making it a perfect terrarium or conservatory specimen.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Filtered sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;10&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Shade Loving,Gift Plant,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Houseplant,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 09 Mar 2016 20:13:22 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

@@ -1,0 +1,288 @@
+DATE/TIME: 2016-04-05 04:12:42
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-04-05 04:12:52
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 18450
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;065141&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06514&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Sedum makinoi &apos;Limelight&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Sedum makinoi &apos;Limelight&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Limelight Japanese Stonecrop&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Rock Garden Plant&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Quickly reaches 2 to 4 in. tall, 12 to 24 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Water regularly during first growing season to establish a deep, extensive root system. Tolerates some drought when established. Control weeds until the plants have filled in. Feed with a general purpose fertilizer.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949314906&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Classic, low-growing succulent with vivid, lime-green leaves. Adds great contrast to rock garden or container plantings. Small yellow flowers appear in the summer. Perfect fill between stepping stones or in rock wall crevices.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;6&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Fast Growing&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Ground Cover,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;06514UT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06514&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;UT&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Sedum makinoi &apos;Limelight&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Sedum makinoi &apos;Limelight&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Limelight Japanese Stonecrop&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Rock Garden Plant&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Fast grower to 2 to 4 in. tall, 12 to 24 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Control weeds until the plants have filled in. Feed with a general purpose fertilizer.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;QT&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 qt. (946 mL)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949309827&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Classic, low-growing succulent with vivid, lime-green leaves. Adds great contrast to rock garden or container plantings. Small yellow flowers appear in the summer. Perfect fill between stepping stones or in rock wall crevices.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;6&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Fast Growing&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Ground Cover,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;065021&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06502&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Sedum dasyphyllum &apos;Major&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Sedum dasyphyllum &apos;Major&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Corsican Stonecrop&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Rock Garden Plant&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 2 to 4 in. tall, 8 to 12 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949326978&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Early summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Classic evergreen perennial groundcover forms a low carpet of tiny round powdery blue-grey leaves, accented by tiny white flower clusters. A perfect choice for the rock garden, between stepping stones or in the crevices of dry walls. Evergreen in mild winter climates.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Ground Cover,Firescaping/Fire Wise,Container,Coastal Exposure&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;06502UT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06502&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;UT&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Sedum dasyphyllum &apos;Major&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Sedum dasyphyllum &apos;Major&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Corsican Stonecrop&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Rock Garden Plant&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 2 to 4 in. tall, 8 to 12 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;QT&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 qt. (946 mL)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949309773&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Early summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Classic evergreen perennial groundcover forms a low carpet of tiny round powdery blue-grey leaves, accented by tiny white flower clusters. A perfect choice for the rock garden, between stepping stones or in the crevices of dry walls. Evergreen in mild winter climates.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;Erosion Control&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Ground Cover,Firescaping/Fire Wise,Container,Coastal Exposure&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;06248UT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06248&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;UT&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Muehlenbeckia axillaris&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Muehlenbeckia axillaris&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Creeping Wire Vine&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Pathway Plant&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 2 to 4 in. tall, spreading to 30 in.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering can be reduced after establishment. Feed with a general purpose fertilizer before new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;QT&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 qt. (946 mL)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949309445&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Insignificant flowers.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Unusual creeper offers an intriguing texture with a spreading mat of wiry stems, clothed in tiny rounded leaves with a glossy green finish. In later summer, translucent white fruits are quite attractive. Useful rock garden plant or small-scale groundcover.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, when top 3 in. of soil is dry.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;6&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;073551&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07355&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Monarda didyma &apos;Petite Delight&apos; P.P.# 10784&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Monarda didyma &apos;Petite Delight&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Petite Delight Bee Balm&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Attracts Hummingbirds&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Fast grower to 18 in. tall, 24 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949333341&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Lavender-rose flowers in summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;New dwarf form with large lavender-rose terminal flowers. Rich nectar source for wildlife. Dark green foliage is mildew resistant. A low-maintenance addition to native plant gardens. Valued in borders and beds.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, when top 3 in. of soil is dry.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;2&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;North American Native Selection,Dwarf Plant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;073552&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07355&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;2&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Monarda didyma &apos;Petite Delight&apos; P.P.# 10784&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Monarda didyma &apos;Petite Delight&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Petite Delight Bee Balm&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Attracts Hummingbirds&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Fast grower to 18 in. tall, 24 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. For a neat appearance, remove old foliage before new leaves emerge. Divide clumps every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;2&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.73 gal. (6.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949406533&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Lavender-rose flowers in summer.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;New dwarf form with large lavender-rose terminal flowers. Rich nectar source for wildlife. Dark green foliage is mildew resistant. A low-maintenance addition to native plant gardens. Valued in borders and beds.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly, when top 3 in. of soil is dry.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;2&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;North American Native Selection,Dwarf Plant&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;064401&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06440&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Mentha x piperita &apos;Lavender&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Mentha x piperita &apos;Lavender&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Lavender Mint&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Herb Garden Plant&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 2 to 3 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Thrives in enriched, evenly moist soil. Feed lightly in spring. Harvest mint leaves before bloom for best flavor. Shear occasionally to promote dense new growth. Spreads quickly by underground stems.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949316306&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Lilac flowers in summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Attractive herbaceous perennial valued for use as a culinary herb or a groundcover. Handsome gray-green leaves with purple undersides are distinctly lavender-scented. Excellent for use in cooking, tea and potpourris. Showy, fragrant flowers.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Naturalizes Well,Edible,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;06440UT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;06440&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;UT&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Mentha x piperita &apos;Lavender&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Mentha x piperita &apos;Lavender&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Lavender Mint&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Herb Garden Plant&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 2 to 3 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Thrives in enriched, evenly moist soil. Feed lightly in spring. Harvest mint leaves before bloom for best flavor. Shear occasionally to promote dense new growth. Spreads quickly by underground stems.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;QT&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 qt. (946 mL)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949316320&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Lilac flowers in summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Attractive herbaceous perennial valued for use as a culinary herb or a groundcover. Handsome gray-green leaves with purple undersides are distinctly lavender-scented. Excellent for use in cooking, tea and potpourris. Showy, fragrant flowers.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Naturalizes Well,Edible,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Mass Planting,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Tue, 05 Apr 2016 04:12:48 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

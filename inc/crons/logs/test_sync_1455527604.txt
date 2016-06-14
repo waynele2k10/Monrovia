@@ -1,0 +1,268 @@
+DATE/TIME: 2016-02-15 09:13:24
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-02-15 09:13:33
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 18261
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;074141&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07414&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Sempervivum &apos;Royal Ruby&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Sempervivum &apos;Royal Ruby&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Royal Ruby Hens and Chicks&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Rock Garden Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Rock Garden,Mass Planting,Green Wall,Green Roof,Firescaping/Fire Wise,Container,Aloe (Aloe); Red Yucca (Hesperaloe); Blue Fescue (Festuca); Sedum (Sedum); Kalanchoe (Kalanchoe)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Slow spreading rosettes to 3-6 in. tall, 4-12 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide well-drained soil. Follow a regular watering schedule during the first growing season to establish an extensive root system. For a neat appearance, remove old foliage before new leaves emerge. As an indoor plant locate near a source of bright light.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949335529&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Summer&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Clumps of ruby-red to smoky grey-red rosettes provide great texture and color.This fast growing selection thrives with little care in well-drained, rocky soil. Plant in mass for an attractive, drought tolerant ground cover. Excellent rock garden or container plant.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Partial to full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun,Partial sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Year-round Interest,Waterwise,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Rock Garden,Mass Planting,Green Wall,Green Roof,Firescaping/Fire Wise,Container&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;070961&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07096&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Solanum rantonnetii &apos;Royal Robe&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Solanum rantonnetii &apos;Royal Robe&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Royal Robe Paraguay Nightshade&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Deer Resistant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Container,Border,Lantana (Lantana); Yellow Mandevilla (Pentalinon); Hibiscus (Hibiscus); Salvia (Salvia); Cordyline (Cordyline)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast growing to 6 to 8 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. For a formal appearance, shear annually after flowering.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949709610&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring through fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Medium-size evergreen shrub with slender arching stems. Displays masses of large, fragrant, rich blue-violet flowers with yellow centers over long season. A very showy plant. All parts of plant are poisonous if ingested.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Deer Resistant,Fast Growing&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;070961PT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07096&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1PT&lt;/Size&gt;
+		&lt;SizeDescription&gt;Patio Tree&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Solanum rantonnetii &apos;Royal Robe&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Solanum rantonnetii &apos;Royal Robe&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Royal Robe Paraguay Nightshade&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Deer Resistant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Container,Border,Lantana (Lantana); Yellow Mandevilla (Pentalinon); Hibiscus (Hibiscus); Salvia (Salvia); Cordyline (Cordyline)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast growing to 6 to 8 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. For a formal appearance, shear annually after flowering.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949709719&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring through fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Medium-size evergreen shrub with slender arching stems. Displays masses of large, fragrant, rich blue-violet flowers with yellow centers over long season. A very showy plant. All parts of plant are poisonous if ingested.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Deer Resistant,Fast Growing&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;070965&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07096&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Solanum rantonnetii &apos;Royal Robe&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Solanum rantonnetii &apos;Royal Robe&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Royal Robe Paraguay Nightshade&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Deer Resistant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Container,Border,Lantana (Lantana); Yellow Mandevilla (Pentalinon); Hibiscus (Hibiscus); Salvia (Salvia); Cordyline (Cordyline)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast growing to 6 to 8 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. For a formal appearance, shear annually after flowering.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949709658&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring through fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Medium-size evergreen shrub with slender arching stems. Displays masses of large, fragrant, rich blue-violet flowers with yellow centers over long season. A very showy plant. All parts of plant are poisonous if ingested.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Deer Resistant,Fast Growing&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;070965PT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07096&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;5PT&lt;/Size&gt;
+		&lt;SizeDescription&gt;Patio Tree&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Solanum rantonnetii &apos;Royal Robe&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Solanum rantonnetii &apos;Royal Robe&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Royal Robe Paraguay Nightshade&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Deer Resistant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Container,Border,Lantana (Lantana); Yellow Mandevilla (Pentalinon); Hibiscus (Hibiscus); Salvia (Salvia); Cordyline (Cordyline)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast growing to 6 to 8 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. For a formal appearance, shear annually after flowering.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;5&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;3.58 gal. (13.55 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949709757&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring through fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Medium-size evergreen shrub with slender arching stems. Displays masses of large, fragrant, rich blue-violet flowers with yellow centers over long season. A very showy plant. All parts of plant are poisonous if ingested.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Deer Resistant,Fast Growing&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;070969PT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07096&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;9PT&lt;/Size&gt;
+		&lt;SizeDescription&gt;Patio Tree&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Solanum rantonnetii &apos;Royal Robe&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Solanum rantonnetii &apos;Royal Robe&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Royal Robe Paraguay Nightshade&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Deer Resistant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Container,Border,Lantana (Lantana); Yellow Mandevilla (Pentalinon); Hibiscus (Hibiscus); Salvia (Salvia); Cordyline (Cordyline)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast growing to 6 to 8 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. For a formal appearance, shear annually after flowering.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;15&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;12.07 gal. (45.69 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949709795&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring through fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Medium-size evergreen shrub with slender arching stems. Displays masses of large, fragrant, rich blue-violet flowers with yellow centers over long season. A very showy plant. All parts of plant are poisonous if ingested.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Deer Resistant,Fast Growing&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;07096DPT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07096&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;DPT&lt;/Size&gt;
+		&lt;SizeDescription&gt;Patio Tree&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Solanum rantonnetii &apos;Royal Robe&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Solanum rantonnetii &apos;Royal Robe&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Royal Robe Paraguay Nightshade&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Deer Resistant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Container,Border,Lantana (Lantana); Yellow Mandevilla (Pentalinon); Hibiscus (Hibiscus); Salvia (Salvia); Cordyline (Cordyline)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast growing to 6 to 8 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. For a formal appearance, shear annually after flowering.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;16&amp;quot;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949049204&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring through fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Medium-size evergreen shrub with slender arching stems. Displays masses of large, fragrant, rich blue-violet flowers with yellow centers over long season. A very showy plant. All parts of plant are poisonous if ingested.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Deer Resistant,Fast Growing&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;07096FPT&lt;/ItemSizeID&gt;
+		&lt;Item&gt;07096&lt;/Item&gt;
+		&lt;SpecialIcon&gt;&lt;/SpecialIcon&gt;
+		&lt;Size&gt;FPT&lt;/Size&gt;
+		&lt;SizeDescription&gt;Patio Tree&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Solanum rantonnetii &apos;Royal Robe&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Solanum rantonnetii &apos;Royal Robe&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Royal Robe Paraguay Nightshade&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Deer Resistant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Container,Border,Lantana (Lantana); Yellow Mandevilla (Pentalinon); Hibiscus (Hibiscus); Salvia (Salvia); Cordyline (Cordyline)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Fast growing to 6 to 8 ft. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed with a general purpose fertilizer before new growth begins in spring. For a formal appearance, shear annually after flowering.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;14&amp;quot;&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;6.0 gal. (22.6 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949709559&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Late spring through fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Medium-size evergreen shrub with slender arching stems. Displays masses of large, fragrant, rich blue-violet flowers with yellow centers over long season. A very showy plant. All parts of plant are poisonous if ingested.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Needs regular watering - weekly, or more often in extreme heat.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;11&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;9&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Deer Resistant,Fast Growing&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Mon, 15 Feb 2016 09:13:33 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+

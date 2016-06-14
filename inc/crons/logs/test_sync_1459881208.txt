@@ -1,0 +1,209 @@
+DATE/TIME: 2016-04-05 18:33:28
+REQUEST:
+ xml_data 
+
+*************
+
+DATE/TIME: 2016-04-05 18:33:36
+STATUS: SUCCESS
+REQUEST:
+ POST /monroviaIX/webservices/monroviaupdateservice.asmx HTTP/1.1
+Host: www.epopglobal.com
+User-Agent: NuSOAP/0.7.3 (1.114)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "MonroviaDataSynchronizer/UpdatePlant"
+Content-Length: 13983
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer/encodedTypes" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><tns:UpdatePlant xmlns:tns="MonroviaDataSynchronizer"><plantXML xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;DataSync&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;408801&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40880&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Gaillardia x grandiflora &apos;Sunset Snappy&apos;&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Gaillardia x grandiflora &apos;Sunset Snappy&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Sunset Snappy Blanket Flower&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Waterwise&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Salvia (Salvia); Black-Eyed Susan (Rudbeckia); Coneflower (Echinacea); Blue Fescue (Festuca); Shasta Daisy (Chrysanthemum)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 14 to 16 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide a site with well drained soil. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Watering may be reduced after establishment. Shearing spent flowers and regular feeding will encourage more profuse flowering. Cut back to 3 in tall in early spring. Clumps may be divided every 2 to 3 years in early spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949413944&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Early summer to fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;A cheery single row of flat petals, purplish pink in color with creamy yellow tips. Blooms from early summer until frost if spent blooms are regularly removed. This perennial is easily grown in well-drained, average soil and a sunny location.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;408751&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40875&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Gaillardia x grandiflora &apos;Sunset Flash&apos; P.P.A.F.&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Gaillardia x grandiflora &apos;Sunset Flash&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Sunset Flash Blanket Flower&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Waterwise&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Black-Eyed Susan (Rudbeckia); Coneflower (Echinacea); Salvia (Salvia); Blue Fescue (Festuca); Shasta Daisy (Chrysanthemum)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 12-14 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide well-drained soil. Follow a regular watering schedule the first growing season to establish a deep, extensive root system. Clip spent flowers and fertilize monthly for continued bloom. Prune to 3 in. from ground in early spring. Clumps may be divided every 2-3 years.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949413883&lt;/UPC&gt;
+		&lt;FlowerTime&gt;orange-red in color with yellow tips, early spring to fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;An exceptionally stunning and heavy blooming perennial! Large flowers have two rows of flat, bright orange-red petals with yellow tips. Blooms from late spring or summer, right up until frost. Easy to grow in a sunny bed, border or containers.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care,Attracts Birds&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Wildlife Garden,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;408811&lt;/ItemSizeID&gt;
+		&lt;Item&gt;40881&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Gaillardia x grandiflora &apos;Celebration&apos; P.P.A.F.&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Gaillardia x grandiflora &apos;Celebration&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Celebration Blanket Flower&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Waterwise&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Salvia (Salvia); Black-Eyed Susan (Rudbeckia); Coneflower (Echinacea); Blue Fescue (Festuca); Shasta Daisy (Chrysanthemum)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Moderate grower to 14 to 16 in. tall and wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide well-drained soil. Follow a regular watering schedule the first growing season to establish a deep, extensive root system. Clip spent flowers and fertilize monthly for prolific bloom. Prune to 3 in. from ground in early spring. May be divided every 2-3 years.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949413951&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Bright red flowers from spring to late fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Perpetual rich red blooms that won&apos;t fade in the summer heat. Blooms from spring until frost if kept deadheaded. This perennial is easily grown in well-drained, average soil and a sunny location.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Once established, needs only occasional watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;5&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Firescaping/Fire Wise,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;032821&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03282&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Arachniodes standishii&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Arachniodes standishii&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Upside Down Fern&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Woodland Garden Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Coral Bells (Heuchera); Ligularia (Ligularia); Hosta (Hosta); Lungwort (Pulmonaria); Bleeding Heart (Dicentra)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 18-24 in. tall, slowly spreading 12-30 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide enriched, evenly moist soil. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed frequently during growing season with a general purpose fertilizer. Cut back old fronds after new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949308202&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Prized for foliage.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Lacy, arching cut-leaf fronds rise from a thick, slowly creeping rhizome. An ideal woodland plant for moist, partly shaded areas. A top fern among collectors, the highly textured foliage combines beautifully with shade loving shrubs and perennials.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full to partial shade&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly to keep soil evenly moist.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Very Wet Areas,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;032821S&lt;/ItemSizeID&gt;
+		&lt;Item&gt;03282&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1S&lt;/Size&gt;
+		&lt;SizeDescription&gt;SuperOne&amp;#8482;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Arachniodes standishii&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Arachniodes standishii&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Upside Down Fern&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Woodland Garden Plant&lt;/PriAttribute&gt;
+		&lt;CompanionPlantDescription&gt;Coral Bells (Heuchera); Ligularia (Ligularia); Hosta (Hosta); Lungwort (Pulmonaria); Bleeding Heart (Dicentra)&lt;/CompanionPlantDescription&gt;
+		&lt;AvgLandscapeSize&gt;Reaches 18-24 in. tall, slowly spreading 12-30 in. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide enriched, evenly moist soil. Follow a regular watering schedule during the first growing season to establish a deep, extensive root system. Feed frequently during growing season with a general purpose fertilizer. Cut back old fronds after new growth begins in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;1.00 gal. (3.79 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949387030&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Prized for foliage.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Lacy, arching cut-leaf fronds rise from a thick, slowly creeping rhizome. An ideal woodland plant for moist, partly shaded areas. A top fern among collectors, the highly textured foliage combines beautifully with shade loving shrubs and perennials.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full to partial shade&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Water regularly to keep soil evenly moist.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Partial sun,Full shade&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Moderate&lt;/Water&gt;
+		&lt;CZoneHigh&gt;8&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Very Wet Areas,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+	&lt;Plant&gt;
+		&lt;ActionCode&gt;UPDATE&lt;/ActionCode&gt;
+		&lt;ItemSizeID&gt;054441&lt;/ItemSizeID&gt;
+		&lt;Item&gt;05444&lt;/Item&gt;
+		&lt;SpecialIcon&gt;New&lt;/SpecialIcon&gt;
+		&lt;Size&gt;1&lt;/Size&gt;
+		&lt;SizeDescription&gt;&lt;/SizeDescription&gt;
+		&lt;Botanical&gt;Echinacea purpurea &apos;Flame Thrower&apos; P.P.# 21, 932&lt;/Botanical&gt;
+		&lt;BotanicalShort&gt;Echinacea purpurea &apos;Flame Thrower&apos;&lt;/BotanicalShort&gt;
+		&lt;CommonName&gt;Flame Thrower Echinacea&lt;/CommonName&gt;
+		&lt;PriAttribute&gt;Long Bloom Season&lt;/PriAttribute&gt;
+		&lt;AvgLandscapeSize&gt;Grows 2-3 ft. tall, 2&amp;#189; ft. wide.&lt;/AvgLandscapeSize&gt;
+		&lt;CareInstructions&gt;Provide average, evenly moist, well drained soil. Clip spent flowers for a neat appearance and to promote repeat bloom. Cut back in fall after hard frost or leave dried seed heads through winter. Cut back old foliage and fertilize in spring.&lt;/CareInstructions&gt;
+		&lt;ContainerSize&gt;1&lt;/ContainerSize&gt;
+		&lt;LegalVolume&gt;2.60 qt. (2.46 L)&lt;/LegalVolume&gt;
+		&lt;UPC&gt;014949423349&lt;/UPC&gt;
+		&lt;FlowerTime&gt;Mid summer through fall.&lt;/FlowerTime&gt;
+		&lt;PlantBenefits&gt;Wide petals of deep orange-red tint to a deeper red at the base of the flame-red cone. Fantastic color for naturalized gardens, traditional beds, borders or containers. A hummingbird favorite. Will tolerate periods of drought. Herbaceous perennial.&lt;/PlantBenefits&gt;
+		&lt;SunExpose&gt;Full sun&lt;/SunExpose&gt;
+		&lt;WaterReq&gt;Requires only occasional watering, once established in the landscape. Container plants require regular watering.&lt;/WaterReq&gt;
+		&lt;Sun_exposure&gt;Full sun&lt;/Sun_exposure&gt;
+		&lt;Water&gt;Low&lt;/Water&gt;
+		&lt;CZoneHigh&gt;9&lt;/CZoneHigh&gt;
+		&lt;CZoneLow&gt;4&lt;/CZoneLow&gt;
+		&lt;SpecialFeatures&gt;Waterwise,Easy Care&lt;/SpecialFeatures&gt;
+		&lt;ProblemSolutions&gt;&lt;/ProblemSolutions&gt;
+		&lt;LandscapeUses&gt;Woodland Garden,Container,Border&lt;/LandscapeUses&gt;
+	&lt;/Plant&gt;
+&lt;/DataSync&gt;
+</plantXML><username xsi:type="xsd:string">monrovia</username><password xsi:type="xsd:string">plants</password></tns:UpdatePlant></soap:Body></soap:Envelope> 
+
+RESPONSE:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Tue, 05 Apr 2016 18:33:31 GMT
+Content-Length: 472
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="MonroviaDataSynchronizer" xmlns:types="MonroviaDataSynchronizer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><types:UpdatePlantResponse /></soap:Body></soap:Envelope>
+
+*************
+
